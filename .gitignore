@@ -4,6 +4,9 @@ data/raw/
 *.xlsx
 *.parquet
 
+#Ignore a specific file
+/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project_PRD.docx
+
 # Python environments and cache
 __pycache__/
 *.pyc
