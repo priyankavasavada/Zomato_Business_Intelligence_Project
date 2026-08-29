@@ -1,9 +1,9 @@
 # 🛵 Zomato End-to-End Business Intelligence & Machine Learning Platform
 
-![Python] (https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL] (https://img.shields.io/badge/SQL-PostgreSQL%2FSQLite-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![PowerBI] (https://img.shields.io/badge/Power_BI-Desktop-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Scikit-Learn] (https://img.shields.io/badge/scikit_learn-ML_Pipeline-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL%2FSQLite-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![PowerBI](https://img.shields.io/badge/Power_BI-Desktop-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Scikit-Learn](https://img.shields.io/badge/scikit_learn-ML_Pipeline-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 An enterprise-grade Data Engineering, Business Intelligence, and Predictive Analytics platform built on operational Zomato delivery data across 12 relational datasets.
 
