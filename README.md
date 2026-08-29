@@ -5,8 +5,7 @@
 ![PowerBI](https://img.shields.io/badge/Power_BI-Desktop-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Scikit-Learn](https://img.shields.io/badge/scikit_learn-ML_Pipeline-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-An enterprise-grade Data Engineering, Business Intelligence, and Predictive Analytics platform built on operational Zomato delivery data across 12 relational datasets.
-
+Zomato operates a two-sided marketplace connecting customers, restaurant partners, and delivery partners across hundreds of Indian cities. As order volumes scale, small inefficiencies in delivery time estimation, restaurant quality control, and customer retention compound into significant revenue leakage and customer churn. This project simulates a real assignment given to a Data Scientist joining the Central Analytics team: build the analytical and predictive foundation that lets Operations, Marketing, and City Management teams make faster, evidence-based decisions. An enterprise-grade Data Engineering, Business Intelligence, and Predictive Analytics platform built on operational Zomato delivery data across 12 relational datasets.
 ---
 
 ## 📌 Repository Architecture
