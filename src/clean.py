@@ -104,11 +104,14 @@ def clean_menu_string_fields(df: pd.DataFrame) -> pd.DataFrame:
     df = clean_whitespace_and_case(df, text_cols)
     return df
 
-def clean_all_data(datasets: dict[str, pd.DataFrame]) -> dict[str, pd.DataFrame]:
+def clean_all_data(datasets: dict[str, pd.DataFrame] = None) -> dict[str, pd.DataFrame]:
     """
     Master pipeline function to clean all loaded datasets.
     """
-    cleaned = {}
+    if not datasets:
+      raise ValueError("Failed to load raw datasets. Ensure data/raw/ contains CSV files.")
+
+    cleaned = {}  
     
     # 1. Restaurants
     if 'restaurants' in datasets:
