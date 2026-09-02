@@ -104,6 +104,40 @@ def clean_menu_string_fields(df: pd.DataFrame) -> pd.DataFrame:
     df = clean_whitespace_and_case(df, text_cols)
     return df
 
+def clean_all_data(datasets: dict[str, pd.DataFrame]) -> dict[str, pd.DataFrame]:
+    """
+    Master pipeline function to clean all loaded datasets.
+    """
+    cleaned = {}
+    
+    # 1. Restaurants
+    if 'restaurants' in datasets:
+        df = clean_restaurants_string_fields(datasets['restaurants'])
+        cleaned['restaurants'] = df
+        
+    # 2. Customers
+    if 'customers' in datasets:
+        df = clean_customers_string_fields(datasets['customers'])
+        cleaned['customers'] = df
+
+    # 3. Delivery Partners
+    if 'delivery_partners' in datasets:
+        df = clean_delivery_partners_string_fields(datasets['delivery_partners'])
+        cleaned['delivery_partners'] = df
+
+    # 4. Menu
+    if 'menu' in datasets:
+        df = clean_menu_string_fields(datasets['menu'])
+        cleaned['menu'] = df
+
+        
+    # 5. Pass through remaining tables for now
+    for key, df in datasets.items():
+        if key not in cleaned:
+            cleaned[key] = df
+            
+    return cleaned
+
 if __name__ == "__main__":
     from ingest import load_raw_dataset
     
