@@ -25,3 +25,12 @@ def load_all_raw_datasets() -> dict[str, pd.DataFrame]:
 
 if __name__ == "__main__":
     data = load_all_raw_datasets()
+    try:
+        data = load_all_raw_datasets()
+        print(f"Successfully loaded {len(data)} dataset(s):\n")
+        
+        for name, df in data.items():
+            print(f"• Dataset: '{name}' | Shape: {df.shape}")
+            
+    except FileNotFoundError as e:
+        print(f"Error: {e}")

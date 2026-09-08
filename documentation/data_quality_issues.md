@@ -746,7 +746,7 @@ Name: count, dtype: int64
 ### Summary of findings
 - **Missing Values:** `TrafficLevel` (147 rows)
 - **Duplicates:** None
-- **Formatting Issues:** `FoodName` has trailing whitespaces and inconsistent upper case strings
+- **Formatting Issues:** None
 - **Invalid Values:** `AverageSpeed` has -ve values (min: -47.7)
 - **Datatype Mismatch:** 
     -`Date` & `Time` convert from str to datetime and time format respectively

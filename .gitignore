@@ -1,9 +1,3 @@
-# Ignore raw datasets
-data/raw/
-*.csv
-*.xlsx
-*.parquet
-
 #Ignore a specific file
 /Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project_PRD.docx
 
