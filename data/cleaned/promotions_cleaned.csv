@@ -1,0 +1,301 @@
+PromotionID,CouponCode,DiscountPercentage,CampaignName,StartDate,EndDate
+1,Zombcpd6,10.0,Late Night Cravings,2023-12-11,2023-06-12
+2,Zommmjaq,10.0,App Exclusive Deal,2024-02-13,2024-02-09
+3,Zomde2A6,30.0,Summer Splash,2023-06-28,2023-07-31
+4,Zomts3Xv,20.0,Great Indian Food Fest,2024-03-26,2024-05-09
+5,Zom6Synb,50.0,First Order Free Delivery,2023-01-07,2023-01-15
+6,Zommu60P,50.0,Payday Delight,2022-02-03,2022-02-18
+7,Zom69Pt4,10.0,First Order Free Delivery,2023-08-13,2023-09-16
+8,Zomsg9R1,10.0,Great Indian Food Fest,2022-10-03,2022-11-04
+9,Zomz8Xaw,30.0,Payday Delight,2022-07-01,2022-07-09
+10,Zomnuxal,25.0,Great Indian Food Fest,2023-11-17,2023-12-16
+11,Zomc5Ey1,50.0,First Order Free Delivery,2022-04-28,2022-03-06
+12,Zom72K4N,30.0,Payday Delight,2024-11-25,2024-05-12
+13,Zomq1Rar,40.0,Mega Cashback Week,2024-07-12,2024-03-08
+14,Zomt5Tet,30.0,Mega Cashback Week,2024-01-26,2024-02-12
+15,Zomktglp,30.0,Weekend Bonanza,2023-02-08,2023-03-15
+16,Zomkhwcu,15.0,Republic Day Offer,2022-05-10,2022-11-07
+17,Zomj4Vsp,15.0,Republic Day Offer,2022-09-16,2022-10-28
+18,Zom8Mvzn,25.0,Payday Delight,2024-11-05,2024-06-03
+19,Zom3G9P3,50.0,Late Night Cravings,2024-08-02,2024-03-14
+20,Zomncl6T,30.0,Payday Delight,2022-04-23,2022-05-20
+21,Zomdv8Mx,20.0,Summer Splash,2023-06-12,2023-12-24
+22,Zomv7Mbe,25.0,First Order Free Delivery,2024-10-13,2024-10-24
+23,Zom9E56H,50.0,Great Indian Food Fest,2024-08-07,2024-09-11
+24,Zomz6A0H,10.0,Festive Feast,2023-08-07,2023-08-20
+25,Zombaygk,15.0,Mega Cashback Week,2023-02-02,2023-02-24
+26,Zomkdruk,15.0,Republic Day Offer,2022-05-19,2022-01-07
+27,Zomdv1Qn,25.0,New User Special,2023-02-03,2023-02-19
+28,Zom6C7Ay,30.0,Great Indian Food Fest,2022-03-27,2022-04-14
+29,Zom7Lkxm,30.0,Great Indian Food Fest,2024-11-01,2024-01-23
+30,Zomt7Pgc,25.0,Great Indian Food Fest,2023-08-11,2023-08-22
+31,Zome7Mwr,20.0,Festive Feast,2024-01-13,2024-01-29
+32,Zomt6Dy1,50.0,First Order Free Delivery,2023-02-26,2023-03-25
+33,Zome5F2M,10.0,New User Special,2023-03-25,2023-04-26
+34,Zomcfrdy,20.0,Summer Splash,2023-02-27,2023-03-17
+35,Zomydamp,50.0,Monsoon Munchies,2022-05-05,2022-11-05
+36,Zomke22W,50.0,First Order Free Delivery,2023-06-24,2023-07-23
+37,Zomneqbk,20.0,Mega Cashback Week,2022-01-07,2022-02-01
+38,Zomc0Wrd,30.0,Mega Cashback Week,2023-02-11,2023-11-03
+39,Zomgn2K6,30.0,New User Special,2024-03-04,2024-08-03
+40,Zom2Nd9W,20.0,Weekend Bonanza,2022-05-31,2022-06-26
+41,Zomepxtu,10.0,First Order Free Delivery,2022-09-05,2022-09-29
+42,Zom8A4X7,25.0,Late Night Cravings,2024-05-01,2024-01-19
+43,Zomah73E,50.0,Weekend Bonanza,2022-12-24,2023-01-30
+44,Zom4Ca2P,30.0,Great Indian Food Fest,2023-01-21,2023-02-12
+45,Zom9Yl5G,15.0,Summer Splash,2022-03-04,2022-03-05
+46,Zomyu6Cv,15.0,Late Night Cravings,2024-06-07,2024-07-14
+47,Zomdbulb,40.0,Great Indian Food Fest,2022-11-16,2022-12-30
+48,Zom36Wmg,40.0,Late Night Cravings,2024-05-27,2024-07-11
+49,Zomhyx2Y,20.0,Payday Delight,2024-11-10,2024-09-12
+50,Zom4U47D,50.0,Great Indian Food Fest,2022-10-22,2022-11-27
+51,Zomryx4S,20.0,Festive Feast,2024-08-11,2024-09-06
+52,Zom19Y9G,10.0,Payday Delight,2022-04-18,2022-05-28
+53,Zomy69Xh,25.0,New User Special,2024-03-11,2024-11-12
+54,Zom153Sl,30.0,First Order Free Delivery,2024-05-02,2024-06-15
+55,Zomfd0Bt,50.0,New User Special,2024-01-26,2024-01-31
+56,Zom1Guj8,15.0,Summer Splash,2024-10-21,2024-10-19
+57,Zom9Tqc1,25.0,Late Night Cravings,2023-10-15,2023-10-21
+58,Zom9Rab9,20.0,Payday Delight,2023-05-04,2023-11-06
+59,Zom03Zyb,15.0,First Order Free Delivery,2024-08-07,2024-07-23
+60,Zomxa87K,20.0,Republic Day Offer,2023-09-29,2023-10-06
+61,Zomu9Asq,40.0,Summer Splash,2022-12-05,2022-05-27
+62,Zomz1Dct,25.0,Weekend Bonanza,2023-02-06,2023-02-25
+63,Zomfcc3Y,25.0,Mega Cashback Week,2024-06-13,2024-07-14
+64,Zomdltn4,20.0,Payday Delight,2023-12-17,2023-12-24
+65,Zomapl43,20.0,Mega Cashback Week,2023-11-08,2023-08-23
+66,Zomh1Bsf,20.0,Monsoon Munchies,2024-09-01,2024-09-10
+67,Zomgsmxr,20.0,Late Night Cravings,2023-08-24,2023-09-01
+68,Zom6Wlvw,15.0,Monsoon Munchies,2022-04-28,2022-11-05
+69,Zomzkhk6,15.0,Mega Cashback Week,2024-05-04,2024-05-12
+70,Zomnz79M,30.0,New User Special,2022-10-14,2022-05-11
+71,Zomkh3Lv,10.0,Festive Feast,2023-01-28,2023-11-03
+72,Zom2X3Md,10.0,Payday Delight,2023-03-18,2023-03-26
+73,Zomf9Twj,10.0,Late Night Cravings,2022-11-16,2022-04-12
+74,Zom2V18W,20.0,Late Night Cravings,2024-06-03,2024-07-14
+75,Zomglyqe,40.0,App Exclusive Deal,2023-09-02,2023-02-22
+76,Zom6Elga,40.0,First Order Free Delivery,2024-09-04,2024-04-26
+77,Zomq052J,20.0,Festive Feast,2023-04-29,2023-05-11
+78,Zomy6Pls,15.0,Summer Splash,2023-10-24,2023-11-28
+79,Zomdrake,50.0,Mega Cashback Week,2024-08-15,2024-06-09
+80,Zom9Ne98,40.0,Festive Feast,2023-07-02,2023-08-10
+81,Zomxm4Rf,15.0,New User Special,2023-12-11,2023-11-28
+82,Zomj3Nf9,20.0,Late Night Cravings,2024-05-06,2024-03-06
+83,Zomyh8M3,30.0,Payday Delight,2022-08-01,2022-02-21
+84,Zomjj3Gg,50.0,First Order Free Delivery,2022-11-23,2022-12-11
+85,Zom2Ubvj,50.0,Mega Cashback Week,2023-10-28,2023-11-08
+86,Zom66Fq7,25.0,Republic Day Offer,2024-12-09,2024-10-24
+87,Zomrqds6,30.0,App Exclusive Deal,2024-04-02,2024-02-15
+88,Zomzcttu,25.0,Festive Feast,2023-01-28,2023-02-20
+89,Zomx4Bz5,40.0,Festive Feast,2023-07-27,2023-08-29
+90,Zomljcnh,20.0,Weekend Bonanza,2024-06-16,2024-06-22
+91,Zomw4Bx8,50.0,Mega Cashback Week,2023-11-26,2024-01-09
+92,Zomxjwlw,20.0,Summer Splash,2023-06-06,2023-07-19
+93,Zomnrtxe,25.0,Mega Cashback Week,2022-12-04,2022-05-27
+94,Zomhayfw,20.0,Monsoon Munchies,2024-06-10,2024-06-21
+95,Zomnga1X,40.0,App Exclusive Deal,2023-04-10,2023-05-25
+96,Zommgpv6,30.0,Festive Feast,2024-02-18,2024-03-03
+97,Zommn0Vb,50.0,Late Night Cravings,2023-12-01,2024-01-02
+98,Zomsxzpf,10.0,New User Special,2023-11-19,2024-02-01
+99,Zomgjach,20.0,Republic Day Offer,2022-10-10,2022-10-23
+100,Zomvyjqr,40.0,Mega Cashback Week,2023-12-20,2024-03-02
+101,Zomvhujj,10.0,Festive Feast,2023-09-20,2023-09-29
+102,Zomnn5J7,10.0,Weekend Bonanza,2023-07-27,2023-08-04
+103,Zompnmrx,30.0,Late Night Cravings,2024-09-21,2024-09-26
+104,Zomdsg4T,40.0,Great Indian Food Fest,2023-02-22,2023-03-19
+105,Zom85Vxv,40.0,Festive Feast,2023-06-16,2023-06-23
+106,Zom5Ktjy,50.0,First Order Free Delivery,2024-06-08,2024-08-30
+107,Zom2977W,30.0,Mega Cashback Week,2023-10-29,2023-12-02
+108,Zomf22Rc,25.0,Monsoon Munchies,2024-01-07,2024-07-29
+109,Zoml1U8Y,30.0,App Exclusive Deal,2022-09-02,2022-03-17
+110,Zomsq890,10.0,Festive Feast,2022-10-14,2022-11-01
+111,Zom7Mlzl,15.0,App Exclusive Deal,2022-04-21,2022-05-27
+112,Zomj4Kyh,10.0,Monsoon Munchies,2023-03-23,2023-05-04
+113,Zomlkp3Q,40.0,Summer Splash,2022-11-22,2022-11-25
+114,Zom5Hq3L,50.0,Great Indian Food Fest,2023-04-29,2023-05-30
+115,Zomk85Q4,40.0,App Exclusive Deal,2022-12-05,2022-05-27
+116,Zom3Fe8U,30.0,Republic Day Offer,2024-11-27,2024-11-30
+117,Zomrs384,30.0,Payday Delight,2023-01-08,2023-02-06
+118,Zom49Whx,30.0,First Order Free Delivery,2023-12-04,2024-08-01
+119,Zomf62Sp,15.0,Payday Delight,2024-10-14,2024-11-20
+120,Zom323Sm,10.0,Monsoon Munchies,2024-01-31,2024-03-16
+121,Zoms8P21,50.0,App Exclusive Deal,2024-05-09,2024-10-07
+122,Zomvwmyg,15.0,Republic Day Offer,2023-02-17,2023-03-03
+123,Zomvavqc,20.0,First Order Free Delivery,2024-03-13,2024-04-11
+124,Zomv898P,40.0,New User Special,2022-07-09,2022-08-08
+125,Zom6B4Ap,15.0,App Exclusive Deal,2022-07-26,2022-08-12
+126,Zom1Vlfs,50.0,Republic Day Offer,2022-03-22,2022-04-13
+127,Zomyuncj,10.0,Republic Day Offer,2023-03-22,2023-03-27
+128,Zomrbk6U,20.0,App Exclusive Deal,2023-05-01,2023-02-12
+129,Zomrpa7Q,25.0,Great Indian Food Fest,2023-11-24,2023-12-15
+130,Zoms6Nnl,30.0,Payday Delight,2022-04-06,2022-04-16
+131,Zom6Mgz7,40.0,First Order Free Delivery,2023-05-27,2023-06-29
+132,Zom5H7Z1,20.0,Mega Cashback Week,2024-05-19,2024-06-13
+133,Zomvx6Uu,20.0,Summer Splash,2022-05-21,2022-10-06
+134,Zom8N8Xz,40.0,First Order Free Delivery,2023-03-16,2023-10-04
+135,Zombqzt6,10.0,Monsoon Munchies,2022-11-24,2022-12-08
+136,Zom92Jb0,15.0,Summer Splash,2024-02-20,2024-03-16
+137,Zomqjt3W,10.0,First Order Free Delivery,2022-05-18,2022-05-22
+138,Zommz1Qt,25.0,Great Indian Food Fest,2022-04-18,2022-05-05
+139,Zom526H1,50.0,Weekend Bonanza,2023-08-30,2023-10-10
+140,Zom6S9Es,15.0,Weekend Bonanza,2024-05-18,2024-06-12
+141,Zommnx14,25.0,Mega Cashback Week,2022-06-19,2022-07-21
+142,Zomlsvcm,10.0,New User Special,2024-04-30,2024-05-29
+143,Zomtl27T,15.0,App Exclusive Deal,2024-08-19,2024-09-12
+144,Zomlgchu,30.0,Mega Cashback Week,2024-05-24,2024-05-29
+145,Zom7Crlp,15.0,Payday Delight,2023-01-13,2023-02-02
+146,Zom1Fvn6,30.0,Monsoon Munchies,2024-02-16,2024-03-21
+147,Zomc4E2K,50.0,First Order Free Delivery,2022-04-10,2022-04-19
+148,Zom3B2Ey,40.0,App Exclusive Deal,2022-05-13,2022-06-05
+149,Zomazgm7,20.0,Mega Cashback Week,2024-04-02,2024-02-29
+150,Zomrtaqb,40.0,Festive Feast,2024-12-05,2024-05-25
+151,Zom2Fmg4,25.0,Republic Day Offer,2023-06-06,2023-07-14
+152,Zomjn6Ub,50.0,Payday Delight,2022-06-02,2022-02-20
+153,Zomfb4G0,15.0,Weekend Bonanza,2023-04-21,2023-05-28
+154,Zomwteyp,30.0,Monsoon Munchies,2023-02-09,2023-03-15
+155,Zomsn3Jz,40.0,App Exclusive Deal,2024-02-21,2024-03-21
+156,Zomca56V,40.0,Summer Splash,2023-07-01,2023-07-06
+157,Zommnanr,30.0,Payday Delight,2022-09-16,2022-09-20
+158,Zom9Rsyx,15.0,Late Night Cravings,2024-03-16,2024-04-25
+159,Zom3S82N,30.0,Festive Feast,2023-10-26,2023-02-12
+160,Zom11Fx1,15.0,First Order Free Delivery,2023-10-15,2023-10-24
+161,Zom99L2D,30.0,New User Special,2023-07-27,2023-07-24
+162,Zom1N515,40.0,App Exclusive Deal,2024-05-02,2024-06-16
+163,Zomfegjc,20.0,Great Indian Food Fest,2022-06-01,2022-02-08
+164,Zomvwx7M,40.0,Festive Feast,2024-08-06,2024-07-07
+165,Zomydtkw,20.0,Monsoon Munchies,2023-10-14,2023-10-22
+166,Zomebpsx,40.0,Monsoon Munchies,2024-08-22,2024-09-18
+167,Zomkpunr,30.0,Mega Cashback Week,2024-10-08,2024-10-25
+168,Zoms1Sh0,40.0,Republic Day Offer,2024-08-17,2024-09-22
+169,Zomuts9D,25.0,Weekend Bonanza,2023-06-19,2023-06-24
+170,Zomjudwt,40.0,Monsoon Munchies,2024-08-06,2024-09-18
+171,Zom37Qfc,40.0,Great Indian Food Fest,2023-11-24,2023-12-07
+172,Zomgcs4D,40.0,App Exclusive Deal,2023-11-17,2023-12-15
+173,Zom2L4Wk,15.0,First Order Free Delivery,2022-03-27,2022-04-26
+174,Zomqnwv2,15.0,Summer Splash,2023-06-15,2023-07-12
+175,Zompn5Kj,50.0,Republic Day Offer,2022-11-28,2022-12-16
+176,Zomejsws,20.0,Summer Splash,2023-07-25,2023-08-11
+177,Zomsvxdw,50.0,Weekend Bonanza,2023-04-09,2023-05-15
+178,Zom17Hq0,40.0,Summer Splash,2022-01-26,2022-06-03
+179,Zom0Me0U,10.0,Mega Cashback Week,2023-11-04,2023-11-29
+180,Zomjkhb4,50.0,App Exclusive Deal,2022-10-22,2022-03-11
+181,Zoms9U0L,40.0,Monsoon Munchies,2023-12-04,2023-05-25
+182,Zom1Ax89,40.0,First Order Free Delivery,2023-03-22,2023-05-01
+183,Zomfclvy,30.0,Payday Delight,2024-04-22,2024-10-05
+184,Zomk774L,10.0,Great Indian Food Fest,2024-08-26,2024-09-14
+185,Zomcfy14,25.0,Festive Feast,2023-01-16,2023-02-22
+186,Zomka42N,10.0,Late Night Cravings,2023-03-26,2023-04-16
+187,Zomheh0W,30.0,Late Night Cravings,2022-03-10,2022-04-18
+188,Zomdy1H6,40.0,First Order Free Delivery,2023-07-04,2023-04-16
+189,Zom2Gw3X,40.0,New User Special,2023-06-16,2023-03-07
+190,Zomd0G6A,40.0,Festive Feast,2023-11-14,2023-12-14
+191,Zomx3S3A,40.0,Mega Cashback Week,2022-09-24,2022-10-10
+192,Zomhx357,40.0,Festive Feast,2022-04-14,2022-04-19
+193,Zomw91Kf,15.0,Summer Splash,2024-05-12,2024-06-14
+194,Zomsnvd3,20.0,Mega Cashback Week,2024-11-14,2024-12-19
+195,Zom16Jft,50.0,Late Night Cravings,2023-08-26,2023-09-20
+196,Zomrhk2F,30.0,Weekend Bonanza,2023-07-08,2023-09-07
+197,Zomar0Us,50.0,Weekend Bonanza,2024-07-08,2024-08-11
+198,Zom9B8Kj,15.0,New User Special,2024-08-27,2024-09-07
+199,Zomyhh9J,30.0,Festive Feast,2022-09-10,2022-10-13
+200,Zomfcr7T,25.0,Monsoon Munchies,2024-05-10,2024-10-20
+201,Zombc95S,15.0,Mega Cashback Week,2023-01-11,2023-07-02
+202,Zom8Fr78,50.0,Payday Delight,2022-01-25,2022-02-03
+203,Zom74N3E,20.0,Great Indian Food Fest,2023-03-10,2023-04-01
+204,Zommyszb,50.0,Great Indian Food Fest,2022-08-12,2022-09-08
+205,Zom9Ecmm,20.0,Monsoon Munchies,2024-08-20,2024-06-09
+206,Zomarsh8,25.0,Weekend Bonanza,2022-11-16,2022-06-12
+207,Zomke16P,15.0,New User Special,2024-08-26,2024-09-25
+208,Zomlqpnw,50.0,Summer Splash,2023-10-17,2023-11-14
+209,Zomac9G7,25.0,Summer Splash,2024-01-05,2024-03-02
+210,Zom1Uahf,30.0,New User Special,2022-09-14,2022-10-23
+211,Zomf4Uyd,40.0,Monsoon Munchies,2024-10-22,2024-12-02
+212,Zom2Uw7K,40.0,Republic Day Offer,2022-06-22,2022-06-27
+213,Zom8Bzbc,15.0,Weekend Bonanza,2024-05-16,2024-06-09
+214,Zomyarsy,10.0,First Order Free Delivery,2024-11-25,2024-12-08
+215,Zom9Hcph,25.0,Weekend Bonanza,2022-08-30,2022-09-30
+216,Zomrzftf,10.0,Late Night Cravings,2022-02-14,2022-03-24
+217,Zom2J7Dx,20.0,First Order Free Delivery,2023-03-24,2023-04-10
+218,Zomu6Lyf,30.0,Republic Day Offer,2024-01-11,2024-01-28
+219,Zombuzcz,30.0,Payday Delight,2023-05-29,2023-06-25
+220,Zomdk04Y,15.0,App Exclusive Deal,2022-02-26,2022-03-02
+221,Zomkar3R,40.0,Late Night Cravings,2024-02-18,2024-02-21
+222,Zom4Kfl0,20.0,Payday Delight,2023-09-08,2023-09-20
+223,Zomba0Va,40.0,Weekend Bonanza,2024-03-28,2024-04-01
+224,Zom6Bd11,10.0,Weekend Bonanza,2024-02-12,2024-02-15
+225,Zomymr7U,40.0,Monsoon Munchies,2024-03-29,2024-04-27
+226,Zom5Wapy,20.0,Summer Splash,2022-07-27,2022-09-05
+227,Zomv49Zd,15.0,First Order Free Delivery,2022-07-30,2022-08-22
+228,Zomj2S4J,50.0,App Exclusive Deal,2022-09-08,2022-09-12
+229,Zom655Yp,50.0,Late Night Cravings,2024-08-11,2024-09-25
+230,Zomnksns,40.0,New User Special,2023-08-14,2023-09-15
+231,Zomvsk3K,25.0,Summer Splash,2022-03-22,2022-03-27
+232,Zom1Kf8P,20.0,New User Special,2022-01-03,2022-01-26
+233,Zomn0Eb8,20.0,Mega Cashback Week,2024-08-10,2024-08-30
+234,Zom3Kyec,40.0,Festive Feast,2023-12-03,2023-12-17
+235,Zompd2W4,20.0,New User Special,2023-02-03,2023-10-03
+236,Zompy36Z,40.0,Mega Cashback Week,2024-07-07,2024-07-15
+237,Zombwrug,20.0,Festive Feast,2023-06-10,2023-07-20
+238,Zom9Lf9G,40.0,Summer Splash,2023-12-26,2024-07-01
+239,Zomkyflc,20.0,Weekend Bonanza,2023-08-01,2023-08-25
+240,Zomkxzzw,50.0,Republic Day Offer,2022-08-17,2022-08-29
+241,Zome41Yp,10.0,Great Indian Food Fest,2024-05-23,2024-06-06
+242,Zom56Erp,10.0,Late Night Cravings,2023-08-16,2023-09-26
+243,Zomg6Ab1,30.0,Mega Cashback Week,2022-08-28,2022-09-19
+244,Zomx39Vu,30.0,App Exclusive Deal,2024-07-19,2024-07-24
+245,Zom8Zsar,50.0,Festive Feast,2023-03-05,2023-04-14
+246,Zoma7Mgc,25.0,Great Indian Food Fest,2022-03-13,2022-04-06
+247,Zom3K002,25.0,App Exclusive Deal,2024-08-08,2024-08-16
+248,Zom211Cp,40.0,App Exclusive Deal,2023-03-12,2023-12-23
+249,Zom61Gb3,20.0,App Exclusive Deal,2024-08-30,2024-08-25
+250,Zomaq7Jk,15.0,Late Night Cravings,2022-03-17,2022-03-23
+251,Zom4Cbyy,15.0,Payday Delight,2024-07-19,2024-08-24
+252,Zom64Z2V,10.0,Great Indian Food Fest,2023-01-06,2023-06-02
+253,Zomxmvgf,10.0,Mega Cashback Week,2024-08-10,2024-10-27
+254,Zomamc41,10.0,First Order Free Delivery,2024-10-05,2024-11-11
+255,Zomgmu0W,40.0,Mega Cashback Week,2023-04-21,2023-05-07
+256,Zom7Hzuq,30.0,Weekend Bonanza,2022-03-24,2022-05-04
+257,Zomf6Ua0,15.0,Summer Splash,2022-05-16,2022-05-25
+258,Zomuenyl,20.0,Festive Feast,2022-07-20,2022-08-31
+259,Zomssx0W,10.0,Weekend Bonanza,2023-05-11,2023-11-25
+260,Zom56Gl8,25.0,Weekend Bonanza,2022-12-18,2023-08-01
+261,Zomxhljj,20.0,Summer Splash,2022-11-21,2023-05-01
+262,Zoml5M3K,40.0,Late Night Cravings,2022-10-26,2022-06-11
+263,Zomlv1Ns,40.0,App Exclusive Deal,2022-06-17,2022-07-24
+264,Zomrze2E,30.0,Festive Feast,2022-10-29,2022-12-01
+265,Zom9Nw8U,30.0,First Order Free Delivery,2024-10-11,2024-11-03
+266,Zom1Srwb,40.0,Late Night Cravings,2023-05-21,2023-06-24
+267,Zom4Q00X,30.0,Payday Delight,2024-08-07,2024-09-05
+268,Zomxwwgt,50.0,Weekend Bonanza,2023-08-30,2023-09-19
+269,Zom8Pc7U,10.0,Summer Splash,2022-12-29,2023-01-20
+270,Zom4Qnb2,30.0,Summer Splash,2024-03-31,2024-04-29
+271,Zom37E21,30.0,Late Night Cravings,2024-08-13,2024-09-15
+272,Zomr7Dlv,30.0,Monsoon Munchies,2023-02-05,2023-05-18
+273,Zomuy3Z1,40.0,Summer Splash,2022-06-20,2022-06-25
+274,Zomqh45P,50.0,App Exclusive Deal,2023-11-10,2023-12-17
+275,Zomh36Fu,15.0,Festive Feast,2022-11-05,2022-05-26
+276,Zomwejfp,40.0,Monsoon Munchies,2022-06-17,2022-06-29
+277,Zomv6Zwq,20.0,Late Night Cravings,2022-06-06,2022-06-12
+278,Zomyyww9,40.0,Festive Feast,2023-05-21,2023-01-06
+279,Zom50G76,10.0,Weekend Bonanza,2022-07-20,2022-08-25
+280,Zom7U63N,40.0,Republic Day Offer,2024-03-05,2024-04-17
+281,Zom7Hwrz,25.0,Payday Delight,2022-07-22,2022-08-22
+282,Zomepuq9,50.0,Late Night Cravings,2024-02-18,2024-07-03
+283,Zomzfh2D,20.0,Weekend Bonanza,2022-02-23,2022-03-25
+284,Zomrqu8U,30.0,Republic Day Offer,2022-07-20,2022-08-21
+285,Zommj2Vh,30.0,Great Indian Food Fest,2023-09-21,2023-10-17
+286,Zomhq852,20.0,Weekend Bonanza,2024-06-16,2024-07-15
+287,Zomybzht,15.0,New User Special,2022-02-09,2022-09-10
+288,Zom0Qk2N,40.0,App Exclusive Deal,2022-12-08,2022-08-27
+289,Zomnurm3,25.0,Summer Splash,2024-08-01,2024-02-20
+290,Zomt7Khe,10.0,New User Special,2023-03-23,2023-04-25
+291,Zom8J566,10.0,Payday Delight,2022-07-14,2022-08-14
+292,Zomp8Q2W,15.0,New User Special,2023-06-22,2023-07-07
+293,Zoms2Me6,10.0,Mega Cashback Week,2023-03-12,2023-03-17
+294,Zomgykcz,10.0,Monsoon Munchies,2024-01-27,2024-07-02
+295,Zomz961A,25.0,Payday Delight,2023-08-05,2023-09-13
+296,Zommuy0F,20.0,First Order Free Delivery,2024-09-07,2024-10-20
+297,Zomz1Vls,15.0,Mega Cashback Week,2022-12-01,2022-01-31
+298,Zomu4Hh3,30.0,Republic Day Offer,2023-08-17,2023-09-18
+299,Zomq5U50,30.0,App Exclusive Deal,2024-07-01,2024-08-01
+300,Zomka2Zx,10.0,Mega Cashback Week,2023-03-28,2023-05-02

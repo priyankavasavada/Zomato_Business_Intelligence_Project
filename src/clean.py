@@ -1,7 +1,7 @@
 import re
 import numpy as np
 import pandas as pd
-
+import pathlib 
 # ==========================================
 # CONFIGURATION & LOOKUPS
 # ==========================================
@@ -22,12 +22,15 @@ PK_MAP = {
 }
 
 OUTLIER_COLUMNS_MAP = {
-    'orders': ['DeliveryTimeMinutes', 'FoodCost', 'DeliveryFee'],
-    'restaurants': ['AverageCost'],
+    'orders': ['DeliveryTimeMinutes', 'Discount', 'GST', 'FinalAmount', 'FoodCost'],
+    'restaurants': ['Rating', 'AverageCost'],
+    'customers': ['Age', 'TotalOrders'],
     'menu': ['Price', 'Calories', 'PreparationTime'],
-    'delivery_partners': ['AverageDeliveryTime'],
+    'delivery_partners': ['AverageDeliveryTime','Age','CompletedDeliveries', 'Rating'],
     'traffic': ['AverageSpeed'],
-    'cities': ['Population', 'AverageIncome'],
+    'weather': ['Temperature', 'Rainfall', 'Humidity'],
+    'cities': ['Population'],
+    'order_items': ['UnitPrice', 'TotalPrice', 'Quantity'],
 }
 
 CITY_MAPPING = {
@@ -503,7 +506,7 @@ def remove_duplicates(
     return df.drop_duplicates(subset=[primary_key], keep='first')
   return df.drop_duplicates(keep='first')
 
-
+'''
 def handle_outliers(
     df: pd.DataFrame,
     columns: list[str],
@@ -521,7 +524,7 @@ def handle_outliers(
         upper_bound = valid_series.quantile(upper_quantile)
         df[col] = df[col].clip(lower=lower_bound, upper=upper_bound)
   return df
-
+'''
 
 # ==========================================
 # 6. MASTER ORCHESTRATION PIPELINE
@@ -605,17 +608,27 @@ def clean_all_data(
 
   # Step 4: Numeric Constraints, Financial Recalculations & Domain Bounds
   cleaned = validate_numeric_constraints(cleaned)
-  # Step 5: Outlier Clipping & Primary Key Deduplication
+  # Step 5: Deduplication ONLY (Outlier handling deferred to post-EDA)
   for key, df in cleaned.items():
-    if key in OUTLIER_COLUMNS_MAP:
-      df = handle_outliers(df, OUTLIER_COLUMNS_MAP[key])
-
     pk = PK_MAP.get(key, None)
     df = remove_duplicates(df, primary_key=pk)
     cleaned[key] = df
+
   return cleaned
 
+def export_cleaned_datasets(
+    datasets: dict[str, pd.DataFrame], output_dir: str = 'data/cleaned'
+) -> None:
+  """Saves all processed DataFrames into the target cleaned directory as CSVs."""
+  out_path = pathlib.Path(output_dir)
+  out_path.mkdir(parents=True, exist_ok=True)
 
+  for name, df in datasets.items():
+    
+    file_name = name if name.endswith('_cleaned') else f'{name}_cleaned'
+    file_path = out_path / f'{file_name}.csv'
+    df.to_csv(file_path, index=False)
+    print(f" Saved: {file_path}")
 # ==========================================
 # EXECUTION / TESTING ENTRYPOINT
 # ==========================================
@@ -643,8 +656,9 @@ if __name__ == "__main__":
         cust = clean_customers_string_fields(raw_datasets['customers'])
         print(f"✓ customers: Valid 10-digit Phone count = {cust['Phone'].dropna().str.len().eq(10).sum()}")
 
+    '''
     # --------------------------------------------------
-    # TEST 2: Outlier Clipping Standalone
+    # TEST 2: Outlier Clipping Standalone (left for EDA phase)
     # --------------------------------------------------
     print("\n--- 2. Testing Outlier Clipping (Quantile vs IQR) ---")
     sample_outlier_df = pd.DataFrame({
@@ -652,14 +666,14 @@ if __name__ == "__main__":
     })
     initial_rows = len(sample_outlier_df)
     clipped_df = handle_outliers(sample_outlier_df, ['DeliveryTimeMinutes'])
-    
+
     max_val_before = sample_outlier_df['DeliveryTimeMinutes'].max()
     max_val_after = clipped_df['DeliveryTimeMinutes'].max()
-    
+
     print(f"✓ Raw Max DeliveryTimeMinutes: {max_val_before}")
     print(f"✓ Clipped Max DeliveryTimeMinutes: {max_val_after}")
     print(f"✓ Row Count Preserved: {len(clipped_df) == initial_rows} ({len(clipped_df)} rows)")
-
+    '''
     # --------------------------------------------------
     # TEST 3: Deduplication Standalone
     # --------------------------------------------------
@@ -692,4 +706,14 @@ if __name__ == "__main__":
 
     print("\n==================================================")
     print("         ALL DIAGNOSTIC TESTS PASSED!             ")
+    print("==================================================")
+
+    # --------------------------------------------------
+    # TEST 3: Export Cleaned Datasets to data/cleaned/
+    # --------------------------------------------------
+    print("\n--- 3. Exporting Clean Baseline to data/cleaned/ ---")
+    export_cleaned_datasets(cleaned_all, output_dir='data/cleaned')
+
+    print("\n==================================================")
+    print("    BASELINE CLEANING COMPLETE! READY FOR EDA     ")
     print("==================================================")
