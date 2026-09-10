@@ -2,7 +2,6 @@ import re
 import numpy as np
 import pandas as pd
 import pathlib
-import pyarrow 
 # ==========================================
 # CONFIGURATION & LOOKUPS
 # ==========================================
