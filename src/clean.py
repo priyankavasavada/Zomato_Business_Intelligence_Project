@@ -1,7 +1,9 @@
 import re
 import numpy as np
 import pandas as pd
-import pathlib 
+import pathlib
+
+from sklearn import datasets 
 # ==========================================
 # CONFIGURATION & LOOKUPS
 # ==========================================
@@ -74,22 +76,20 @@ CITY_MAPPING = {
 }
 
 DATE_COLUMNS_MAP = {
-    'orders': ['OrderDate', 'DeliveryDate'],
-    'customers': ['RegistrationDate', 'DOB'],
+    'orders': ['OrderDate'],
+    'customers': ['RegistrationDate'],
     'delivery_partners': ['JoiningDate'],
     'promotions': ['StartDate', 'EndDate'],
     'payments': ['PaymentDate'],
-    'customer_feedback': ['FeedbackDate'],
     'weather': ['Date'],
     'traffic': ['Date']
 }
 
 # Exact clock time-of-day columns to parse into HH:MM:SS
 TIME_COLUMNS_MAP = {
-    'orders': ['OrderTime', 'DeliveryTime'],
+    'orders': ['OrderTime'],
     'restaurants': ['OpeningTime', 'ClosingTime'],
-    'payments': ['PaymentTime'],
-    'traffic': ['RecordedTime']
+    'traffic': ['Time']
 }
 
 # ==========================================
@@ -182,6 +182,54 @@ def standardize_times(
 # 2. SCHEMA & TYPE CONVERSIONS
 # ==========================================
 
+def validate_foreign_keys(
+    datasets: dict[str, pd.DataFrame],
+) -> dict[str, pd.DataFrame]:
+  """Ensures all child tables only reference parent Primary Keys that actually exist."""
+  datasets = {k: v.copy() for k, v in datasets.items()}
+
+  # Helper function to remove orphan rows where FK does not exist in parent PK
+  def filter_orphans(
+      child_key: str, fk_col: str, parent_key: str, pk_col: str
+  ):
+    if child_key in datasets and parent_key in datasets:
+      valid_ids = set(datasets[parent_key][pk_col].dropna())
+      mask = (
+          datasets[child_key][fk_col].isin(valid_ids)
+          | datasets[child_key][fk_col].isna()
+      )
+      removed_count = (~mask).sum()
+      if removed_count > 0:
+        datasets[child_key] = datasets[child_key][mask]
+        print(
+            f' ⚠️ Removed {removed_count} orphan rows from {child_key}.{fk_col}'
+            f' (Not found in {parent_key}.{pk_col})'
+        )
+
+  # 1. CITIES Foreign Keys
+  filter_orphans('customers', 'City', 'cities', 'City')
+  filter_orphans('restaurants', 'City', 'cities', 'City')
+  filter_orphans('delivery_partners', 'City', 'cities', 'City')
+  filter_orphans('weather', 'City', 'cities', 'City')
+  filter_orphans('traffic', 'City', 'cities', 'City')
+
+  # 2. RESTAURANTS Foreign Keys
+  filter_orphans('menu', 'RestaurantID', 'restaurants', 'RestaurantID')
+
+  # 3. ORDERS Foreign Keys
+  filter_orphans('orders', 'CustomerID', 'customers', 'CustomerID')
+  filter_orphans('orders', 'RestaurantID', 'restaurants', 'RestaurantID')
+  filter_orphans(
+      'orders', 'DeliveryPartnerID', 'delivery_partners', 'DeliveryPartnerID'
+  )
+
+  # 4. ORDER DEPENDENTS (order_items, payments, customer_feedback)
+  filter_orphans('order_items', 'OrderID', 'orders', 'OrderID')
+  filter_orphans('order_items', 'FoodItemID', 'menu', 'FoodItemID')
+  filter_orphans('payments', 'OrderID', 'orders', 'OrderID')
+  filter_orphans('customer_feedback', 'OrderID', 'orders', 'OrderID')
+
+  return datasets
 
 def convert_to_float(df: pd.DataFrame, columns: list[str]) -> pd.DataFrame:
   """Cleans currency symbols/commas and casts target columns to float."""
@@ -208,63 +256,40 @@ def convert_to_int(df: pd.DataFrame, columns: list[str]) -> pd.DataFrame:
   return df
 
 
-def convert_ids_to_str(df: pd.DataFrame, columns: list[str]) -> pd.DataFrame:
-  """Normalizes primary and foreign keys to string format without decimal artifacts."""
-  df = df.copy()
-  for col in columns:
-    if col in df.columns:
-      cleaned_series = (
-          df[col].astype(str).str.strip().str.replace(r'\.0$', '', regex=True)
-      )
-      df[col] = cleaned_series.replace(
-          {'nan': np.nan, 'None': np.nan, '': np.nan, '<NA>': np.nan}
-      )
-  return df
-
-
 def apply_type_conversions(
     datasets: dict[str, pd.DataFrame],
 ) -> dict[str, pd.DataFrame]:
   """Applies explicit type mappings across all 12 loaded datasets."""
   float_mapping = {
       'restaurants': ['AverageCost', 'Rating', 'Latitude', 'Longitude'],
-      'menu': ['Price', 'Calories', 'PreparationTime'],
-      'promotions': ['DiscountPercentage'],
+      'menu': ['Price'],
       'orders': [
           'FoodCost',
-          'DeliveryTimeMinutes',
           'DeliveryFee',
           'Discount',
           'GST',
           'FinalAmount',
       ],
       'order_items': ['UnitPrice', 'TotalPrice'],
-      'customer_feedback': ['CustomerRating', 'DeliveryRating', 'FoodRating'],
-      'weather': ['Temperature', 'Rainfall', 'Humidity'],
+      'weather': ['Temperature', 'Rainfall'],
       'traffic': ['AverageSpeed'],
       'cities': ['AverageIncome'],
   }
 
   int_mapping = {
-      'customers': ['Age', 'TotalOrders'],
-      'delivery_partners': ['Age', 'CompletedDeliveries'],
-      'order_items': ['Quantity'],
-      'cities': ['Population'],
-  }
-
-  id_mapping = {
-      'cities': ['CityID'],
-      'customers': ['CustomerID'],
+      'customers': ['CustomerID','Age', 'TotalOrders'],
+      'customer_feedback': ['FeedbackID', 'OrderID', 'CustomerRating', 'DeliveryRating', 'FoodRating'],
+      'delivery_partners': ['DeliveryPartnerID', 'Age', 'CompletedDeliveries'],
+      'promotions': ['PromotionID', 'DiscountPercentage'],
+      'orders': ['OrderID', 'CustomerID', 'RestaurantID', 'DeliveryPartnerID', 'DeliveryTimeMinutes'],
+      'menu': ['FoodItemID', 'RestaurantID', 'Calories', 'PreparationTime'],
+      'order_items': ['OrderItemID', 'OrderID', 'FoodItemID', 'Quantity'],
+      'weather': ['WeatherID', 'Humidity'],
+      'cities': ['CityID', 'Population'],
       'restaurants': ['RestaurantID'],
-      'menu': ['FoodItemID', 'RestaurantID'],
-      'delivery_partners': ['DeliveryPartnerID'],
-      'promotions': ['PromotionID'],
-      'orders': ['OrderID', 'CustomerID', 'RestaurantID', 'DeliveryPartnerID'],
-      'order_items': ['OrderItemID', 'OrderID', 'FoodItemID'],
       'payments': ['PaymentID', 'OrderID'],
-      'customer_feedback': ['FeedbackID', 'OrderID'],
-      'weather': ['WeatherID'],
-      'traffic': ['TrafficID'],
+      'traffic': ['TrafficID']
+
   }
 
   for key, df in datasets.items():
@@ -272,8 +297,6 @@ def apply_type_conversions(
       df = convert_to_float(df, float_mapping[key])
     if key in int_mapping:
       df = convert_to_int(df, int_mapping[key])
-    if key in id_mapping:
-      df = convert_ids_to_str(df, id_mapping[key])
     datasets[key] = df
 
   return datasets
@@ -283,7 +306,26 @@ def apply_type_conversions(
 # 3. NUMERIC VALIDATION & CALCULATIONS
 # ==========================================
 
+def validate_promotion_dates(df: pd.DataFrame) -> pd.DataFrame:
+  """Ensures EndDate is greater than or equal to StartDate to satisfy PostgreSQL chk_promo_dates."""
+  df = df.copy()
+  if 'StartDate' in df.columns and 'EndDate' in df.columns:
+    # Convert to datetime for comparison
+    start = pd.to_datetime(df['StartDate'], errors='coerce')
+    end = pd.to_datetime(df['EndDate'], errors='coerce')
 
+    # Find rows where EndDate is before StartDate
+    invalid_mask = (start.notna()) & (end.notna()) & (end < start)
+
+    # Option A: Swap inverted dates where EndDate < StartDate
+    df.loc[invalid_mask, 'StartDate'] = end[invalid_mask].dt.strftime(
+        '%Y-%m-%d'
+    )
+    df.loc[invalid_mask, 'EndDate'] = start[invalid_mask].dt.strftime(
+        '%Y-%m-%d'
+    )
+
+  return df
 def handle_negative_values(
     df: pd.DataFrame, column: str, action: str = 'abs'
 ) -> pd.DataFrame:
@@ -327,7 +369,7 @@ def clean_order_items_financials(df: pd.DataFrame) -> pd.DataFrame:
         pd.to_numeric(df['Quantity'], errors='coerce')
         .abs()
         .fillna(1)
-        .astype(int)
+        .astype('Int64')
     )
 
   df['TotalPrice'] = (df['UnitPrice'] * df['Quantity']).round(2)
@@ -396,8 +438,8 @@ def validate_numeric_constraints(
     )
 
   domain_bounds = {
-      'customers': {'Age': (10, 100)},
-      'delivery_partners': {'Age': (18, 70), 'Rating': (1.0, 5.0)},
+      'customers': {'Age': (0, 100)},
+      'delivery_partners': {'Age': (16, 70), 'Rating': (1.0, 5.0)},
       'restaurants': {'Rating': (1.0, 5.0)},
       'customer_feedback': {
           'CustomerRating': (1, 5),
@@ -405,8 +447,6 @@ def validate_numeric_constraints(
           'FoodRating': (1, 5),
       },
       'promotions': {'DiscountPercentage': (0, 100)},
-      'weather': {'Humidity': (0, 100)},
-      'traffic': {'AverageSpeed': (0, 200)},
   }
 
   for key, bounds in domain_bounds.items():
@@ -414,6 +454,7 @@ def validate_numeric_constraints(
       datasets[key] = enforce_numeric_bounds(datasets[key], bounds)
 
   return datasets
+
 
 
 # ==========================================
@@ -432,6 +473,8 @@ def clean_customers_string_fields(df: pd.DataFrame) -> pd.DataFrame:
   text_cols = ['Name', 'Gender','Membership','Email', 'State', 'PreferredCuisine']
   df = clean_whitespace_and_case(df, text_cols)
   df = standardize_cities(df, 'City')
+  df = clean_phone_numbers(df, 'Phone')
+  df = clean_pincodes(df, 'Pincode')
   return df
 
 
@@ -474,7 +517,7 @@ def clean_payments_string_fields(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def clean_feedback_string_fields(df: pd.DataFrame) -> pd.DataFrame:
-  text_cols = ['Review', 'Sentiment']
+  text_cols = ['Sentiment']
   df = clean_whitespace_and_case(df, text_cols)
   return df
 
@@ -491,6 +534,31 @@ def clean_traffic_string_fields(df: pd.DataFrame) -> pd.DataFrame:
   df = clean_whitespace_and_case(df, text_cols)
   df = standardize_cities(df, 'City')
   return df
+
+def remove_null_required_cities(
+    datasets: dict[str, pd.DataFrame],
+) -> dict[str, pd.DataFrame]:
+  """Removes rows where City is NaN for tables with NOT NULL City constraints in SQL."""
+  datasets = {k: v.copy() for k, v in datasets.items()}
+
+  not_null_city_tables = [
+      'weather',
+      'traffic',
+      'cities',
+      'restaurants',
+      'customers',
+      'delivery_partners',
+  ]
+
+  for key in not_null_city_tables:
+    if key in datasets and 'City' in datasets[key].columns:
+      initial_count = len(datasets[key])
+      datasets[key] = datasets[key].dropna(subset=['City'])
+      dropped_count = initial_count - len(datasets[key])
+      if dropped_count > 0:
+        print(f' ⚠️ Removed {dropped_count} rows with NULL City from {key}.')
+
+  return datasets
 
 # ==========================================
 # 5. DUPLICATE REMOVAL & HANDLING OUTLIERS
@@ -603,17 +671,27 @@ def clean_all_data(
             df = standardize_times(df, TIME_COLUMNS_MAP[key])
         cleaned[key] = df
 
+  # Validate date relationships for promotions
+  if 'promotions' in cleaned:
+    cleaned['promotions'] = validate_promotion_dates(cleaned['promotions'])
+
   # Step 3: Schema Data Type Conversions (Floats, Nullable Ints, String IDs)
   cleaned = apply_type_conversions(cleaned)
 
   # Step 4: Numeric Constraints, Financial Recalculations & Domain Bounds
   cleaned = validate_numeric_constraints(cleaned)
+  
   # Step 5: Deduplication ONLY (Outlier handling deferred to post-EDA)
   for key, df in cleaned.items():
     pk = PK_MAP.get(key, None)
     df = remove_duplicates(df, primary_key=pk)
     cleaned[key] = df
 
+  # Step 6: Validate Relational Integrity across Foreign Keys
+    cleaned = validate_foreign_keys(cleaned)
+
+  # Step 7: Remove rows with NULL City where required by SQL schema
+    cleaned = remove_null_required_cities(cleaned)
   return cleaned
 
 def export_cleaned_datasets(
@@ -624,18 +702,59 @@ def export_cleaned_datasets(
   out_path.mkdir(parents=True, exist_ok=True)
 
   for name, df in datasets.items():
+    df_to_save = df.copy()
+
+    # Format Int64 columns and text identifiers to remove '.0' float artifacts before saving to CSV
+    for col in df_to_save.columns:
+      if df_to_save[col].dtype == 'Int64':
+        df_to_save[col] = (
+            df_to_save[col]
+            .astype(str)
+            .str.replace(r'\.0$', '', regex=True)
+            .replace({'<NA>': '', 'nan': '', 'None': ''})
+        )
     
     file_name = name if name.endswith('_cleaned') else f'{name}_cleaned'
     file_path = out_path / f'{file_name}.csv'
-    df.to_csv(file_path, index=False)
-    print(f" Saved: {file_path}")
+
+    # Remove existing file prior to writing to force clean overwrite
+    if file_path.exists():
+      file_path.unlink()
+
+    df_to_save.to_csv(file_path, index=False)
+    print(f' ✓ Overwritten/Exported: {file_path} ({len(df_to_save)} rows)')
 # ==========================================
 # EXECUTION / TESTING ENTRYPOINT
 # ==========================================
 
 if __name__ == "__main__":
     from ingest import load_all_raw_datasets
+    
+    print("==================================================")
+    print("    EXECUTING FULL DATA CLEANING PIPELINE         ")
+    print("==================================================\n")
 
+    # 1. Load Raw Datasets
+    print("1. Loading raw datasets from data/raw/...")
+    raw_datasets = load_all_raw_datasets()
+    print(f"   ✓ Loaded {len(raw_datasets)} raw datasets.\n")
+
+    # 2. Run End-to-End Cleaning Master Pipeline
+    print("2. Processing all datasets through clean_all_data()...")
+    cleaned_datasets = clean_all_data(raw_datasets)
+    print("   ✓ Transformations applied successfully across all datasets.\n")
+
+    # 3. Export Processed Datasets
+    print("3. Exporting cleaned datasets to data/cleaned/...")
+    export_cleaned_datasets(cleaned_datasets, output_dir="data/cleaned")
+
+    print("\n==================================================")
+    print("    ALL 12 DATASETS CLEANED AND EXPORTED SUCCESSFULLY!")
+    print("==================================================")
+
+
+
+'''
     print("==================================================")
     print("  RUNNING COMPREHENSIVE PIPELINE DIAGNOSTIC TEST  ")
     print("==================================================\n")
@@ -656,7 +775,7 @@ if __name__ == "__main__":
         cust = clean_customers_string_fields(raw_datasets['customers'])
         print(f"✓ customers: Valid 10-digit Phone count = {cust['Phone'].dropna().str.len().eq(10).sum()}")
 
-    '''
+
     # --------------------------------------------------
     # TEST 2: Outlier Clipping Standalone (left for EDA phase)
     # --------------------------------------------------
@@ -673,7 +792,9 @@ if __name__ == "__main__":
     print(f"✓ Raw Max DeliveryTimeMinutes: {max_val_before}")
     print(f"✓ Clipped Max DeliveryTimeMinutes: {max_val_after}")
     print(f"✓ Row Count Preserved: {len(clipped_df) == initial_rows} ({len(clipped_df)} rows)")
-    '''
+'''
+
+'''
     # --------------------------------------------------
     # TEST 3: Deduplication Standalone
     # --------------------------------------------------
@@ -717,3 +838,4 @@ if __name__ == "__main__":
     print("\n==================================================")
     print("    BASELINE CLEANING COMPLETE! READY FOR EDA     ")
     print("==================================================")
+'''

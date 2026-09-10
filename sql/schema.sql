@@ -246,37 +246,26 @@ CREATE INDEX idx_traffic_city_date ON traffic(City, Date);
 -- cleaned CSVs via COPY / LOAD DATA, not from these INSERTs)
 -- =====================================================================
 
-INSERT INTO cities (CityID, City, Population, Region, AverageIncome) VALUES
-(1, 'Mumbai', 20411000, 'West', 1450000),
-(2, 'Delhi', 32941000, 'North', 1380000),
-(3, 'Bengaluru', 13193000, 'South', 1620000);
-
-INSERT INTO customers (CustomerID, Name, Age, Gender, Phone, Email, City, State, Pincode, RegistrationDate, Membership, TotalOrders, PreferredCuisine) VALUES
-(1, 'Aarav Sharma', 29, 'Male', '9876543210', 'aarav.sharma@example.com', 'Mumbai', 'Maharashtra', '400001', '2023-03-14', 'Gold', 18, 'North Indian'),
-(2, 'Priya Nair', 34, 'Female', '9123456780', 'priya.nair@example.com', 'Bengaluru', 'Karnataka', '560001', '2022-11-02', 'Zomato Pro', 42, 'South Indian');
-
-INSERT INTO restaurants (RestaurantID, RestaurantName, Cuisine, City, Area, OpeningTime, ClosingTime, Rating, AverageCost, OwnerName, RestaurantType, Latitude, Longitude) VALUES
-(1, 'Royal Kitchen', 'North Indian', 'Mumbai', 'Central', '10:00', '23:00', 4.2, 450, 'Rohit Mehta', 'Dine-in & Delivery', 19.076090, 72.877426);
-
-INSERT INTO promotions (PromotionID, CouponCode, DiscountPercentage, CampaignName, StartDate, EndDate) VALUES
-(1, 'ZOMAB12C3', 20, 'Weekend Bonanza', '2023-06-01', '2023-06-15');
-
 -- =====================================================================
 -- COPY EXAMPLES (PostgreSQL) -- run these after creating the tables to
 -- load the CLEANED CSVs produced in the Python stage.
 -- =====================================================================
--- \copy cities             FROM 'data/cleaned/cities.csv'             DELIMITER ',' CSV HEADER;
--- \copy customers          FROM 'data/cleaned/customers.csv'          DELIMITER ',' CSV HEADER;
--- \copy restaurants        FROM 'data/cleaned/restaurants.csv'        DELIMITER ',' CSV HEADER;
--- \copy menu               FROM 'data/cleaned/menu.csv'               DELIMITER ',' CSV HEADER;
--- \copy delivery_partners  FROM 'data/cleaned/delivery_partners.csv'  DELIMITER ',' CSV HEADER;
--- \copy promotions         FROM 'data/cleaned/promotions.csv'         DELIMITER ',' CSV HEADER;
--- \copy orders             FROM 'data/cleaned/orders.csv'             DELIMITER ',' CSV HEADER;
--- \copy order_items        FROM 'data/cleaned/order_items.csv'        DELIMITER ',' CSV HEADER;
--- \copy payments           FROM 'data/cleaned/payments.csv'           DELIMITER ',' CSV HEADER;
--- \copy customer_feedback  FROM 'data/cleaned/customer_feedback.csv'  DELIMITER ',' CSV HEADER;
--- \copy weather            FROM 'data/cleaned/weather.csv'            DELIMITER ',' CSV HEADER;
--- \copy traffic            FROM 'data/cleaned/traffic.csv'            DELIMITER ',' CSV HEADER;
+
+-- Run all your COPY statements in order
+COPY cities FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/cities_cleaned.csv' WITH (FORMAT csv, HEADER true);
+COPY customers FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/customers_cleaned.csv' WITH (FORMAT csv, HEADER true);
+COPY restaurants FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/restaurants_cleaned.csv' WITH (FORMAT csv, HEADER true);
+COPY delivery_partners FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/delivery_partners_cleaned.csv' WITH (FORMAT csv, HEADER true);
+COPY promotions FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/promotions_cleaned.csv' WITH (FORMAT csv, HEADER true);
+COPY menu FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/menu_cleaned.csv' WITH (FORMAT csv, HEADER true);
+COPY orders FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/orders_cleaned.csv' WITH (FORMAT csv, HEADER true);
+COPY order_items FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/order_items_cleaned.csv' WITH (FORMAT csv, HEADER true);
+COPY payments FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/payments_cleaned.csv' WITH (FORMAT csv, HEADER true);
+COPY customer_feedback FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/customer_feedback_cleaned.csv' WITH (FORMAT csv, HEADER true);
+COPY weather FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/weather_cleaned.csv' WITH (FORMAT csv, HEADER true);
+COPY traffic FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/traffic_cleaned.csv' WITH (FORMAT csv, HEADER true);
+
+
 
 -- MySQL 8+ equivalent notes:
 --   * Replace SERIAL-style expectations with INT AUTO_INCREMENT if you want
@@ -288,3 +277,17 @@ INSERT INTO promotions (PromotionID, CouponCode, DiscountPercentage, CampaignNam
 --       IGNORE 1 ROWS;
 --   * CHECK constraints are enforced in MySQL 8.0.16+; on older versions
 --     they are parsed but not enforced -- validate in Python instead.
+SELECT 'Schema created and cleaned data loaded successfully.' AS status;
+
+SELECT * FROM cities LIMIT 5;
+SELECT * FROM customers LIMIT 5;
+SELECT * FROM restaurants LIMIT 5;
+SELECT * FROM delivery_partners LIMIT 5;
+SELECT * FROM promotions LIMIT 5;
+SELECT * FROM menu LIMIT 5;
+SELECT * FROM orders LIMIT 5;
+SELECT * FROM order_items LIMIT 5;
+SELECT * FROM payments LIMIT 5;
+SELECT * FROM customer_feedback LIMIT 5;
+SELECT * FROM weather LIMIT 5;
+SELECT * FROM traffic LIMIT 5;
