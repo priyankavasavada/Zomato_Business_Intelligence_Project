@@ -2,6 +2,7 @@ import re
 import numpy as np
 import pandas as pd
 import pathlib
+import pyarrow 
 # ==========================================
 # CONFIGURATION & LOOKUPS
 # ==========================================
@@ -610,6 +611,14 @@ def clean_all_data(
     raise ValueError(
         'Failed to load raw datasets. Ensure data/raw/ contains CSV files.'
     )
+  for key in datasets:
+    bad_cols = [
+        c
+        for c in datasets[key].columns
+        if "Unnamed" in str(c) or c in ["index", "level_0"]
+    ]
+    if bad_cols:
+      datasets[key] = datasets[key].drop(columns=bad_cols)
 
   cleaned = {}
 
@@ -700,9 +709,26 @@ def export_cleaned_datasets(
   out_path.mkdir(parents=True, exist_ok=True)
 
   for name, df in datasets.items():
-    df_to_save = df.copy()
+    file_prefix = name if name.endswith('_cleaned') else f'{name}_cleaned'
+    df_clean = df.copy()
 
-    # Format Int64 columns and text identifiers to remove '.0' float artifacts before saving to CSV
+    # Remove any existing index columns that may have been added during previous processing
+    index_cols = [
+        c
+        for c in ['Unnamed: 1', 'index', 'level_0']
+        if c in df_clean.columns
+    ]
+    if index_cols:
+      df_clean = df_clean.drop(columns=index_cols)
+
+    # 1. Export Parquet (Preserves exact Int64, float64, datetime dtypes for EDA)
+    parquet_path = out_path / f'{file_prefix}.parquet'
+    if parquet_path.exists():
+      parquet_path.unlink()
+    df.to_parquet(parquet_path, index=False)
+
+    # 2. Export CSV (For SQL ingestion, with Int64 and text formatting cleanup)
+    df_to_save = df.copy()
     for col in df_to_save.columns:
       if df_to_save[col].dtype == 'Int64':
         df_to_save[col] = (
@@ -712,15 +738,16 @@ def export_cleaned_datasets(
             .replace({'<NA>': '', 'nan': '', 'None': ''})
         )
     
-    file_name = name if name.endswith('_cleaned') else f'{name}_cleaned'
-    file_path = out_path / f'{file_name}.csv'
 
+    csv_path = out_path / f'{file_prefix}.csv'
     # Remove existing file prior to writing to force clean overwrite
-    if file_path.exists():
-      file_path.unlink()
+    if csv_path.exists():
+      csv_path.unlink()
 
-    df_to_save.to_csv(file_path, index=False)
-    print(f' ✓ Overwritten/Exported: {file_path} ({len(df_to_save)} rows)')
+    df_to_save.to_csv(csv_path, index=False)
+    print(f' ✓ Exported: {file_prefix}.parquet & {file_prefix}.csv ({len(df)}'
+        ' rows)')
+    
 # ==========================================
 # EXECUTION / TESTING ENTRYPOINT
 # ==========================================
