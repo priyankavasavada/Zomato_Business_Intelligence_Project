@@ -5,8 +5,51 @@
 ![PowerBI](https://img.shields.io/badge/Power_BI-Desktop-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Scikit-Learn](https://img.shields.io/badge/scikit_learn-ML_Pipeline-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-Zomato operates a two-sided marketplace connecting customers, restaurant partners, and delivery partners across hundreds of Indian cities. As order volumes scale, small inefficiencies in delivery time estimation, restaurant quality control, and customer retention compound into significant revenue leakage and customer churn. This project simulates a real assignment given to a Data Scientist joining the Central Analytics team: build the analytical and predictive foundation that lets Operations, Marketing, and City Management teams make faster, evidence-based decisions. An enterprise-grade Data Engineering, Business Intelligence, and Predictive Analytics platform built on operational Zomato delivery data across 12 relational datasets.
+An end-to-end data analytics and business intelligence pipeline built on a 12-dataset relational food delivery ecosystem. This project transforms normalized data into actionable executive insights, featuring an interactive EDA notebook suite with **30+ publication-grade visualizations** adhering to Zomato's brand identity. An enterprise-grade Data Engineering, Business Intelligence, and Predictive Analytics platform built on operational Zomato delivery data across 12 relational datasets.
 ---
+
+## 📌 Project Overview
+
+This repository houses the full analytical pipeline for analyzing customer behavior, revenue performance, delivery logistics, and operational bottlenecks across a food delivery network.
+
+* **Database Architecture:** 12 relational datasets normalized to 3NF.
+* **Storage & Ingestion:** Optimized `.parquet` data files for high-throughput I/O.
+* **Visual Standards:** Custom Matplotlib and Seaborn theme engine aligned with Zomato brand guidelines (Zomato Red `#E23744`, Dark Red `#CB202D`, Charcoal `#2D2D2D`, and clean neutral backdrops `#F8F9FA`).
+* **Analytical Scope:** 8 core business domain questions explored through 30+ non-redundant statistical charts.
+--- 
+
+## 🗂️ Data Architecture (12 Datasets)
+
+The pipeline processes and joins 12 cleaned datasets (`*_cleaned.parquet`):
+
+| Dataset | Primary Key / Identifier | Core Description |
+| :--- | :--- | :--- |
+| `orders` | `OrderID` | Core transactional log containing order values, timestamps, status, and delivery durations. |
+| `customers` | `CustomerID` | Demographics, registration dates, city locations, and preferred cuisines. |
+| `restaurants` | `RestaurantID` | Cuisine types, average costs for two, city locations, and rating profiles. |
+| `delivery_partners` | `DeliveryPartnerID` | Vehicle types, experience (`CompletedDeliveries`), and partner ratings. |
+| `menu` | `MenuItemID` | Item categories, preparation times, prices, and dietary flags (`IsVegetarian`). |
+| `cities` | `CityID` | Population metrics, income tiers, and geographic classification. |
+| `customer_feedback` | `FeedbackID` | Multidimensional feedback (Food, Delivery, Overall ratings, Complaints). |
+| `order_items` | `OrderItemID` | Transaction line-item granularity linking orders to specific menu items. |
+| `payments` | `PaymentID` | Payment gateway types, transaction status, and timestamps. |
+| `promotions` | `PromotionID` | Active discount campaign parameters and usage metrics. |
+| `traffic` | `TrafficLogID` | Congestion levels, average partner speeds, and routing delay metrics. |
+| `weather` | `WeatherLogID` | Meteorological logs (temperature, precipitation, weather conditions). |
+---
+
+## 📊 Exploratory Data Analysis (EDA) Core Business Questions
+
+The EDA notebook (`notebooks/02_eda.ipynb`) and automated export script (`src/generate_all_eda.py`) systematically address 8 primary business domains:
+
+1. **Top Revenue Generators:** Longitudinal revenue tracking across top restaurants and cuisines over quarters/months.
+2. **Peak Ordering Dynamics:** Hourly order demand curves across 24-hour cycles, contrasting weekday vs. weekend patterns.
+3. **Delivery & Logistics Variance:** Delivery duration distributions (`DeliveryTimeMinutes`) analyzed across cities, traffic congestion levels, and weather events (with 99th percentile IQR outlier capping).
+4. **Basket Economics:** Average order value (AOV) and basket sizes segmented by customer membership tiers.
+5. **Customer Retention & Churn:** Analysis of one-time vs. repeat customer proportions and lifecycle distribution.
+6. **Partner Performance Logistics:** Efficiency metrics comparing delivery vehicle types, partner ratings, and speed profiles.
+7. **Order Friction & Cancellations:** Root cause classification of cancelled/refunded orders and operational bottlenecks.
+8. **Customer Lifetime Value (CLV):** Geographic and cuisine-level CLV distribution across tier 1–3 cities.---
 
 ## 📌 Repository Architecture
 
@@ -45,3 +88,7 @@ Zomato_Business_Intelligence_Project/
 │   └── data_quality_issues.md      # Raw data audit log & issue tracking
 ├── README.md
 └── requirements.txt
+
+```
+--- 
+
