@@ -104,6 +104,7 @@ def clean_whitespace_and_case(
     if col in df.columns:
       df[col] = df[col].astype(str).str.strip().str.title()
       df[col] = df[col].replace({'Nan': np.nan, 'None': np.nan, '': np.nan})
+      print(f"   [Text Clean] Cleaned whitespace & title-cased columns: {text_columns}")
   return df
 
 
@@ -121,6 +122,7 @@ def standardize_cities(
     df[city_col] = df[city_col].replace(
         {'Nan': np.nan, 'None': np.nan, '': np.nan}
     )
+    print(f"   [City Clean] Standardized city names in '{city_col}' column.")
   return df
 
 
@@ -132,7 +134,9 @@ def clean_phone_numbers(
   if phone_col in df.columns:
     digits_only = df[phone_col].astype(str).str.replace(r'\D', '', regex=True)
     valid_mask = digits_only.str.len() == 10
+    invalid_count = (~valid_mask & df[phone_col].notna()).sum()
     df[phone_col] = np.where(valid_mask, digits_only, np.nan)
+    print(f"   [Phone Clean] Cleaned '{phone_col}' (Flagged {invalid_count} malformed phones as NaN).")
   return df
 
 
@@ -144,7 +148,9 @@ def clean_pincodes(
   if pincode_col in df.columns:
     digits_only = df[pincode_col].astype(str).str.replace(r'\D', '', regex=True)
     valid_mask = digits_only.str.len() == 6
+    invalid_count = (~valid_mask & df[pincode_col].notna()).sum()
     df[pincode_col] = np.where(valid_mask, digits_only, np.nan)
+    print(f"   [Pincode Clean] Cleaned '{pincode_col}' (Flagged {invalid_count} invalid pincodes as NaN).")
   return df
 
 
@@ -158,6 +164,7 @@ def standardize_dates(
       df[col] = pd.to_datetime(
           df[col], errors='coerce', format='mixed'
       ).dt.strftime('%Y-%m-%d')
+  print(f"   [Date Standardizer] Formatted dates to YYYY-MM-DD for: {date_columns}")
   return df
 
 
@@ -173,6 +180,7 @@ def standardize_times(
       )
       df[col] = parsed_times.dt.strftime('%H:%M:%S')
       df[col] = df[col].replace({'NaT': np.nan, 'None': np.nan, '': np.nan})
+  print(f"   [Time Standardizer] Formatted times to HH:MM:SS for: {time_columns}")
   return df
 
 
@@ -296,7 +304,7 @@ def apply_type_conversions(
     if key in int_mapping:
       df = convert_to_int(df, int_mapping[key])
     datasets[key] = df
-
+    print(f"   ✓ Dtypes converted for dataset: '{key}'")
   return datasets
 
 
@@ -315,15 +323,16 @@ def validate_promotion_dates(df: pd.DataFrame) -> pd.DataFrame:
     # Find rows where EndDate is before StartDate
     invalid_mask = (start.notna()) & (end.notna()) & (end < start)
 
-    # Option A: Swap inverted dates where EndDate < StartDate
+    # Swap inverted dates where EndDate < StartDate
     df.loc[invalid_mask, 'StartDate'] = end[invalid_mask].dt.strftime(
         '%Y-%m-%d'
     )
     df.loc[invalid_mask, 'EndDate'] = start[invalid_mask].dt.strftime(
         '%Y-%m-%d'
     )
-
+  print("   [Promo Dates] All StartDate <= EndDate relationships are valid.")
   return df
+
 def handle_negative_values(
     df: pd.DataFrame, column: str, action: str = 'abs'
 ) -> pd.DataFrame:
@@ -331,13 +340,15 @@ def handle_negative_values(
   df = df.copy()
   if column in df.columns:
     numeric_series = pd.to_numeric(df[column], errors='coerce')
-
-    if action == 'abs':
-      df[column] = numeric_series.abs()
-    elif action == 'null':
-      df[column] = numeric_series.mask(numeric_series < 0, np.nan)
-    elif action == 'zero':
-      df[column] = numeric_series.clip(lower=0)
+    neg_count = (numeric_series < 0).sum()
+    if neg_count > 0:
+      print(f"   [Negative Fix] Found {neg_count} negative values in '{column}'. Action applied: {action}")
+      if action == 'abs':
+        df[column] = numeric_series.abs()
+      elif action == 'null':
+        df[column] = numeric_series.mask(numeric_series < 0, np.nan)
+      elif action == 'zero':
+        df[column] = numeric_series.clip(lower=0)
   return df
 
 
@@ -350,6 +361,9 @@ def enforce_numeric_bounds(
     if col in df.columns:
       numeric_series = pd.to_numeric(df[col], errors='coerce')
       out_of_bounds = (numeric_series < min_val) | (numeric_series > max_val)
+      oob_count = out_of_bounds.sum()
+      if oob_count > 0:
+        print(f"   [Bounds Check] Set {oob_count} out-of-bounds values in '{col}' to NaN (Allowed range: {min_val} to {max_val}).")
       df[col] = numeric_series.mask(out_of_bounds, np.nan)
   return df
 
@@ -369,8 +383,9 @@ def clean_order_items_financials(df: pd.DataFrame) -> pd.DataFrame:
         .fillna(1)
         .astype('Int64')
     )
-
   df['TotalPrice'] = (df['UnitPrice'] * df['Quantity']).round(2)
+  print("   [Order Items] Recalculated 'TotalPrice' (UnitPrice * Quantity).")
+
   return df
 
 
@@ -390,6 +405,7 @@ def clean_orders_financials(df: pd.DataFrame) -> pd.DataFrame:
       (df['FoodCost'] - df['Discount']) + df['DeliveryFee'] + df['GST']
   )
   df['FinalAmount'] = calculated_amount.clip(lower=0).round(2)
+  print("   [Orders Financials] Recalculated 'FinalAmount' and capped 'Discount' at 'FoodCost'.")
   return df
 
 
@@ -453,7 +469,195 @@ def validate_numeric_constraints(
 
   return datasets
 
+def handle_domain_outliers(
+    datasets: dict[str, pd.DataFrame],
+) -> dict[str, pd.DataFrame]:
+  """Applies domain-specific outlier strategies (clipping, scaling, and nullification)."""
+  datasets = {k: v.copy() for k, v in datasets.items()}
 
+  # 1. Orders
+  if 'orders' in datasets:
+    df = datasets['orders']
+    if 'DeliveryTimeMinutes' in df.columns:
+      df['DeliveryTimeMinutes'] = pd.to_numeric(
+          df['DeliveryTimeMinutes'], errors='coerce'
+      )
+      df.loc[df['DeliveryTimeMinutes'] < 0, 'DeliveryTimeMinutes'] = np.nan
+      df['DeliveryTimeMinutes'] = df['DeliveryTimeMinutes'].clip(upper=180)
+      print("   [Orders Outliers] DeliveryTimeMinutes capped at 180 min (Negatives set to NaN).")
+    datasets['orders'] = df
+
+  # 2. Restaurants
+  if 'restaurants' in datasets:
+    df = datasets['restaurants']
+    if 'Rating' in df.columns:
+      df['Rating'] = pd.to_numeric(df['Rating'], errors='coerce')
+      # Divide by 2 if recorded on a 10-point scale
+      high_rating = df['Rating'] > 5.0
+      scaled_count = high_rating.sum()
+      if scaled_count > 0:
+        df.loc[high_rating, 'Rating'] = df.loc[high_rating, 'Rating'] / 2.0
+        print(f"   [Restaurants Outliers] Scaled down {scaled_count} ratings > 5.0 by dividing by 2.")
+    datasets['restaurants'] = df
+
+  # 3. Delivery Partners
+  if 'delivery_partners' in datasets:
+    df = datasets['delivery_partners']
+    if 'AverageDeliveryTime' in df.columns:
+      df['AverageDeliveryTime'] = pd.to_numeric(
+          df['AverageDeliveryTime'], errors='coerce'
+      )
+      df.loc[df['AverageDeliveryTime'] < 0, 'AverageDeliveryTime'] = np.nan
+      print("   [Delivery Partners Outliers] Negative AverageDeliveryTime set to NaN.")
+    datasets['delivery_partners'] = df
+
+  # 4. Traffic
+  if 'traffic' in datasets:
+    df = datasets['traffic']
+    if 'AverageSpeed' in df.columns:
+      df['AverageSpeed'] = pd.to_numeric(df['AverageSpeed'], errors='coerce')
+      df.loc[df['AverageSpeed'] < 0, 'AverageSpeed'] = np.nan
+      # Clipping the average speed to 100km/hr
+      df['AverageSpeed'] = df['AverageSpeed'].clip(upper= 100.0)
+      print("   [Traffic Outliers] AverageSpeed upper-clipped at 100 km/h (Negatives set to NaN).")
+    datasets['traffic'] = df
+
+  # 5. Weather
+  if 'weather' in datasets:
+    df = datasets['weather']
+    if 'Humidity' in df.columns:
+      df['Humidity'] = pd.to_numeric(df['Humidity'], errors='coerce')
+      invalid_hum = (df['Humidity'] < 0) | (df['Humidity'] > 100)
+      df.loc[invalid_hum, 'Humidity'] = np.nan
+    if 'Temperature' in df.columns:
+      df['Temperature'] = pd.to_numeric(df['Temperature'], errors='coerce')
+      df.loc[df['Temperature'] > 60, 'Temperature'] = np.nan
+    if 'Rainfall' in df.columns:
+      df['Rainfall'] = pd.to_numeric(df['Rainfall'], errors='coerce')
+      df['Rainfall'] = df['Rainfall'].clip(upper=300)
+      
+    print("   [Weather Outliers] Humidity (0-100%), Temperature (<=60C), Rainfall (<=300mm) bounds applied.")
+    datasets['weather'] = df
+
+  # 6. Customer Feedback
+  if 'customer_feedback' in datasets:
+    df = datasets['customer_feedback']
+    if 'DeliveryRating' in df.columns:
+      df['DeliveryRating'] = pd.to_numeric(
+          df['DeliveryRating'], errors='coerce'
+      )
+      high_del_rating = df['DeliveryRating'] > 5.0
+      scaled_count = high_del_rating.sum()
+      if scaled_count > 0:
+        df.loc[high_del_rating, 'DeliveryRating'] = df.loc[high_del_rating, 'DeliveryRating'] / 2.0
+        print(f"   [Feedback Outliers] Scaled down {scaled_count} DeliveryRatings > 5.0 by dividing by 2.")
+    datasets['customer_feedback'] = df
+
+  return datasets
+
+def impute_missing_values(
+    datasets: dict[str, pd.DataFrame],
+) -> dict[str, pd.DataFrame]:
+  """Imputes missing values across datasets using domain-appropriate strategies."""
+  datasets = {k: v.copy() for k, v in datasets.items()}
+
+  # 1. Customers
+  if 'customers' in datasets:
+    df = datasets['customers']
+    df['Age'] = df['Age'].fillna(df['Age'].median())
+    df['Membership'] = df['Membership'].fillna('Basic')
+    df['Phone'] = df['Phone'].fillna('Unknown')
+    df['Email'] = df['Email'].fillna('Unknown')
+    df['PreferredCuisine'] = df['PreferredCuisine'].fillna('Unknown')
+    df['Gender'] = df['Gender'].fillna('Other')
+    print("   ✓ [Imputed] customers: Phone, Email, Age, Membership, PreferredCuisine, Gender")
+    datasets['customers'] = df
+
+  # 2. Restaurants
+  if 'restaurants' in datasets:
+    df = datasets['restaurants']
+    df['Cuisine'] = df['Cuisine'].fillna('Unknown')
+    # Impute missing ratings using the median rating of restaurants in the same city
+    df['Rating'] = df.groupby('City')['Rating'].transform(
+        lambda x: x.fillna(x.median())
+    )
+    df['Rating'] = df['Rating'].fillna(df['Rating'].median())
+    print("   ✓ [Imputed] restaurants: Cuisine, Rating (imputed by City median)")
+    datasets['restaurants'] = df
+
+  # 3. Delivery Partners
+  if 'delivery_partners' in datasets:
+    df = datasets['delivery_partners']
+    df['Rating'] = df['Rating'].fillna(df['Rating'].median())
+    print("   ✓ [Imputed] delivery_partners: Rating (imputed by median)")
+    datasets['delivery_partners'] = df
+
+  # 4. Menu
+  if 'menu' in datasets:
+    df = datasets['menu']
+    # Impute missing calories using the median of the respective food category
+    df['Calories'] = df.groupby('Category')['Calories'].transform(
+        lambda x: x.fillna(x.median())
+    )
+    print("   ✓ [Imputed] menu: Calories (imputed by Category median)")
+    datasets['menu'] = df
+
+  # 5. Weather
+  if 'weather' in datasets:
+    df = datasets['weather']
+    df['Rainfall'] = df['Rainfall'].fillna(0.0)  # Assume 0mm rain if unrecorded
+    print("   ✓ [Imputed] weather: Rainfall (missing set to 0.0mm)")
+    datasets['weather'] = df
+
+  # 6. Orders
+  if 'orders' in datasets:
+    df = datasets['orders']
+    df['CouponCode'] = df['CouponCode'].fillna('NONE')
+    print("   ✓ [Imputed] orders: CouponCode (missing set to 'NONE')")
+    datasets['orders'] = df
+
+  # 7. Cities
+  if 'cities' in datasets:
+    df = datasets['cities']
+    df['AverageIncome'] = df['AverageIncome'].fillna(
+        df['AverageIncome'].median()
+    )
+    print("   ✓ [Imputed] cities: AverageIncome (imputed by median)")
+    datasets['cities'] = df
+
+  # 8. Customer Feedback
+  if 'customer_feedback' in datasets:
+    df = datasets['customer_feedback']
+    df['CustomerRating'] = df['CustomerRating'].fillna(
+        df['CustomerRating'].median()
+    )
+    df['Review'] = df['Review'].fillna('No Review Provided')
+    print("   ✓ [Imputed] customer_feedback: CustomerRating, Review")
+    datasets['customer_feedback'] = df
+
+  # 9. Payments
+  if 'payments' in datasets:
+    df = datasets['payments']
+    df['TransactionID'] = df['TransactionID'].fillna('UNKNOWN_TXN')
+    print("   ✓ [Imputed] payments: TransactionID")
+    datasets['payments'] = df
+
+  # 10. Traffic (Speed-based TrafficLevel imputation)
+  if 'traffic' in datasets:
+    df = datasets['traffic']
+    conds = [
+        df['TrafficLevel'].isna() & (df['AverageSpeed'] < 15),
+        df['TrafficLevel'].isna() & (df['AverageSpeed'] < 30),
+        df['TrafficLevel'].isna() & (df['AverageSpeed'] < 50),
+        df['TrafficLevel'].isna() & (df['AverageSpeed'] >= 50),
+    ]
+    choices = ['Severe', 'High', 'Moderate', 'Low']
+    inferred = np.select(conds, choices, default='Moderate')
+    df['TrafficLevel'] = df['TrafficLevel'].fillna(pd.Series(inferred, index=df.index))
+    print("   ✓ [Imputed] traffic: TrafficLevel (inferred dynamically based on AverageSpeed)")
+    datasets['traffic'] = df
+
+  return datasets
 
 # ==========================================
 # 4. DATASET-SPECIFIC TEXT CLEANERS
@@ -558,9 +762,9 @@ def remove_null_required_cities(
 
   return datasets
 
-# ==========================================
-# 5. DUPLICATE REMOVAL & HANDLING OUTLIERS
-# ==========================================
+# ======================
+# 5. DUPLICATE REMOVAL
+# ======================
 
 
 def remove_duplicates(
@@ -572,25 +776,7 @@ def remove_duplicates(
     return df.drop_duplicates(subset=[primary_key], keep='first')
   return df.drop_duplicates(keep='first')
 
-'''
-def handle_outliers(
-    df: pd.DataFrame,
-    columns: list[str],
-    lower_quantile: float = 0.25,
-    upper_quantile: float = 0.75,
-) -> pd.DataFrame:
-  """Clips extreme numeric values to lower and upper percentile caps."""
-  df = df.copy()
-  for col in columns:
-    if col in df.columns and pd.api.types.is_numeric_dtype(df[col]):
-      # Drop NaNs temporarily to calculate valid quantiles
-      valid_series = df[col].dropna()
-      if not valid_series.empty:
-        lower_bound = valid_series.quantile(lower_quantile)
-        upper_bound = valid_series.quantile(upper_quantile)
-        df[col] = df[col].clip(lower=lower_bound, upper=upper_bound)
-  return df
-'''
+
 
 # ==========================================
 # 6. MASTER ORCHESTRATION PIPELINE
@@ -684,10 +870,16 @@ def clean_all_data(
   # Step 3: Schema Data Type Conversions (Floats, Nullable Ints, String IDs)
   cleaned = apply_type_conversions(cleaned)
 
-  # Step 4: Numeric Constraints, Financial Recalculations & Domain Bounds
+  # Step 4.1: Numeric Constraints, Financial Recalculations & Domain Bounds
   cleaned = validate_numeric_constraints(cleaned)
 
-  # Step 5: Deduplication ONLY (Outlier handling deferred to post-EDA)
+  # Step 4.2: Handling Outliers
+  cleaned = handle_domain_outliers(cleaned)
+
+  # Step 4.3: Impute missing values
+  cleaned = impute_missing_values(cleaned)
+
+  # Step 5: Deduplication 
   for key, df in cleaned.items():
     pk = PK_MAP.get(key, None)
     df = remove_duplicates(df, primary_key=pk)
