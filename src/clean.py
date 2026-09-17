@@ -95,6 +95,7 @@ TIME_COLUMNS_MAP = {
 # ==========================================
 
 
+
 def clean_whitespace_and_case(
     df: pd.DataFrame, text_columns: list[str]
 ) -> pd.DataFrame:
@@ -606,6 +607,7 @@ def impute_missing_values(
   if 'weather' in datasets:
     df = datasets['weather']
     df['Rainfall'] = df['Rainfall'].fillna(0.0)  # Assume 0mm rain if unrecorded
+    df = impute_humidity(df)
     print("   ✓ [Imputed] weather: Rainfall (missing set to 0.0mm)")
     datasets['weather'] = df
 
@@ -628,8 +630,16 @@ def impute_missing_values(
   # 8. Customer Feedback
   if 'customer_feedback' in datasets:
     df = datasets['customer_feedback']
+
+# Impute DeliveryRating using partner median if orders dataset exists
+    if 'orders' in datasets:
+      df = impute_delivery_rating(df, datasets['orders'])
+    else:
+      df['DeliveryRating'] = df['DeliveryRating'].fillna(
+            df['DeliveryRating'].median()
+        )
     df['CustomerRating'] = df['CustomerRating'].fillna(
-        df['CustomerRating'].median()
+      df['CustomerRating'].median()
     )
     df['Review'] = df['Review'].fillna('No Review Provided')
     print("   ✓ [Imputed] customer_feedback: CustomerRating, Review")
@@ -659,6 +669,151 @@ def impute_missing_values(
 
   return datasets
 
+def impute_state_from_city(df: pd.DataFrame, city_col: str = 'City', state_col: str = 'State') -> pd.DataFrame:
+    """Imputes missing State values using known (City -> State) pairs from the same dataset."""
+    df = df.copy()
+    
+    if city_col in df.columns and state_col in df.columns:
+        # 1. Filter out rows with missing City or State
+        valid_pairs = df.dropna(subset=[city_col, state_col])
+        
+        # 2. Build mapping dictionary (most frequent State per City)
+        city_to_state = (
+            valid_pairs.groupby(city_col)[state_col]
+            .agg(lambda x: x.mode()[0] if not x.empty else np.nan)
+            .to_dict()
+        )
+        
+        # 3. Fill missing State values using the lookup mapping
+        initial_missing = df[state_col].isna().sum()
+        df[state_col] = df[state_col].fillna(df[city_col].map(city_to_state))
+        resolved_count = initial_missing - df[state_col].isna().sum()
+        
+        print(f"   [State Imputer] Imputed {resolved_count} missing '{state_col}' values using existing City mapping.")
+        
+    return df
+
+def impute_pincode_from_city(
+    df: pd.DataFrame, city_col: str = 'City', pincode_col: str = 'Pincode'
+) -> pd.DataFrame:
+  """Imputes missing Pincode values using known modal (City -> Pincode) pairs from the dataset."""
+  df = df.copy()
+
+  if city_col in df.columns and pincode_col in df.columns:
+    # 1. Extract valid pairs where neither is NaN
+    valid_pairs = df.dropna(subset=[city_col, pincode_col])
+
+    # 2. Build mapping dictionary (takes modal/most frequent Pincode per City)
+    city_to_pincode = (
+        valid_pairs.groupby(city_col)[pincode_col]
+        .agg(lambda x: x.mode()[0] if not x.empty else np.nan)
+        .to_dict()
+    )
+
+    # 3. Fill missing Pincode values using the lookup mapping
+    initial_missing = df[pincode_col].isna().sum()
+    df[pincode_col] = df[pincode_col].fillna(df[city_col].map(city_to_pincode))
+    resolved_count = initial_missing - df[pincode_col].isna().sum()
+
+    print(
+        f"   [Pincode Imputer] Imputed {resolved_count} missing '{pincode_col}'"
+        ' values using existing City mapping.'
+    )
+
+  return df
+
+def impute_delivery_rating(
+    df_feedback: pd.DataFrame, df_orders: pd.DataFrame
+) -> pd.DataFrame:
+  """Imputes missing DeliveryRating using the median DeliveryRating per DeliveryPartnerID,
+
+  falling back to the overall median DeliveryRating.
+  """
+  df_feedback = df_feedback.copy()
+
+  if (
+      'DeliveryRating' in df_feedback.columns
+      and 'OrderID' in df_feedback.columns
+  ):
+    # Merge DeliveryPartnerID into feedback via OrderID
+    if 'DeliveryPartnerID' in df_orders.columns:
+      temp_df = df_feedback.merge(
+          df_orders[['OrderID', 'DeliveryPartnerID']],
+          on='OrderID',
+          how='left',
+      )
+
+      # 1. Impute using DeliveryPartnerID median
+      partner_medians = (
+        temp_df.groupby('DeliveryPartnerID')['DeliveryRating']
+          .transform('median')
+          .round()
+          .astype('Int64')
+      )
+
+      df_feedback['DeliveryRating'] = df_feedback['DeliveryRating'].fillna(
+          partner_medians
+      )
+
+    # 2. Fallback to global median for any remaining missing ratings
+    global_median = df_feedback['DeliveryRating'].median()
+    if pd.notna(global_median):
+      global_median = int(round(global_median))
+
+    df_feedback['DeliveryRating'] = df_feedback['DeliveryRating'].fillna(
+      global_median
+    )
+
+    print(
+        '   ✓ [Imputed] customer_feedback: DeliveryRating (imputed by'
+        ' DeliveryPartnerID median)'
+    )
+
+  return df_feedback
+
+def impute_humidity(df_weather: pd.DataFrame) -> pd.DataFrame:
+  """Imputes missing Humidity values using (City, WeatherCondition) median,
+
+  falling back to City median, then global median.
+  """
+  df = df_weather.copy()
+
+  if 'Humidity' in df.columns:
+    initial_missing = df['Humidity'].isna().sum()
+
+    if initial_missing > 0:
+      # 1. Median by City and WeatherCondition
+      if 'City' in df.columns and 'WeatherCondition' in df.columns:
+        city_cond_median = (
+            df.groupby(['City', 'WeatherCondition'])['Humidity']
+            .transform('median')
+            .round()
+            .astype('Int64')
+        )
+        df['Humidity'] = df['Humidity'].fillna(city_cond_median)
+
+      # 2. Fallback to City median
+      if 'City' in df.columns:
+        city_median = (
+            df.groupby('City')['Humidity']
+            .transform('median')
+            .round()
+            .astype('Int64')
+        )
+        df['Humidity'] = df['Humidity'].fillna(city_median)
+
+      # 3. Fallback to global median
+      global_median = df['Humidity'].median()
+      if pd.notna(global_median):
+        df['Humidity'] = df['Humidity'].fillna(int(round(global_median)))
+
+      resolved = initial_missing - df['Humidity'].isna().sum()
+      print(
+          f"   ✓ [Imputed] weather: Humidity ({resolved} values imputed using"
+          ' City/Condition median)'
+      )
+
+  return df
 # ==========================================
 # 4. DATASET-SPECIFIC TEXT CLEANERS
 # ==========================================
@@ -677,6 +832,8 @@ def clean_customers_string_fields(df: pd.DataFrame) -> pd.DataFrame:
   df = standardize_cities(df, 'City')
   df = clean_phone_numbers(df, 'Phone')
   df = clean_pincodes(df, 'Pincode')
+  df = impute_state_from_city(df, city_col='City', state_col='State')
+  df = impute_pincode_from_city(df,city_col='City', pincode_col='Pincode')
   return df
 
 
@@ -951,12 +1108,10 @@ if __name__ == "__main__":
     print("==================================================\n")
 
     # 1. Load Raw Datasets
-    print("1. Loading raw datasets from data/raw/...")
+    
     raw_datasets = load_all_raw_datasets()
-    print(f"   ✓ Loaded {len(raw_datasets)} raw datasets.\n")
 
     # 2. Run End-to-End Cleaning Master Pipeline
-    print("2. Processing all datasets through clean_all_data()...")
     cleaned_datasets = clean_all_data(raw_datasets)
     print("   ✓ Transformations applied successfully across all datasets.\n")
 
