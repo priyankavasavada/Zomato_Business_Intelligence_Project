@@ -22,8 +22,8 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 21,3,Spring Rolls,Starters,164.0,14,251,No
 22,3,Mojito,Beverages,194.0,3,256,Yes
 23,3,Butter Naan,Breads,75.0,10,237,Yes
-24,4,Chole Bhature,Main Course,40.0,15,,Yes
-25,4,Kheer,Desserts,179.0,19,,Yes
+24,4,Chole Bhature,Main Course,40.0,15,403,Yes
+25,4,Kheer,Desserts,179.0,19,407,Yes
 26,4,Lassi,Beverages,107.0,18,360,Yes
 27,4,Veg Sandwich,Fast Food,170.0,14,279,Yes
 28,4,Biryani,Main Course,157.0,14,444,Yes
@@ -76,7 +76,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 75,10,Gulab Jamun,Desserts,166.0,36,596,Yes
 76,11,Paneer Butter Masala,Main Course,117.0,14,192,Yes
 77,11,Fresh Lime Soda,Beverages,140.0,19,406,Yes
-78,11,Chicken Burger,Fast Food,182.0,25,,Yes
+78,11,Chicken Burger,Fast Food,182.0,25,398,Yes
 79,11,Mojito,Beverages,241.0,21,443,Yes
 80,11,Ice Cream,Desserts,262.0,24,231,Yes
 81,11,Kulcha,Breads,343.0,18,257,Yes
@@ -258,7 +258,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 257,34,Butter Naan,Breads,136.0,19,385,Yes
 258,34,Gulab Jamun,Desserts,106.0,5,181,Yes
 259,34,Chole Bhature,Main Course,71.0,9,431,Yes
-260,35,Spring Rolls,Starters,107.0,11,,Yes
+260,35,Spring Rolls,Starters,107.0,11,390,Yes
 261,35,Masala Chai,Beverages,68.0,7,388,Yes
 262,35,Fish Fingers,Starters,273.0,30,407,Yes
 263,35,Veg Sandwich,Fast Food,275.0,11,485,Yes
@@ -577,9 +577,9 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 576,79,French Fries,Fast Food,102.0,15,104,Yes
 577,79,Brownie,Desserts,242.0,18,572,Yes
 578,79,Tandoori Roti,Breads,171.0,3,447,Yes
-579,79,Momos,Starters,120.0,26,,Yes
+579,79,Momos,Starters,120.0,26,390,Yes
 580,79,Butter Naan,Breads,361.0,10,436,Yes
-581,79,Masala Chai,Beverages,233.0,15,,Yes
+581,79,Masala Chai,Beverages,233.0,15,404,Yes
 582,80,Veg Sandwich,Fast Food,161.0,3,295,Yes
 583,80,Masala Chai,Beverages,163.0,26,441,Yes
 584,80,Fresh Lime Soda,Beverages,143.0,14,317,Yes
@@ -605,7 +605,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 604,83,Chole Bhature,Main Course,169.0,11,225,Yes
 605,83,Rasmalai,Desserts,305.0,14,698,Yes
 606,83,Butter Naan,Breads,145.0,12,490,Yes
-607,83,Kheer,Desserts,172.0,20,,Yes
+607,83,Kheer,Desserts,172.0,20,407,Yes
 608,83,Tandoori Roti,Breads,131.0,14,243,Yes
 609,83,Chole Bhature,Main Course,266.0,19,423,Yes
 610,84,Kheer,Desserts,239.0,20,739,Yes
@@ -935,7 +935,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 934,126,Butter Naan,Breads,40.0,13,432,Yes
 935,126,Kulcha,Breads,196.0,35,317,No
 936,126,Masala Chai,Beverages,76.0,11,563,Yes
-937,126,Garlic Naan,Breads,178.0,30,,Yes
+937,126,Garlic Naan,Breads,178.0,30,396,Yes
 938,126,Lassi,Beverages,118.0,24,580,No
 939,126,Veg Sandwich,Fast Food,311.0,6,442,No
 940,126,Kheer,Desserts,79.0,15,364,Yes
@@ -1062,7 +1062,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 1061,143,Chole Bhature,Main Course,180.0,23,314,Yes
 1062,143,Veg Manchurian,Starters,139.0,30,495,Yes
 1063,143,Chole Bhature,Main Course,276.0,16,467,Yes
-1064,143,Veg Sandwich,Fast Food,173.0,22,,No
+1064,143,Veg Sandwich,Fast Food,173.0,22,398,No
 1065,143,Spring Rolls,Starters,340.0,16,463,Yes
 1066,144,Paneer Butter Masala,Main Course,40.0,27,223,No
 1067,144,Veg Sandwich,Fast Food,121.0,8,186,Yes
@@ -1079,7 +1079,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 1078,145,Veg Burger,Fast Food,188.0,14,567,No
 1079,145,Chicken Burger,Fast Food,189.0,7,609,Yes
 1080,145,Garlic Naan,Breads,167.0,34,359,No
-1081,145,Chicken 65,Starters,108.0,15,,No
+1081,145,Chicken 65,Starters,108.0,15,390,No
 1082,145,Butter Naan,Breads,156.0,12,331,Yes
 1083,146,Kheer,Desserts,328.0,15,721,No
 1084,146,French Fries,Fast Food,274.0,17,498,Yes
@@ -1109,7 +1109,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 1108,149,Kheer,Desserts,241.0,27,264,Yes
 1109,149,Biryani,Main Course,241.0,13,59,Yes
 1110,149,Paneer Tikka,Starters,263.0,24,622,Yes
-1111,149,Veg Sandwich,Fast Food,48.0,19,,No
+1111,149,Veg Sandwich,Fast Food,48.0,19,398,No
 1112,149,Masala Chai,Beverages,282.0,6,362,Yes
 1113,149,Cold Coffee,Beverages,188.0,23,462,Yes
 1114,149,Lassi,Beverages,177.0,15,386,Yes
@@ -1126,7 +1126,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 1125,151,Chicken Burger,Fast Food,137.0,30,402,Yes
 1126,151,Chicken Burger,Fast Food,136.0,15,137,No
 1127,151,Kheer,Desserts,163.0,19,465,Yes
-1128,151,Gulab Jamun,Desserts,165.0,12,,Yes
+1128,151,Gulab Jamun,Desserts,165.0,12,407,Yes
 1129,152,Garlic Naan,Breads,146.0,10,284,Yes
 1130,152,Tandoori Roti,Breads,149.0,15,318,No
 1131,152,Butter Chicken,Main Course,208.0,17,532,Yes
@@ -1223,7 +1223,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 1222,164,Chicken Burger,Fast Food,244.0,14,344,Yes
 1223,165,Veg Sandwich,Fast Food,134.0,13,365,Yes
 1224,165,Chicken 65,Starters,263.0,9,401,Yes
-1225,165,Momos,Starters,370.0,12,,No
+1225,165,Momos,Starters,370.0,12,390,No
 1226,165,French Fries,Fast Food,255.0,35,632,Yes
 1227,165,Masala Chai,Beverages,167.0,21,368,Yes
 1228,165,Momos,Starters,278.0,17,655,Yes
@@ -1301,7 +1301,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 1300,174,Fresh Lime Soda,Beverages,225.0,19,357,Yes
 1301,174,Paneer Tikka,Starters,187.0,15,160,No
 1302,174,Momos,Starters,40.0,24,554,Yes
-1303,175,Lassi,Beverages,196.0,25,,Yes
+1303,175,Lassi,Beverages,196.0,25,404,Yes
 1304,175,Veg Burger,Fast Food,139.0,12,510,Yes
 1305,175,Mojito,Beverages,305.0,12,621,Yes
 1306,175,Butter Naan,Breads,145.0,19,345,Yes
@@ -1380,7 +1380,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 1379,185,Dal Makhani,Main Course,148.0,20,226,Yes
 1380,185,Tandoori Roti,Breads,252.0,4,496,Yes
 1381,185,Biryani,Main Course,134.0,21,294,Yes
-1382,185,Gulab Jamun,Desserts,103.0,30,,Yes
+1382,185,Gulab Jamun,Desserts,103.0,30,407,Yes
 1383,185,Kulcha,Breads,76.0,19,516,Yes
 1384,186,Paneer Butter Masala,Main Course,174.0,17,508,Yes
 1385,186,Paneer Tikka,Starters,229.0,14,478,Yes
@@ -1405,7 +1405,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 1404,189,Butter Chicken,Main Course,204.0,25,504,Yes
 1405,189,Chicken Burger,Fast Food,267.0,27,345,Yes
 1406,189,Spring Rolls,Starters,40.0,23,248,Yes
-1407,189,Kulcha,Breads,205.0,6,,Yes
+1407,189,Kulcha,Breads,205.0,6,396,Yes
 1408,189,French Fries,Fast Food,232.0,14,149,Yes
 1409,190,Fresh Lime Soda,Beverages,58.0,27,347,Yes
 1410,190,Butter Chicken,Main Course,150.0,13,172,Yes
@@ -1419,7 +1419,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 1418,191,Veg Burger,Fast Food,173.0,19,542,Yes
 1419,191,Kheer,Desserts,102.0,16,630,Yes
 1420,191,Mojito,Beverages,40.0,15,72,Yes
-1421,191,Chole Bhature,Main Course,156.0,18,,Yes
+1421,191,Chole Bhature,Main Course,156.0,18,403,Yes
 1422,191,Lassi,Beverages,198.0,12,561,Yes
 1423,191,Veg Burger,Fast Food,222.0,13,368,Yes
 1424,191,Veg Sandwich,Fast Food,319.0,17,198,No
@@ -1513,8 +1513,8 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 1512,203,Cold Coffee,Beverages,216.0,8,289,Yes
 1513,203,Spring Rolls,Starters,88.0,3,667,Yes
 1514,204,Masala Chai,Beverages,241.0,11,435,Yes
-1515,204,Veg Sandwich,Fast Food,75.0,22,,Yes
-1516,204,Tandoori Roti,Breads,265.0,3,,Yes
+1515,204,Veg Sandwich,Fast Food,75.0,22,398,Yes
+1516,204,Tandoori Roti,Breads,265.0,3,396,Yes
 1517,204,Garlic Naan,Breads,46.0,14,390,Yes
 1518,204,Tandoori Roti,Breads,307.0,7,403,Yes
 1519,204,Mojito,Beverages,40.0,9,198,Yes
@@ -1527,7 +1527,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 1526,205,Dal Makhani,Main Course,46.0,25,295,Yes
 1527,205,Ice Cream,Desserts,94.0,23,321,Yes
 1528,205,Chicken 65,Starters,126.0,27,227,Yes
-1529,205,Biryani,Main Course,81.0,3,,Yes
+1529,205,Biryani,Main Course,81.0,3,403,Yes
 1530,205,Masala Chai,Beverages,126.0,32,311,No
 1531,206,Kheer,Desserts,238.0,11,522,Yes
 1532,206,Cold Coffee,Beverages,310.0,13,374,Yes
@@ -1550,11 +1550,11 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 1549,208,Lassi,Beverages,277.0,34,574,Yes
 1550,208,Kulcha,Breads,225.0,25,526,Yes
 1551,208,Veg Burger,Fast Food,128.0,22,255,No
-1552,208,Veg Burger,Fast Food,192.0,14,,Yes
+1552,208,Veg Burger,Fast Food,192.0,14,398,Yes
 1553,208,Veg Sandwich,Fast Food,132.0,18,249,Yes
 1554,209,Masala Chai,Beverages,146.0,27,121,Yes
 1555,209,Masala Chai,Beverages,185.0,29,533,Yes
-1556,209,Rasmalai,Desserts,187.0,24,,Yes
+1556,209,Rasmalai,Desserts,187.0,24,407,Yes
 1557,209,Butter Naan,Breads,246.0,27,435,No
 1558,209,Dal Makhani,Main Course,270.0,9,226,Yes
 1559,209,Gulab Jamun,Desserts,250.0,37,413,Yes
@@ -1839,7 +1839,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 1838,247,Paneer Butter Masala,Main Course,135.0,17,398,Yes
 1839,247,Garlic Naan,Breads,168.0,18,456,Yes
 1840,247,Fried Rice,Main Course,149.0,21,575,Yes
-1841,247,Paneer Butter Masala,Main Course,220.0,31,,Yes
+1841,247,Paneer Butter Masala,Main Course,220.0,31,403,Yes
 1842,247,Masala Chai,Beverages,127.0,20,436,Yes
 1843,247,Chole Bhature,Main Course,145.0,22,431,Yes
 1844,247,Cold Coffee,Beverages,285.0,9,408,Yes
@@ -1975,7 +1975,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 1974,264,Brownie,Desserts,190.0,12,364,Yes
 1975,265,Veg Manchurian,Starters,133.0,10,476,Yes
 1976,265,Cold Coffee,Beverages,198.0,10,225,Yes
-1977,265,Chicken 65,Starters,258.0,14,,Yes
+1977,265,Chicken 65,Starters,258.0,14,390,Yes
 1978,265,Veg Burger,Fast Food,172.0,18,365,Yes
 1979,265,Gulab Jamun,Desserts,53.0,6,608,Yes
 1980,265,Spring Rolls,Starters,300.0,10,474,Yes
@@ -2003,7 +2003,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2002,269,Fresh Lime Soda,Beverages,42.0,16,308,Yes
 2003,269,Veg Burger,Fast Food,300.0,22,50,No
 2004,269,Ice Cream,Desserts,184.0,8,182,Yes
-2005,269,Fried Rice,Main Course,40.0,25,,Yes
+2005,269,Fried Rice,Main Course,40.0,25,403,Yes
 2006,269,Dal Makhani,Main Course,45.0,26,715,Yes
 2007,269,Biryani,Main Course,161.0,10,389,Yes
 2008,269,Dal Makhani,Main Course,285.0,28,394,Yes
@@ -2133,7 +2133,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2132,287,Fried Rice,Main Course,181.0,11,392,Yes
 2133,287,Butter Naan,Breads,201.0,25,583,Yes
 2134,287,French Fries,Fast Food,264.0,22,510,Yes
-2135,287,Veg Manchurian,Starters,156.0,9,,Yes
+2135,287,Veg Manchurian,Starters,156.0,9,390,Yes
 2136,287,Butter Chicken,Main Course,184.0,16,363,Yes
 2137,287,Butter Chicken,Main Course,204.0,25,442,No
 2138,287,Tandoori Roti,Breads,136.0,8,376,Yes
@@ -2189,7 +2189,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2188,294,Garlic Naan,Breads,150.0,12,401,Yes
 2189,295,Paneer Butter Masala,Main Course,141.0,16,351,Yes
 2190,295,Mojito,Beverages,159.0,5,353,Yes
-2191,295,Fried Rice,Main Course,168.0,15,,Yes
+2191,295,Fried Rice,Main Course,168.0,15,403,Yes
 2192,295,Kulcha,Breads,262.0,13,551,Yes
 2193,295,Spring Rolls,Starters,361.0,12,456,Yes
 2194,295,Fried Rice,Main Course,201.0,18,157,Yes
@@ -2230,7 +2230,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2229,299,Veg Manchurian,Starters,40.0,19,587,Yes
 2230,299,Fried Rice,Main Course,299.0,20,331,Yes
 2231,299,Mojito,Beverages,263.0,9,307,Yes
-2232,300,Kulcha,Breads,51.0,25,,Yes
+2232,300,Kulcha,Breads,51.0,25,396,Yes
 2233,300,Butter Naan,Breads,216.0,36,460,Yes
 2234,300,Paneer Butter Masala,Main Course,92.0,14,173,Yes
 2235,300,Kulcha,Breads,99.0,12,275,Yes
@@ -2258,7 +2258,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2257,303,Veg Burger,Fast Food,141.0,15,427,Yes
 2258,303,Chicken Burger,Fast Food,208.0,22,376,Yes
 2259,303,Cheese Pizza,Fast Food,240.0,19,317,No
-2260,303,Rasmalai,Desserts,68.0,23,,Yes
+2260,303,Rasmalai,Desserts,68.0,23,407,Yes
 2261,303,Masala Chai,Beverages,120.0,6,312,Yes
 2262,303,Paneer Butter Masala,Main Course,40.0,25,383,No
 2263,303,Spring Rolls,Starters,203.0,14,665,Yes
@@ -2273,7 +2273,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2272,305,Brownie,Desserts,139.0,6,341,Yes
 2273,305,Fish Fingers,Starters,202.0,15,367,Yes
 2274,305,Veg Sandwich,Fast Food,40.0,25,347,Yes
-2275,305,Rasmalai,Desserts,62.0,17,,Yes
+2275,305,Rasmalai,Desserts,62.0,17,407,Yes
 2276,305,Spring Rolls,Starters,191.0,38,287,Yes
 2277,305,Butter Naan,Breads,247.0,15,341,Yes
 2278,305,Lassi,Beverages,293.0,19,641,Yes
@@ -2314,7 +2314,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2313,310,French Fries,Fast Food,86.0,17,333,Yes
 2314,310,Veg Sandwich,Fast Food,178.0,36,371,Yes
 2315,311,Rasmalai,Desserts,91.0,15,526,No
-2316,311,Veg Manchurian,Starters,223.0,26,,Yes
+2316,311,Veg Manchurian,Starters,223.0,26,390,Yes
 2317,311,Kulcha,Breads,342.0,11,512,No
 2318,311,Cold Coffee,Beverages,40.0,26,167,Yes
 2319,311,Fish Fingers,Starters,41.0,16,539,Yes
@@ -2357,7 +2357,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2356,316,Brownie,Desserts,40.0,3,231,Yes
 2357,316,Cold Coffee,Beverages,286.0,3,566,Yes
 2358,316,Spring Rolls,Starters,40.0,3,444,No
-2359,316,Gulab Jamun,Desserts,176.0,3,,Yes
+2359,316,Gulab Jamun,Desserts,176.0,3,407,Yes
 2360,317,Butter Naan,Breads,207.0,15,493,Yes
 2361,317,Chicken Burger,Fast Food,149.0,25,228,Yes
 2362,317,Veg Burger,Fast Food,232.0,7,446,Yes
@@ -2421,7 +2421,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2420,324,Fried Rice,Main Course,56.0,20,478,Yes
 2421,324,Gulab Jamun,Desserts,232.0,14,464,Yes
 2422,324,Tandoori Roti,Breads,189.0,13,235,Yes
-2423,324,Spring Rolls,Starters,150.0,17,,Yes
+2423,324,Spring Rolls,Starters,150.0,17,390,Yes
 2424,324,Biryani,Main Course,177.0,13,480,Yes
 2425,325,Paneer Tikka,Starters,173.0,12,451,Yes
 2426,325,Gulab Jamun,Desserts,240.0,17,647,Yes
@@ -2437,7 +2437,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2436,326,Biryani,Main Course,187.0,23,563,Yes
 2437,326,Rasmalai,Desserts,319.0,11,632,Yes
 2438,326,Chicken 65,Starters,194.0,19,358,Yes
-2439,326,Biryani,Main Course,207.0,30,,No
+2439,326,Biryani,Main Course,207.0,30,403,No
 2440,327,Fish Fingers,Starters,278.0,11,335,Yes
 2441,327,Chicken Burger,Fast Food,187.0,22,451,Yes
 2442,327,Butter Naan,Breads,341.0,12,469,Yes
@@ -2556,7 +2556,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2555,342,Cold Coffee,Beverages,221.0,13,163,Yes
 2556,342,Mojito,Beverages,275.0,21,547,Yes
 2557,342,Kulcha,Breads,93.0,13,459,Yes
-2558,342,Rasmalai,Desserts,249.0,27,,Yes
+2558,342,Rasmalai,Desserts,249.0,27,407,Yes
 2559,343,Fresh Lime Soda,Beverages,225.0,32,342,Yes
 2560,343,Fresh Lime Soda,Beverages,205.0,16,431,Yes
 2561,343,Fresh Lime Soda,Beverages,304.0,13,273,Yes
@@ -2653,7 +2653,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2652,356,Chicken Burger,Fast Food,94.0,23,398,Yes
 2653,356,Veg Burger,Fast Food,99.0,20,494,No
 2654,356,Fish Fingers,Starters,257.0,20,533,Yes
-2655,356,Lassi,Beverages,256.0,14,,Yes
+2655,356,Lassi,Beverages,256.0,14,404,Yes
 2656,356,Kulcha,Breads,238.0,29,379,Yes
 2657,356,Dal Makhani,Main Course,256.0,20,545,Yes
 2658,356,Chole Bhature,Main Course,142.0,13,584,Yes
@@ -2702,7 +2702,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2701,362,Paneer Tikka,Starters,205.0,23,424,Yes
 2702,362,Garlic Naan,Breads,242.0,8,305,Yes
 2703,362,Mojito,Beverages,161.0,28,590,Yes
-2704,362,Rasmalai,Desserts,251.0,24,,Yes
+2704,362,Rasmalai,Desserts,251.0,24,407,Yes
 2705,363,Gulab Jamun,Desserts,189.0,4,515,Yes
 2706,363,Tandoori Roti,Breads,157.0,34,439,No
 2707,363,Rasmalai,Desserts,112.0,15,305,Yes
@@ -2860,10 +2860,10 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2859,383,Masala Chai,Beverages,232.0,5,326,No
 2860,384,Paneer Tikka,Starters,165.0,25,923,Yes
 2861,384,Butter Chicken,Main Course,140.0,14,466,Yes
-2862,384,Butter Naan,Breads,40.0,3,,Yes
+2862,384,Butter Naan,Breads,40.0,3,396,Yes
 2863,384,Biryani,Main Course,131.0,26,344,Yes
 2864,384,Veg Manchurian,Starters,62.0,9,578,No
-2865,384,Cheese Pizza,Fast Food,114.0,15,,Yes
+2865,384,Cheese Pizza,Fast Food,114.0,15,398,Yes
 2866,384,Lassi,Beverages,127.0,20,665,Yes
 2867,385,Fried Rice,Main Course,229.0,24,255,Yes
 2868,385,Kheer,Desserts,213.0,28,365,Yes
@@ -2874,9 +2874,9 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2873,385,Dal Makhani,Main Course,224.0,20,532,No
 2874,385,Fried Rice,Main Course,136.0,4,639,Yes
 2875,385,Momos,Starters,229.0,22,480,Yes
-2876,386,Biryani,Main Course,203.0,25,,Yes
+2876,386,Biryani,Main Course,203.0,25,403,Yes
 2877,386,Brownie,Desserts,251.0,20,419,Yes
-2878,386,Gulab Jamun,Desserts,135.0,20,,Yes
+2878,386,Gulab Jamun,Desserts,135.0,20,407,Yes
 2879,386,Gulab Jamun,Desserts,257.0,14,245,Yes
 2880,386,Momos,Starters,230.0,34,438,Yes
 2881,386,Veg Sandwich,Fast Food,166.0,32,468,Yes
@@ -2887,7 +2887,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2886,387,Mojito,Beverages,76.0,12,415,No
 2887,387,Garlic Naan,Breads,208.0,16,360,No
 2888,387,Fresh Lime Soda,Beverages,155.0,22,452,Yes
-2889,387,Chole Bhature,Main Course,236.0,20,,Yes
+2889,387,Chole Bhature,Main Course,236.0,20,403,Yes
 2890,387,Kulcha,Breads,180.0,12,637,Yes
 2891,387,Garlic Naan,Breads,76.0,3,518,Yes
 2892,387,Butter Naan,Breads,202.0,19,460,Yes
@@ -2925,7 +2925,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 2924,392,French Fries,Fast Food,40.0,14,416,Yes
 2925,392,Fresh Lime Soda,Beverages,185.0,22,358,Yes
 2926,392,Butter Chicken,Main Course,292.0,8,364,No
-2927,392,Lassi,Beverages,79.0,14,,Yes
+2927,392,Lassi,Beverages,79.0,14,404,Yes
 2928,392,Chole Bhature,Main Course,235.0,9,358,Yes
 2929,393,Paneer Tikka,Starters,181.0,19,233,Yes
 2930,393,Tandoori Roti,Breads,201.0,27,573,Yes
@@ -3043,7 +3043,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 3042,408,Rasmalai,Desserts,175.0,24,368,No
 3043,408,Kheer,Desserts,246.0,24,506,Yes
 3044,408,Mojito,Beverages,265.0,21,335,Yes
-3045,408,Lassi,Beverages,52.0,11,,Yes
+3045,408,Lassi,Beverages,52.0,11,404,Yes
 3046,408,Ice Cream,Desserts,280.0,21,353,Yes
 3047,408,Butter Naan,Breads,141.0,18,491,Yes
 3048,408,Lassi,Beverages,183.0,14,272,Yes
@@ -3078,7 +3078,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 3077,412,Rasmalai,Desserts,240.0,8,306,Yes
 3078,413,Veg Burger,Fast Food,228.0,36,127,No
 3079,413,Kulcha,Breads,197.0,28,674,Yes
-3080,413,Chicken 65,Starters,161.0,28,,Yes
+3080,413,Chicken 65,Starters,161.0,28,390,Yes
 3081,413,Butter Chicken,Main Course,339.0,16,414,Yes
 3082,413,Veg Manchurian,Starters,124.0,15,354,Yes
 3083,413,Cold Coffee,Beverages,106.0,32,409,Yes
@@ -3113,7 +3113,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 3112,417,Masala Chai,Beverages,149.0,14,535,No
 3113,417,Mojito,Beverages,167.0,13,212,Yes
 3114,417,Brownie,Desserts,425.0,25,424,Yes
-3115,417,Masala Chai,Beverages,52.0,5,,Yes
+3115,417,Masala Chai,Beverages,52.0,5,404,Yes
 3116,417,Butter Chicken,Main Course,325.0,20,278,Yes
 3117,418,Chicken Burger,Fast Food,130.0,11,711,Yes
 3118,418,Garlic Naan,Breads,161.0,24,542,Yes
@@ -3123,7 +3123,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 3122,418,Butter Chicken,Main Course,111.0,21,537,Yes
 3123,418,Chicken Burger,Fast Food,236.0,5,448,Yes
 3124,418,Butter Naan,Breads,235.0,31,199,Yes
-3125,419,Chole Bhature,Main Course,276.0,30,,Yes
+3125,419,Chole Bhature,Main Course,276.0,30,403,Yes
 3126,419,Momos,Starters,238.0,4,396,Yes
 3127,419,Brownie,Desserts,86.0,23,392,Yes
 3128,419,Butter Chicken,Main Course,148.0,22,272,Yes
@@ -3524,7 +3524,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 3523,472,Veg Burger,Fast Food,298.0,34,375,No
 3524,472,Chicken 65,Starters,89.0,17,284,Yes
 3525,473,Kheer,Desserts,296.0,22,487,Yes
-3526,473,Butter Naan,Breads,169.0,12,,Yes
+3526,473,Butter Naan,Breads,169.0,12,396,Yes
 3527,473,Spring Rolls,Starters,170.0,9,632,Yes
 3528,473,Lassi,Beverages,402.0,19,453,Yes
 3529,473,Brownie,Desserts,343.0,15,568,Yes
@@ -3570,7 +3570,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 3569,478,Lassi,Beverages,222.0,4,401,Yes
 3570,478,Fried Rice,Main Course,230.0,3,407,Yes
 3571,479,French Fries,Fast Food,148.0,16,516,No
-3572,479,Chole Bhature,Main Course,351.0,23,,Yes
+3572,479,Chole Bhature,Main Course,351.0,23,403,Yes
 3573,479,Chole Bhature,Main Course,58.0,28,375,Yes
 3574,479,Cheese Pizza,Fast Food,40.0,8,209,Yes
 3575,479,Cold Coffee,Beverages,79.0,26,429,Yes
@@ -3642,7 +3642,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 3641,488,Momos,Starters,63.0,15,478,No
 3642,488,Paneer Butter Masala,Main Course,96.0,33,219,Yes
 3643,488,Masala Chai,Beverages,73.0,19,589,Yes
-3644,488,Masala Chai,Beverages,40.0,11,,Yes
+3644,488,Masala Chai,Beverages,40.0,11,404,Yes
 3645,488,Cheese Pizza,Fast Food,297.0,11,649,Yes
 3646,488,Butter Chicken,Main Course,40.0,9,344,Yes
 3647,488,Momos,Starters,220.0,18,302,Yes
@@ -3700,7 +3700,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 3699,495,Rasmalai,Desserts,155.0,30,380,Yes
 3700,495,Mojito,Beverages,278.0,19,412,Yes
 3701,495,Garlic Naan,Breads,89.0,24,318,Yes
-3702,495,French Fries,Fast Food,281.0,18,,No
+3702,495,French Fries,Fast Food,281.0,18,398,No
 3703,495,Veg Manchurian,Starters,113.0,14,331,Yes
 3704,495,Chicken Burger,Fast Food,184.0,30,183,Yes
 3705,496,Chicken Burger,Fast Food,191.0,32,223,No
@@ -3766,7 +3766,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 3765,504,Butter Naan,Breads,209.0,21,601,Yes
 3766,504,Tandoori Roti,Breads,58.0,22,425,Yes
 3767,504,Butter Naan,Breads,159.0,7,459,Yes
-3768,504,Tandoori Roti,Breads,94.0,4,,Yes
+3768,504,Tandoori Roti,Breads,94.0,4,396,Yes
 3769,505,Ice Cream,Desserts,233.0,12,121,No
 3770,505,Mojito,Beverages,177.0,27,291,Yes
 3771,505,Cold Coffee,Beverages,56.0,5,293,No
@@ -3891,7 +3891,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 3890,521,Brownie,Desserts,40.0,33,198,Yes
 3891,521,Cold Coffee,Beverages,201.0,21,726,Yes
 3892,521,Fried Rice,Main Course,388.0,21,246,Yes
-3893,521,Rasmalai,Desserts,90.0,13,,Yes
+3893,521,Rasmalai,Desserts,90.0,13,407,Yes
 3894,521,Kulcha,Breads,138.0,10,413,Yes
 3895,521,Mojito,Beverages,104.0,29,274,Yes
 3896,522,Kheer,Desserts,118.0,18,204,No
@@ -3947,7 +3947,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 3946,528,Rasmalai,Desserts,97.0,7,205,Yes
 3947,528,Chicken 65,Starters,242.0,15,297,No
 3948,529,Brownie,Desserts,254.0,10,552,Yes
-3949,529,Cheese Pizza,Fast Food,89.0,15,,Yes
+3949,529,Cheese Pizza,Fast Food,89.0,15,398,Yes
 3950,529,Veg Sandwich,Fast Food,191.0,9,627,Yes
 3951,529,Veg Sandwich,Fast Food,282.0,29,143,Yes
 3952,529,Chicken Burger,Fast Food,206.0,12,309,Yes
@@ -3988,7 +3988,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 3987,533,French Fries,Fast Food,75.0,22,447,Yes
 3988,534,Veg Sandwich,Fast Food,122.0,11,404,Yes
 3989,534,Cheese Pizza,Fast Food,136.0,18,250,Yes
-3990,534,Fried Rice,Main Course,100.0,5,,Yes
+3990,534,Fried Rice,Main Course,100.0,5,403,Yes
 3991,534,Brownie,Desserts,121.0,23,69,No
 3992,534,Chole Bhature,Main Course,55.0,16,298,Yes
 3993,534,Fresh Lime Soda,Beverages,82.0,15,357,Yes
@@ -4044,7 +4044,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4043,541,Cheese Pizza,Fast Food,81.0,12,109,Yes
 4044,541,Brownie,Desserts,299.0,32,374,No
 4045,541,Mojito,Beverages,111.0,14,247,Yes
-4046,541,Momos,Starters,188.0,25,,Yes
+4046,541,Momos,Starters,188.0,25,390,Yes
 4047,541,Veg Manchurian,Starters,110.0,10,489,Yes
 4048,541,Kheer,Desserts,156.0,17,357,No
 4049,541,Tandoori Roti,Breads,204.0,22,398,Yes
@@ -4127,7 +4127,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4126,552,Chole Bhature,Main Course,241.0,18,427,Yes
 4127,552,Brownie,Desserts,84.0,16,325,Yes
 4128,552,Spring Rolls,Starters,259.0,19,584,Yes
-4129,552,Kheer,Desserts,388.0,24,,Yes
+4129,552,Kheer,Desserts,388.0,24,407,Yes
 4130,552,Masala Chai,Beverages,162.0,4,667,Yes
 4131,552,Kulcha,Breads,386.0,10,338,Yes
 4132,552,Gulab Jamun,Desserts,129.0,11,180,Yes
@@ -4208,7 +4208,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4207,562,Butter Naan,Breads,373.0,13,132,Yes
 4208,563,Cheese Pizza,Fast Food,207.0,13,397,Yes
 4209,563,Dal Makhani,Main Course,259.0,27,385,Yes
-4210,563,Chole Bhature,Main Course,210.0,28,,Yes
+4210,563,Chole Bhature,Main Course,210.0,28,403,Yes
 4211,563,Chicken Burger,Fast Food,66.0,21,246,Yes
 4212,563,Tandoori Roti,Breads,140.0,18,430,Yes
 4213,563,Tandoori Roti,Breads,154.0,25,388,Yes
@@ -4223,7 +4223,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4222,565,Cold Coffee,Beverages,157.0,16,359,Yes
 4223,565,Ice Cream,Desserts,187.0,11,224,Yes
 4224,565,Biryani,Main Course,234.0,8,239,No
-4225,565,Veg Sandwich,Fast Food,40.0,25,,Yes
+4225,565,Veg Sandwich,Fast Food,40.0,25,398,Yes
 4226,565,Veg Sandwich,Fast Food,59.0,12,398,Yes
 4227,566,Mojito,Beverages,253.0,17,646,Yes
 4228,566,Kulcha,Breads,112.0,18,405,Yes
@@ -4234,7 +4234,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4233,567,Ice Cream,Desserts,96.0,14,584,Yes
 4234,567,Paneer Butter Masala,Main Course,100.0,27,331,Yes
 4235,567,Lassi,Beverages,161.0,21,188,No
-4236,567,Paneer Butter Masala,Main Course,245.0,10,,Yes
+4236,567,Paneer Butter Masala,Main Course,245.0,10,403,Yes
 4237,567,Veg Burger,Fast Food,74.0,20,190,Yes
 4238,567,Dal Makhani,Main Course,129.0,13,476,Yes
 4239,567,Kulcha,Breads,309.0,14,347,Yes
@@ -4255,7 +4255,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4254,569,Cheese Pizza,Fast Food,306.0,26,50,Yes
 4255,569,Lassi,Beverages,116.0,19,514,Yes
 4256,569,Veg Burger,Fast Food,147.0,14,433,Yes
-4257,569,Fresh Lime Soda,Beverages,101.0,12,,Yes
+4257,569,Fresh Lime Soda,Beverages,101.0,12,404,Yes
 4258,570,Fish Fingers,Starters,176.0,8,439,Yes
 4259,570,Cheese Pizza,Fast Food,217.0,29,393,Yes
 4260,570,Lassi,Beverages,282.0,3,391,Yes
@@ -4290,12 +4290,12 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4289,574,Masala Chai,Beverages,177.0,24,723,Yes
 4290,574,Spring Rolls,Starters,40.0,21,329,Yes
 4291,574,French Fries,Fast Food,308.0,7,414,Yes
-4292,574,Lassi,Beverages,165.0,9,,Yes
+4292,574,Lassi,Beverages,165.0,9,404,Yes
 4293,574,Masala Chai,Beverages,152.0,19,50,Yes
 4294,574,French Fries,Fast Food,154.0,24,598,Yes
 4295,575,Butter Naan,Breads,208.0,22,210,Yes
 4296,575,Fresh Lime Soda,Beverages,149.0,8,372,Yes
-4297,575,Chicken 65,Starters,386.0,29,,Yes
+4297,575,Chicken 65,Starters,386.0,29,390,Yes
 4298,575,French Fries,Fast Food,208.0,15,497,Yes
 4299,575,Biryani,Main Course,125.0,35,524,Yes
 4300,575,Garlic Naan,Breads,267.0,14,330,No
@@ -4308,7 +4308,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4307,576,Veg Sandwich,Fast Food,191.0,30,432,Yes
 4308,576,Paneer Butter Masala,Main Course,263.0,20,375,Yes
 4309,576,Chole Bhature,Main Course,101.0,20,584,Yes
-4310,577,Ice Cream,Desserts,65.0,22,,Yes
+4310,577,Ice Cream,Desserts,65.0,22,407,Yes
 4311,577,Kulcha,Breads,211.0,12,421,No
 4312,577,Veg Burger,Fast Food,94.0,25,408,Yes
 4313,577,Fresh Lime Soda,Beverages,340.0,20,250,Yes
@@ -4316,7 +4316,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4315,577,Chole Bhature,Main Course,91.0,28,334,Yes
 4316,577,Butter Chicken,Main Course,262.0,20,112,Yes
 4317,577,Cheese Pizza,Fast Food,237.0,10,215,Yes
-4318,578,Fish Fingers,Starters,40.0,8,,Yes
+4318,578,Fish Fingers,Starters,40.0,8,390,Yes
 4319,578,Fish Fingers,Starters,187.0,19,532,Yes
 4320,578,Butter Chicken,Main Course,40.0,3,772,Yes
 4321,578,Garlic Naan,Breads,174.0,22,184,Yes
@@ -4329,7 +4329,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4328,579,Tandoori Roti,Breads,163.0,15,370,Yes
 4329,579,Butter Chicken,Main Course,121.0,24,334,Yes
 4330,579,French Fries,Fast Food,187.0,12,235,Yes
-4331,579,Garlic Naan,Breads,169.0,23,,Yes
+4331,579,Garlic Naan,Breads,169.0,23,396,Yes
 4332,579,Ice Cream,Desserts,244.0,10,408,Yes
 4333,580,Cheese Pizza,Fast Food,172.0,23,476,No
 4334,580,Cheese Pizza,Fast Food,123.0,20,485,Yes
@@ -4445,7 +4445,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4444,594,Paneer Tikka,Starters,311.0,11,468,Yes
 4445,594,Spring Rolls,Starters,133.0,27,395,Yes
 4446,594,Masala Chai,Beverages,201.0,11,335,Yes
-4447,595,Ice Cream,Desserts,358.0,22,,Yes
+4447,595,Ice Cream,Desserts,358.0,22,407,Yes
 4448,595,Gulab Jamun,Desserts,303.0,30,394,Yes
 4449,595,Momos,Starters,111.0,16,345,Yes
 4450,595,Fresh Lime Soda,Beverages,189.0,20,778,Yes
@@ -4486,7 +4486,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4485,600,Veg Burger,Fast Food,181.0,15,360,Yes
 4486,600,Cheese Pizza,Fast Food,138.0,17,388,Yes
 4487,600,Veg Burger,Fast Food,190.0,16,533,Yes
-4488,600,Paneer Tikka,Starters,245.0,13,,Yes
+4488,600,Paneer Tikka,Starters,245.0,13,390,Yes
 4489,601,Momos,Starters,75.0,22,653,Yes
 4490,601,Paneer Butter Masala,Main Course,259.0,17,255,Yes
 4491,601,Lassi,Beverages,241.0,13,404,Yes
@@ -4494,7 +4494,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4493,601,French Fries,Fast Food,86.0,15,332,Yes
 4494,601,Ice Cream,Desserts,290.0,19,300,Yes
 4495,601,Kulcha,Breads,143.0,26,165,Yes
-4496,601,Paneer Butter Masala,Main Course,107.0,9,,Yes
+4496,601,Paneer Butter Masala,Main Course,107.0,9,403,Yes
 4497,601,Dal Makhani,Main Course,192.0,16,389,Yes
 4498,602,Tandoori Roti,Breads,60.0,10,488,Yes
 4499,602,Rasmalai,Desserts,49.0,15,545,Yes
@@ -4522,7 +4522,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4521,604,Chole Bhature,Main Course,124.0,15,393,Yes
 4522,604,Rasmalai,Desserts,182.0,19,602,Yes
 4523,605,Rasmalai,Desserts,76.0,25,504,Yes
-4524,605,Chicken 65,Starters,208.0,21,,Yes
+4524,605,Chicken 65,Starters,208.0,21,390,Yes
 4525,605,Gulab Jamun,Desserts,54.0,21,328,Yes
 4526,605,Paneer Tikka,Starters,232.0,15,528,Yes
 4527,605,Mojito,Beverages,275.0,25,587,Yes
@@ -4606,7 +4606,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4605,616,Tandoori Roti,Breads,331.0,13,237,Yes
 4606,616,Fried Rice,Main Course,276.0,22,144,Yes
 4607,616,Brownie,Desserts,258.0,20,404,Yes
-4608,617,Butter Naan,Breads,137.0,28,,Yes
+4608,617,Butter Naan,Breads,137.0,28,396,Yes
 4609,617,Butter Chicken,Main Course,238.0,8,216,Yes
 4610,617,Veg Manchurian,Starters,105.0,25,351,Yes
 4611,617,Cold Coffee,Beverages,235.0,13,610,Yes
@@ -4643,7 +4643,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4642,621,Veg Burger,Fast Food,123.0,27,291,No
 4643,622,Dal Makhani,Main Course,77.0,14,615,No
 4644,622,Chicken Burger,Fast Food,79.0,15,312,No
-4645,622,Rasmalai,Desserts,257.0,9,,No
+4645,622,Rasmalai,Desserts,257.0,9,407,No
 4646,622,Brownie,Desserts,59.0,26,483,Yes
 4647,622,Mojito,Beverages,246.0,19,240,Yes
 4648,622,Chicken Burger,Fast Food,251.0,22,285,Yes
@@ -4651,7 +4651,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4650,623,Fresh Lime Soda,Beverages,245.0,12,457,Yes
 4651,623,Brownie,Desserts,268.0,3,50,Yes
 4652,623,French Fries,Fast Food,196.0,20,305,Yes
-4653,623,Momos,Starters,46.0,32,,Yes
+4653,623,Momos,Starters,46.0,32,390,Yes
 4654,623,Ice Cream,Desserts,190.0,14,377,Yes
 4655,623,Masala Chai,Beverages,155.0,28,772,Yes
 4656,623,Kheer,Desserts,108.0,26,641,Yes
@@ -4666,7 +4666,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4665,624,Paneer Butter Masala,Main Course,266.0,32,232,Yes
 4666,624,Gulab Jamun,Desserts,109.0,30,710,Yes
 4667,625,Gulab Jamun,Desserts,213.0,28,329,Yes
-4668,625,Chicken Burger,Fast Food,40.0,17,,Yes
+4668,625,Chicken Burger,Fast Food,40.0,17,398,Yes
 4669,625,Chicken Burger,Fast Food,115.0,30,587,Yes
 4670,625,Fried Rice,Main Course,195.0,40,377,Yes
 4671,625,Cold Coffee,Beverages,62.0,15,456,Yes
@@ -4724,7 +4724,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 4723,632,Mojito,Beverages,254.0,24,422,Yes
 4724,632,Butter Chicken,Main Course,242.0,14,496,Yes
 4725,632,Kheer,Desserts,40.0,9,372,Yes
-4726,633,Butter Chicken,Main Course,40.0,18,,Yes
+4726,633,Butter Chicken,Main Course,40.0,18,403,Yes
 4727,633,Lassi,Beverages,115.0,18,256,Yes
 4728,633,Dal Makhani,Main Course,277.0,16,397,Yes
 4729,633,Biryani,Main Course,160.0,15,215,Yes
@@ -5007,7 +5007,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5006,669,Biryani,Main Course,168.0,14,504,No
 5007,670,Chicken Burger,Fast Food,266.0,23,333,Yes
 5008,670,Butter Naan,Breads,129.0,35,345,No
-5009,670,Fish Fingers,Starters,306.0,14,,Yes
+5009,670,Fish Fingers,Starters,306.0,14,390,Yes
 5010,670,Paneer Butter Masala,Main Course,219.0,30,458,Yes
 5011,670,Chicken Burger,Fast Food,126.0,37,434,Yes
 5012,670,Gulab Jamun,Desserts,158.0,22,244,No
@@ -5032,7 +5032,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5031,673,Kheer,Desserts,193.0,17,350,Yes
 5032,673,Spring Rolls,Starters,154.0,30,315,Yes
 5033,673,Chicken Burger,Fast Food,221.0,15,205,Yes
-5034,673,Ice Cream,Desserts,209.0,5,,Yes
+5034,673,Ice Cream,Desserts,209.0,5,407,Yes
 5035,673,Chole Bhature,Main Course,139.0,14,381,Yes
 5036,674,Chicken 65,Starters,182.0,16,478,Yes
 5037,674,Butter Chicken,Main Course,180.0,40,234,No
@@ -5055,7 +5055,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5054,676,French Fries,Fast Food,236.0,22,273,Yes
 5055,676,Momos,Starters,40.0,18,587,Yes
 5056,676,Butter Naan,Breads,207.0,25,305,Yes
-5057,676,Mojito,Beverages,249.0,3,,Yes
+5057,676,Mojito,Beverages,249.0,3,404,Yes
 5058,676,Tandoori Roti,Breads,40.0,22,316,Yes
 5059,676,Cheese Pizza,Fast Food,256.0,17,564,Yes
 5060,676,Rasmalai,Desserts,219.0,18,577,Yes
@@ -5070,7 +5070,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5069,677,Gulab Jamun,Desserts,78.0,10,284,Yes
 5070,678,Chicken Burger,Fast Food,131.0,19,50,Yes
 5071,678,Cold Coffee,Beverages,64.0,16,547,Yes
-5072,678,Momos,Starters,152.0,19,,Yes
+5072,678,Momos,Starters,152.0,19,390,Yes
 5073,678,Chicken Burger,Fast Food,108.0,9,234,Yes
 5074,678,Lassi,Beverages,155.0,12,649,Yes
 5075,678,Fried Rice,Main Course,201.0,23,271,Yes
@@ -5247,13 +5247,13 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5246,700,Paneer Tikka,Starters,202.0,9,301,Yes
 5247,701,Lassi,Beverages,339.0,14,578,Yes
 5248,701,Masala Chai,Beverages,183.0,6,393,No
-5249,701,Fish Fingers,Starters,40.0,19,,Yes
+5249,701,Fish Fingers,Starters,40.0,19,390,Yes
 5250,701,Garlic Naan,Breads,178.0,12,577,Yes
 5251,701,Spring Rolls,Starters,183.0,15,325,Yes
 5252,701,Gulab Jamun,Desserts,199.0,14,53,Yes
 5253,702,Fried Rice,Main Course,131.0,18,286,Yes
 5254,702,Tandoori Roti,Breads,202.0,18,70,Yes
-5255,702,Masala Chai,Beverages,116.0,28,,Yes
+5255,702,Masala Chai,Beverages,116.0,28,404,Yes
 5256,702,Momos,Starters,236.0,25,363,Yes
 5257,702,Lassi,Beverages,129.0,24,567,Yes
 5258,702,Butter Naan,Breads,291.0,12,498,Yes
@@ -5313,7 +5313,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5312,709,Chicken 65,Starters,355.0,24,50,No
 5313,709,Chicken 65,Starters,211.0,11,759,Yes
 5314,709,Butter Chicken,Main Course,207.0,25,269,Yes
-5315,709,Paneer Butter Masala,Main Course,95.0,17,,Yes
+5315,709,Paneer Butter Masala,Main Course,95.0,17,403,Yes
 5316,710,Kulcha,Breads,209.0,14,395,Yes
 5317,710,Brownie,Desserts,267.0,18,359,Yes
 5318,710,Mojito,Beverages,116.0,13,506,Yes
@@ -5392,7 +5392,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5391,720,Lassi,Beverages,213.0,30,72,Yes
 5392,720,Kulcha,Breads,189.0,19,383,Yes
 5393,720,Rasmalai,Desserts,84.0,20,339,Yes
-5394,721,Gulab Jamun,Desserts,201.0,12,,Yes
+5394,721,Gulab Jamun,Desserts,201.0,12,407,Yes
 5395,721,Lassi,Beverages,418.0,5,50,Yes
 5396,721,Kulcha,Breads,191.0,15,369,Yes
 5397,721,Lassi,Beverages,86.0,21,613,No
@@ -5463,7 +5463,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5462,730,Momos,Starters,260.0,21,404,Yes
 5463,730,Chole Bhature,Main Course,293.0,19,329,Yes
 5464,730,Brownie,Desserts,174.0,12,121,Yes
-5465,731,Chicken Burger,Fast Food,40.0,18,,Yes
+5465,731,Chicken Burger,Fast Food,40.0,18,398,Yes
 5466,731,Mojito,Beverages,76.0,21,287,Yes
 5467,731,Fresh Lime Soda,Beverages,69.0,9,579,Yes
 5468,731,Veg Sandwich,Fast Food,254.0,11,473,Yes
@@ -5538,7 +5538,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5537,741,Garlic Naan,Breads,40.0,24,209,Yes
 5538,741,Fried Rice,Main Course,132.0,9,316,Yes
 5539,741,French Fries,Fast Food,147.0,16,149,Yes
-5540,741,Mojito,Beverages,180.0,21,,Yes
+5540,741,Mojito,Beverages,180.0,21,404,Yes
 5541,741,Cheese Pizza,Fast Food,127.0,10,50,No
 5542,741,Fried Rice,Main Course,224.0,20,336,Yes
 5543,742,Kheer,Desserts,40.0,16,312,Yes
@@ -5653,7 +5653,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5652,756,Veg Sandwich,Fast Food,68.0,22,441,Yes
 5653,756,Butter Chicken,Main Course,60.0,12,541,Yes
 5654,756,Veg Burger,Fast Food,287.0,25,285,Yes
-5655,756,Fish Fingers,Starters,128.0,8,,Yes
+5655,756,Fish Fingers,Starters,128.0,8,390,Yes
 5656,756,Momos,Starters,67.0,31,390,Yes
 5657,756,Cold Coffee,Beverages,153.0,14,296,No
 5658,756,Cheese Pizza,Fast Food,177.0,10,546,Yes
@@ -5838,7 +5838,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5837,780,Spring Rolls,Starters,163.0,24,350,Yes
 5838,781,Veg Manchurian,Starters,211.0,8,613,Yes
 5839,781,Fresh Lime Soda,Beverages,334.0,19,648,Yes
-5840,781,Butter Chicken,Main Course,221.0,17,,Yes
+5840,781,Butter Chicken,Main Course,221.0,17,403,Yes
 5841,781,Mojito,Beverages,347.0,16,398,No
 5842,781,Gulab Jamun,Desserts,263.0,21,355,Yes
 5843,781,Kheer,Desserts,264.0,5,386,Yes
@@ -5849,7 +5849,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5848,782,Kulcha,Breads,158.0,12,287,Yes
 5849,782,Veg Manchurian,Starters,172.0,25,216,Yes
 5850,782,Kheer,Desserts,314.0,9,347,Yes
-5851,782,Cold Coffee,Beverages,129.0,18,,Yes
+5851,782,Cold Coffee,Beverages,129.0,18,404,Yes
 5852,783,Kulcha,Breads,127.0,8,419,Yes
 5853,783,Masala Chai,Beverages,59.0,15,250,Yes
 5854,783,Fresh Lime Soda,Beverages,83.0,12,270,Yes
@@ -5878,7 +5878,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5877,786,Butter Naan,Breads,109.0,21,306,Yes
 5878,786,Ice Cream,Desserts,272.0,12,371,No
 5879,786,Mojito,Beverages,110.0,16,230,Yes
-5880,786,Ice Cream,Desserts,296.0,25,,Yes
+5880,786,Ice Cream,Desserts,296.0,25,407,Yes
 5881,786,Brownie,Desserts,273.0,29,486,Yes
 5882,787,Gulab Jamun,Desserts,288.0,18,496,Yes
 5883,787,Tandoori Roti,Breads,223.0,10,529,Yes
@@ -5911,7 +5911,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5910,791,Rasmalai,Desserts,346.0,14,609,Yes
 5911,791,Rasmalai,Desserts,88.0,3,479,Yes
 5912,791,Veg Manchurian,Starters,315.0,11,479,Yes
-5913,791,Veg Burger,Fast Food,108.0,26,,Yes
+5913,791,Veg Burger,Fast Food,108.0,26,398,Yes
 5914,791,Biryani,Main Course,212.0,8,459,Yes
 5915,791,French Fries,Fast Food,40.0,18,279,Yes
 5916,792,Veg Sandwich,Fast Food,189.0,18,421,Yes
@@ -5986,7 +5986,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5985,802,Cheese Pizza,Fast Food,137.0,32,575,Yes
 5986,802,Mojito,Beverages,206.0,4,611,Yes
 5987,802,Kulcha,Breads,40.0,7,172,Yes
-5988,802,Ice Cream,Desserts,95.0,31,,Yes
+5988,802,Ice Cream,Desserts,95.0,31,407,Yes
 5989,802,Veg Burger,Fast Food,203.0,18,259,Yes
 5990,802,Masala Chai,Beverages,253.0,29,534,No
 5991,802,Momos,Starters,235.0,26,410,Yes
@@ -5995,7 +5995,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 5994,803,Masala Chai,Beverages,327.0,19,274,Yes
 5995,803,Veg Manchurian,Starters,173.0,13,563,Yes
 5996,803,Butter Chicken,Main Course,163.0,23,458,No
-5997,803,Veg Burger,Fast Food,40.0,12,,Yes
+5997,803,Veg Burger,Fast Food,40.0,12,398,Yes
 5998,803,Masala Chai,Beverages,147.0,19,484,Yes
 5999,803,Veg Manchurian,Starters,277.0,20,417,Yes
 6000,803,Gulab Jamun,Desserts,233.0,13,435,Yes
@@ -6035,14 +6035,14 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 6034,807,French Fries,Fast Food,184.0,15,491,Yes
 6035,808,Veg Sandwich,Fast Food,254.0,13,386,Yes
 6036,808,Mojito,Beverages,176.0,30,420,Yes
-6037,808,Mojito,Beverages,220.0,13,,Yes
+6037,808,Mojito,Beverages,220.0,13,404,Yes
 6038,808,Veg Burger,Fast Food,166.0,15,313,Yes
 6039,808,French Fries,Fast Food,199.0,16,255,Yes
 6040,808,Butter Chicken,Main Course,98.0,19,414,No
 6041,808,Tandoori Roti,Breads,236.0,19,235,Yes
 6042,808,Cheese Pizza,Fast Food,231.0,11,555,Yes
 6043,808,Masala Chai,Beverages,266.0,13,275,Yes
-6044,809,Fish Fingers,Starters,71.0,7,,Yes
+6044,809,Fish Fingers,Starters,71.0,7,390,Yes
 6045,809,Kulcha,Breads,107.0,14,771,Yes
 6046,809,French Fries,Fast Food,283.0,26,500,No
 6047,809,Ice Cream,Desserts,273.0,3,380,Yes
@@ -6118,7 +6118,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 6117,819,Butter Naan,Breads,280.0,19,287,Yes
 6118,819,French Fries,Fast Food,147.0,29,507,Yes
 6119,819,Momos,Starters,89.0,19,421,Yes
-6120,819,Dal Makhani,Main Course,248.0,8,,Yes
+6120,819,Dal Makhani,Main Course,248.0,8,403,Yes
 6121,820,Lassi,Beverages,272.0,24,311,Yes
 6122,820,Dal Makhani,Main Course,222.0,14,457,Yes
 6123,820,Masala Chai,Beverages,250.0,12,345,No
@@ -6170,7 +6170,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 6169,826,Chicken Burger,Fast Food,151.0,18,364,Yes
 6170,827,Biryani,Main Course,40.0,11,635,Yes
 6171,827,Tandoori Roti,Breads,102.0,24,74,Yes
-6172,827,Fried Rice,Main Course,143.0,21,,Yes
+6172,827,Fried Rice,Main Course,143.0,21,403,Yes
 6173,827,Cold Coffee,Beverages,213.0,3,245,Yes
 6174,827,Garlic Naan,Breads,123.0,9,380,Yes
 6175,827,Kulcha,Breads,40.0,15,690,Yes
@@ -6263,7 +6263,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 6262,839,Cheese Pizza,Fast Food,190.0,28,263,Yes
 6263,839,Tandoori Roti,Breads,64.0,23,301,Yes
 6264,839,Kheer,Desserts,40.0,13,243,Yes
-6265,839,Mojito,Beverages,42.0,21,,No
+6265,839,Mojito,Beverages,42.0,21,404,No
 6266,840,Biryani,Main Course,152.0,32,362,Yes
 6267,840,Veg Sandwich,Fast Food,237.0,5,227,Yes
 6268,840,Butter Naan,Breads,276.0,27,367,Yes
@@ -6347,10 +6347,10 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 6346,850,Chole Bhature,Main Course,170.0,8,457,Yes
 6347,850,Veg Sandwich,Fast Food,92.0,18,328,No
 6348,850,Chole Bhature,Main Course,270.0,5,225,No
-6349,850,Fresh Lime Soda,Beverages,186.0,18,,Yes
+6349,850,Fresh Lime Soda,Beverages,186.0,18,404,Yes
 6350,850,Veg Manchurian,Starters,211.0,19,534,Yes
 6351,850,Butter Naan,Breads,193.0,31,237,Yes
-6352,850,Dal Makhani,Main Course,325.0,18,,Yes
+6352,850,Dal Makhani,Main Course,325.0,18,403,Yes
 6353,850,Mojito,Beverages,40.0,13,502,Yes
 6354,851,Veg Burger,Fast Food,261.0,10,305,Yes
 6355,851,Brownie,Desserts,288.0,5,282,Yes
@@ -6452,7 +6452,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 6451,863,Momos,Starters,213.0,35,312,Yes
 6452,863,Fresh Lime Soda,Beverages,40.0,23,449,Yes
 6453,863,Mojito,Beverages,229.0,15,138,Yes
-6454,864,Spring Rolls,Starters,95.0,3,,Yes
+6454,864,Spring Rolls,Starters,95.0,3,390,Yes
 6455,864,Biryani,Main Course,231.0,15,234,Yes
 6456,864,Fish Fingers,Starters,153.0,4,317,Yes
 6457,864,Brownie,Desserts,380.0,19,757,Yes
@@ -6588,7 +6588,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 6587,881,Chole Bhature,Main Course,268.0,22,390,Yes
 6588,881,Garlic Naan,Breads,222.0,18,574,Yes
 6589,881,Kulcha,Breads,110.0,31,542,No
-6590,881,Biryani,Main Course,125.0,11,,Yes
+6590,881,Biryani,Main Course,125.0,11,403,Yes
 6591,881,Garlic Naan,Breads,78.0,16,601,Yes
 6592,881,Veg Burger,Fast Food,196.0,34,284,Yes
 6593,882,Tandoori Roti,Breads,220.0,13,368,Yes
@@ -6817,7 +6817,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 6816,909,Garlic Naan,Breads,40.0,15,597,Yes
 6817,909,Rasmalai,Desserts,85.0,12,388,Yes
 6818,909,Lassi,Beverages,184.0,3,360,Yes
-6819,909,Butter Naan,Breads,242.0,35,,Yes
+6819,909,Butter Naan,Breads,242.0,35,396,Yes
 6820,909,Chole Bhature,Main Course,153.0,21,277,Yes
 6821,909,Momos,Starters,313.0,17,433,Yes
 6822,910,Fried Rice,Main Course,228.0,4,441,Yes
@@ -6951,7 +6951,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 6950,927,Cold Coffee,Beverages,371.0,6,386,Yes
 6951,927,Mojito,Beverages,69.0,20,57,Yes
 6952,927,Mojito,Beverages,307.0,37,571,Yes
-6953,927,Biryani,Main Course,190.0,14,,Yes
+6953,927,Biryani,Main Course,190.0,14,403,Yes
 6954,927,Fried Rice,Main Course,65.0,12,481,Yes
 6955,928,Chole Bhature,Main Course,132.0,16,439,Yes
 6956,928,Garlic Naan,Breads,266.0,32,156,Yes
@@ -6961,7 +6961,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 6960,928,Paneer Tikka,Starters,125.0,26,193,No
 6961,928,Rasmalai,Desserts,399.0,17,143,No
 6962,929,Fried Rice,Main Course,183.0,21,586,No
-6963,929,Rasmalai,Desserts,186.0,19,,Yes
+6963,929,Rasmalai,Desserts,186.0,19,407,Yes
 6964,929,Dal Makhani,Main Course,71.0,18,395,Yes
 6965,929,Kheer,Desserts,117.0,3,342,Yes
 6966,929,Rasmalai,Desserts,234.0,29,368,Yes
@@ -7014,7 +7014,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 7013,935,Fried Rice,Main Course,40.0,14,364,Yes
 7014,935,Chole Bhature,Main Course,231.0,17,505,Yes
 7015,936,Tandoori Roti,Breads,135.0,23,473,Yes
-7016,936,Paneer Butter Masala,Main Course,201.0,15,,Yes
+7016,936,Paneer Butter Masala,Main Course,201.0,15,403,Yes
 7017,936,Kheer,Desserts,175.0,12,390,Yes
 7018,936,French Fries,Fast Food,206.0,18,243,Yes
 7019,936,Lassi,Beverages,156.0,18,335,Yes
@@ -7059,7 +7059,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 7058,941,Cheese Pizza,Fast Food,218.0,9,492,Yes
 7059,942,Kulcha,Breads,104.0,20,249,Yes
 7060,942,Fried Rice,Main Course,286.0,22,698,Yes
-7061,942,Butter Naan,Breads,195.0,5,,Yes
+7061,942,Butter Naan,Breads,195.0,5,396,Yes
 7062,942,Brownie,Desserts,409.0,16,474,Yes
 7063,942,Butter Naan,Breads,236.0,7,438,Yes
 7064,942,Chicken Burger,Fast Food,243.0,23,340,Yes
@@ -7117,7 +7117,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 7116,949,Dal Makhani,Main Course,105.0,14,304,Yes
 7117,949,Veg Sandwich,Fast Food,67.0,31,474,Yes
 7118,950,Biryani,Main Course,160.0,23,360,Yes
-7119,950,Kulcha,Breads,393.0,41,,Yes
+7119,950,Kulcha,Breads,393.0,41,396,Yes
 7120,950,Paneer Tikka,Starters,270.0,14,110,Yes
 7121,950,Mojito,Beverages,300.0,14,403,Yes
 7122,950,French Fries,Fast Food,218.0,22,452,Yes
@@ -7128,7 +7128,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 7127,951,Biryani,Main Course,209.0,10,439,Yes
 7128,951,Kulcha,Breads,267.0,6,257,No
 7129,951,Cold Coffee,Beverages,56.0,6,55,Yes
-7130,951,French Fries,Fast Food,196.0,10,,No
+7130,951,French Fries,Fast Food,196.0,10,398,No
 7131,951,Rasmalai,Desserts,265.0,10,515,Yes
 7132,951,Gulab Jamun,Desserts,281.0,12,103,Yes
 7133,951,Garlic Naan,Breads,71.0,37,362,Yes
@@ -7238,7 +7238,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 7237,966,Masala Chai,Beverages,125.0,14,482,Yes
 7238,966,Butter Naan,Breads,216.0,7,515,Yes
 7239,966,Garlic Naan,Breads,191.0,9,367,Yes
-7240,966,Tandoori Roti,Breads,159.0,10,,Yes
+7240,966,Tandoori Roti,Breads,159.0,10,396,Yes
 7241,966,Gulab Jamun,Desserts,205.0,27,154,Yes
 7242,966,Gulab Jamun,Desserts,191.0,14,348,Yes
 7243,967,Veg Sandwich,Fast Food,363.0,26,573,Yes
@@ -7270,7 +7270,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 7269,970,Fresh Lime Soda,Beverages,177.0,21,404,Yes
 7270,970,Brownie,Desserts,152.0,20,657,Yes
 7271,970,Brownie,Desserts,200.0,35,374,Yes
-7272,971,Veg Manchurian,Starters,169.0,20,,Yes
+7272,971,Veg Manchurian,Starters,169.0,20,390,Yes
 7273,971,Paneer Butter Masala,Main Course,192.0,9,508,Yes
 7274,971,Rasmalai,Desserts,128.0,12,421,Yes
 7275,971,Dal Makhani,Main Course,118.0,12,392,Yes
@@ -7532,7 +7532,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 7531,1005,Spring Rolls,Starters,266.0,15,240,Yes
 7532,1005,Lassi,Beverages,292.0,25,618,Yes
 7533,1006,Paneer Butter Masala,Main Course,67.0,3,626,Yes
-7534,1006,Ice Cream,Desserts,63.0,17,,No
+7534,1006,Ice Cream,Desserts,63.0,17,407,No
 7535,1006,Gulab Jamun,Desserts,120.0,8,345,Yes
 7536,1006,Brownie,Desserts,263.0,13,215,Yes
 7537,1006,Ice Cream,Desserts,187.0,3,444,No
@@ -7622,7 +7622,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 7621,1017,Gulab Jamun,Desserts,220.0,20,422,Yes
 7622,1017,Fish Fingers,Starters,286.0,22,140,No
 7623,1018,Brownie,Desserts,117.0,13,754,No
-7624,1018,Kheer,Desserts,190.0,28,,Yes
+7624,1018,Kheer,Desserts,190.0,28,407,Yes
 7625,1018,Ice Cream,Desserts,210.0,18,322,Yes
 7626,1018,Chicken 65,Starters,97.0,17,282,Yes
 7627,1018,Masala Chai,Beverages,193.0,14,524,Yes
@@ -7669,7 +7669,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 7668,1023,Momos,Starters,234.0,35,303,Yes
 7669,1024,Tandoori Roti,Breads,295.0,11,452,Yes
 7670,1024,Veg Burger,Fast Food,187.0,20,233,Yes
-7671,1024,Veg Manchurian,Starters,131.0,10,,Yes
+7671,1024,Veg Manchurian,Starters,131.0,10,390,Yes
 7672,1024,Ice Cream,Desserts,171.0,10,289,Yes
 7673,1024,Chicken 65,Starters,232.0,20,655,Yes
 7674,1024,Tandoori Roti,Breads,192.0,32,173,Yes
@@ -7737,7 +7737,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 7736,1032,Ice Cream,Desserts,142.0,17,319,Yes
 7737,1032,Lassi,Beverages,41.0,13,399,Yes
 7738,1032,French Fries,Fast Food,229.0,32,306,No
-7739,1033,Lassi,Beverages,101.0,25,,Yes
+7739,1033,Lassi,Beverages,101.0,25,404,Yes
 7740,1033,Tandoori Roti,Breads,89.0,26,257,No
 7741,1033,Fried Rice,Main Course,131.0,17,501,Yes
 7742,1033,Rasmalai,Desserts,175.0,17,347,Yes
@@ -7838,14 +7838,14 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 7837,1046,Fish Fingers,Starters,215.0,14,517,Yes
 7838,1046,Veg Manchurian,Starters,161.0,3,591,Yes
 7839,1046,Rasmalai,Desserts,336.0,7,440,Yes
-7840,1046,Spring Rolls,Starters,314.0,7,,Yes
+7840,1046,Spring Rolls,Starters,314.0,7,390,Yes
 7841,1047,Butter Chicken,Main Course,158.0,18,593,Yes
 7842,1047,Fried Rice,Main Course,385.0,23,137,Yes
 7843,1047,Chole Bhature,Main Course,220.0,16,543,Yes
 7844,1047,Fresh Lime Soda,Beverages,40.0,25,637,Yes
 7845,1047,Veg Manchurian,Starters,199.0,27,517,Yes
 7846,1047,Veg Manchurian,Starters,40.0,19,450,Yes
-7847,1047,Chicken Burger,Fast Food,84.0,20,,Yes
+7847,1047,Chicken Burger,Fast Food,84.0,20,398,Yes
 7848,1047,Mojito,Beverages,182.0,21,766,Yes
 7849,1047,Butter Naan,Breads,98.0,23,217,Yes
 7850,1048,Kulcha,Breads,283.0,17,485,Yes
@@ -7857,7 +7857,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 7856,1049,Cold Coffee,Beverages,194.0,5,364,Yes
 7857,1049,Paneer Tikka,Starters,179.0,31,135,No
 7858,1049,Lassi,Beverages,98.0,19,447,Yes
-7859,1049,Fresh Lime Soda,Beverages,292.0,3,,Yes
+7859,1049,Fresh Lime Soda,Beverages,292.0,3,404,Yes
 7860,1049,Veg Burger,Fast Food,255.0,17,506,Yes
 7861,1049,Mojito,Beverages,168.0,26,300,Yes
 7862,1049,Lassi,Beverages,157.0,17,291,Yes
@@ -7946,7 +7946,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 7945,1060,Lassi,Beverages,118.0,11,528,Yes
 7946,1060,Gulab Jamun,Desserts,130.0,23,234,Yes
 7947,1060,Veg Burger,Fast Food,269.0,5,161,Yes
-7948,1060,Chicken Burger,Fast Food,137.0,28,,Yes
+7948,1060,Chicken Burger,Fast Food,137.0,28,398,Yes
 7949,1060,Fish Fingers,Starters,241.0,22,292,Yes
 7950,1060,Fresh Lime Soda,Beverages,47.0,28,571,Yes
 7951,1060,Chicken Burger,Fast Food,92.0,19,370,Yes
@@ -7964,7 +7964,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 7963,1062,Kheer,Desserts,90.0,6,197,Yes
 7964,1062,Tandoori Roti,Breads,40.0,12,717,Yes
 7965,1062,Rasmalai,Desserts,138.0,20,235,Yes
-7966,1062,Chole Bhature,Main Course,107.0,10,,Yes
+7966,1062,Chole Bhature,Main Course,107.0,10,403,Yes
 7967,1062,Chicken 65,Starters,177.0,26,604,Yes
 7968,1062,Masala Chai,Beverages,239.0,23,342,Yes
 7969,1062,Fresh Lime Soda,Beverages,366.0,11,390,Yes
@@ -7974,7 +7974,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 7973,1063,Biryani,Main Course,129.0,17,432,Yes
 7974,1063,Gulab Jamun,Desserts,309.0,32,287,Yes
 7975,1063,Brownie,Desserts,409.0,14,675,Yes
-7976,1064,Veg Sandwich,Fast Food,309.0,9,,Yes
+7976,1064,Veg Sandwich,Fast Food,309.0,9,398,Yes
 7977,1064,Butter Naan,Breads,190.0,25,404,Yes
 7978,1064,Mojito,Beverages,184.0,21,165,Yes
 7979,1064,Mojito,Beverages,190.0,11,345,Yes
@@ -8007,7 +8007,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 8006,1067,Kheer,Desserts,335.0,3,151,Yes
 8007,1068,Cheese Pizza,Fast Food,316.0,20,397,Yes
 8008,1068,Paneer Butter Masala,Main Course,261.0,32,440,Yes
-8009,1068,Veg Sandwich,Fast Food,179.0,3,,Yes
+8009,1068,Veg Sandwich,Fast Food,179.0,3,398,Yes
 8010,1068,Tandoori Roti,Breads,40.0,18,612,Yes
 8011,1068,Lassi,Beverages,142.0,21,531,Yes
 8012,1068,Kheer,Desserts,215.0,17,195,Yes
@@ -8137,7 +8137,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 8136,1085,Spring Rolls,Starters,177.0,9,486,Yes
 8137,1085,Veg Burger,Fast Food,379.0,21,576,Yes
 8138,1086,Cold Coffee,Beverages,130.0,18,233,Yes
-8139,1086,Masala Chai,Beverages,40.0,12,,Yes
+8139,1086,Masala Chai,Beverages,40.0,12,404,Yes
 8140,1086,Rasmalai,Desserts,76.0,16,214,Yes
 8141,1086,Kulcha,Breads,349.0,7,271,Yes
 8142,1086,Lassi,Beverages,122.0,25,504,No
@@ -8198,12 +8198,12 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 8197,1093,Cheese Pizza,Fast Food,254.0,3,561,Yes
 8198,1094,Tandoori Roti,Breads,318.0,22,193,Yes
 8199,1094,Garlic Naan,Breads,68.0,3,556,No
-8200,1094,Cold Coffee,Beverages,296.0,21,,Yes
+8200,1094,Cold Coffee,Beverages,296.0,21,404,Yes
 8201,1094,Cheese Pizza,Fast Food,152.0,22,394,Yes
 8202,1094,Masala Chai,Beverages,203.0,19,501,Yes
 8203,1094,Butter Naan,Breads,98.0,8,615,Yes
 8204,1095,Rasmalai,Desserts,276.0,23,410,No
-8205,1095,Cold Coffee,Beverages,89.0,21,,No
+8205,1095,Cold Coffee,Beverages,89.0,21,404,No
 8206,1095,Chicken Burger,Fast Food,273.0,7,400,Yes
 8207,1095,Fried Rice,Main Course,238.0,21,544,No
 8208,1095,Cheese Pizza,Fast Food,96.0,22,352,Yes
@@ -8367,7 +8367,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 8366,1116,Chicken Burger,Fast Food,159.0,18,479,Yes
 8367,1116,Biryani,Main Course,219.0,25,435,Yes
 8368,1116,Chole Bhature,Main Course,166.0,20,434,Yes
-8369,1116,Garlic Naan,Breads,115.0,3,,No
+8369,1116,Garlic Naan,Breads,115.0,3,396,No
 8370,1116,French Fries,Fast Food,67.0,25,259,Yes
 8371,1116,Momos,Starters,308.0,12,490,Yes
 8372,1116,Paneer Tikka,Starters,352.0,22,689,Yes
@@ -8434,7 +8434,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 8433,1124,Kulcha,Breads,226.0,16,430,Yes
 8434,1125,Garlic Naan,Breads,158.0,14,228,Yes
 8435,1125,Ice Cream,Desserts,219.0,14,420,Yes
-8436,1125,Butter Naan,Breads,123.0,22,,Yes
+8436,1125,Butter Naan,Breads,123.0,22,396,Yes
 8437,1125,Fried Rice,Main Course,204.0,11,277,Yes
 8438,1125,French Fries,Fast Food,208.0,6,530,Yes
 8439,1125,Gulab Jamun,Desserts,170.0,10,174,Yes
@@ -8530,7 +8530,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 8529,1138,Chicken 65,Starters,230.0,32,534,Yes
 8530,1138,Veg Burger,Fast Food,226.0,22,377,Yes
 8531,1138,French Fries,Fast Food,183.0,8,317,Yes
-8532,1138,French Fries,Fast Food,140.0,20,,Yes
+8532,1138,French Fries,Fast Food,140.0,20,398,Yes
 8533,1138,Fish Fingers,Starters,264.0,33,541,Yes
 8534,1139,Cheese Pizza,Fast Food,251.0,7,158,Yes
 8535,1139,Fresh Lime Soda,Beverages,212.0,15,421,No
@@ -8576,7 +8576,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 8575,1145,Tandoori Roti,Breads,188.0,19,503,Yes
 8576,1145,Masala Chai,Beverages,233.0,18,571,Yes
 8577,1145,Tandoori Roti,Breads,146.0,20,268,Yes
-8578,1145,Masala Chai,Beverages,40.0,11,,No
+8578,1145,Masala Chai,Beverages,40.0,11,404,No
 8579,1145,Spring Rolls,Starters,40.0,10,658,Yes
 8580,1145,Mojito,Beverages,154.0,21,269,Yes
 8581,1145,Veg Sandwich,Fast Food,56.0,9,559,Yes
@@ -8711,7 +8711,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 8710,1162,Paneer Butter Masala,Main Course,292.0,27,540,No
 8711,1162,Chicken Burger,Fast Food,240.0,21,469,Yes
 8712,1163,Mojito,Beverages,121.0,26,258,No
-8713,1163,Cold Coffee,Beverages,407.0,13,,Yes
+8713,1163,Cold Coffee,Beverages,407.0,13,404,Yes
 8714,1163,Dal Makhani,Main Course,475.0,9,520,Yes
 8715,1163,Butter Naan,Breads,211.0,23,573,Yes
 8716,1163,Dal Makhani,Main Course,252.0,5,451,No
@@ -8721,7 +8721,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 8720,1163,Rasmalai,Desserts,156.0,37,256,Yes
 8721,1164,Paneer Tikka,Starters,40.0,20,276,Yes
 8722,1164,Kulcha,Breads,282.0,16,414,Yes
-8723,1164,Momos,Starters,59.0,18,,Yes
+8723,1164,Momos,Starters,59.0,18,390,Yes
 8724,1164,Spring Rolls,Starters,259.0,19,215,Yes
 8725,1164,Brownie,Desserts,224.0,21,593,Yes
 8726,1164,Garlic Naan,Breads,207.0,22,343,Yes
@@ -8838,7 +8838,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 8837,1179,Gulab Jamun,Desserts,159.0,25,165,Yes
 8838,1179,Garlic Naan,Breads,168.0,19,509,Yes
 8839,1180,Cold Coffee,Beverages,140.0,5,430,Yes
-8840,1180,Ice Cream,Desserts,101.0,22,,Yes
+8840,1180,Ice Cream,Desserts,101.0,22,407,Yes
 8841,1180,French Fries,Fast Food,197.0,8,435,Yes
 8842,1180,Tandoori Roti,Breads,199.0,12,600,Yes
 8843,1180,Dal Makhani,Main Course,198.0,19,404,Yes
@@ -8962,7 +8962,7 @@ FoodItemID,RestaurantID,FoodName,Category,Price,PreparationTime,Calories,Availab
 8961,1195,Kheer,Desserts,216.0,17,504,No
 8962,1196,Garlic Naan,Breads,100.0,4,425,Yes
 8963,1196,Chicken Burger,Fast Food,213.0,7,126,Yes
-8964,1196,Tandoori Roti,Breads,231.0,23,,Yes
+8964,1196,Tandoori Roti,Breads,231.0,23,396,Yes
 8965,1196,Cheese Pizza,Fast Food,50.0,28,545,Yes
 8966,1196,Chicken Burger,Fast Food,195.0,38,463,Yes
 8967,1196,Fried Rice,Main Course,177.0,12,354,Yes

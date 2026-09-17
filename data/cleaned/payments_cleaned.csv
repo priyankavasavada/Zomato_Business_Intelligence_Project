@@ -43,7 +43,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 42,112241,Net Banking,Success,Txn86683617Cs,2024-02-05
 43,100750,Credit Card,Success,Txn27121758Nb,2023-02-22
 44,103065,Upi,Success,Txn78545360Gg,2024-10-03
-45,109635,Debit Card,Failed,,2024-12-29
+45,109635,Debit Card,Failed,UNKNOWN_TXN,2024-12-29
 46,100918,Wallet,Success,Txn20215012Od,2024-12-08
 47,111586,Net Banking,Success,Txn63600217Sf,2024-10-22
 48,107419,Cash On Delivery,Refunded,Txn20573336Vq,2023-04-09
@@ -162,7 +162,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 161,114576,Net Banking,Success,Txn82122888Ha,2024-12-20
 162,108710,Upi,Success,Txn01377885Ls,2023-03-05
 163,104575,Upi,Success,Txn67109436Mo,2023-11-15
-164,103513,Upi,Refunded,,2023-10-30
+164,103513,Upi,Refunded,UNKNOWN_TXN,2023-10-30
 165,117217,Debit Card,Success,Txn27062597Yi,2024-07-01
 166,114474,Wallet,Success,Txn74213975En,2023-01-14
 167,116192,Upi,Success,Txn50347609We,2023-07-26
@@ -222,7 +222,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 221,104341,Debit Card,Success,Txn25197414Ux,2023-11-06
 222,104673,Debit Card,Success,Txn91492845Ae,2023-03-10
 223,106263,Net Banking,Success,Txn41852600Vn,2023-12-01
-224,116351,Wallet,Success,,2024-05-28
+224,116351,Wallet,Success,UNKNOWN_TXN,2024-05-28
 225,118209,Debit Card,Success,Txn71500795Fo,2023-03-17
 226,105917,Debit Card,Success,Txn19793535Eo,2023-03-15
 227,111399,Debit Card,Success,Txn49663421Xg,2023-01-07
@@ -251,7 +251,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 250,118278,Upi,Success,Txn09492241Hb,2023-07-10
 251,102482,Upi,Success,Txn78852393Ot,2023-09-06
 252,118976,Upi,Success,Txn79090396Dw,2023-10-24
-253,103302,Wallet,Success,,2024-01-28
+253,103302,Wallet,Success,UNKNOWN_TXN,2024-01-28
 254,106389,Upi,Success,Txn63623410Uh,2023-09-04
 255,116159,Wallet,Success,Txn10749019Fp,2024-05-05
 256,105005,Debit Card,Success,Txn26264928Xd,2024-10-04
@@ -327,7 +327,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 326,113577,Wallet,Refunded,Txn23181226Fq,2024-08-10
 327,116176,Debit Card,Success,Txn72719640Sm,2024-08-05
 328,116466,Cash On Delivery,Refunded,Txn70873444Ul,2024-04-22
-329,113135,Net Banking,Success,,2024-11-11
+329,113135,Net Banking,Success,UNKNOWN_TXN,2024-11-11
 330,113349,Wallet,Success,Txn75256452It,2023-01-01
 331,101450,Cash On Delivery,Success,Txn61741451Lt,2024-01-29
 332,110591,Credit Card,Success,Txn04639958Ty,2024-06-01
@@ -428,7 +428,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 428,108160,Debit Card,Success,Txn12350884Es,2024-03-28
 429,112434,Credit Card,Success,Txn14165300Th,2024-12-21
 430,112128,Upi,Success,Txn13787374Cr,2023-01-21
-431,102479,Upi,Refunded,,2024-09-27
+431,102479,Upi,Refunded,UNKNOWN_TXN,2024-09-27
 432,105119,Net Banking,Failed,Txn80063469Bm,2024-01-27
 433,102574,Credit Card,Success,Txn90432120Yq,2024-12-09
 434,103002,Cash On Delivery,Success,Txn53935781Az,2024-12-21
@@ -482,7 +482,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 482,105505,Upi,Success,Txn75428125Ie,2024-02-09
 483,111630,Wallet,Success,Txn70770261Yx,2023-12-30
 484,100626,Cash On Delivery,Failed,Txn24748156Xb,2024-07-28
-485,108169,Net Banking,Success,,2024-05-19
+485,108169,Net Banking,Success,UNKNOWN_TXN,2024-05-19
 486,118846,Wallet,Success,Txn17384932Kr,2023-12-25
 487,105376,Cash On Delivery,Failed,Txn60865910Kn,2024-11-13
 488,106455,Debit Card,Success,Txn85361952Ez,2023-08-28
@@ -714,7 +714,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 714,113396,Wallet,Success,Txn79513888Ms,2023-06-29
 715,106222,Wallet,Success,Txn47979156Wv,2023-01-04
 716,117776,Wallet,Success,Txn94890640Tf,2024-06-22
-717,102670,Credit Card,Success,,2024-06-14
+717,102670,Credit Card,Success,UNKNOWN_TXN,2024-06-14
 718,117765,Credit Card,Success,Txn74821579Up,2024-02-25
 719,108807,Debit Card,Pending,Txn70273745Wm,2023-03-28
 720,109773,Credit Card,Pending,Txn87764266Xd,2023-05-19
@@ -840,7 +840,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 840,112349,Wallet,Success,Txn35027946Tr,2023-04-09
 841,100670,Debit Card,Success,Txn91439527Xh,2024-03-14
 842,105503,Wallet,Success,Txn60579804Tw,2023-04-10
-843,108730,Cash On Delivery,Pending,,2023-12-06
+843,108730,Cash On Delivery,Pending,UNKNOWN_TXN,2023-12-06
 844,105633,Wallet,Success,Txn60062364Vt,2024-12-15
 845,101213,Net Banking,Refunded,Txn28563135Uz,2023-03-07
 846,115191,Cash On Delivery,Success,Txn73882707Ij,2023-01-19
@@ -855,7 +855,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 855,101425,Net Banking,Success,Txn93707060Pd,2023-10-20
 856,103243,Wallet,Success,Txn55005889Uu,2024-12-27
 857,108032,Wallet,Success,Txn91441208Bn,2023-03-12
-858,120194,Debit Card,Success,,2024-06-15
+858,120194,Debit Card,Success,UNKNOWN_TXN,2024-06-15
 859,115129,Upi,Success,Txn09653432Zt,2023-04-10
 860,107907,Debit Card,Success,Txn33812862Jn,2023-06-25
 861,119849,Wallet,Success,Txn68887497Cz,2024-04-18
@@ -1124,7 +1124,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 1124,116149,Wallet,Refunded,Txn84260277Bl,2023-04-09
 1125,103132,Debit Card,Success,Txn83095512Mi,2024-01-10
 1126,109880,Debit Card,Success,Txn19284126Ou,2023-11-23
-1127,116936,Wallet,Success,,2023-09-23
+1127,116936,Wallet,Success,UNKNOWN_TXN,2023-09-23
 1128,106045,Cash On Delivery,Success,Txn63835147Nu,2023-06-09
 1129,109281,Credit Card,Success,Txn33571648Zc,2023-06-07
 1130,118473,Credit Card,Success,Txn69273078Os,2024-11-30
@@ -1215,7 +1215,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 1215,108526,Net Banking,Success,Txn04712065Ja,2024-03-24
 1216,100630,Debit Card,Failed,Txn22538505Pc,2023-04-13
 1217,103614,Wallet,Failed,Txn28860399Vl,2023-08-03
-1218,115640,Debit Card,Refunded,,2024-04-12
+1218,115640,Debit Card,Refunded,UNKNOWN_TXN,2024-04-12
 1219,106420,Cash On Delivery,Failed,Txn67142527Ya,2024-09-27
 1220,115985,Upi,Success,Txn69086763Hs,2024-12-05
 1221,102250,Cash On Delivery,Failed,Txn18467544Ba,2023-04-16
@@ -1545,7 +1545,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 1546,119703,Wallet,Success,Txn83814875On,2024-07-28
 1547,119973,Wallet,Success,Txn67009953Lv,2024-04-18
 1548,108042,Net Banking,Success,Txn58863933Nc,2023-04-28
-1549,103658,Wallet,Success,,2024-01-30
+1549,103658,Wallet,Success,UNKNOWN_TXN,2024-01-30
 1550,111727,Credit Card,Success,Txn69255108Fe,2023-01-02
 1551,109927,Wallet,Success,Txn40525005Da,2023-08-19
 1552,103701,Debit Card,Success,Txn96713927Ut,2023-11-24
@@ -1577,7 +1577,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 1578,106561,Cash On Delivery,Success,Txn40801549Hk,2024-09-01
 1579,115084,Debit Card,Success,Txn82381098Bu,2023-08-25
 1580,119753,Wallet,Success,Txn51122832Ei,2023-02-01
-1581,113174,Upi,Success,,2024-08-01
+1581,113174,Upi,Success,UNKNOWN_TXN,2024-08-01
 1582,114436,Credit Card,Success,Txn91170645Hw,2023-05-25
 1583,116430,Upi,Success,Txn09281555Lp,2023-06-07
 1584,103760,Debit Card,Success,Txn58131897Uz,2023-10-25
@@ -1587,7 +1587,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 1588,117461,Net Banking,Success,Txn42040363Qq,2023-09-29
 1589,109335,Upi,Refunded,Txn55912540Hs,2023-09-30
 1590,116952,Upi,Success,Txn45127646Ku,2024-03-29
-1591,102884,Net Banking,Success,,2023-10-04
+1591,102884,Net Banking,Success,UNKNOWN_TXN,2023-10-04
 1592,104352,Cash On Delivery,Pending,Txn02205206Fc,2024-08-13
 1593,114872,Debit Card,Failed,Txn63791415Bv,2024-04-04
 1594,103169,Cash On Delivery,Success,Txn68069304Ed,2023-08-09
@@ -1650,7 +1650,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 1651,100535,Net Banking,Pending,Txn71951154Sc,2023-11-30
 1652,109877,Wallet,Success,Txn06546438Fj,2023-08-26
 1653,117228,Upi,Success,Txn80939514Bq,2023-06-04
-1654,106081,Upi,Success,,2023-03-27
+1654,106081,Upi,Success,UNKNOWN_TXN,2023-03-27
 1655,102513,Upi,Refunded,Txn10570578Xf,2024-05-23
 1656,107628,Net Banking,Failed,Txn97787351Cj,2024-09-16
 1657,116111,Cash On Delivery,Success,Txn57940845Km,2023-03-24
@@ -1705,7 +1705,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 1706,107880,Debit Card,Success,Txn64172623Vk,2023-07-03
 1707,107227,Credit Card,Failed,Txn04173487My,2024-07-19
 1708,105408,Wallet,Success,Txn44130568Iw,2023-08-11
-1709,115683,Credit Card,Success,,2024-01-05
+1709,115683,Credit Card,Success,UNKNOWN_TXN,2024-01-05
 1710,106652,Upi,Success,Txn13991428Qi,2024-06-17
 1711,105846,Credit Card,Success,Txn78508673Tq,2024-02-05
 1712,112690,Cash On Delivery,Pending,Txn54866084Ch,2023-12-24
@@ -1733,7 +1733,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 1734,110636,Credit Card,Refunded,Txn05600334At,2023-04-09
 1735,110651,Cash On Delivery,Pending,Txn28594306Mu,2023-05-20
 1736,115590,Wallet,Success,Txn31094385Re,2023-04-23
-1737,116495,Upi,Success,,2023-07-04
+1737,116495,Upi,Success,UNKNOWN_TXN,2023-07-04
 1738,100238,Net Banking,Success,Txn15123648Cl,2024-11-05
 1739,109362,Wallet,Success,Txn10933807Rp,2023-06-01
 1740,107943,Cash On Delivery,Success,Txn42523305Vz,2024-11-19
@@ -2028,7 +2028,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 2029,105933,Debit Card,Success,Txn54109025Em,2024-05-04
 2030,106078,Cash On Delivery,Failed,Txn86996337Na,2023-10-04
 2031,120272,Net Banking,Success,Txn88753270Ib,2024-10-16
-2032,117423,Credit Card,Success,,2024-11-04
+2032,117423,Credit Card,Success,UNKNOWN_TXN,2024-11-04
 2033,100676,Net Banking,Success,Txn50116276Dv,2024-06-05
 2034,111772,Net Banking,Success,Txn53305871Ch,2024-05-27
 2035,106628,Upi,Refunded,Txn12314522Ye,2024-08-05
@@ -2417,7 +2417,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 2420,120316,Cash On Delivery,Success,Txn24783805Qk,2024-01-05
 2421,114818,Credit Card,Success,Txn92073836Sj,2023-05-23
 2422,100821,Upi,Success,Txn01508593Ow,2024-10-26
-2423,118018,Net Banking,Success,,2024-08-26
+2423,118018,Net Banking,Success,UNKNOWN_TXN,2024-08-26
 2424,114043,Cash On Delivery,Success,Txn41636083Cs,2024-11-13
 2425,111687,Debit Card,Refunded,Txn40665636Mo,2023-03-30
 2426,115614,Net Banking,Success,Txn41653308Ko,2023-01-27
@@ -2446,7 +2446,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 2449,100482,Net Banking,Success,Txn97852440Wh,2024-03-18
 2450,115710,Net Banking,Refunded,Txn11655836Wd,2024-10-19
 2451,100641,Credit Card,Failed,Txn53438596Hc,2024-05-19
-2452,104703,Cash On Delivery,Success,,2023-09-06
+2452,104703,Cash On Delivery,Success,UNKNOWN_TXN,2023-09-06
 2453,119019,Credit Card,Refunded,Txn39975708Rq,2023-01-05
 2454,114056,Cash On Delivery,Success,Txn29482060Zx,2023-10-09
 2455,112613,Credit Card,Success,Txn31264693Fs,2024-02-19
@@ -2472,7 +2472,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 2475,116174,Debit Card,Success,Txn59886958Vd,2024-09-28
 2476,108247,Net Banking,Success,Txn78828276Yw,2023-10-10
 2477,101374,Cash On Delivery,Success,Txn47166176Cz,2023-10-23
-2478,109989,Debit Card,Success,,2024-07-28
+2478,109989,Debit Card,Success,UNKNOWN_TXN,2024-07-28
 2479,119186,Cash On Delivery,Success,Txn77051268Iu,2023-11-15
 2480,118413,Credit Card,Success,Txn25972196Kl,2024-08-02
 2481,104448,Debit Card,Success,Txn94799712De,2023-04-24
@@ -2621,7 +2621,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 2624,115197,Net Banking,Success,Txn24146168Cd,2024-09-26
 2625,100854,Net Banking,Success,Txn09675707Tq,2024-12-06
 2626,117078,Net Banking,Success,Txn69600325Ys,2023-12-23
-2627,116615,Upi,Success,,2023-08-29
+2627,116615,Upi,Success,UNKNOWN_TXN,2023-08-29
 2628,113067,Cash On Delivery,Success,Txn87207522Ta,2023-11-18
 2629,118286,Debit Card,Success,Txn63719875Po,2024-02-14
 2630,103774,Upi,Success,Txn19665634Xi,2024-09-06
@@ -2763,7 +2763,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 2766,104196,Credit Card,Success,Txn72527552Ue,2024-07-20
 2767,104024,Net Banking,Success,Txn75744583Bw,2024-10-03
 2768,119790,Net Banking,Success,Txn86913517Ig,2023-01-11
-2769,116928,Cash On Delivery,Success,,2024-08-10
+2769,116928,Cash On Delivery,Success,UNKNOWN_TXN,2024-08-10
 2770,114622,Net Banking,Success,Txn99793578Nv,2023-09-13
 2771,113977,Net Banking,Success,Txn33101275Ef,2024-03-07
 2772,108626,Net Banking,Success,Txn42744221Ry,2024-04-25
@@ -2889,7 +2889,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 2892,100325,Debit Card,Success,Txn71549857Al,2023-10-04
 2893,111040,Upi,Success,Txn54395751Vb,2023-09-01
 2894,107234,Debit Card,Failed,Txn05082748Nd,2023-10-29
-2895,109485,Credit Card,Success,,2024-09-07
+2895,109485,Credit Card,Success,UNKNOWN_TXN,2024-09-07
 2896,103624,Net Banking,Success,Txn90002194Aw,2024-07-29
 2897,110138,Net Banking,Success,Txn37122273Ae,2024-10-28
 2898,103908,Credit Card,Success,Txn06494007Mt,2024-02-29
@@ -2960,7 +2960,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 2964,106698,Cash On Delivery,Success,Txn77788388Zo,2024-03-08
 2965,110806,Cash On Delivery,Success,Txn10806050Zw,2023-11-12
 2966,112600,Credit Card,Failed,Txn53527961Hn,2024-08-31
-2967,118216,Upi,Success,,2024-05-11
+2967,118216,Upi,Success,UNKNOWN_TXN,2024-05-11
 2968,104469,Wallet,Success,Txn94820014Vg,2023-08-07
 2969,115463,Cash On Delivery,Success,Txn86875143Tc,2023-10-20
 2970,120410,Credit Card,Success,Txn12316114Gf,2024-02-16
@@ -3101,7 +3101,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 3105,105452,Debit Card,Refunded,Txn11915308Ho,2023-03-08
 3106,111094,Cash On Delivery,Success,Txn41379969Dw,2023-11-29
 3107,102464,Debit Card,Success,Txn50659649Ja,2024-03-16
-3108,109236,Cash On Delivery,Failed,,2023-08-15
+3108,109236,Cash On Delivery,Failed,UNKNOWN_TXN,2023-08-15
 3109,105421,Credit Card,Refunded,Txn15748935Ad,2024-12-18
 3110,108744,Net Banking,Success,Txn57184366Nm,2023-08-19
 3111,102907,Cash On Delivery,Success,Txn09245847Ub,2024-07-20
@@ -3207,7 +3207,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 3211,101076,Debit Card,Success,Txn38706679Tt,2024-10-21
 3212,116654,Wallet,Success,Txn50901930Xo,2023-05-18
 3213,112357,Credit Card,Success,Txn39303021Em,2024-03-27
-3214,117808,Cash On Delivery,Success,,2024-10-24
+3214,117808,Cash On Delivery,Success,UNKNOWN_TXN,2024-10-24
 3215,120155,Cash On Delivery,Success,Txn01050307Ov,2024-09-29
 3216,113738,Wallet,Success,Txn38837567Us,2023-04-16
 3217,107831,Cash On Delivery,Failed,Txn24964715Vn,2023-05-13
@@ -3218,7 +3218,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 3222,106422,Wallet,Success,Txn75001244Ab,2024-01-20
 3223,113083,Credit Card,Failed,Txn12858899Ws,2023-05-23
 3224,112816,Cash On Delivery,Success,Txn38161268Bf,2024-10-30
-3225,109651,Credit Card,Pending,,2023-03-02
+3225,109651,Credit Card,Pending,UNKNOWN_TXN,2023-03-02
 3226,116947,Credit Card,Success,Txn63310856Xa,2023-01-31
 3227,115141,Cash On Delivery,Success,Txn97930025Qv,2023-09-25
 3228,106098,Net Banking,Success,Txn61203736Ud,2023-09-28
@@ -3533,7 +3533,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 3537,115144,Cash On Delivery,Success,Txn09442794Pd,2023-12-26
 3538,101193,Cash On Delivery,Failed,Txn02313328Xn,2023-10-12
 3539,100993,Cash On Delivery,Success,Txn41978026Tx,2024-11-17
-3540,115976,Net Banking,Success,,2024-01-16
+3540,115976,Net Banking,Success,UNKNOWN_TXN,2024-01-16
 3541,105278,Wallet,Success,Txn61791338Ez,2023-11-02
 3542,120440,Credit Card,Success,Txn44769951Hx,2024-06-28
 3543,102293,Credit Card,Success,Txn67598259Hv,2023-03-27
@@ -3701,7 +3701,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 3705,115756,Debit Card,Refunded,Txn67153836Sy,2023-07-11
 3706,103391,Upi,Success,Txn96909777We,2024-09-15
 3707,115047,Debit Card,Success,Txn19308362Xe,2023-10-05
-3708,106366,Debit Card,Success,,2023-05-09
+3708,106366,Debit Card,Success,UNKNOWN_TXN,2023-05-09
 3709,110622,Upi,Success,Txn31549234Kb,2023-12-09
 3710,106622,Debit Card,Success,Txn41004887Vu,2024-02-08
 3711,113863,Cash On Delivery,Failed,Txn03628651Wm,2023-03-18
@@ -3802,7 +3802,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 3806,106939,Net Banking,Refunded,Txn12979119Ls,2023-11-15
 3807,114351,Wallet,Success,Txn13074130Fi,2024-05-09
 3808,105268,Debit Card,Success,Txn17399611Xs,2023-09-10
-3809,114062,Cash On Delivery,Success,,2023-03-31
+3809,114062,Cash On Delivery,Success,UNKNOWN_TXN,2023-03-31
 3810,103366,Credit Card,Success,Txn23574821Fr,2023-05-28
 3811,118969,Debit Card,Failed,Txn48079584Sq,2023-08-29
 3812,116043,Cash On Delivery,Success,Txn86448429Wa,2024-06-09
@@ -3939,7 +3939,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 3943,106947,Credit Card,Pending,Txn58333444Jv,2023-09-29
 3944,103136,Wallet,Success,Txn06611029Ub,2024-01-24
 3945,106125,Wallet,Success,Txn24538969Gf,2023-08-27
-3946,118786,Debit Card,Failed,,2023-05-11
+3946,118786,Debit Card,Failed,UNKNOWN_TXN,2023-05-11
 3947,113676,Debit Card,Refunded,Txn90872942Av,2023-12-10
 3948,113411,Wallet,Success,Txn43766950Sm,2023-08-11
 3949,107820,Credit Card,Failed,Txn88513755No,2024-09-12
@@ -3975,7 +3975,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 3979,117472,Credit Card,Success,Txn61188150Ls,2023-11-04
 3980,102581,Credit Card,Failed,Txn50880475Ou,2023-05-23
 3981,115481,Upi,Success,Txn94261704Gf,2024-08-08
-3982,116101,Wallet,Success,,2023-11-16
+3982,116101,Wallet,Success,UNKNOWN_TXN,2023-11-16
 3983,105875,Cash On Delivery,Success,Txn34574507Op,2024-03-20
 3984,112281,Wallet,Success,Txn92476797Oq,2024-10-25
 3985,106896,Upi,Success,Txn61763074Ue,2024-06-02
@@ -4031,7 +4031,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 4035,117796,Net Banking,Success,Txn97608926La,2024-07-06
 4036,100649,Credit Card,Success,Txn45216184Sw,2024-11-24
 4037,112217,Debit Card,Success,Txn76636846Or,2023-07-17
-4038,106542,Credit Card,Success,,2023-02-20
+4038,106542,Credit Card,Success,UNKNOWN_TXN,2023-02-20
 4039,114772,Credit Card,Success,Txn42997704Oi,2023-08-15
 4040,111823,Credit Card,Success,Txn91392646Jw,2024-05-22
 4041,117688,Cash On Delivery,Success,Txn96728741Va,2023-12-06
@@ -4235,7 +4235,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 4239,116097,Cash On Delivery,Success,Txn20823773Po,2023-02-12
 4240,101237,Debit Card,Success,Txn71803982Ix,2024-01-15
 4241,108849,Net Banking,Success,Txn82775374Dy,2023-01-17
-4242,102362,Debit Card,Success,,2024-06-08
+4242,102362,Debit Card,Success,UNKNOWN_TXN,2024-06-08
 4243,100757,Wallet,Refunded,Txn75042799Nd,2023-07-19
 4244,100779,Credit Card,Success,Txn99902614Qg,2024-01-19
 4245,119387,Upi,Pending,Txn01300760Kv,2023-05-29
@@ -4323,7 +4323,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 4327,109587,Debit Card,Success,Txn30086536Zh,2024-08-14
 4328,117813,Cash On Delivery,Success,Txn79596827Hd,2024-04-06
 4329,111541,Cash On Delivery,Success,Txn18717265Bh,2023-08-06
-4330,102673,Cash On Delivery,Refunded,,2024-07-22
+4330,102673,Cash On Delivery,Refunded,UNKNOWN_TXN,2024-07-22
 4331,101373,Credit Card,Success,Txn03926729Ei,2023-05-31
 4332,115256,Credit Card,Success,Txn38755491Ty,2024-04-10
 4333,108478,Upi,Success,Txn32304109In,2023-06-08
@@ -4388,7 +4388,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 4393,113129,Upi,Success,Txn08887159Wj,2024-05-10
 4394,110463,Upi,Success,Txn04490943Nl,2024-06-29
 4395,118353,Cash On Delivery,Success,Txn18543263Ks,2023-02-28
-4396,109298,Wallet,Failed,,2023-04-20
+4396,109298,Wallet,Failed,UNKNOWN_TXN,2023-04-20
 4397,114632,Cash On Delivery,Success,Txn82263989Xb,2024-08-21
 4398,116073,Debit Card,Success,Txn98815742Pl,2024-12-31
 4399,103355,Debit Card,Success,Txn27589614Um,2024-01-25
@@ -4401,7 +4401,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 4406,116861,Net Banking,Success,Txn06978469Wi,2023-07-29
 4407,106367,Cash On Delivery,Success,Txn10116605Eb,2023-04-05
 4408,101044,Debit Card,Success,Txn45899470Tk,2024-03-23
-4409,114498,Net Banking,Success,,2024-09-28
+4409,114498,Net Banking,Success,UNKNOWN_TXN,2024-09-28
 4410,110057,Upi,Refunded,Txn17585420Lv,2024-10-23
 4411,111558,Upi,Success,Txn38594387Do,2024-01-05
 4412,104249,Net Banking,Success,Txn76435375Pf,2023-01-12
@@ -4475,7 +4475,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 4480,107890,Cash On Delivery,Pending,Txn89422044Mq,2023-04-14
 4481,119326,Cash On Delivery,Failed,Txn88943234Uk,2023-09-10
 4482,104245,Wallet,Success,Txn16586409Kq,2024-01-02
-4483,115781,Credit Card,Pending,,2024-07-28
+4483,115781,Credit Card,Pending,UNKNOWN_TXN,2024-07-28
 4484,112356,Wallet,Failed,Txn43403132Sg,2023-06-10
 4485,101019,Cash On Delivery,Success,Txn45919055Up,2024-04-10
 4486,108967,Credit Card,Success,Txn17243628Nq,2024-08-09
@@ -4534,7 +4534,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 4539,112428,Upi,Refunded,Txn80897214Pj,2023-03-12
 4540,100749,Cash On Delivery,Pending,Txn38784452Np,2023-01-24
 4541,101791,Cash On Delivery,Success,Txn01222256Ei,2024-08-03
-4542,102938,Upi,Success,,2023-11-21
+4542,102938,Upi,Success,UNKNOWN_TXN,2023-11-21
 4543,103363,Cash On Delivery,Success,Txn68369182Bs,2024-06-12
 4544,104038,Cash On Delivery,Failed,Txn30379167Ur,2024-03-25
 4545,113770,Wallet,Success,Txn96542798Ul,2024-07-12
@@ -4823,7 +4823,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 4828,119176,Debit Card,Success,Txn12953011Ad,2024-07-23
 4829,110809,Debit Card,Success,Txn11502330Lp,2023-09-28
 4830,108933,Cash On Delivery,Success,Txn10201834Js,2023-01-08
-4831,116767,Debit Card,Success,,2023-03-16
+4831,116767,Debit Card,Success,UNKNOWN_TXN,2023-03-16
 4832,105024,Net Banking,Success,Txn82082255Sf,2024-12-11
 4833,118328,Wallet,Success,Txn64702292Yp,2023-04-15
 4834,112123,Credit Card,Success,Txn38146633Sd,2024-04-29
@@ -4863,7 +4863,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 4868,114808,Upi,Success,Txn94909218Pf,2023-09-22
 4869,110186,Credit Card,Success,Txn69222805Ed,2023-09-18
 4870,117746,Credit Card,Success,Txn47900623Di,2024-06-05
-4871,103940,Net Banking,Failed,,2023-11-03
+4871,103940,Net Banking,Failed,UNKNOWN_TXN,2023-11-03
 4872,116259,Cash On Delivery,Failed,Txn15799964Rr,2024-02-14
 4873,113039,Net Banking,Success,Txn78978517Zf,2023-03-13
 4874,104125,Credit Card,Success,Txn28599485Gb,2024-10-15
@@ -4927,7 +4927,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 4932,114884,Wallet,Failed,Txn49712594Iu,2024-07-26
 4933,109850,Upi,Success,Txn91525734Cp,2023-02-25
 4934,111335,Debit Card,Failed,Txn47026091Sf,2023-12-03
-4935,114192,Cash On Delivery,Success,,2023-11-01
+4935,114192,Cash On Delivery,Success,UNKNOWN_TXN,2023-11-01
 4936,110987,Debit Card,Success,Txn66993507Fa,2024-01-08
 4937,106637,Wallet,Success,Txn57227588Le,2024-08-27
 4938,118735,Upi,Success,Txn89530034Lq,2024-02-22
@@ -4949,7 +4949,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 4954,107597,Credit Card,Refunded,Txn98003323Vm,2023-08-01
 4955,110854,Credit Card,Success,Txn33327156Jd,2023-06-06
 4956,101459,Upi,Success,Txn55769611Tz,2023-09-14
-4957,103921,Cash On Delivery,Failed,,2023-03-10
+4957,103921,Cash On Delivery,Failed,UNKNOWN_TXN,2023-03-10
 4958,102497,Credit Card,Success,Txn14555858Br,2024-08-18
 4959,106513,Cash On Delivery,Success,Txn09350315Hc,2023-06-10
 4960,111473,Net Banking,Success,Txn34532037Ue,2023-06-07
@@ -4993,7 +4993,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 4998,102643,Net Banking,Success,Txn29747239Ji,2023-12-10
 4999,105285,Credit Card,Success,Txn39504648Sf,2023-03-08
 5000,112441,Cash On Delivery,Success,Txn15291569Sk,2023-05-29
-5001,114789,Wallet,Success,,2023-10-15
+5001,114789,Wallet,Success,UNKNOWN_TXN,2023-10-15
 5002,117498,Wallet,Success,Txn33023775Zk,2023-05-11
 5003,101719,Upi,Success,Txn20796731Wu,2023-11-05
 5004,114986,Wallet,Success,Txn01664778Lu,2024-06-08
@@ -5100,7 +5100,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 5105,106840,Credit Card,Failed,Txn93114504Yl,2024-10-21
 5106,104427,Net Banking,Success,Txn97680750Ue,2024-01-26
 5107,100478,Net Banking,Refunded,Txn52131649Cl,2024-01-14
-5108,114665,Wallet,Success,,2023-02-04
+5108,114665,Wallet,Success,UNKNOWN_TXN,2023-02-04
 5109,119238,Net Banking,Success,Txn47193978Fg,2024-03-19
 5110,101110,Credit Card,Success,Txn52907788Ex,2024-06-17
 5111,109259,Net Banking,Success,Txn25517281Or,2023-05-14
@@ -5316,7 +5316,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 5321,112723,Debit Card,Success,Txn22481231Ia,2023-06-04
 5322,119969,Debit Card,Success,Txn51194214Zw,2024-05-02
 5323,110185,Debit Card,Pending,Txn61100852Yk,2023-05-31
-5324,116665,Credit Card,Success,,2024-03-30
+5324,116665,Credit Card,Success,UNKNOWN_TXN,2024-03-30
 5325,116045,Net Banking,Success,Txn84891454Qo,2024-12-24
 5326,106199,Cash On Delivery,Success,Txn32732431Hj,2024-04-10
 5327,111581,Wallet,Success,Txn31142852Ax,2024-07-15
@@ -5332,7 +5332,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 5337,109556,Net Banking,Success,Txn09345755Fk,2024-04-20
 5338,106641,Upi,Success,Txn05670548Lu,2023-07-18
 5339,108772,Upi,Failed,Txn37063884Hw,2024-02-29
-5340,115636,Debit Card,Success,,2024-11-14
+5340,115636,Debit Card,Success,UNKNOWN_TXN,2024-11-14
 5341,101843,Upi,Success,Txn75185502Or,2024-08-21
 5342,101688,Upi,Success,Txn52481808Pd,2024-09-02
 5343,117073,Debit Card,Refunded,Txn31688486Tn,2024-11-18
@@ -5420,7 +5420,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 5425,105765,Credit Card,Failed,Txn51984062Si,2024-12-30
 5426,114643,Upi,Success,Txn47473734Ef,2023-08-20
 5427,106649,Credit Card,Success,Txn98220289Bc,2023-01-25
-5428,104860,Debit Card,Success,,2023-02-14
+5428,104860,Debit Card,Success,UNKNOWN_TXN,2023-02-14
 5429,118711,Cash On Delivery,Success,Txn54312217Fm,2023-03-13
 5430,100174,Debit Card,Success,Txn17133000Ua,2024-09-12
 5431,106870,Cash On Delivery,Success,Txn33685158Ct,2023-09-10
@@ -5548,7 +5548,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 5553,118632,Credit Card,Success,Txn13131477Tz,2024-01-09
 5554,106164,Credit Card,Success,Txn79801710Lh,2023-10-11
 5555,104544,Cash On Delivery,Failed,Txn74345324Od,2024-04-26
-5556,100797,Credit Card,Success,,2023-11-16
+5556,100797,Credit Card,Success,UNKNOWN_TXN,2023-11-16
 5557,111035,Debit Card,Success,Txn41948133Dk,2024-12-06
 5558,102392,Wallet,Success,Txn72012325Dt,2024-05-26
 5559,102521,Cash On Delivery,Success,Txn01432051De,2024-03-05
@@ -5703,7 +5703,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 5708,105560,Cash On Delivery,Success,Txn41364076Cn,2023-11-09
 5709,103777,Upi,Success,Txn70029578Wx,2024-01-26
 5710,115404,Cash On Delivery,Success,Txn53436092Vl,2023-12-07
-5711,117147,Credit Card,Success,,2024-11-27
+5711,117147,Credit Card,Success,UNKNOWN_TXN,2024-11-27
 5712,117100,Net Banking,Refunded,Txn53215320Ys,2024-11-29
 5713,108489,Upi,Success,Txn49620128Eu,2024-04-24
 5714,101460,Credit Card,Refunded,Txn45525556Sc,2023-07-15
@@ -5776,7 +5776,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 5781,110291,Net Banking,Success,Txn61063649Qv,2023-09-05
 5782,119001,Cash On Delivery,Success,Txn36975033Dp,2024-04-24
 5783,112448,Debit Card,Refunded,Txn59659776Nu,2024-02-01
-5784,108017,Upi,Success,,2024-02-20
+5784,108017,Upi,Success,UNKNOWN_TXN,2024-02-20
 5785,102989,Net Banking,Success,Txn47759675Da,2023-11-24
 5786,116839,Wallet,Failed,Txn11811010Sl,2023-05-27
 5787,116330,Debit Card,Success,Txn23228299Vd,2023-07-17
@@ -5965,7 +5965,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 5971,113908,Cash On Delivery,Success,Txn29117122Ok,2023-08-16
 5972,105221,Upi,Success,Txn43089460Lt,2024-10-18
 5973,101149,Net Banking,Success,Txn96794424Sh,2024-08-14
-5974,114211,Upi,Success,,2023-12-24
+5974,114211,Upi,Success,UNKNOWN_TXN,2023-12-24
 5975,103296,Wallet,Success,Txn59696120Lj,2024-07-11
 5976,110928,Net Banking,Success,Txn41666992Ae,2024-07-15
 5977,112921,Credit Card,Success,Txn61817358Ke,2024-05-17
@@ -6021,7 +6021,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 6027,113338,Upi,Success,Txn12507485Bz,2024-09-26
 6028,119139,Net Banking,Success,Txn08785962Hj,2023-01-25
 6029,112541,Cash On Delivery,Success,Txn30819957Ws,2024-12-05
-6030,103203,Cash On Delivery,Refunded,,2024-05-13
+6030,103203,Cash On Delivery,Refunded,UNKNOWN_TXN,2024-05-13
 6031,119313,Debit Card,Success,Txn82116107Jl,2023-06-17
 6032,102403,Debit Card,Success,Txn00684159Yn,2024-10-27
 6033,118949,Wallet,Success,Txn24045602Tt,2024-07-12
@@ -6073,7 +6073,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 6079,101885,Wallet,Success,Txn04509123Jw,2023-12-11
 6080,115995,Debit Card,Success,Txn74282663Kg,2024-10-07
 6081,114851,Debit Card,Success,Txn18726150Od,2024-02-22
-6082,115181,Wallet,Success,,2024-07-13
+6082,115181,Wallet,Success,UNKNOWN_TXN,2024-07-13
 6083,112766,Wallet,Refunded,Txn69546313Zj,2024-01-22
 6084,118910,Cash On Delivery,Success,Txn23550827Kc,2024-10-21
 6085,105225,Credit Card,Success,Txn71397454In,2023-10-11
@@ -6428,7 +6428,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 6434,103883,Debit Card,Success,Txn41270773Dr,2023-09-03
 6435,116550,Debit Card,Success,Txn71042353Wc,2024-03-17
 6436,112127,Debit Card,Success,Txn20265454Nf,2023-07-29
-6437,108093,Upi,Success,,2024-07-30
+6437,108093,Upi,Success,UNKNOWN_TXN,2024-07-30
 6438,106203,Net Banking,Refunded,Txn67414853Ua,2024-09-04
 6439,111015,Net Banking,Failed,Txn47390719Id,2023-09-22
 6440,111257,Debit Card,Success,Txn52440015Vy,2024-08-19
@@ -6492,7 +6492,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 6498,113595,Debit Card,Success,Txn26854054Yh,2024-07-11
 6499,115835,Net Banking,Failed,Txn59565720Db,2024-09-15
 6500,102272,Debit Card,Success,Txn40462541Vw,2023-05-11
-6501,112936,Credit Card,Success,,2024-08-15
+6501,112936,Credit Card,Success,UNKNOWN_TXN,2024-08-15
 6502,103557,Cash On Delivery,Success,Txn83082802Jq,2024-09-28
 6503,106608,Cash On Delivery,Success,Txn20616565Yx,2024-07-15
 6504,103902,Cash On Delivery,Success,Txn44723363Gn,2024-04-04
@@ -6582,7 +6582,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 6588,117917,Net Banking,Success,Txn41981958Jp,2023-12-25
 6589,100933,Cash On Delivery,Success,Txn53443361Vy,2023-08-21
 6590,114124,Debit Card,Success,Txn02440751Al,2023-07-26
-6591,115330,Wallet,Success,,2024-04-16
+6591,115330,Wallet,Success,UNKNOWN_TXN,2024-04-16
 6592,112309,Upi,Success,Txn79860345Hb,2024-06-21
 6593,112478,Debit Card,Refunded,Txn28256649Vn,2024-04-20
 6594,112035,Credit Card,Success,Txn50403784Xq,2023-01-18
@@ -6665,7 +6665,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 6672,108422,Upi,Success,Txn71784699Wy,2023-06-26
 6673,115425,Cash On Delivery,Success,Txn51236780Jl,2023-09-20
 6674,115633,Net Banking,Success,Txn56149249Ll,2024-06-01
-6675,104455,Cash On Delivery,Success,,2023-01-25
+6675,104455,Cash On Delivery,Success,UNKNOWN_TXN,2023-01-25
 6676,111949,Net Banking,Success,Txn90638302Ee,2023-02-17
 6677,115373,Debit Card,Refunded,Txn60433912Ai,2023-05-24
 6678,103963,Upi,Success,Txn27763627Dy,2024-01-06
@@ -6922,7 +6922,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 6929,106077,Net Banking,Success,Txn65471332Wo,2024-06-20
 6930,101861,Debit Card,Success,Txn57251908Sz,2023-12-16
 6931,105188,Cash On Delivery,Success,Txn60024927Uf,2024-07-26
-6932,119047,Credit Card,Success,,2023-11-18
+6932,119047,Credit Card,Success,UNKNOWN_TXN,2023-11-18
 6933,107170,Credit Card,Refunded,Txn04712963Qp,2023-08-26
 6934,116156,Debit Card,Success,Txn07452450Eq,2023-11-12
 6935,100067,Wallet,Success,Txn85257272Wg,2024-10-29
@@ -7235,7 +7235,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 7242,111325,Cash On Delivery,Success,Txn85950066Fv,2024-06-24
 7243,116890,Debit Card,Success,Txn08557861Ya,2024-05-22
 7244,107189,Wallet,Success,Txn80167460Cj,2024-12-28
-7245,100804,Debit Card,Success,,2024-08-04
+7245,100804,Debit Card,Success,UNKNOWN_TXN,2024-08-04
 7246,100351,Debit Card,Success,Txn38958671Yx,2023-04-03
 7247,106902,Credit Card,Refunded,Txn60815419Td,2024-06-06
 7248,119962,Cash On Delivery,Success,Txn17543502Je,2024-11-30
@@ -7295,7 +7295,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 7302,107538,Wallet,Refunded,Txn09617913Jb,2023-04-05
 7303,110920,Credit Card,Success,Txn12998033Vw,2024-08-23
 7304,101355,Credit Card,Success,Txn35574020Dz,2024-07-08
-7305,100057,Debit Card,Failed,,2023-10-03
+7305,100057,Debit Card,Failed,UNKNOWN_TXN,2023-10-03
 7306,104306,Cash On Delivery,Success,Txn68051826Uh,2024-01-27
 7307,109913,Upi,Success,Txn93921699Zt,2024-08-23
 7308,103164,Debit Card,Success,Txn30130560Qi,2024-06-13
@@ -7353,7 +7353,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 7360,104530,Debit Card,Success,Txn04551612Qg,2023-12-01
 7361,120023,Credit Card,Success,Txn27601853Gh,2023-04-04
 7362,117845,Wallet,Success,Txn47450721Yf,2023-12-09
-7363,100600,Debit Card,Success,,2023-06-03
+7363,100600,Debit Card,Success,UNKNOWN_TXN,2023-06-03
 7364,108220,Wallet,Success,Txn00135393Ws,2023-05-26
 7365,115780,Debit Card,Refunded,Txn00106744Nu,2024-08-24
 7366,105815,Debit Card,Failed,Txn86367828Rh,2023-12-29
@@ -7467,10 +7467,10 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 7474,115241,Net Banking,Success,Txn58215818Vi,2024-09-06
 7475,110046,Upi,Success,Txn72261079Wt,2024-05-18
 7476,101856,Upi,Success,Txn50016688Fs,2024-09-11
-7477,106676,Upi,Success,,2023-01-18
+7477,106676,Upi,Success,UNKNOWN_TXN,2023-01-18
 7478,106309,Wallet,Refunded,Txn82576517Ag,2024-04-28
 7479,106145,Upi,Success,Txn55708817Ps,2024-06-09
-7480,105592,Debit Card,Success,,2023-04-28
+7480,105592,Debit Card,Success,UNKNOWN_TXN,2023-04-28
 7481,114567,Credit Card,Success,Txn86211502Aj,2023-01-07
 7482,104756,Cash On Delivery,Success,Txn71648192Ez,2024-04-06
 7483,110142,Net Banking,Success,Txn20106731Gg,2024-03-12
@@ -7615,14 +7615,14 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 7622,112270,Debit Card,Failed,Txn59114279Su,2023-08-29
 7623,117470,Wallet,Success,Txn62305562Fw,2023-11-25
 7624,104101,Credit Card,Success,Txn62716623Wn,2023-05-20
-7625,104899,Net Banking,Failed,,2024-05-20
+7625,104899,Net Banking,Failed,UNKNOWN_TXN,2024-05-20
 7626,116005,Debit Card,Success,Txn46691488Ff,2024-09-08
 7627,104657,Cash On Delivery,Success,Txn63225226Mx,2024-09-23
 7628,117223,Credit Card,Success,Txn99461438Gh,2024-06-07
 7629,109105,Net Banking,Success,Txn59302397Po,2023-05-17
 7630,110292,Upi,Success,Txn86435017Mb,2024-03-26
 7631,111231,Cash On Delivery,Success,Txn40224641Em,2024-01-07
-7632,112529,Cash On Delivery,Success,,2024-11-04
+7632,112529,Cash On Delivery,Success,UNKNOWN_TXN,2024-11-04
 7633,117857,Credit Card,Success,Txn55853755Hp,2024-01-01
 7634,117288,Debit Card,Success,Txn51825987Zc,2024-08-21
 7635,102705,Cash On Delivery,Success,Txn78530609Ek,2024-10-04
@@ -7859,7 +7859,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 7866,108784,Credit Card,Success,Txn96273363Ju,2024-04-30
 7867,113473,Net Banking,Success,Txn86019652Wn,2024-02-01
 7868,114951,Upi,Success,Txn65698376Yj,2024-10-30
-7869,114349,Credit Card,Success,,2023-04-27
+7869,114349,Credit Card,Success,UNKNOWN_TXN,2023-04-27
 7870,108083,Debit Card,Pending,Txn09847411Rx,2024-12-12
 7871,119947,Net Banking,Failed,Txn38303658Pu,2024-08-13
 7872,114243,Upi,Success,Txn29321196Nr,2023-12-15
@@ -7894,7 +7894,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 7901,101003,Net Banking,Success,Txn60573154Ut,2024-05-30
 7902,118771,Credit Card,Failed,Txn92446397Hg,2023-12-01
 7903,104556,Credit Card,Success,Txn48660335Yr,2023-05-25
-7904,113048,Net Banking,Success,,2024-06-19
+7904,113048,Net Banking,Success,UNKNOWN_TXN,2024-06-19
 7905,111551,Cash On Delivery,Success,Txn88653379Of,2023-07-13
 7906,111317,Credit Card,Refunded,Txn86711158Ym,2024-08-24
 7907,117760,Wallet,Success,Txn20120776Jw,2024-06-25
@@ -7995,7 +7995,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 8002,117572,Cash On Delivery,Success,Txn43310276Hv,2023-01-20
 8003,101302,Debit Card,Failed,Txn98938005La,2023-09-26
 8004,112067,Net Banking,Success,Txn00835573Fk,2023-10-31
-8005,111527,Upi,Refunded,,2024-04-14
+8005,111527,Upi,Refunded,UNKNOWN_TXN,2024-04-14
 8006,118640,Net Banking,Pending,Txn32731173Lt,2024-12-13
 8007,119894,Credit Card,Success,Txn76516147Eg,2024-12-08
 8008,113922,Debit Card,Success,Txn26609848Vf,2023-09-28
@@ -8198,7 +8198,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 8205,111130,Upi,Success,Txn49510007Ou,2024-06-21
 8206,103239,Credit Card,Failed,Txn04867532If,2023-12-09
 8207,117256,Debit Card,Success,Txn83663577Nb,2023-03-23
-8208,108240,Net Banking,Success,,2024-03-31
+8208,108240,Net Banking,Success,UNKNOWN_TXN,2024-03-31
 8209,100374,Cash On Delivery,Refunded,Txn74835548Vz,2023-08-02
 8210,118669,Cash On Delivery,Success,Txn31687733Rk,2024-01-16
 8211,111950,Wallet,Success,Txn44924740Sg,2023-12-12
@@ -8363,7 +8363,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 8370,103807,Cash On Delivery,Success,Txn97171635Iz,2023-08-22
 8371,109363,Upi,Success,Txn44132410Bn,2023-10-12
 8372,106316,Cash On Delivery,Success,Txn43819843Wr,2024-07-30
-8373,104432,Upi,Success,,2023-02-15
+8373,104432,Upi,Success,UNKNOWN_TXN,2023-02-15
 8374,108419,Net Banking,Failed,Txn88082824Us,2024-05-10
 8375,109529,Wallet,Failed,Txn50092727Ce,2023-08-23
 8376,101457,Cash On Delivery,Success,Txn27749716Vo,2024-05-11
@@ -8383,7 +8383,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 8390,116393,Net Banking,Success,Txn85567317Qc,2024-05-26
 8391,100452,Debit Card,Failed,Txn61310803Lo,2023-03-05
 8392,111374,Wallet,Success,Txn91084244Rp,2023-07-10
-8393,101318,Net Banking,Failed,,2023-09-11
+8393,101318,Net Banking,Failed,UNKNOWN_TXN,2023-09-11
 8394,109294,Credit Card,Success,Txn22043365Pe,2024-01-02
 8395,115300,Cash On Delivery,Refunded,Txn35587615El,2023-10-17
 8396,100754,Net Banking,Failed,Txn14137177Ib,2023-03-07
@@ -8391,7 +8391,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 8398,108069,Cash On Delivery,Success,Txn43546824Oa,2023-02-19
 8399,113204,Debit Card,Success,Txn85282029Ni,2024-10-03
 8400,101235,Debit Card,Success,Txn86987542Wy,2023-04-27
-8401,119236,Credit Card,Failed,,2023-08-19
+8401,119236,Credit Card,Failed,UNKNOWN_TXN,2023-08-19
 8402,102543,Cash On Delivery,Refunded,Txn40189793Th,2024-09-17
 8403,101538,Net Banking,Refunded,Txn90069893Ii,2024-08-01
 8404,106963,Upi,Success,Txn49024471Cz,2023-04-15
@@ -8706,7 +8706,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 8713,109245,Wallet,Success,Txn71211566Ja,2024-09-30
 8714,104842,Upi,Success,Txn26163279Yj,2024-11-04
 8715,114122,Cash On Delivery,Success,Txn46661703Tw,2024-07-01
-8716,116622,Cash On Delivery,Success,,2024-10-16
+8716,116622,Cash On Delivery,Success,UNKNOWN_TXN,2024-10-16
 8717,103268,Upi,Success,Txn80943939Jb,2024-03-30
 8718,114235,Net Banking,Success,Txn67469262Wc,2024-03-30
 8719,102284,Upi,Refunded,Txn15056662Qn,2023-05-21
@@ -8749,7 +8749,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 8756,102933,Net Banking,Success,Txn29097101Qi,2023-01-21
 8757,119597,Debit Card,Success,Txn09030026Tg,2024-06-24
 8758,116682,Debit Card,Success,Txn55213044Uh,2024-09-02
-8759,120233,Net Banking,Refunded,,2024-09-22
+8759,120233,Net Banking,Refunded,UNKNOWN_TXN,2024-09-22
 8760,112819,Wallet,Success,Txn16689959Nz,2023-10-18
 8761,113385,Wallet,Success,Txn16591836Nb,2024-02-15
 8762,104772,Cash On Delivery,Success,Txn96676345Xb,2024-12-04
@@ -8841,7 +8841,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 8848,118424,Net Banking,Success,Txn26408511Zp,2023-12-20
 8849,100104,Credit Card,Failed,Txn98607614Dv,2023-03-21
 8850,109373,Wallet,Success,Txn12691589Ct,2023-01-26
-8851,115106,Debit Card,Success,,2023-08-12
+8851,115106,Debit Card,Success,UNKNOWN_TXN,2023-08-12
 8852,115318,Cash On Delivery,Refunded,Txn34680494Xn,2023-05-09
 8853,112304,Net Banking,Success,Txn93945919Ei,2023-02-18
 8854,108999,Debit Card,Success,Txn33296980Sj,2024-01-31
@@ -8875,7 +8875,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 8882,115423,Cash On Delivery,Success,Txn34924919Cs,2024-07-25
 8883,106812,Debit Card,Success,Txn90831489Wy,2023-05-19
 8884,117246,Cash On Delivery,Success,Txn18432893Sv,2024-09-20
-8885,105731,Cash On Delivery,Success,,2024-08-01
+8885,105731,Cash On Delivery,Success,UNKNOWN_TXN,2024-08-01
 8886,101830,Debit Card,Success,Txn37298345Lu,2023-04-28
 8887,112926,Credit Card,Success,Txn62060689Ig,2023-02-23
 8888,116074,Credit Card,Success,Txn41853538Pn,2023-04-30
@@ -8896,7 +8896,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 8903,101267,Debit Card,Success,Txn60085690Ni,2023-03-12
 8904,110890,Upi,Failed,Txn49079322Of,2024-04-28
 8905,108002,Cash On Delivery,Success,Txn89358072Xo,2023-07-03
-8906,115110,Debit Card,Refunded,,2023-04-26
+8906,115110,Debit Card,Refunded,UNKNOWN_TXN,2023-04-26
 8907,108611,Wallet,Success,Txn56016465Rl,2023-11-21
 8908,112071,Debit Card,Success,Txn16333042Nt,2024-02-07
 8909,112598,Net Banking,Failed,Txn17554159Os,2023-06-06
@@ -8999,7 +8999,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9007,102906,Net Banking,Refunded,Txn13716580Pe,2024-10-13
 9008,113877,Credit Card,Success,Txn16507569Qg,2023-09-09
 9009,116760,Credit Card,Success,Txn83317927Zz,2023-05-24
-9010,117955,Upi,Success,,2023-08-06
+9010,117955,Upi,Success,UNKNOWN_TXN,2023-08-06
 9011,108414,Credit Card,Failed,Txn53677540Tc,2023-11-28
 9012,103119,Upi,Success,Txn34684724Ew,2024-09-26
 9013,106863,Wallet,Success,Txn12390000Kk,2023-11-16
@@ -9012,7 +9012,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9020,111875,Upi,Success,Txn54687765Ga,2024-09-22
 9021,102505,Debit Card,Success,Txn53345120Gi,2023-08-25
 9022,107349,Debit Card,Success,Txn05989325Pa,2024-09-13
-9023,107027,Credit Card,Refunded,,2023-02-05
+9023,107027,Credit Card,Refunded,UNKNOWN_TXN,2023-02-05
 9024,114207,Upi,Success,Txn56551368Wx,2023-08-24
 9025,105892,Upi,Success,Txn35491321Sg,2023-10-22
 9026,106949,Cash On Delivery,Success,Txn15157253Nf,2024-12-30
@@ -9098,7 +9098,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9106,114273,Upi,Success,Txn50011395Uc,2024-07-25
 9107,110769,Credit Card,Failed,Txn18361188Tf,2024-03-19
 9108,117038,Net Banking,Success,Txn29726487Em,2024-02-09
-9109,104829,Upi,Success,,2023-11-17
+9109,104829,Upi,Success,UNKNOWN_TXN,2023-11-17
 9110,115156,Wallet,Success,Txn05157790Px,2023-01-14
 9111,105415,Credit Card,Success,Txn37549901Cb,2024-10-29
 9112,101186,Credit Card,Success,Txn41671993Uy,2024-04-09
@@ -9174,7 +9174,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9182,115774,Cash On Delivery,Failed,Txn98992368Jr,2023-05-21
 9183,103297,Cash On Delivery,Success,Txn87748059Ta,2023-06-03
 9184,112187,Credit Card,Success,Txn06276710Pj,2024-04-28
-9185,111940,Cash On Delivery,Success,,2024-12-14
+9185,111940,Cash On Delivery,Success,UNKNOWN_TXN,2024-12-14
 9186,119866,Wallet,Success,Txn59402101Yq,2024-04-23
 9187,108888,Credit Card,Success,Txn37588603Kd,2023-12-08
 9188,113787,Upi,Success,Txn76201670Xd,2023-05-10
@@ -9193,7 +9193,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9201,112822,Wallet,Success,Txn48633520Jx,2024-11-21
 9202,107378,Wallet,Success,Txn83368240Vp,2023-02-08
 9203,111407,Cash On Delivery,Success,Txn43814950Bj,2023-01-23
-9204,108577,Debit Card,Success,,2024-06-16
+9204,108577,Debit Card,Success,UNKNOWN_TXN,2024-06-16
 9205,108476,Debit Card,Success,Txn35701321Dc,2024-02-21
 9206,100631,Upi,Pending,Txn13710168Jz,2024-07-28
 9207,115982,Cash On Delivery,Success,Txn47981388Ce,2023-11-01
@@ -9211,7 +9211,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9219,108057,Upi,Failed,Txn59844678Xy,2023-09-14
 9220,118274,Cash On Delivery,Success,Txn94455779Ne,2024-04-07
 9221,106605,Net Banking,Success,Txn45029884Dy,2024-01-17
-9222,102937,Wallet,Success,,2024-02-28
+9222,102937,Wallet,Success,UNKNOWN_TXN,2024-02-28
 9223,108545,Credit Card,Refunded,Txn17140294Sk,2023-11-04
 9224,100055,Net Banking,Refunded,Txn37697947Ag,2023-07-09
 9225,112280,Net Banking,Success,Txn65838870Cl,2023-01-29
@@ -9234,7 +9234,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9242,117207,Net Banking,Success,Txn39413554Dg,2024-11-07
 9243,112878,Upi,Success,Txn68218889Gk,2024-12-16
 9244,109515,Credit Card,Success,Txn61824556Mf,2023-09-14
-9245,118348,Credit Card,Success,,2023-07-12
+9245,118348,Credit Card,Success,UNKNOWN_TXN,2023-07-12
 9246,112525,Wallet,Refunded,Txn34683577Nl,2023-11-05
 9247,109110,Wallet,Success,Txn62906404St,2023-08-17
 9248,102229,Wallet,Success,Txn45590117Ms,2023-07-12
@@ -9311,7 +9311,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9319,114093,Wallet,Success,Txn15185483Ah,2023-08-24
 9320,114488,Wallet,Pending,Txn70074569Gh,2024-04-14
 9321,118516,Wallet,Success,Txn59978297Lo,2023-05-07
-9322,111853,Wallet,Success,,2024-10-15
+9322,111853,Wallet,Success,UNKNOWN_TXN,2024-10-15
 9323,119613,Cash On Delivery,Success,Txn77290655Ed,2023-05-28
 9324,115917,Net Banking,Success,Txn66210303Wp,2023-10-26
 9325,107930,Upi,Success,Txn93164357Nu,2023-09-25
@@ -9350,7 +9350,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9358,114501,Net Banking,Failed,Txn45179221Ox,2023-02-28
 9359,109314,Upi,Success,Txn61789509Sp,2023-06-22
 9360,115682,Wallet,Success,Txn22768794Rk,2023-06-27
-9361,105293,Net Banking,Success,,2024-05-25
+9361,105293,Net Banking,Success,UNKNOWN_TXN,2024-05-25
 9362,107391,Net Banking,Success,Txn41575430Vc,2024-05-05
 9363,106076,Credit Card,Success,Txn22289997Mz,2024-06-30
 9364,113856,Net Banking,Success,Txn63661717Cy,2024-02-03
@@ -9441,7 +9441,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9449,116944,Debit Card,Success,Txn53667242In,2023-02-05
 9450,117192,Cash On Delivery,Success,Txn35935704Sz,2023-08-18
 9451,119715,Wallet,Success,Txn05116243Nj,2023-02-23
-9452,114011,Debit Card,Success,,2024-05-06
+9452,114011,Debit Card,Success,UNKNOWN_TXN,2024-05-06
 9453,110508,Upi,Failed,Txn98587724Ob,2023-03-18
 9454,101937,Debit Card,Success,Txn30479106Cr,2024-04-16
 9455,117681,Net Banking,Success,Txn59615440Zu,2023-08-27
@@ -9510,7 +9510,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9518,108908,Cash On Delivery,Failed,Txn74011102Cr,2023-09-05
 9519,116059,Upi,Success,Txn04713823Me,2024-02-26
 9520,109291,Credit Card,Success,Txn83501272Az,2024-08-06
-9521,102287,Debit Card,Success,,2024-01-15
+9521,102287,Debit Card,Success,UNKNOWN_TXN,2024-01-15
 9522,109915,Debit Card,Success,Txn53772401Jr,2023-09-13
 9523,111610,Wallet,Success,Txn26061448Yv,2023-11-10
 9524,119151,Wallet,Success,Txn21712193Eo,2023-09-22
@@ -9634,7 +9634,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9642,116587,Net Banking,Refunded,Txn49162486Wh,2023-11-30
 9643,110621,Upi,Success,Txn43291062Cq,2023-06-13
 9644,114625,Net Banking,Success,Txn09532298Fn,2024-01-01
-9645,114493,Wallet,Success,,2024-01-04
+9645,114493,Wallet,Success,UNKNOWN_TXN,2024-01-04
 9646,111897,Net Banking,Refunded,Txn27274850Ap,2024-11-07
 9647,104909,Credit Card,Success,Txn73217121Rv,2024-01-25
 9648,100106,Cash On Delivery,Success,Txn83393802Ut,2024-03-25
@@ -9674,7 +9674,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9682,101985,Wallet,Success,Txn61475064De,2023-03-30
 9683,106180,Wallet,Success,Txn38641594Nb,2023-03-09
 9684,106297,Credit Card,Success,Txn62606140Ge,2023-01-13
-9685,105953,Upi,Success,,2024-09-11
+9685,105953,Upi,Success,UNKNOWN_TXN,2024-09-11
 9686,112971,Credit Card,Refunded,Txn28122443Et,2023-11-23
 9687,102571,Upi,Success,Txn74979311Wb,2023-03-26
 9688,102454,Net Banking,Success,Txn98921793Dt,2023-08-30
@@ -9733,7 +9733,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9741,101045,Net Banking,Success,Txn11511705Xl,2024-07-16
 9742,101604,Credit Card,Success,Txn20368953Wd,2024-05-06
 9743,114458,Wallet,Success,Txn14070770Cg,2023-03-22
-9744,118017,Cash On Delivery,Success,,2023-09-07
+9744,118017,Cash On Delivery,Success,UNKNOWN_TXN,2023-09-07
 9745,116877,Debit Card,Refunded,Txn64237015Rd,2024-07-01
 9746,113802,Net Banking,Success,Txn68708546Aq,2024-05-04
 9747,116342,Wallet,Success,Txn49100450Ae,2023-03-02
@@ -9847,7 +9847,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9855,116026,Upi,Success,Txn29211905Kw,2024-07-31
 9856,114066,Upi,Refunded,Txn68804306Sn,2023-03-24
 9857,110263,Net Banking,Success,Txn92974341Cv,2024-02-23
-9858,108533,Cash On Delivery,Success,,2023-01-20
+9858,108533,Cash On Delivery,Success,UNKNOWN_TXN,2023-01-20
 9859,101465,Debit Card,Success,Txn22760529Xo,2023-07-19
 9860,102017,Net Banking,Success,Txn43820034Jw,2024-06-14
 9861,109829,Cash On Delivery,Pending,Txn56175259Fz,2023-01-03
@@ -9904,7 +9904,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9913,109500,Wallet,Success,Txn31036699Xo,2023-05-30
 9914,112837,Net Banking,Success,Txn44458767Hm,2023-07-06
 9915,120213,Credit Card,Success,Txn76645401Nn,2023-01-22
-9916,117650,Wallet,Success,,2024-05-22
+9916,117650,Wallet,Success,UNKNOWN_TXN,2024-05-22
 9917,100425,Cash On Delivery,Success,Txn36051489Gb,2023-08-01
 9918,112162,Upi,Success,Txn81083355Kh,2024-07-30
 9919,100887,Wallet,Failed,Txn55009512Jy,2024-04-07
@@ -9919,7 +9919,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 9928,108522,Upi,Refunded,Txn78501745Rx,2024-08-14
 9929,105718,Net Banking,Success,Txn09459885Rx,2023-11-24
 9930,108252,Debit Card,Success,Txn50850375Yp,2024-09-26
-9931,115342,Upi,Success,,2024-10-08
+9931,115342,Upi,Success,UNKNOWN_TXN,2024-10-08
 9932,103540,Wallet,Success,Txn45388707Xc,2024-08-22
 9933,110903,Upi,Refunded,Txn37917913Lu,2024-02-17
 9934,114447,Wallet,Success,Txn16620208Ov,2023-08-04
@@ -10226,8 +10226,8 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 10236,102756,Net Banking,Refunded,Txn29703771Ws,2024-12-09
 10237,119086,Net Banking,Success,Txn60630669Ky,2023-07-10
 10238,119114,Wallet,Success,Txn06700204Xp,2024-12-26
-10239,115931,Upi,Refunded,,2023-03-25
-10240,119362,Debit Card,Success,,2024-02-13
+10239,115931,Upi,Refunded,UNKNOWN_TXN,2023-03-25
+10240,119362,Debit Card,Success,UNKNOWN_TXN,2024-02-13
 10241,100823,Wallet,Success,Txn89839621Ru,2023-07-20
 10242,103531,Debit Card,Failed,Txn35720041Mh,2023-11-21
 10243,100783,Upi,Success,Txn90308698Al,2024-06-26
@@ -10272,12 +10272,12 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 10282,106418,Wallet,Success,Txn99625420Ze,2024-03-31
 10283,107518,Wallet,Success,Txn43195953Ot,2023-09-16
 10284,113529,Debit Card,Success,Txn53287856Dl,2023-07-18
-10285,114201,Wallet,Success,,2023-08-06
+10285,114201,Wallet,Success,UNKNOWN_TXN,2023-08-06
 10286,102435,Cash On Delivery,Pending,Txn94972397Bh,2024-12-28
 10287,105400,Wallet,Success,Txn53985077Lm,2024-12-22
 10288,118396,Wallet,Success,Txn75655952Wp,2024-10-29
 10289,120478,Debit Card,Success,Txn45181379Hb,2023-10-20
-10290,105253,Credit Card,Success,,2023-11-21
+10290,105253,Credit Card,Success,UNKNOWN_TXN,2023-11-21
 10291,114479,Credit Card,Success,Txn63705722Hk,2023-06-22
 10292,102193,Upi,Success,Txn25988422Kq,2024-02-05
 10293,102249,Upi,Success,Txn55498738Sc,2024-01-12
@@ -10336,7 +10336,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 10346,114611,Credit Card,Success,Txn98329453Aq,2023-11-20
 10347,111041,Wallet,Success,Txn37578511Fv,2024-09-02
 10348,113449,Wallet,Refunded,Txn40584046Cy,2024-05-29
-10349,110821,Net Banking,Success,,2024-04-10
+10349,110821,Net Banking,Success,UNKNOWN_TXN,2024-04-10
 10350,108904,Credit Card,Failed,Txn66742977Sx,2024-02-11
 10351,100675,Credit Card,Success,Txn18905704Ip,2024-11-25
 10352,119958,Credit Card,Success,Txn18650344Rj,2024-08-29
@@ -10476,7 +10476,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 10486,119700,Upi,Refunded,Txn55206739Ke,2023-01-10
 10487,100362,Cash On Delivery,Pending,Txn13084785Qs,2023-10-27
 10488,110956,Cash On Delivery,Success,Txn66582991Eg,2024-07-24
-10489,113212,Cash On Delivery,Refunded,,2024-01-19
+10489,113212,Cash On Delivery,Refunded,UNKNOWN_TXN,2024-01-19
 10490,104178,Cash On Delivery,Success,Txn16407348Zk,2024-04-12
 10491,109238,Credit Card,Success,Txn58593679Kk,2024-10-15
 10492,105779,Net Banking,Success,Txn40495010Sj,2023-12-05
@@ -10598,7 +10598,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 10608,107185,Cash On Delivery,Refunded,Txn90481318Jw,2023-12-09
 10609,100469,Net Banking,Refunded,Txn32521300Mr,2023-10-26
 10610,115952,Debit Card,Success,Txn94354546Hl,2023-07-20
-10611,108296,Wallet,Success,,2024-05-10
+10611,108296,Wallet,Success,UNKNOWN_TXN,2024-05-10
 10612,103818,Debit Card,Failed,Txn20270431Zu,2023-01-22
 10613,107115,Debit Card,Success,Txn32415700Jc,2023-03-07
 10614,107770,Debit Card,Failed,Txn16632930Yf,2024-05-08
@@ -10721,7 +10721,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 10731,113360,Net Banking,Success,Txn47386797Qm,2023-05-04
 10732,107496,Cash On Delivery,Success,Txn21593052Oz,2023-11-11
 10733,118486,Wallet,Success,Txn20695846Vd,2024-11-07
-10734,111960,Cash On Delivery,Success,,2024-03-19
+10734,111960,Cash On Delivery,Success,UNKNOWN_TXN,2024-03-19
 10735,115788,Debit Card,Success,Txn27448983Lz,2024-04-24
 10736,110468,Upi,Success,Txn35526088Tl,2023-02-01
 10737,114801,Credit Card,Success,Txn55113706Ga,2023-12-08
@@ -10779,7 +10779,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 10789,105609,Upi,Success,Txn63873942Yz,2023-03-24
 10790,118341,Net Banking,Success,Txn55948837Og,2024-08-06
 10791,100222,Wallet,Success,Txn89209027Cz,2024-10-22
-10792,116937,Cash On Delivery,Success,,2024-03-19
+10792,116937,Cash On Delivery,Success,UNKNOWN_TXN,2024-03-19
 10793,113775,Cash On Delivery,Failed,Txn96132846Uk,2023-11-15
 10794,104393,Wallet,Failed,Txn72778285Sh,2024-12-17
 10795,106237,Credit Card,Success,Txn41436051Jr,2023-10-03
@@ -11119,7 +11119,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 11130,115703,Cash On Delivery,Success,Txn59865743At,2024-04-01
 11131,106318,Cash On Delivery,Success,Txn14851378Wf,2023-07-16
 11132,115898,Upi,Success,Txn58072946Ww,2023-11-01
-11133,104364,Wallet,Success,,2024-04-05
+11133,104364,Wallet,Success,UNKNOWN_TXN,2024-04-05
 11134,106401,Debit Card,Success,Txn89194851Xq,2023-06-15
 11135,109313,Cash On Delivery,Success,Txn06645128Fd,2023-01-12
 11136,101977,Credit Card,Success,Txn79119054Jy,2024-08-27
@@ -11386,9 +11386,9 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 11397,112891,Wallet,Success,Txn09312573Kv,2023-08-19
 11398,104465,Credit Card,Refunded,Txn00085660Lg,2023-07-18
 11399,114466,Cash On Delivery,Success,Txn53671288Th,2023-04-04
-11400,108165,Debit Card,Success,,2024-04-25
+11400,108165,Debit Card,Success,UNKNOWN_TXN,2024-04-25
 11401,100954,Debit Card,Success,Txn38232290Mq,2023-09-02
-11402,111068,Net Banking,Success,,2024-07-09
+11402,111068,Net Banking,Success,UNKNOWN_TXN,2024-07-09
 11403,108190,Wallet,Success,Txn23661456Cd,2024-02-23
 11404,111567,Credit Card,Success,Txn96589185Rr,2023-04-17
 11405,101837,Upi,Success,Txn11413648On,2023-01-10
@@ -11419,7 +11419,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 11430,107910,Cash On Delivery,Success,Txn12671718Gu,2024-01-13
 11431,117919,Upi,Success,Txn94696681Ix,2023-10-19
 11432,115254,Credit Card,Success,Txn84964109Op,2023-03-08
-11433,119262,Upi,Success,,2024-10-01
+11433,119262,Upi,Success,UNKNOWN_TXN,2024-10-01
 11434,117230,Cash On Delivery,Success,Txn97172338Rd,2024-01-17
 11435,104674,Credit Card,Success,Txn57769263Vs,2024-06-10
 11436,103432,Credit Card,Success,Txn34133440Pd,2024-10-17
@@ -11526,7 +11526,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 11537,116072,Credit Card,Success,Txn54607640Gm,2023-02-11
 11538,105171,Cash On Delivery,Success,Txn63561767Bg,2023-03-25
 11539,108388,Net Banking,Success,Txn99050222Ix,2023-09-30
-11540,112344,Credit Card,Refunded,,2023-06-10
+11540,112344,Credit Card,Refunded,UNKNOWN_TXN,2023-06-10
 11541,104862,Credit Card,Success,Txn62175746Fm,2023-01-19
 11542,104522,Upi,Pending,Txn66993485Aq,2024-09-30
 11543,102859,Credit Card,Success,Txn07029610Qj,2024-09-02
@@ -11643,7 +11643,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 11654,112020,Upi,Success,Txn31567045Vh,2023-10-23
 11655,113697,Wallet,Success,Txn10519263Yb,2024-09-06
 11656,118196,Cash On Delivery,Failed,Txn35060411Ur,2024-10-27
-11657,118970,Debit Card,Success,,2024-07-31
+11657,118970,Debit Card,Success,UNKNOWN_TXN,2024-07-31
 11658,100035,Credit Card,Refunded,Txn36067906Gd,2023-07-13
 11659,119662,Cash On Delivery,Success,Txn63913072Yn,2024-08-13
 11660,115606,Debit Card,Success,Txn55300547Dd,2023-12-28
@@ -11804,7 +11804,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 11816,109494,Cash On Delivery,Success,Txn59395874Ly,2023-04-19
 11817,118071,Debit Card,Failed,Txn06975181Uk,2023-02-23
 11818,118824,Cash On Delivery,Success,Txn84531770Dl,2024-07-28
-11819,116528,Upi,Failed,,2024-06-04
+11819,116528,Upi,Failed,UNKNOWN_TXN,2024-06-04
 11820,100489,Debit Card,Success,Txn80326840Mi,2024-04-16
 11821,108741,Wallet,Success,Txn01278824Ar,2024-02-07
 11822,104620,Cash On Delivery,Success,Txn44667255Jp,2023-09-13
@@ -12034,7 +12034,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 12046,101727,Credit Card,Success,Txn60238065Wj,2024-06-13
 12047,109498,Credit Card,Success,Txn20433674Lv,2024-01-23
 12048,120417,Upi,Success,Txn89887373Gz,2023-10-19
-12049,115332,Cash On Delivery,Success,,2024-07-05
+12049,115332,Cash On Delivery,Success,UNKNOWN_TXN,2024-07-05
 12050,115306,Upi,Success,Txn43610446Xm,2023-02-22
 12051,109172,Credit Card,Failed,Txn05632351Dt,2023-11-14
 12052,101492,Credit Card,Success,Txn38870998Sb,2024-08-23
@@ -12228,7 +12228,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 12240,111646,Credit Card,Success,Txn87404742Ig,2024-03-18
 12241,100284,Wallet,Success,Txn43906817Ab,2024-10-24
 12242,102531,Net Banking,Success,Txn77588826Dx,2023-04-01
-12243,117631,Cash On Delivery,Success,,2024-02-14
+12243,117631,Cash On Delivery,Success,UNKNOWN_TXN,2024-02-14
 12244,111393,Debit Card,Failed,Txn15066702Jw,2024-08-04
 12245,103272,Wallet,Success,Txn38061788Rc,2023-01-19
 12246,108700,Net Banking,Success,Txn74485670Tn,2024-01-13
@@ -12236,7 +12236,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 12248,100451,Cash On Delivery,Failed,Txn78937933Sr,2024-10-01
 12249,103006,Debit Card,Pending,Txn06504766Hf,2024-05-25
 12250,114033,Cash On Delivery,Success,Txn53826517Fp,2023-07-02
-12251,102866,Cash On Delivery,Success,,2024-02-14
+12251,102866,Cash On Delivery,Success,UNKNOWN_TXN,2024-02-14
 12252,111286,Cash On Delivery,Success,Txn05073207Ke,2023-07-07
 12253,115468,Net Banking,Failed,Txn49586568Nt,2024-12-18
 12254,104728,Wallet,Success,Txn76352333Bh,2024-06-27
@@ -12464,7 +12464,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 12476,107798,Net Banking,Pending,Txn36104537Td,2024-08-03
 12477,103158,Net Banking,Success,Txn63233530An,2023-07-06
 12478,116553,Net Banking,Success,Txn09898329Fb,2024-12-04
-12479,108499,Wallet,Success,,2024-06-08
+12479,108499,Wallet,Success,UNKNOWN_TXN,2024-06-08
 12480,106371,Cash On Delivery,Success,Txn24825822Jn,2023-03-15
 12481,111419,Net Banking,Success,Txn82362682An,2023-02-21
 12482,106875,Credit Card,Success,Txn39040219Da,2024-06-07
@@ -12486,7 +12486,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 12498,108113,Net Banking,Success,Txn26536548Jc,2023-11-28
 12499,104149,Upi,Failed,Txn60560464Bp,2023-01-20
 12500,110538,Credit Card,Success,Txn36575977Ak,2023-12-09
-12501,100969,Debit Card,Success,,2024-04-11
+12501,100969,Debit Card,Success,UNKNOWN_TXN,2024-04-11
 12502,102343,Wallet,Success,Txn83236550Fc,2023-06-10
 12503,106618,Debit Card,Failed,Txn71293459Iy,2024-03-18
 12504,100994,Wallet,Success,Txn20554718Qs,2024-01-15
@@ -12521,7 +12521,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 12533,115089,Upi,Success,Txn13489458Gu,2023-01-28
 12534,114596,Upi,Success,Txn02549980Yv,2023-01-25
 12535,120113,Debit Card,Success,Txn35983484Ib,2023-02-17
-12536,105608,Upi,Success,,2024-04-11
+12536,105608,Upi,Success,UNKNOWN_TXN,2024-04-11
 12537,116989,Wallet,Refunded,Txn82280322Mq,2024-08-23
 12538,110448,Wallet,Failed,Txn73652283Ja,2024-10-06
 12539,115441,Wallet,Success,Txn60287625Mc,2023-04-24
@@ -12609,14 +12609,14 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 12621,115153,Debit Card,Success,Txn85473382Db,2023-01-20
 12622,117272,Net Banking,Success,Txn81903719Cw,2024-04-20
 12623,113620,Net Banking,Success,Txn49441815Mo,2024-09-21
-12624,101532,Cash On Delivery,Success,,2024-09-02
+12624,101532,Cash On Delivery,Success,UNKNOWN_TXN,2024-09-02
 12625,117816,Credit Card,Pending,Txn78789343Rt,2024-06-19
 12626,100737,Cash On Delivery,Success,Txn08527102Gw,2023-06-25
 12627,107009,Wallet,Success,Txn35654299Oi,2023-11-29
 12628,102462,Upi,Success,Txn27801987Gx,2024-05-16
 12629,117306,Cash On Delivery,Success,Txn25968035Qz,2024-05-08
 12630,111190,Credit Card,Success,Txn74478001Op,2023-03-16
-12631,117670,Debit Card,Success,,2023-01-22
+12631,117670,Debit Card,Success,UNKNOWN_TXN,2023-01-22
 12632,103144,Cash On Delivery,Pending,Txn49435975Ow,2024-06-14
 12633,117497,Upi,Success,Txn26764589Ap,2023-07-29
 12634,107452,Net Banking,Success,Txn73925780Pn,2024-08-31
@@ -12651,7 +12651,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 12663,101082,Credit Card,Success,Txn31908548Lw,2023-04-02
 12664,102509,Debit Card,Success,Txn80010302Qt,2024-04-14
 12665,117827,Credit Card,Success,Txn87302765Wj,2024-02-14
-12666,104982,Upi,Success,,2024-09-07
+12666,104982,Upi,Success,UNKNOWN_TXN,2024-09-07
 12667,112813,Net Banking,Success,Txn57756736Bo,2023-10-20
 12668,116104,Debit Card,Pending,Txn93804741Dm,2023-01-11
 12669,118956,Debit Card,Success,Txn43898892Nh,2023-05-21
@@ -12702,7 +12702,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 12714,116569,Debit Card,Success,Txn00612877Eb,2023-07-26
 12715,100402,Upi,Success,Txn60474815Tz,2023-03-20
 12716,120355,Cash On Delivery,Refunded,Txn06869169In,2024-03-07
-12717,120230,Credit Card,Success,,2024-07-24
+12717,120230,Credit Card,Success,UNKNOWN_TXN,2024-07-24
 12718,116718,Upi,Success,Txn50740417Gg,2024-08-11
 12719,118886,Upi,Failed,Txn25204915Pg,2023-03-19
 12720,103809,Net Banking,Success,Txn47329878Pb,2023-09-08
@@ -12828,7 +12828,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 12840,101570,Debit Card,Success,Txn16634393Zz,2023-05-10
 12841,105319,Wallet,Success,Txn65745572Bp,2024-10-03
 12842,106466,Net Banking,Success,Txn85664350Pn,2024-05-30
-12843,114887,Net Banking,Success,,2023-08-26
+12843,114887,Net Banking,Success,UNKNOWN_TXN,2023-08-26
 12844,111789,Debit Card,Success,Txn84162999Cr,2024-01-27
 12845,110018,Net Banking,Refunded,Txn82094018Pj,2024-05-11
 12846,119602,Upi,Success,Txn63474882Sp,2024-06-28
@@ -12903,7 +12903,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 12915,118045,Net Banking,Success,Txn34934998Gr,2024-03-11
 12916,104750,Debit Card,Success,Txn70406891Ds,2024-10-24
 12917,111457,Credit Card,Success,Txn53798788Cl,2024-09-24
-12918,101429,Debit Card,Success,,2023-01-13
+12918,101429,Debit Card,Success,UNKNOWN_TXN,2023-01-13
 12919,119525,Upi,Failed,Txn02320573Bf,2023-05-29
 12920,120424,Credit Card,Success,Txn29947291Jn,2023-09-23
 12921,110969,Upi,Success,Txn22323193Pb,2023-02-24
@@ -13313,7 +13313,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 13325,106415,Net Banking,Success,Txn72323676Qz,2024-10-10
 13326,111498,Wallet,Pending,Txn67965368Zn,2024-10-04
 13327,112283,Credit Card,Success,Txn63196227Cw,2023-06-12
-13328,114078,Net Banking,Success,,2024-05-28
+13328,114078,Net Banking,Success,UNKNOWN_TXN,2024-05-28
 13329,102002,Net Banking,Failed,Txn80052284Ob,2023-06-26
 13330,101859,Net Banking,Refunded,Txn02768234Yy,2024-10-15
 13331,106267,Upi,Success,Txn33883634Oq,2023-08-17
@@ -13325,7 +13325,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 13337,104568,Upi,Success,Txn31478463Vo,2024-11-11
 13338,117168,Net Banking,Success,Txn75212624Zl,2024-01-17
 13339,102730,Wallet,Success,Txn16415351Ow,2024-01-16
-13340,103039,Debit Card,Success,,2024-08-31
+13340,103039,Debit Card,Success,UNKNOWN_TXN,2024-08-31
 13341,100725,Cash On Delivery,Success,Txn24352982Ep,2023-04-05
 13342,104142,Wallet,Success,Txn45915249Lw,2023-06-13
 13343,110273,Cash On Delivery,Success,Txn37137006Ni,2023-11-08
@@ -13920,7 +13920,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 13935,120367,Net Banking,Refunded,Txn04233124Cw,2023-04-11
 13936,110521,Cash On Delivery,Success,Txn30316940Vo,2024-11-16
 13937,115088,Credit Card,Success,Txn13122655Rw,2024-04-03
-13938,104443,Upi,Success,,2024-03-02
+13938,104443,Upi,Success,UNKNOWN_TXN,2024-03-02
 13939,117831,Net Banking,Refunded,Txn24804351Ou,2024-01-26
 13940,100344,Wallet,Success,Txn09846724Jr,2023-09-26
 13941,108420,Cash On Delivery,Success,Txn11349578Wf,2024-09-01
@@ -14063,7 +14063,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 14078,104604,Debit Card,Pending,Txn60532605Qj,2023-02-28
 14079,119040,Credit Card,Success,Txn31913360Ky,2023-03-21
 14080,102815,Credit Card,Success,Txn62634402Az,2024-02-23
-14081,116758,Cash On Delivery,Success,,2023-02-23
+14081,116758,Cash On Delivery,Success,UNKNOWN_TXN,2023-02-23
 14082,110555,Cash On Delivery,Refunded,Txn70668531Mi,2023-10-31
 14083,113899,Credit Card,Refunded,Txn04162802Ob,2023-10-15
 14084,104563,Cash On Delivery,Success,Txn60888939Fr,2024-01-23
@@ -14451,7 +14451,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 14467,103645,Upi,Success,Txn13492646Bf,2024-06-05
 14468,107390,Upi,Success,Txn79066094Ky,2023-06-02
 14469,118459,Cash On Delivery,Success,Txn34319722Eh,2024-05-21
-14470,116025,Upi,Success,,2023-02-05
+14470,116025,Upi,Success,UNKNOWN_TXN,2023-02-05
 14471,101108,Credit Card,Success,Txn83010676Lp,2024-01-10
 14472,114512,Net Banking,Success,Txn08259365Oh,2023-04-06
 14473,119138,Cash On Delivery,Success,Txn39652411Eb,2023-12-10
@@ -14520,7 +14520,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 14537,115068,Upi,Success,Txn51083690Jc,2023-12-23
 14538,113425,Cash On Delivery,Success,Txn58053912Mo,2023-05-16
 14539,118313,Cash On Delivery,Failed,Txn43523175Dr,2023-05-29
-14540,112855,Upi,Success,,2024-02-14
+14540,112855,Upi,Success,UNKNOWN_TXN,2024-02-14
 14541,101714,Cash On Delivery,Success,Txn24512786Ls,2023-08-01
 14542,108655,Credit Card,Success,Txn34877404Sb,2024-09-15
 14543,116657,Upi,Success,Txn98493187Bq,2024-05-21
@@ -14636,7 +14636,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 14653,102654,Net Banking,Success,Txn95780658Do,2024-09-01
 14654,112526,Debit Card,Success,Txn43906309Hw,2024-03-22
 14655,108783,Net Banking,Success,Txn40346691Xz,2024-08-13
-14656,109492,Net Banking,Refunded,,2024-01-09
+14656,109492,Net Banking,Refunded,UNKNOWN_TXN,2024-01-09
 14657,100280,Cash On Delivery,Success,Txn31644137Lk,2024-12-06
 14658,100659,Debit Card,Success,Txn28977210Ur,2024-02-03
 14659,111250,Debit Card,Success,Txn03699451Rt,2023-06-13
@@ -14805,7 +14805,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 14823,112900,Upi,Success,Txn52392310Py,2023-07-30
 14824,112895,Cash On Delivery,Success,Txn55166833Vc,2023-08-26
 14825,116959,Net Banking,Success,Txn51752602Qj,2024-02-12
-14826,110022,Net Banking,Success,,2024-07-26
+14826,110022,Net Banking,Success,UNKNOWN_TXN,2024-07-26
 14827,105988,Credit Card,Success,Txn44219139Om,2023-04-28
 14828,101515,Cash On Delivery,Success,Txn59168554Ue,2023-05-07
 14829,100233,Upi,Refunded,Txn77526164Es,2024-12-18
@@ -14984,7 +14984,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 15002,106168,Wallet,Success,Txn75240161Yj,2024-08-23
 15003,107583,Upi,Success,Txn25912658Ch,2024-11-03
 15004,114592,Wallet,Success,Txn12882485Sb,2023-06-09
-15005,119809,Debit Card,Success,,2023-12-25
+15005,119809,Debit Card,Success,UNKNOWN_TXN,2023-12-25
 15006,110853,Wallet,Success,Txn56804036Mk,2024-12-31
 15007,108111,Wallet,Success,Txn55239157Ah,2024-03-22
 15008,105040,Debit Card,Success,Txn63009909Ck,2024-08-23
@@ -15110,8 +15110,8 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 15128,109769,Wallet,Failed,Txn55585483Bn,2023-08-30
 15129,114440,Upi,Success,Txn33615795Kx,2024-01-06
 15130,104781,Net Banking,Success,Txn33997960Xc,2024-09-29
-15131,105018,Wallet,Success,,2024-11-23
-15132,104107,Cash On Delivery,Success,,2023-10-05
+15131,105018,Wallet,Success,UNKNOWN_TXN,2024-11-23
+15132,104107,Cash On Delivery,Success,UNKNOWN_TXN,2023-10-05
 15133,103036,Cash On Delivery,Success,Txn59608780Zy,2023-12-11
 15134,120145,Wallet,Success,Txn47144925Jq,2024-06-09
 15135,117044,Wallet,Success,Txn92612879Dh,2023-12-31
@@ -15236,7 +15236,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 15254,110754,Upi,Success,Txn56589318Vl,2024-04-24
 15255,108782,Debit Card,Success,Txn44441993Od,2023-12-16
 15256,110791,Cash On Delivery,Success,Txn60937606Cg,2024-04-18
-15257,102309,Cash On Delivery,Success,,2024-06-05
+15257,102309,Cash On Delivery,Success,UNKNOWN_TXN,2024-06-05
 15258,117526,Debit Card,Success,Txn67277221Yw,2024-02-15
 15259,102434,Net Banking,Success,Txn07538623Cu,2023-03-31
 15260,108562,Credit Card,Success,Txn22125044Sf,2023-06-02
@@ -15303,7 +15303,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 15321,100558,Cash On Delivery,Success,Txn54662567Ow,2024-01-26
 15322,105107,Wallet,Success,Txn79401405Dl,2024-01-07
 15323,119375,Credit Card,Success,Txn66063386Rq,2024-03-22
-15324,118885,Wallet,Failed,,2024-05-26
+15324,118885,Wallet,Failed,UNKNOWN_TXN,2024-05-26
 15325,104939,Cash On Delivery,Failed,Txn53015373Tp,2024-07-10
 15326,111577,Credit Card,Success,Txn84100974Dg,2023-07-13
 15327,116626,Wallet,Success,Txn39127848Kd,2024-01-03
@@ -15388,7 +15388,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 15406,112419,Cash On Delivery,Success,Txn53167483No,2024-03-09
 15407,113021,Upi,Success,Txn02763754Kv,2023-05-29
 15408,112768,Credit Card,Refunded,Txn15917253Vb,2024-10-01
-15409,103015,Credit Card,Success,,2024-07-16
+15409,103015,Credit Card,Success,UNKNOWN_TXN,2024-07-16
 15410,109757,Upi,Failed,Txn79252178Jq,2024-11-04
 15411,120152,Debit Card,Success,Txn55753875Hp,2023-05-20
 15412,100382,Net Banking,Refunded,Txn24130159Ee,2023-11-22
@@ -15601,7 +15601,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 15619,120436,Cash On Delivery,Success,Txn16558249Gj,2024-07-18
 15620,105414,Cash On Delivery,Success,Txn08410811Qg,2024-09-01
 15621,110400,Upi,Success,Txn38626941Tl,2024-12-19
-15622,101116,Wallet,Success,,2024-05-31
+15622,101116,Wallet,Success,UNKNOWN_TXN,2024-05-31
 15623,105326,Cash On Delivery,Success,Txn33746632Ii,2023-11-11
 15624,111821,Wallet,Success,Txn37868429Sk,2024-02-21
 15625,102475,Wallet,Failed,Txn65085555Wi,2024-03-07
@@ -15685,7 +15685,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 15703,101563,Wallet,Success,Txn87742580Ma,2023-01-29
 15704,113815,Debit Card,Success,Txn27099776Vm,2023-06-01
 15705,115498,Wallet,Success,Txn29354842Sj,2023-08-31
-15706,117510,Debit Card,Success,,2023-04-19
+15706,117510,Debit Card,Success,UNKNOWN_TXN,2023-04-19
 15707,105774,Wallet,Success,Txn86650667Rb,2024-05-15
 15708,100782,Debit Card,Success,Txn91102196Un,2024-11-10
 15709,111596,Upi,Success,Txn04321367Bt,2023-12-17
@@ -15831,7 +15831,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 15850,107429,Debit Card,Success,Txn47351772Gs,2024-07-26
 15851,100935,Wallet,Success,Txn32487125Xs,2023-11-25
 15852,118766,Credit Card,Success,Txn71484835Iw,2024-06-22
-15853,115336,Wallet,Success,,2024-10-20
+15853,115336,Wallet,Success,UNKNOWN_TXN,2024-10-20
 15854,108659,Debit Card,Success,Txn69899325Ig,2023-01-16
 15855,114434,Credit Card,Success,Txn61291720Xk,2024-12-24
 15856,115848,Net Banking,Success,Txn01399210Kb,2023-11-09
@@ -15846,7 +15846,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 15865,106761,Debit Card,Success,Txn43524516Ag,2024-03-24
 15866,105101,Upi,Success,Txn28292809Bl,2023-08-08
 15867,117274,Upi,Pending,Txn77049466Be,2024-05-25
-15868,103476,Credit Card,Success,,2024-12-06
+15868,103476,Credit Card,Success,UNKNOWN_TXN,2024-12-06
 15869,100848,Credit Card,Success,Txn85198810Nb,2024-09-25
 15870,104615,Wallet,Success,Txn01116424Xu,2024-01-17
 15871,108949,Credit Card,Success,Txn38708923Og,2024-05-30
@@ -15872,7 +15872,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 15891,101988,Net Banking,Success,Txn31085197Cc,2023-09-25
 15892,112992,Wallet,Success,Txn71279039Yk,2024-10-28
 15893,120383,Upi,Success,Txn02632297Ec,2024-05-27
-15894,116441,Upi,Failed,,2023-05-27
+15894,116441,Upi,Failed,UNKNOWN_TXN,2023-05-27
 15895,114092,Cash On Delivery,Pending,Txn36543922Kb,2024-01-31
 15896,115709,Wallet,Success,Txn04485309Vj,2024-08-18
 15897,112922,Wallet,Success,Txn00408777Ld,2023-12-28
@@ -15933,7 +15933,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 15952,111488,Wallet,Failed,Txn60570135Ze,2023-08-31
 15953,107630,Wallet,Success,Txn36168336Nw,2023-08-12
 15954,116509,Debit Card,Success,Txn09001786Hs,2023-04-26
-15955,119010,Debit Card,Success,,2024-08-05
+15955,119010,Debit Card,Success,UNKNOWN_TXN,2024-08-05
 15956,100961,Upi,Success,Txn72859310Tm,2023-04-30
 15957,102952,Debit Card,Success,Txn86289980Uq,2023-12-26
 15958,105928,Wallet,Failed,Txn57683659Dc,2023-03-20
@@ -15988,7 +15988,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 16007,108340,Cash On Delivery,Refunded,Txn88303780Kc,2023-11-29
 16008,102156,Debit Card,Success,Txn52604938Dq,2024-03-30
 16009,105135,Net Banking,Failed,Txn25681990Nm,2023-12-03
-16010,100195,Debit Card,Success,,2024-08-30
+16010,100195,Debit Card,Success,UNKNOWN_TXN,2024-08-30
 16011,114524,Debit Card,Failed,Txn69492173Bp,2023-04-11
 16012,116993,Debit Card,Pending,Txn44398742Gs,2023-09-11
 16013,101589,Debit Card,Success,Txn66935436Ur,2023-11-16
@@ -16027,7 +16027,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 16046,103636,Wallet,Success,Txn12235742Zy,2023-01-15
 16047,106188,Credit Card,Success,Txn88124350Ev,2024-11-19
 16048,104738,Wallet,Success,Txn10391676Xu,2024-01-12
-16049,106191,Upi,Success,,2024-08-15
+16049,106191,Upi,Success,UNKNOWN_TXN,2024-08-15
 16050,103564,Wallet,Success,Txn16548538Fs,2023-11-02
 16051,112739,Debit Card,Success,Txn27744910Em,2023-09-03
 16052,108011,Upi,Success,Txn19263220Dl,2024-02-09
@@ -16264,7 +16264,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 16283,118215,Upi,Refunded,Txn01042556Fg,2023-03-03
 16284,102119,Upi,Success,Txn37803654Ad,2024-05-26
 16285,117901,Cash On Delivery,Success,Txn30482099Zs,2023-02-16
-16286,115315,Cash On Delivery,Success,,2023-01-17
+16286,115315,Cash On Delivery,Success,UNKNOWN_TXN,2023-01-17
 16287,114413,Upi,Success,Txn11912172Ew,2023-11-29
 16288,113968,Debit Card,Refunded,Txn24841225Qx,2024-04-28
 16289,114231,Wallet,Refunded,Txn66069587Pe,2023-04-29
@@ -16275,7 +16275,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 16294,113633,Wallet,Success,Txn65896869Pv,2024-10-07
 16295,118245,Cash On Delivery,Pending,Txn53207755Jm,2023-08-09
 16296,109167,Cash On Delivery,Pending,Txn82443783Tv,2023-12-04
-16297,117965,Wallet,Success,,2024-11-03
+16297,117965,Wallet,Success,UNKNOWN_TXN,2024-11-03
 16298,101521,Cash On Delivery,Success,Txn86422136Iv,2024-04-10
 16299,107279,Debit Card,Failed,Txn39174823Dd,2024-07-10
 16300,106323,Upi,Success,Txn19953422Hy,2023-03-17
@@ -16380,7 +16380,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 16400,110331,Credit Card,Success,Txn10518187Iw,2024-12-06
 16401,116161,Debit Card,Success,Txn40262607Wn,2023-01-22
 16402,119982,Wallet,Failed,Txn25283443Wa,2023-12-02
-16403,109743,Credit Card,Success,,2023-01-15
+16403,109743,Credit Card,Success,UNKNOWN_TXN,2023-01-15
 16404,103193,Debit Card,Refunded,Txn20307610Rs,2023-05-25
 16405,103443,Wallet,Success,Txn28308391Xg,2023-07-10
 16406,115041,Net Banking,Refunded,Txn76255394Vx,2024-04-24
@@ -16392,7 +16392,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 16412,101480,Net Banking,Success,Txn22829374Zo,2023-10-28
 16413,101151,Cash On Delivery,Refunded,Txn95350280Cg,2024-03-16
 16414,105322,Credit Card,Success,Txn26150634Ba,2024-08-18
-16415,103638,Wallet,Success,,2024-10-06
+16415,103638,Wallet,Success,UNKNOWN_TXN,2024-10-06
 16416,120327,Cash On Delivery,Pending,Txn35577972Bj,2023-06-25
 16417,117739,Net Banking,Success,Txn53020722Vo,2023-12-12
 16418,105212,Cash On Delivery,Success,Txn31492295Iw,2023-08-25
@@ -16430,7 +16430,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 16450,106808,Credit Card,Success,Txn56391883Gz,2023-02-20
 16451,111842,Debit Card,Success,Txn57521597Gt,2024-02-29
 16452,118488,Debit Card,Success,Txn97103354Go,2024-08-19
-16453,104406,Net Banking,Refunded,,2023-09-21
+16453,104406,Net Banking,Refunded,UNKNOWN_TXN,2023-09-21
 16454,113846,Debit Card,Success,Txn79671742Gj,2023-08-10
 16455,106376,Cash On Delivery,Pending,Txn82478133Xq,2024-02-01
 16456,103371,Debit Card,Success,Txn89722612Ca,2024-07-12
@@ -16449,7 +16449,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 16469,119200,Cash On Delivery,Success,Txn91039100Dv,2023-09-16
 16470,104849,Net Banking,Success,Txn44007760Wl,2024-10-24
 16471,114174,Debit Card,Success,Txn12126119Zu,2023-01-12
-16472,111831,Credit Card,Success,,2023-03-17
+16472,111831,Credit Card,Success,UNKNOWN_TXN,2023-03-17
 16473,112845,Cash On Delivery,Success,Txn93405911Cm,2023-05-04
 16474,120453,Credit Card,Success,Txn94362133Mh,2023-05-11
 16475,113548,Net Banking,Success,Txn30735895Ia,2024-07-24
@@ -16510,7 +16510,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 16530,106623,Credit Card,Success,Txn83452359Bo,2023-04-30
 16531,110869,Upi,Success,Txn11447251Im,2023-11-10
 16532,118550,Wallet,Success,Txn83874957Gf,2023-02-02
-16533,114629,Upi,Success,,2024-06-25
+16533,114629,Upi,Success,UNKNOWN_TXN,2024-06-25
 16534,117411,Net Banking,Success,Txn44514311St,2023-04-26
 16535,119537,Cash On Delivery,Success,Txn81474400Tq,2023-03-06
 16536,112826,Net Banking,Success,Txn15202797Nv,2023-09-06
@@ -16558,7 +16558,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 16578,110474,Wallet,Success,Txn16444334Tf,2023-09-15
 16579,117909,Net Banking,Success,Txn92685292Zu,2024-03-25
 16580,113364,Debit Card,Refunded,Txn21645120Tj,2023-04-11
-16581,116981,Net Banking,Success,,2024-10-04
+16581,116981,Net Banking,Success,UNKNOWN_TXN,2024-10-04
 16582,119957,Wallet,Success,Txn54210574Ix,2024-06-10
 16583,104207,Debit Card,Success,Txn83838563Gn,2024-07-22
 16584,120303,Upi,Success,Txn82296956Jh,2023-01-23
@@ -16663,7 +16663,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 16683,102057,Credit Card,Refunded,Txn67169040Uh,2023-06-30
 16684,103419,Cash On Delivery,Success,Txn21433906Zf,2023-06-29
 16685,113417,Wallet,Success,Txn34230368Ko,2023-01-24
-16686,115866,Net Banking,Failed,,2023-07-09
+16686,115866,Net Banking,Failed,UNKNOWN_TXN,2023-07-09
 16687,118575,Debit Card,Success,Txn06639921Gg,2024-02-20
 16688,117093,Wallet,Success,Txn56144924Ev,2023-12-21
 16689,118920,Net Banking,Pending,Txn59851770Yu,2024-08-10
@@ -16740,7 +16740,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 16760,109545,Cash On Delivery,Success,Txn89269807Xq,2023-10-08
 16761,101185,Debit Card,Success,Txn95417245Ax,2023-03-07
 16762,115546,Upi,Success,Txn67851357Zr,2024-10-25
-16763,108602,Credit Card,Success,,2023-03-31
+16763,108602,Credit Card,Success,UNKNOWN_TXN,2023-03-31
 16764,109207,Credit Card,Success,Txn92829445Kq,2024-02-20
 16765,113725,Debit Card,Failed,Txn17188139Lk,2024-12-21
 16766,101817,Wallet,Success,Txn33699345Qo,2024-09-30
@@ -16789,7 +16789,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 16809,110349,Cash On Delivery,Success,Txn50120905Ii,2023-07-25
 16810,101529,Cash On Delivery,Success,Txn15150138An,2024-07-03
 16811,104722,Upi,Success,Txn53078340Xf,2023-02-09
-16812,108512,Credit Card,Success,,2024-08-21
+16812,108512,Credit Card,Success,UNKNOWN_TXN,2024-08-21
 16813,102075,Net Banking,Success,Txn05784208Oo,2024-02-07
 16814,103702,Upi,Success,Txn74712147Gt,2024-05-06
 16815,110401,Credit Card,Success,Txn95840178Gf,2024-05-23
@@ -16880,7 +16880,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 16900,102867,Credit Card,Success,Txn26876660Yk,2024-11-08
 16901,104400,Cash On Delivery,Success,Txn61518943Hv,2024-09-04
 16902,107612,Cash On Delivery,Refunded,Txn45028575Qm,2023-11-20
-16903,120400,Cash On Delivery,Success,,2024-02-11
+16903,120400,Cash On Delivery,Success,UNKNOWN_TXN,2024-02-11
 16904,118374,Debit Card,Success,Txn53704572Xq,2024-10-16
 16905,110535,Upi,Success,Txn00228455Jp,2024-03-03
 16906,108987,Upi,Success,Txn48685377Ns,2024-11-11
@@ -16983,7 +16983,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 17003,100818,Wallet,Success,Txn76692933Ra,2024-11-12
 17004,116592,Net Banking,Success,Txn88110718Sv,2023-07-06
 17005,106481,Net Banking,Success,Txn63485126Mw,2024-07-28
-17006,107680,Credit Card,Success,,2023-10-26
+17006,107680,Credit Card,Success,UNKNOWN_TXN,2023-10-26
 17007,100623,Debit Card,Success,Txn32601470Ur,2023-08-18
 17008,116049,Debit Card,Success,Txn96743127Hy,2024-02-07
 17009,104934,Cash On Delivery,Failed,Txn42267411Gi,2023-03-19
@@ -17146,7 +17146,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 17166,107835,Net Banking,Success,Txn31407059Hg,2024-01-30
 17167,117979,Wallet,Success,Txn80903555Bs,2024-09-03
 17168,119230,Cash On Delivery,Refunded,Txn82236000Mf,2023-04-03
-17169,101818,Net Banking,Success,,2023-05-01
+17169,101818,Net Banking,Success,UNKNOWN_TXN,2023-05-01
 17170,106839,Cash On Delivery,Success,Txn17008700In,2024-06-08
 17171,104006,Net Banking,Success,Txn91382720Qj,2023-03-20
 17172,111684,Credit Card,Success,Txn11939904Yq,2024-02-10
@@ -17443,7 +17443,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 17463,101495,Net Banking,Success,Txn67658132Kh,2024-02-21
 17464,103481,Upi,Success,Txn43329316Tm,2023-05-24
 17465,105744,Wallet,Success,Txn74763974Ch,2023-03-24
-17466,110160,Cash On Delivery,Success,,2024-11-01
+17466,110160,Cash On Delivery,Success,UNKNOWN_TXN,2024-11-01
 17467,104233,Upi,Success,Txn74447516Yn,2024-02-05
 17468,105510,Credit Card,Success,Txn92483538Vi,2024-07-25
 17469,115942,Upi,Failed,Txn32608988Py,2023-09-29
@@ -17670,7 +17670,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 17691,118056,Cash On Delivery,Refunded,Txn80837262Au,2023-10-15
 17692,116100,Debit Card,Success,Txn01374724Cf,2023-04-01
 17693,101478,Upi,Success,Txn33750758Gr,2023-12-27
-17694,116292,Upi,Success,,2024-02-17
+17694,116292,Upi,Success,UNKNOWN_TXN,2024-02-17
 17695,117359,Wallet,Success,Txn28870610Hs,2023-02-10
 17696,116794,Upi,Success,Txn81649826Sn,2023-11-25
 17697,109113,Debit Card,Failed,Txn92365489Nc,2023-04-19
@@ -17746,7 +17746,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 17767,107171,Net Banking,Success,Txn58983397Qa,2024-12-25
 17768,112093,Net Banking,Success,Txn57850274Ur,2024-01-18
 17769,108648,Wallet,Success,Txn78206573Iv,2023-12-27
-17770,115135,Upi,Success,,2023-11-26
+17770,115135,Upi,Success,UNKNOWN_TXN,2023-11-26
 17771,119852,Wallet,Failed,Txn02812993So,2023-04-11
 17772,103679,Net Banking,Success,Txn73131194Be,2023-04-01
 17773,107710,Wallet,Success,Txn22063863Aa,2023-06-21
@@ -17950,7 +17950,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 17971,113113,Upi,Success,Txn71467615Sj,2023-11-05
 17972,111913,Cash On Delivery,Success,Txn59403471Gp,2024-02-19
 17973,109797,Upi,Success,Txn94312928Ux,2023-03-05
-17974,113953,Upi,Failed,,2023-02-14
+17974,113953,Upi,Failed,UNKNOWN_TXN,2023-02-14
 17975,112698,Upi,Pending,Txn71154796Bj,2024-04-19
 17976,107878,Cash On Delivery,Success,Txn58555520Sp,2024-04-14
 17977,111290,Credit Card,Success,Txn53800155Bg,2024-03-16
@@ -18386,7 +18386,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 18407,116831,Cash On Delivery,Success,Txn88854239Gc,2024-04-26
 18408,101835,Cash On Delivery,Success,Txn07776751Tm,2023-01-31
 18409,104797,Net Banking,Refunded,Txn94399294Dd,2023-07-05
-18410,111497,Wallet,Success,,2023-04-29
+18410,111497,Wallet,Success,UNKNOWN_TXN,2023-04-29
 18411,103514,Wallet,Success,Txn04910187Nt,2023-05-12
 18412,100956,Net Banking,Success,Txn69857011Df,2024-07-29
 18413,101878,Upi,Success,Txn67199891Xp,2024-03-12
@@ -18441,7 +18441,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 18462,110027,Upi,Success,Txn28772018Ob,2024-02-05
 18463,115802,Upi,Success,Txn85863316Ev,2024-08-01
 18464,114721,Upi,Failed,Txn98012561Zo,2023-12-16
-18465,101002,Debit Card,Success,,2023-12-16
+18465,101002,Debit Card,Success,UNKNOWN_TXN,2023-12-16
 18466,109091,Upi,Failed,Txn79067824Gz,2024-02-07
 18467,102157,Wallet,Success,Txn56050770Qa,2024-08-18
 18468,111883,Wallet,Success,Txn58240929Fz,2024-05-19
@@ -18522,7 +18522,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 18543,100346,Cash On Delivery,Success,Txn33212153Jw,2024-01-13
 18544,112497,Debit Card,Success,Txn95067637Ei,2023-11-28
 18545,111011,Wallet,Success,Txn86051485Ic,2024-04-06
-18546,106476,Cash On Delivery,Success,,2023-04-19
+18546,106476,Cash On Delivery,Success,UNKNOWN_TXN,2023-04-19
 18547,109032,Credit Card,Success,Txn26397212Zz,2023-02-04
 18548,116391,Debit Card,Success,Txn87345338Co,2023-03-17
 18549,114020,Cash On Delivery,Refunded,Txn01933700Ob,2024-02-28
@@ -18708,7 +18708,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 18729,100117,Net Banking,Success,Txn41940971Uz,2023-07-05
 18730,103298,Cash On Delivery,Success,Txn16389168Rb,2023-10-19
 18731,119695,Debit Card,Success,Txn62840784Qz,2024-03-02
-18732,100715,Cash On Delivery,Success,,2023-10-20
+18732,100715,Cash On Delivery,Success,UNKNOWN_TXN,2023-10-20
 18733,109532,Wallet,Pending,Txn44884514Hp,2024-07-03
 18734,105679,Debit Card,Success,Txn32288702Hw,2023-06-30
 18735,115003,Credit Card,Success,Txn72142255Jj,2023-09-22
@@ -18843,7 +18843,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 18864,102420,Debit Card,Success,Txn67988090Cy,2024-10-04
 18865,112208,Cash On Delivery,Success,Txn46796676Eg,2024-12-06
 18866,117992,Upi,Success,Txn19336219Zs,2023-04-18
-18867,109100,Cash On Delivery,Pending,,2023-12-08
+18867,109100,Cash On Delivery,Pending,UNKNOWN_TXN,2023-12-08
 18868,104773,Debit Card,Success,Txn76194506Tj,2024-02-20
 18869,106858,Wallet,Success,Txn21258276Ha,2023-12-10
 18870,107430,Debit Card,Success,Txn46358974Cd,2024-02-01
@@ -18952,7 +18952,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 18973,103895,Credit Card,Success,Txn73722071Fv,2024-04-06
 18974,120079,Wallet,Success,Txn08227334Pp,2024-09-14
 18975,112371,Cash On Delivery,Success,Txn86357430Gv,2023-10-03
-18976,113268,Debit Card,Success,,2024-07-30
+18976,113268,Debit Card,Success,UNKNOWN_TXN,2024-07-30
 18977,102310,Cash On Delivery,Failed,Txn85789614Px,2023-10-05
 18978,116588,Cash On Delivery,Success,Txn58018409Gh,2024-08-05
 18979,113157,Net Banking,Success,Txn84107777Tg,2024-03-11
@@ -19015,7 +19015,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 19036,103505,Credit Card,Success,Txn58224578Pv,2023-06-04
 19037,118122,Net Banking,Pending,Txn19857046Iu,2023-05-23
 19038,113709,Net Banking,Success,Txn39974430Qh,2023-09-12
-19039,109470,Wallet,Success,,2023-08-02
+19039,109470,Wallet,Success,UNKNOWN_TXN,2023-08-02
 19040,113895,Credit Card,Refunded,Txn10453051Ma,2024-02-25
 19041,102666,Net Banking,Refunded,Txn85989649Xf,2024-07-29
 19042,115728,Cash On Delivery,Pending,Txn92360739Mq,2023-10-12
@@ -19238,7 +19238,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 19259,102291,Wallet,Success,Txn14209342Ie,2024-09-16
 19260,108143,Cash On Delivery,Success,Txn75458150Me,2023-08-15
 19261,107200,Credit Card,Failed,Txn56080261Tv,2024-10-09
-19262,109688,Credit Card,Success,,2023-11-17
+19262,109688,Credit Card,Success,UNKNOWN_TXN,2023-11-17
 19263,114758,Debit Card,Success,Txn87655623Ax,2024-09-02
 19264,114597,Wallet,Success,Txn55145884Ly,2024-07-23
 19265,113545,Upi,Failed,Txn15972064Ab,2024-07-30
@@ -19301,7 +19301,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 19322,100612,Debit Card,Success,Txn47968090Qh,2024-06-24
 19323,115983,Cash On Delivery,Success,Txn09787028Vk,2024-07-31
 19324,107959,Wallet,Success,Txn15234991Id,2023-06-08
-19325,111601,Upi,Success,,2023-10-23
+19325,111601,Upi,Success,UNKNOWN_TXN,2023-10-23
 19326,109303,Net Banking,Success,Txn19068951Wa,2023-02-07
 19327,114828,Cash On Delivery,Success,Txn47704547It,2024-06-11
 19328,105812,Wallet,Success,Txn68026736Dc,2023-03-07
@@ -19370,7 +19370,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 19391,118931,Upi,Pending,Txn93678862La,2023-05-26
 19392,105269,Debit Card,Success,Txn24596381Ja,2024-06-10
 19393,103085,Upi,Failed,Txn75057407Ij,2024-12-02
-19394,105578,Cash On Delivery,Success,,2024-05-27
+19394,105578,Cash On Delivery,Success,UNKNOWN_TXN,2024-05-27
 19395,119504,Cash On Delivery,Refunded,Txn69664782Rh,2023-11-12
 19396,114826,Cash On Delivery,Success,Txn55861596Ga,2023-05-21
 19397,115610,Credit Card,Success,Txn68137284Ur,2023-04-20
@@ -19447,7 +19447,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 19468,120168,Debit Card,Success,Txn20090725Ie,2024-05-08
 19469,104507,Credit Card,Refunded,Txn77075556Ei,2024-11-03
 19470,118937,Credit Card,Refunded,Txn77397374Vn,2024-03-14
-19471,118445,Wallet,Success,,2024-02-04
+19471,118445,Wallet,Success,UNKNOWN_TXN,2024-02-04
 19472,109791,Net Banking,Failed,Txn28472605Vw,2024-11-14
 19473,107933,Cash On Delivery,Success,Txn73060654Qb,2023-01-25
 19474,117231,Net Banking,Success,Txn92572956Du,2024-05-28
@@ -19789,7 +19789,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 19811,119294,Wallet,Failed,Txn55173249Cy,2024-02-10
 19812,111426,Wallet,Success,Txn95430328Dn,2023-03-30
 19813,102402,Credit Card,Success,Txn06190032Lv,2023-05-23
-19814,115533,Credit Card,Failed,,2024-08-27
+19814,115533,Credit Card,Failed,UNKNOWN_TXN,2024-08-27
 19815,116435,Cash On Delivery,Success,Txn21659344Fn,2024-12-01
 19816,106844,Credit Card,Success,Txn81682273Ve,2024-04-20
 19817,104551,Wallet,Success,Txn06450513Uc,2024-09-15
@@ -20176,9 +20176,9 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 20199,116784,Net Banking,Success,Txn50967405Si,2024-06-13
 20200,117564,Credit Card,Success,Txn83400868Wh,2023-10-29
 20201,106877,Upi,Success,Txn10367200Rl,2023-10-12
-20202,102671,Upi,Success,,2023-07-05
+20202,102671,Upi,Success,UNKNOWN_TXN,2023-07-05
 20203,111667,Cash On Delivery,Success,Txn16945056Sw,2024-01-15
-20204,101277,Debit Card,Success,,2024-01-04
+20204,101277,Debit Card,Success,UNKNOWN_TXN,2024-01-04
 20205,106044,Cash On Delivery,Success,Txn86209317Yv,2024-12-04
 20206,111306,Cash On Delivery,Success,Txn74345656Cd,2024-07-31
 20207,102991,Wallet,Success,Txn19155577Qw,2024-12-02
@@ -20188,7 +20188,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 20211,107889,Debit Card,Success,Txn24791464Hg,2024-02-03
 20212,119995,Cash On Delivery,Failed,Txn87576649Iq,2023-12-23
 20213,101089,Wallet,Success,Txn79654222Jl,2024-08-30
-20214,120211,Wallet,Success,,2023-08-09
+20214,120211,Wallet,Success,UNKNOWN_TXN,2023-08-09
 20215,111078,Net Banking,Success,Txn90053830Xn,2024-02-08
 20216,119034,Credit Card,Success,Txn41679373Qs,2024-02-09
 20217,104472,Wallet,Success,Txn37694516Py,2024-02-20
@@ -20204,7 +20204,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 20227,111638,Credit Card,Success,Txn16939179Ho,2023-09-10
 20228,113030,Upi,Success,Txn63095001Qj,2024-08-26
 20229,114575,Wallet,Success,Txn56295019Ja,2024-05-15
-20230,119709,Wallet,Success,,2023-01-21
+20230,119709,Wallet,Success,UNKNOWN_TXN,2023-01-21
 20231,113844,Debit Card,Success,Txn04307314Yb,2024-08-31
 20232,109427,Upi,Success,Txn32339050Dk,2024-09-18
 20233,120218,Upi,Failed,Txn87161877Jh,2023-05-04
@@ -20253,7 +20253,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 20276,117077,Cash On Delivery,Success,Txn65226710Rz,2023-10-07
 20277,109756,Upi,Success,Txn71530222Gi,2024-11-08
 20278,102914,Upi,Success,Txn40921023Ja,2024-12-02
-20279,101919,Credit Card,Success,,2023-09-26
+20279,101919,Credit Card,Success,UNKNOWN_TXN,2023-09-26
 20280,102236,Net Banking,Success,Txn90098437Wz,2023-08-04
 20281,119481,Net Banking,Success,Txn24482738Eg,2023-06-12
 20282,113475,Cash On Delivery,Success,Txn33052070Zd,2023-06-24
@@ -20318,7 +20318,7 @@ PaymentID,OrderID,PaymentMethod,PaymentStatus,TransactionID,PaymentDate
 20341,103619,Cash On Delivery,Success,Txn43791543Kb,2023-09-27
 20342,111347,Upi,Success,Txn89907276Ex,2023-01-22
 20343,109782,Debit Card,Success,Txn57782890Yl,2023-11-28
-20344,102884,Net Banking,Success,,2023-10-04
+20344,102884,Net Banking,Success,UNKNOWN_TXN,2023-10-04
 20345,103374,Net Banking,Refunded,Txn30578986Zy,2024-09-13
 20346,102572,Cash On Delivery,Success,Txn29942054Of,2023-03-13
 20347,108661,Upi,Success,Txn87555153Dj,2024-07-15

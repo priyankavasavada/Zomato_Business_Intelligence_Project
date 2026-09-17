@@ -13,10 +13,10 @@ CityID,City,Population,Region,AverageIncome
 12,Surat,7799713,West,988746.0
 13,Nagpur,3043446,West,779719.0
 14,Indore,3294618,West,814115.0
-15,Bhopal,2412425,West,
+15,Bhopal,2412425,West,961447.0
 16,Coimbatore,2642463,South,957876.0
 17,Kochi,2192696,South,1016149.0
-18,Visakhapatnam,2348210,South,
+18,Visakhapatnam,2348210,South,961447.0
 19,Patna,2494110,East,650018.0
 20,Bhubaneswar,1165059,East,798349.0
 21,Guwahati,1059078,East,717449.0

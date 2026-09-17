@@ -60,7 +60,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 59,Mumbai,2023-08-12,20:30:00,Severe,3.0
 60,Mumbai,2024-02-19,20:15:00,High,14.5
 61,Mumbai,2023-10-20,18:45:00,High,14.4
-62,Mumbai,2023-10-04,09:45:00,Severe,109.5
+62,Mumbai,2023-10-04,09:45:00,Severe,100.0
 63,Mumbai,2024-11-15,16:15:00,Low,36.4
 64,Mumbai,2024-11-17,09:00:00,Severe,3.0
 65,Mumbai,2024-03-17,11:15:00,Moderate,27.3
@@ -107,7 +107,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 106,Mumbai,2023-08-08,17:30:00,Moderate,23.7
 107,Mumbai,2023-04-23,07:30:00,High,19.5
 108,Mumbai,2024-01-26,18:30:00,High,9.3
-109,Mumbai,2024-08-29,06:30:00,,20.8
+109,Mumbai,2024-08-29,06:30:00,High,20.8
 110,Mumbai,2023-11-11,16:30:00,High,14.2
 111,Mumbai,2023-06-20,10:30:00,Moderate,19.7
 112,Mumbai,2023-10-07,09:15:00,Moderate,27.2
@@ -132,11 +132,11 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 131,Mumbai,2024-01-30,07:15:00,Severe,6.7
 132,Mumbai,2023-02-13,11:00:00,Moderate,24.5
 133,Mumbai,2024-09-07,07:45:00,Moderate,22.9
-134,Mumbai,2024-03-29,08:00:00,High,100.4
+134,Mumbai,2024-03-29,08:00:00,High,100.0
 135,Mumbai,2024-09-23,19:00:00,High,7.3
 136,Mumbai,2024-11-11,12:15:00,Moderate,22.6
 137,Mumbai,2023-10-01,07:15:00,Moderate,35.2
-138,Mumbai,2024-06-20,18:45:00,,16.5
+138,Mumbai,2024-06-20,18:45:00,High,16.5
 139,Mumbai,2024-02-19,21:00:00,Low,42.5
 140,Mumbai,2023-01-16,02:30:00,Moderate,28.6
 141,Mumbai,2023-01-29,17:00:00,Moderate,28.7
@@ -278,7 +278,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 277,Mumbai,2024-11-26,08:45:00,Severe,6.1
 278,Mumbai,2024-02-29,18:15:00,Severe,3.0
 279,Mumbai,2024-01-02,17:30:00,Moderate,28.9
-280,Mumbai,2024-10-06,08:30:00,,15.6
+280,Mumbai,2024-10-06,08:30:00,High,15.6
 281,Mumbai,2023-09-28,15:00:00,Moderate,33.9
 282,Mumbai,2023-10-19,20:15:00,Severe,3.0
 283,Mumbai,2023-01-27,09:45:00,Severe,18.5
@@ -320,7 +320,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 319,Mumbai,2023-06-24,12:45:00,High,18.0
 320,Mumbai,2024-12-05,16:00:00,Low,36.1
 321,Mumbai,2023-07-01,06:45:00,High,17.9
-322,Mumbai,2023-02-21,19:45:00,,24.6
+322,Mumbai,2023-02-21,19:45:00,High,24.6
 323,Mumbai,2023-04-06,21:00:00,Moderate,29.6
 324,Mumbai,2023-03-25,18:30:00,High,18.8
 325,Mumbai,2023-02-09,19:45:00,Severe,14.2
@@ -333,7 +333,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 332,Mumbai,2023-04-16,07:30:00,Moderate,26.9
 333,Mumbai,2024-04-05,15:00:00,Moderate,23.3
 334,Mumbai,2024-02-24,13:30:00,Low,38.3
-335,Mumbai,2023-08-23,08:30:00,,4.8
+335,Mumbai,2023-08-23,08:30:00,Severe,4.8
 336,Mumbai,2024-08-12,19:15:00,High,17.9
 337,Mumbai,2024-10-03,13:30:00,Low,48.9
 338,Mumbai,2024-04-15,18:30:00,High,14.2
@@ -375,7 +375,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 374,Mumbai,2023-11-17,19:45:00,Severe,3.0
 375,Mumbai,2023-05-17,07:30:00,Severe,12.3
 376,Mumbai,2024-08-18,15:30:00,High,24.9
-377,Mumbai,2024-07-13,17:15:00,Moderate,118.8
+377,Mumbai,2024-07-13,17:15:00,Moderate,100.0
 378,Mumbai,2024-04-19,19:15:00,High,14.3
 379,Mumbai,2023-11-22,19:00:00,Low,29.4
 380,Mumbai,2023-08-11,16:15:00,Moderate,27.6
@@ -411,7 +411,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 410,Mumbai,2023-07-15,11:00:00,High,14.1
 411,Mumbai,2023-07-19,15:15:00,Moderate,27.7
 412,Mumbai,2023-10-31,16:30:00,Moderate,28.6
-413,Mumbai,2023-03-26,18:00:00,,21.0
+413,Mumbai,2023-03-26,18:00:00,High,21.0
 414,Mumbai,2023-03-28,00:00:00,Moderate,22.8
 415,Mumbai,2023-07-19,17:45:00,Severe,7.6
 416,Mumbai,2023-02-01,12:15:00,Severe,8.3
@@ -445,7 +445,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 444,Mumbai,2023-05-02,17:45:00,Severe,7.1
 445,Mumbai,2024-11-12,15:00:00,Low,28.2
 446,Mumbai,2024-11-28,20:30:00,High,12.8
-447,Mumbai,2024-05-22,12:45:00,,13.6
+447,Mumbai,2024-05-22,12:45:00,Severe,13.6
 448,Mumbai,2023-05-07,12:00:00,Low,47.4
 449,Mumbai,2023-12-05,15:15:00,Moderate,88.7
 450,Mumbai,2023-09-30,11:15:00,Moderate,22.5
@@ -468,7 +468,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 467,Mumbai,2023-10-30,16:15:00,High,18.4
 468,Mumbai,2023-01-05,07:15:00,Low,32.5
 469,Mumbai,2024-07-01,12:30:00,Severe,7.9
-470,Mumbai,2024-09-04,18:45:00,,15.4
+470,Mumbai,2024-09-04,18:45:00,High,15.4
 471,Mumbai,2024-04-16,17:30:00,Moderate,24.6
 472,Mumbai,2023-02-24,08:45:00,Severe,6.5
 473,Mumbai,2024-04-11,08:15:00,High,12.9
@@ -534,8 +534,8 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 533,Mumbai,2023-03-07,10:15:00,Severe,11.6
 534,Mumbai,2023-09-26,18:00:00,Low,37.2
 535,Mumbai,2023-12-10,20:15:00,Severe,6.3
-536,Mumbai,2024-03-24,17:15:00,,24.5
-537,Mumbai,2024-11-01,19:15:00,Low,114.7
+536,Mumbai,2024-03-24,17:15:00,High,24.5
+537,Mumbai,2024-11-01,19:15:00,Low,100.0
 538,Mumbai,2024-05-15,01:45:00,Low,34.9
 539,Mumbai,2024-11-25,11:45:00,Moderate,32.2
 540,Mumbai,2024-04-23,19:45:00,Severe,16.2
@@ -681,7 +681,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 680,Mumbai,2023-08-01,17:45:00,Low,28.8
 681,Mumbai,2024-07-03,05:45:00,Low,39.9
 682,Mumbai,2024-03-09,19:45:00,Low,41.7
-683,Mumbai,2023-11-18,10:15:00,,9.9
+683,Mumbai,2023-11-18,10:15:00,Severe,9.9
 684,Mumbai,2023-08-30,14:45:00,Low,35.4
 685,Mumbai,2024-04-06,17:00:00,Moderate,22.4
 686,Mumbai,2023-10-31,09:45:00,Moderate,27.8
@@ -825,7 +825,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 824,Delhi,2024-04-12,07:15:00,Low,49.6
 825,Delhi,2024-04-28,11:30:00,Low,32.6
 826,Delhi,2023-09-18,17:00:00,Moderate,21.8
-827,Delhi,2024-10-03,09:15:00,High,107.4
+827,Delhi,2024-10-03,09:15:00,High,100.0
 828,Delhi,2024-10-28,09:45:00,High,20.4
 829,Delhi,2024-09-26,10:30:00,Low,31.5
 830,Delhi,2024-02-04,16:45:00,Moderate,23.8
@@ -844,7 +844,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 843,Delhi,2023-02-06,19:30:00,High,20.0
 844,Delhi,2024-02-09,22:45:00,Moderate,35.9
 845,Delhi,2024-06-11,18:30:00,High,19.1
-846,Delhi,2023-09-12,08:00:00,,7.7
+846,Delhi,2023-09-12,08:00:00,Severe,7.7
 847,Delhi,2024-07-08,10:00:00,Low,33.4
 848,Delhi,2023-06-07,08:45:00,Severe,15.8
 849,Delhi,2023-07-12,07:15:00,Low,39.3
@@ -1036,7 +1036,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 1035,Delhi,2023-08-13,09:45:00,High,20.6
 1036,Delhi,2024-09-06,19:45:00,Moderate,22.3
 1037,Delhi,2024-03-21,08:30:00,High,6.4
-1038,Delhi,2023-08-21,16:30:00,Moderate,105.4
+1038,Delhi,2023-08-21,16:30:00,Moderate,100.0
 1039,Delhi,2024-11-14,18:00:00,Severe,4.3
 1040,Delhi,2024-11-16,18:45:00,Severe,3.0
 1041,Delhi,2024-01-12,19:30:00,Moderate,26.9
@@ -1078,7 +1078,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 1077,Delhi,2023-06-28,08:45:00,High,21.9
 1078,Delhi,2024-03-26,17:00:00,High,10.3
 1079,Delhi,2024-04-20,10:15:00,Moderate,29.5
-1080,Delhi,2023-10-06,16:30:00,,22.1
+1080,Delhi,2023-10-06,16:30:00,High,22.1
 1081,Delhi,2024-03-21,08:15:00,Moderate,27.4
 1082,Delhi,2024-04-25,06:00:00,Moderate,28.2
 1083,Delhi,2024-06-10,08:45:00,Severe,8.5
@@ -1096,7 +1096,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 1095,Delhi,2024-01-12,19:45:00,High,16.6
 1096,Delhi,2024-03-26,19:00:00,Severe,8.0
 1097,Delhi,2024-11-02,08:15:00,Severe,11.7
-1098,Delhi,2024-09-06,07:45:00,,32.2
+1098,Delhi,2024-09-06,07:45:00,Moderate,32.2
 1099,Delhi,2023-09-03,17:30:00,Moderate,80.1
 1100,Delhi,2024-08-27,14:00:00,Low,30.4
 1101,Delhi,2024-07-25,12:15:00,Low,39.2
@@ -1106,7 +1106,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 1105,Delhi,2023-07-25,11:00:00,Low,35.1
 1106,Delhi,2024-06-10,20:15:00,Severe,8.6
 1107,Delhi,2024-07-31,13:45:00,High,16.5
-1108,Delhi,2024-09-25,09:15:00,,27.6
+1108,Delhi,2024-09-25,09:15:00,High,27.6
 1109,Delhi,2023-06-10,04:30:00,High,18.2
 1110,Delhi,2023-08-28,16:45:00,High,16.4
 1111,Delhi,2024-05-09,14:00:00,Moderate,20.5
@@ -1118,10 +1118,10 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 1117,Delhi,2024-12-05,18:45:00,Severe,3.9
 1118,Delhi,2024-12-01,15:00:00,Severe,9.0
 1119,Delhi,2023-11-15,09:00:00,High,12.4
-1120,Delhi,2024-06-29,14:30:00,Low,105.8
+1120,Delhi,2024-06-29,14:30:00,Low,100.0
 1121,Delhi,2024-05-08,08:30:00,High,16.3
 1122,Delhi,2023-07-01,19:00:00,High,9.1
-1123,Delhi,2023-05-01,16:15:00,,42.2
+1123,Delhi,2023-05-01,16:15:00,Moderate,42.2
 1124,Delhi,2023-12-13,18:15:00,High,12.2
 1125,Delhi,2023-01-21,09:30:00,High,6.1
 1126,Delhi,2023-08-17,16:15:00,High,14.1
@@ -1153,7 +1153,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 1152,Delhi,2023-05-27,13:00:00,High,11.9
 1153,Delhi,2024-06-14,17:15:00,Low,45.9
 1154,Delhi,2024-09-17,08:15:00,High,10.4
-1155,Delhi,2023-06-03,21:45:00,Severe,119.3
+1155,Delhi,2023-06-03,21:45:00,Severe,100.0
 1156,Delhi,2024-10-04,02:00:00,Low,32.8
 1157,Delhi,2024-07-04,20:30:00,Moderate,28.1
 1158,Delhi,2024-10-02,17:15:00,Moderate,21.4
@@ -1308,7 +1308,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 1307,Delhi,2024-02-02,12:15:00,Moderate,32.9
 1308,Delhi,2024-09-01,22:30:00,Low,42.4
 1309,Delhi,2024-01-14,19:45:00,Severe,8.9
-1310,Delhi,2024-03-20,16:15:00,,33.1
+1310,Delhi,2024-03-20,16:15:00,Moderate,33.1
 1311,Delhi,2023-07-15,13:00:00,Moderate,28.1
 1312,Delhi,2024-10-18,11:30:00,Moderate,30.5
 1313,Delhi,2023-05-27,05:45:00,Low,30.6
@@ -1465,7 +1465,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 1464,Delhi,2024-11-05,08:00:00,High,21.3
 1465,Delhi,2024-03-05,15:15:00,Low,46.3
 1466,Delhi,2023-02-28,13:30:00,Moderate,30.2
-1467,Delhi,2023-11-22,17:00:00,,10.9
+1467,Delhi,2023-11-22,17:00:00,Severe,10.9
 1468,Delhi,2024-02-29,17:30:00,Low,34.8
 1469,Delhi,2023-01-25,12:15:00,High,15.2
 1470,Delhi,2024-01-03,18:30:00,High,13.6
@@ -1485,7 +1485,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 1484,Delhi,2023-12-16,18:30:00,High,15.3
 1485,Delhi,2024-06-22,07:00:00,Moderate,30.7
 1486,Delhi,2024-09-05,18:00:00,Severe,8.5
-1487,Delhi,2023-02-20,17:00:00,,47.6
+1487,Delhi,2023-02-20,17:00:00,Moderate,47.6
 1488,Delhi,2024-09-06,06:30:00,Low,42.6
 1489,Delhi,2024-02-16,08:15:00,Low,38.9
 1490,Delhi,2023-10-18,16:30:00,Moderate,22.4
@@ -1674,7 +1674,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 1673,Bengaluru,2023-01-01,19:00:00,High,18.7
 1674,Bengaluru,2023-07-04,08:45:00,High,14.9
 1675,Bengaluru,2023-10-11,19:15:00,High,17.0
-1676,Bengaluru,2023-06-16,07:30:00,,25.5
+1676,Bengaluru,2023-06-16,07:30:00,High,25.5
 1677,Bengaluru,2024-11-09,01:30:00,Severe,9.4
 1678,Bengaluru,2024-06-07,11:30:00,Moderate,38.7
 1679,Bengaluru,2023-01-26,17:45:00,Moderate,29.9
@@ -1697,7 +1697,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 1696,Bengaluru,2024-01-30,21:15:00,Moderate,33.7
 1697,Bengaluru,2023-08-23,13:45:00,Moderate,29.3
 1698,Bengaluru,2023-01-22,17:15:00,Moderate,25.7
-1699,Bengaluru,2023-04-20,16:15:00,,25.5
+1699,Bengaluru,2023-04-20,16:15:00,High,25.5
 1700,Bengaluru,2023-06-04,08:45:00,High,14.1
 1701,Bengaluru,2024-03-12,19:30:00,High,9.7
 1702,Bengaluru,2024-02-26,08:00:00,High,15.1
@@ -1726,7 +1726,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 1725,Bengaluru,2024-04-22,12:15:00,Low,37.3
 1726,Bengaluru,2023-02-11,01:15:00,Low,45.4
 1727,Bengaluru,2024-12-05,13:00:00,Moderate,27.7
-1728,Bengaluru,2024-11-01,12:30:00,,36.0
+1728,Bengaluru,2024-11-01,12:30:00,Moderate,36.0
 1729,Bengaluru,2023-09-17,12:45:00,Low,34.6
 1730,Bengaluru,2024-05-23,11:00:00,Low,41.1
 1731,Bengaluru,2023-05-16,10:30:00,Low,37.1
@@ -1767,7 +1767,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 1766,Bengaluru,2024-06-24,01:45:00,Severe,3.0
 1767,Bengaluru,2024-09-26,09:30:00,High,13.6
 1768,Bengaluru,2023-04-29,12:30:00,Moderate,33.6
-1769,Bengaluru,2024-01-14,10:45:00,High,100.9
+1769,Bengaluru,2024-01-14,10:45:00,High,100.0
 1770,Bengaluru,2024-03-03,11:45:00,High,25.1
 1771,Bengaluru,2023-02-23,15:15:00,High,19.7
 1772,Bengaluru,2024-02-09,12:15:00,Moderate,21.8
@@ -1855,7 +1855,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 1854,Bengaluru,2023-01-31,08:15:00,Severe,10.4
 1855,Bengaluru,2024-09-16,20:00:00,High,20.4
 1856,Bengaluru,2024-12-28,10:00:00,High,19.2
-1857,Bengaluru,2024-01-02,08:15:00,,26.7
+1857,Bengaluru,2024-01-02,08:15:00,High,26.7
 1858,Bengaluru,2023-11-28,16:45:00,High,17.9
 1859,Bengaluru,2024-03-12,09:30:00,Severe,11.9
 1860,Bengaluru,2024-01-13,22:00:00,Moderate,37.2
@@ -2018,7 +2018,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 2017,Bengaluru,2024-08-30,19:45:00,Severe,10.6
 2018,Bengaluru,2023-05-21,08:15:00,Moderate,30.6
 2019,Bengaluru,2024-09-21,07:15:00,Severe,20.2
-2020,Bengaluru,2024-11-18,08:45:00,,22.7
+2020,Bengaluru,2024-11-18,08:45:00,High,22.7
 2021,Bengaluru,2024-07-07,13:45:00,Low,46.5
 2022,Bengaluru,2023-09-05,17:00:00,Low,34.1
 2023,Bengaluru,2023-01-22,19:00:00,High,7.1
@@ -2069,7 +2069,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 2068,Bengaluru,2024-01-09,19:15:00,High,16.6
 2069,Bengaluru,2024-05-10,08:15:00,High,13.1
 2070,Bengaluru,2024-12-05,18:30:00,Severe,3.0
-2071,Bengaluru,2023-02-26,08:00:00,,12.2
+2071,Bengaluru,2023-02-26,08:00:00,Severe,12.2
 2072,Bengaluru,2024-06-04,18:00:00,Severe,4.7
 2073,Bengaluru,2024-11-04,06:30:00,Moderate,19.8
 2074,Bengaluru,2024-11-14,18:15:00,Severe,13.1
@@ -2186,7 +2186,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 2185,Bengaluru,2024-06-24,06:00:00,Low,41.7
 2186,Bengaluru,2023-02-22,07:45:00,Moderate,31.6
 2187,Bengaluru,2024-11-02,07:00:00,Moderate,26.6
-2188,Bengaluru,2024-08-29,16:30:00,Moderate,114.3
+2188,Bengaluru,2024-08-29,16:30:00,Moderate,100.0
 2189,Bengaluru,2024-03-09,11:15:00,Moderate,33.3
 2190,Bengaluru,2023-04-19,19:15:00,Severe,11.5
 2191,Bengaluru,2024-07-24,22:30:00,High,12.6
@@ -2210,7 +2210,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 2209,Hyderabad,2024-11-14,08:00:00,High,16.1
 2210,Hyderabad,2023-03-05,17:30:00,High,16.7
 2211,Hyderabad,2023-12-16,17:30:00,Moderate,23.5
-2212,Hyderabad,2023-05-22,13:30:00,,18.3
+2212,Hyderabad,2023-05-22,13:30:00,High,18.3
 2213,Hyderabad,2024-02-28,09:30:00,High,13.2
 2214,Hyderabad,2023-11-27,04:00:00,Low,32.5
 2215,Hyderabad,2024-04-06,21:00:00,Moderate,30.6
@@ -2292,7 +2292,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 2291,Hyderabad,2024-06-24,10:45:00,Low,44.4
 2292,Hyderabad,2024-02-20,16:30:00,Severe,9.8
 2293,Hyderabad,2023-12-20,15:45:00,Moderate,23.5
-2294,Hyderabad,2023-01-10,21:00:00,,37.4
+2294,Hyderabad,2023-01-10,21:00:00,Moderate,37.4
 2295,Hyderabad,2024-01-26,09:45:00,Severe,10.7
 2296,Hyderabad,2024-02-29,07:00:00,Moderate,28.2
 2297,Hyderabad,2023-01-22,15:30:00,Moderate,33.8
@@ -2442,7 +2442,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 2441,Hyderabad,2024-11-10,18:15:00,Severe,5.3
 2442,Hyderabad,2024-04-18,21:45:00,Low,35.1
 2443,Hyderabad,2024-05-01,08:15:00,Moderate,30.6
-2444,Hyderabad,2024-11-01,10:15:00,,20.3
+2444,Hyderabad,2024-11-01,10:15:00,High,20.3
 2445,Hyderabad,2023-12-06,14:15:00,Severe,7.7
 2446,Hyderabad,2023-05-31,16:45:00,High,11.6
 2447,Hyderabad,2024-09-18,18:15:00,Low,40.7
@@ -2478,7 +2478,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 2477,Hyderabad,2024-12-22,06:00:00,Low,40.8
 2478,Hyderabad,2024-08-19,10:00:00,Severe,12.6
 2479,Hyderabad,2024-04-09,09:15:00,High,21.8
-2480,Hyderabad,2023-06-02,07:30:00,Low,106.0
+2480,Hyderabad,2023-06-02,07:30:00,Low,100.0
 2481,Hyderabad,2023-12-21,12:15:00,High,6.9
 2482,Hyderabad,2024-12-26,22:30:00,Moderate,27.6
 2483,Hyderabad,2023-07-18,17:45:00,High,19.6
@@ -2579,7 +2579,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 2578,Hyderabad,2024-01-12,16:30:00,Moderate,33.2
 2579,Hyderabad,2023-04-23,08:15:00,High,19.0
 2580,Hyderabad,2024-08-09,08:45:00,Severe,3.0
-2581,Hyderabad,2024-08-26,02:15:00,,40.5
+2581,Hyderabad,2024-08-26,02:15:00,Moderate,40.5
 2582,Hyderabad,2023-07-24,17:30:00,Moderate,33.0
 2583,Hyderabad,2023-01-27,05:30:00,Moderate,20.2
 2584,Hyderabad,2024-08-27,18:45:00,High,14.7
@@ -2694,7 +2694,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 2693,Hyderabad,2024-05-31,16:30:00,High,19.9
 2694,Hyderabad,2023-09-14,14:45:00,Moderate,30.5
 2695,Hyderabad,2023-10-15,18:00:00,Moderate,26.9
-2696,Hyderabad,2023-06-03,08:45:00,Moderate,116.5
+2696,Hyderabad,2023-06-03,08:45:00,Moderate,100.0
 2697,Hyderabad,2024-01-31,18:45:00,High,18.0
 2698,Hyderabad,2023-07-01,16:45:00,Moderate,19.9
 2699,Hyderabad,2023-04-17,21:45:00,High,15.8
@@ -2746,7 +2746,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 2745,Hyderabad,2024-04-17,19:15:00,High,15.5
 2746,Hyderabad,2023-09-15,10:45:00,Moderate,27.0
 2747,Hyderabad,2023-06-20,18:30:00,Severe,6.8
-2748,Hyderabad,2024-05-01,12:30:00,Moderate,104.7
+2748,Hyderabad,2024-05-01,12:30:00,Moderate,100.0
 2749,Hyderabad,2023-10-20,06:15:00,Low,42.1
 2750,Hyderabad,2023-11-25,16:30:00,Moderate,26.0
 2751,Hyderabad,2023-08-21,15:45:00,Low,29.5
@@ -2801,13 +2801,13 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 2800,Hyderabad,2024-06-27,16:15:00,Moderate,35.8
 2801,Hyderabad,2023-06-29,08:00:00,Severe,6.7
 2802,Hyderabad,2023-01-03,09:45:00,Moderate,26.2
-2803,Hyderabad,2023-01-30,16:45:00,High,102.1
+2803,Hyderabad,2023-01-30,16:45:00,High,100.0
 2804,Hyderabad,2023-10-18,17:00:00,Moderate,35.3
 2805,Hyderabad,2024-06-24,18:45:00,Severe,4.6
 2806,Hyderabad,2023-10-23,22:00:00,High,14.1
 2807,Hyderabad,2024-02-06,20:15:00,Severe,8.2
 2808,Hyderabad,2023-03-13,19:00:00,High,20.7
-2809,Hyderabad,2024-11-07,21:45:00,,26.6
+2809,Hyderabad,2024-11-07,21:45:00,High,26.6
 2810,Hyderabad,2023-06-19,06:15:00,High,21.0
 2811,Hyderabad,2024-11-28,20:45:00,High,18.0
 2812,Hyderabad,2023-12-13,09:15:00,High,18.5
@@ -2855,7 +2855,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 2854,Hyderabad,2024-08-14,18:15:00,Severe,12.2
 2855,Hyderabad,2023-02-20,23:30:00,Moderate,30.9
 2856,Hyderabad,2023-10-07,18:30:00,Low,43.8
-2857,Hyderabad,2024-11-03,12:15:00,High,111.0
+2857,Hyderabad,2024-11-03,12:15:00,High,100.0
 2858,Hyderabad,2023-12-23,17:30:00,Low,31.0
 2859,Hyderabad,2024-09-06,17:15:00,Moderate,24.9
 2860,Hyderabad,2024-01-21,16:15:00,Low,30.7
@@ -3034,7 +3034,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 3033,Chennai,2023-04-21,18:45:00,Moderate,26.7
 3034,Chennai,2024-05-01,07:30:00,Severe,7.0
 3035,Chennai,2024-12-10,15:00:00,Moderate,27.4
-3036,Chennai,2024-02-08,06:15:00,,11.4
+3036,Chennai,2024-02-08,06:15:00,Severe,11.4
 3037,Chennai,2024-06-12,08:30:00,High,10.2
 3038,Chennai,2024-05-14,08:30:00,High,11.7
 3039,Chennai,2024-09-18,18:30:00,Moderate,27.1
@@ -3132,7 +3132,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 3131,Chennai,2024-08-26,08:30:00,High,16.2
 3132,Chennai,2023-12-22,15:45:00,Severe,3.6
 3133,Chennai,2024-06-08,13:15:00,Severe,3.0
-3134,Chennai,2023-06-04,18:30:00,Severe,103.0
+3134,Chennai,2023-06-04,18:30:00,Severe,100.0
 3135,Chennai,2024-07-28,19:30:00,Moderate,17.3
 3136,Chennai,2024-02-21,23:30:00,High,16.3
 3137,Chennai,2023-11-17,07:30:00,Moderate,25.1
@@ -3266,7 +3266,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 3265,Chennai,2023-12-26,09:00:00,Severe,14.4
 3266,Chennai,2023-05-17,17:15:00,Moderate,15.9
 3267,Chennai,2024-12-06,12:15:00,Low,38.5
-3268,Chennai,2023-08-10,10:15:00,,35.4
+3268,Chennai,2023-08-10,10:15:00,Moderate,35.4
 3269,Chennai,2023-03-12,21:15:00,Low,37.3
 3270,Chennai,2023-02-24,03:00:00,Moderate,26.1
 3271,Chennai,2023-10-25,23:45:00,Low,38.0
@@ -3386,10 +3386,10 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 3385,Chennai,2024-05-19,12:15:00,Moderate,23.0
 3386,Chennai,2023-06-02,16:30:00,Moderate,34.0
 3387,Chennai,2023-08-19,00:15:00,High,13.9
-3388,Chennai,2023-05-17,23:00:00,,23.9
+3388,Chennai,2023-05-17,23:00:00,High,23.9
 3389,Chennai,2024-12-11,07:30:00,High,82.4
 3390,Chennai,2023-04-30,11:15:00,Low,36.0
-3391,Chennai,2024-11-01,08:15:00,,20.0
+3391,Chennai,2024-11-01,08:15:00,High,20.0
 3392,Chennai,2024-12-01,07:30:00,Low,30.5
 3393,Chennai,2023-05-20,18:45:00,Moderate,30.4
 3394,Chennai,2023-09-22,10:30:00,Moderate,31.1
@@ -3484,7 +3484,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 3483,Chennai,2023-06-20,07:00:00,High,10.1
 3484,Chennai,2024-03-05,19:45:00,High,8.0
 3485,Chennai,2023-06-23,19:15:00,Moderate,23.5
-3486,Chennai,2024-11-10,17:15:00,Moderate,107.7
+3486,Chennai,2024-11-10,17:15:00,Moderate,100.0
 3487,Chennai,2024-10-23,18:15:00,Moderate,27.7
 3488,Chennai,2024-07-14,07:30:00,Moderate,22.0
 3489,Chennai,2024-05-05,04:15:00,Low,40.0
@@ -3493,7 +3493,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 3492,Chennai,2023-05-03,15:15:00,Low,39.2
 3493,Chennai,2023-11-18,12:15:00,Severe,5.4
 3494,Chennai,2023-10-04,07:15:00,Low,37.0
-3495,Chennai,2024-04-01,22:30:00,,36.4
+3495,Chennai,2024-04-01,22:30:00,Moderate,36.4
 3496,Chennai,2023-05-02,09:30:00,High,8.3
 3497,Chennai,2024-01-12,17:00:00,Low,36.5
 3498,Chennai,2023-12-12,08:30:00,High,92.5
@@ -3543,7 +3543,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 3542,Chennai,2024-05-05,08:30:00,High,12.3
 3543,Chennai,2024-07-29,18:15:00,Severe,11.8
 3544,Chennai,2024-04-17,08:15:00,High,9.1
-3545,Chennai,2024-01-27,11:15:00,Moderate,113.6
+3545,Chennai,2024-01-27,11:15:00,Moderate,100.0
 3546,Chennai,2023-02-13,18:15:00,High,17.7
 3547,Chennai,2023-01-03,15:15:00,Low,36.0
 3548,Chennai,2023-09-02,13:15:00,Low,39.1
@@ -3566,7 +3566,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 3565,Chennai,2024-10-26,07:15:00,High,18.7
 3566,Chennai,2024-04-17,14:45:00,High,11.8
 3567,Chennai,2023-10-02,06:45:00,Severe,12.3
-3568,Chennai,2023-05-23,14:45:00,Low,106.5
+3568,Chennai,2023-05-23,14:45:00,Low,100.0
 3569,Chennai,2023-04-08,08:45:00,Moderate,24.7
 3570,Chennai,2023-07-20,12:45:00,Moderate,29.4
 3571,Chennai,2023-06-02,04:15:00,Low,37.5
@@ -3579,7 +3579,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 3578,Chennai,2024-02-26,12:30:00,Moderate,22.9
 3579,Chennai,2024-08-07,20:30:00,Severe,16.0
 3580,Chennai,2024-07-28,08:45:00,Moderate,27.5
-3581,Chennai,2024-10-17,18:30:00,Moderate,111.9
+3581,Chennai,2024-10-17,18:30:00,Moderate,100.0
 3582,Chennai,2024-06-05,07:00:00,High,16.5
 3583,Chennai,2023-01-18,08:45:00,Severe,6.0
 3584,Chennai,2023-08-16,09:30:00,High,19.7
@@ -3593,7 +3593,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 3592,Chennai,2023-07-16,05:30:00,Moderate,26.2
 3593,Chennai,2024-03-24,20:45:00,High,12.6
 3594,Chennai,2024-05-26,12:30:00,High,19.4
-3595,Chennai,2023-11-18,13:45:00,Severe,101.1
+3595,Chennai,2023-11-18,13:45:00,Severe,100.0
 3596,Chennai,2024-05-26,08:45:00,Moderate,28.7
 3597,Chennai,2024-11-21,13:45:00,High,22.1
 3598,Chennai,2023-04-20,17:15:00,Moderate,34.8
@@ -3685,7 +3685,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 3684,Kolkata,2023-09-27,10:30:00,High,29.8
 3685,Kolkata,2024-08-30,07:00:00,High,91.3
 3686,Kolkata,2024-03-03,18:30:00,Severe,11.5
-3687,Kolkata,2024-08-31,16:45:00,,38.4
+3687,Kolkata,2024-08-31,16:45:00,Moderate,38.4
 3688,Kolkata,2023-09-08,08:00:00,High,15.8
 3689,Kolkata,2023-11-12,09:15:00,High,14.1
 3690,Kolkata,2023-02-10,21:45:00,Moderate,29.4
@@ -3878,9 +3878,9 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 3877,Kolkata,2023-01-30,15:45:00,High,11.4
 3878,Kolkata,2024-11-30,07:30:00,High,16.2
 3879,Kolkata,2024-10-22,19:30:00,Severe,6.8
-3880,Kolkata,2023-07-17,23:15:00,,34.8
+3880,Kolkata,2023-07-17,23:15:00,Moderate,34.8
 3881,Kolkata,2024-10-12,17:30:00,High,19.1
-3882,Kolkata,2023-04-18,18:45:00,Severe,101.8
+3882,Kolkata,2023-04-18,18:45:00,Severe,100.0
 3883,Kolkata,2023-06-03,05:00:00,Low,34.3
 3884,Kolkata,2024-07-06,14:45:00,Severe,7.7
 3885,Kolkata,2024-09-04,02:15:00,Low,42.2
@@ -3920,7 +3920,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 3919,Kolkata,2024-03-14,13:30:00,Low,40.3
 3920,Kolkata,2023-01-08,10:45:00,Moderate,25.1
 3921,Kolkata,2024-03-15,18:45:00,High,9.7
-3922,Kolkata,2024-11-07,08:30:00,,12.9
+3922,Kolkata,2024-11-07,08:30:00,Severe,12.9
 3923,Kolkata,2024-10-23,06:00:00,Moderate,27.9
 3924,Kolkata,2024-02-23,02:30:00,Moderate,40.0
 3925,Kolkata,2023-09-22,18:15:00,High,20.2
@@ -4037,7 +4037,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 4036,Kolkata,2024-09-21,18:00:00,High,17.7
 4037,Kolkata,2024-04-17,09:45:00,Severe,6.1
 4038,Kolkata,2023-01-06,08:45:00,Moderate,22.7
-4039,Kolkata,2024-05-10,13:15:00,Low,116.9
+4039,Kolkata,2024-05-10,13:15:00,Low,100.0
 4040,Kolkata,2023-10-14,16:00:00,Severe,15.5
 4041,Kolkata,2023-12-07,15:00:00,High,15.4
 4042,Kolkata,2023-04-16,03:00:00,Low,49.5
@@ -4089,7 +4089,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 4088,Kolkata,2024-10-20,07:15:00,Severe,11.4
 4089,Kolkata,2023-05-04,18:15:00,High,20.1
 4090,Kolkata,2023-10-01,17:00:00,Moderate,31.9
-4091,Kolkata,2023-05-16,17:15:00,Severe,102.8
+4091,Kolkata,2023-05-16,17:15:00,Severe,100.0
 4092,Kolkata,2023-09-21,21:45:00,Severe,8.5
 4093,Kolkata,2024-03-09,13:15:00,Moderate,27.8
 4094,Kolkata,2024-11-05,17:15:00,Moderate,27.9
@@ -4113,7 +4113,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 4112,Kolkata,2023-09-29,00:30:00,Low,34.5
 4113,Kolkata,2024-06-12,18:45:00,High,11.2
 4114,Kolkata,2024-01-10,07:30:00,Moderate,27.6
-4115,Kolkata,2023-08-01,19:00:00,High,111.3
+4115,Kolkata,2023-08-01,19:00:00,High,100.0
 4116,Kolkata,2023-05-23,05:45:00,Severe,11.7
 4117,Kolkata,2024-05-08,19:30:00,High,29.8
 4118,Kolkata,2023-03-15,07:30:00,Moderate,20.1
@@ -4254,7 +4254,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 4253,Kolkata,2023-04-16,07:15:00,Low,38.5
 4254,Kolkata,2024-11-02,15:00:00,High,21.3
 4255,Kolkata,2023-06-12,08:45:00,High,18.2
-4256,Kolkata,2023-04-22,15:45:00,,18.4
+4256,Kolkata,2023-04-22,15:45:00,High,18.4
 4257,Kolkata,2023-07-11,19:45:00,High,22.9
 4258,Kolkata,2023-03-25,15:45:00,Low,35.7
 4259,Kolkata,2024-01-17,08:45:00,High,18.4
@@ -4595,7 +4595,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 4594,Pune,2024-12-14,09:15:00,Low,39.2
 4595,Pune,2024-07-18,21:45:00,Low,35.0
 4596,Pune,2024-04-13,21:15:00,High,18.9
-4597,Pune,2023-10-08,12:45:00,,27.2
+4597,Pune,2023-10-08,12:45:00,High,27.2
 4598,Pune,2023-11-13,09:45:00,Severe,10.8
 4599,Pune,2024-06-29,09:15:00,Low,31.6
 4600,Pune,2024-10-15,08:00:00,High,18.1
@@ -4732,7 +4732,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 4731,Pune,2024-03-30,18:30:00,High,11.6
 4732,Pune,2024-10-09,00:30:00,Low,35.7
 4733,Pune,2023-10-22,06:00:00,Moderate,31.9
-4734,Pune,2024-04-19,07:15:00,,36.4
+4734,Pune,2024-04-19,07:15:00,Moderate,36.4
 4735,Pune,2023-03-06,16:15:00,Moderate,19.1
 4736,Pune,2024-08-24,07:45:00,Low,36.7
 4737,Pune,2024-02-07,13:15:00,Low,41.3
@@ -4757,7 +4757,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 4756,Pune,2023-11-28,16:45:00,Moderate,29.1
 4757,Pune,2024-12-08,14:00:00,Moderate,20.1
 4758,Pune,2023-08-12,07:00:00,Moderate,19.2
-4759,Pune,2023-05-05,12:15:00,,21.3
+4759,Pune,2023-05-05,12:15:00,High,21.3
 4760,Pune,2024-10-10,15:30:00,Low,37.2
 4761,Pune,2023-11-17,20:30:00,Severe,6.8
 4762,Pune,2024-02-06,15:45:00,Low,44.1
@@ -5076,7 +5076,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 5075,Pune,2023-07-30,19:30:00,High,16.1
 5076,Pune,2024-10-06,08:15:00,High,11.2
 5077,Pune,2024-08-11,22:00:00,High,24.5
-5078,Pune,2024-08-26,03:45:00,,37.1
+5078,Pune,2024-08-26,03:45:00,Moderate,37.1
 5079,Pune,2023-04-15,09:45:00,Severe,4.6
 5080,Pune,2024-06-06,12:30:00,Low,41.0
 5081,Pune,2024-02-10,19:45:00,High,10.9
@@ -5323,7 +5323,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 5322,Ahmedabad,2024-03-04,08:30:00,High,19.3
 5323,Ahmedabad,2023-06-15,14:45:00,Low,35.5
 5324,Ahmedabad,2024-06-20,03:45:00,Low,42.5
-5325,Ahmedabad,2024-10-03,06:45:00,,16.2
+5325,Ahmedabad,2024-10-03,06:45:00,High,16.2
 5326,Ahmedabad,2024-11-09,16:30:00,Moderate,20.8
 5327,Ahmedabad,2024-04-08,16:45:00,Moderate,28.7
 5328,Ahmedabad,2023-10-05,01:45:00,Moderate,19.0
@@ -5358,7 +5358,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 5357,Ahmedabad,2024-05-24,18:30:00,Moderate,25.9
 5358,Ahmedabad,2023-01-19,14:15:00,Moderate,23.0
 5359,Ahmedabad,2024-09-19,07:45:00,Severe,3.0
-5360,Ahmedabad,2024-09-15,21:30:00,Moderate,115.4
+5360,Ahmedabad,2024-09-15,21:30:00,Moderate,100.0
 5361,Ahmedabad,2024-09-16,09:30:00,Moderate,22.1
 5362,Ahmedabad,2023-06-10,14:30:00,High,14.2
 5363,Ahmedabad,2023-01-28,06:30:00,High,20.7
@@ -5641,7 +5641,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 5640,Ahmedabad,2023-06-21,10:15:00,Moderate,28.4
 5641,Ahmedabad,2023-12-14,18:15:00,Moderate,28.9
 5642,Ahmedabad,2024-06-22,16:30:00,Moderate,26.5
-5643,Ahmedabad,2024-07-16,12:30:00,Moderate,112.1
+5643,Ahmedabad,2024-07-16,12:30:00,Moderate,100.0
 5644,Ahmedabad,2024-06-16,19:00:00,High,9.3
 5645,Ahmedabad,2024-02-27,18:45:00,High,14.9
 5646,Ahmedabad,2023-02-25,18:00:00,Severe,10.7
@@ -5814,7 +5814,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 5813,Ahmedabad,2024-10-20,13:45:00,Severe,6.5
 5814,Ahmedabad,2024-05-21,17:00:00,High,16.9
 5815,Ahmedabad,2023-03-11,09:45:00,Moderate,21.2
-5816,Ahmedabad,2023-07-16,08:30:00,Moderate,109.3
+5816,Ahmedabad,2023-07-16,08:30:00,Moderate,100.0
 5817,Ahmedabad,2023-05-03,21:45:00,Low,42.1
 5818,Ahmedabad,2023-01-04,09:15:00,High,24.4
 5819,Ahmedabad,2024-11-17,22:30:00,Low,40.0
@@ -5849,7 +5849,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 5848,Ahmedabad,2024-06-27,16:15:00,High,19.1
 5849,Ahmedabad,2024-06-08,19:00:00,High,14.3
 5850,Ahmedabad,2024-04-13,18:30:00,Severe,3.0
-5851,Ahmedabad,2024-02-14,17:30:00,Moderate,114.9
+5851,Ahmedabad,2024-02-14,17:30:00,Moderate,100.0
 5852,Ahmedabad,2024-12-04,20:30:00,High,9.8
 5853,Ahmedabad,2023-01-12,16:45:00,Moderate,40.2
 5854,Ahmedabad,2024-06-25,19:00:00,Severe,3.0
@@ -5904,7 +5904,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 5903,Jaipur,2023-05-10,18:00:00,High,15.4
 5904,Jaipur,2023-12-05,06:00:00,Low,42.6
 5905,Jaipur,2024-06-24,18:00:00,High,26.1
-5906,Jaipur,2023-02-27,22:15:00,,27.5
+5906,Jaipur,2023-02-27,22:15:00,High,27.5
 5907,Jaipur,2023-02-11,18:15:00,Severe,15.5
 5908,Jaipur,2023-01-06,10:00:00,Low,29.8
 5909,Jaipur,2023-07-08,15:15:00,High,12.9
@@ -5944,13 +5944,13 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 5943,Jaipur,2024-08-19,19:45:00,Severe,6.6
 5944,Jaipur,2024-11-24,20:00:00,Severe,14.0
 5945,Jaipur,2023-12-13,10:45:00,Moderate,27.5
-5946,Jaipur,2024-08-22,08:30:00,High,112.6
+5946,Jaipur,2024-08-22,08:30:00,High,100.0
 5947,Jaipur,2023-01-09,09:15:00,High,21.4
 5948,Jaipur,2023-02-05,18:45:00,High,18.5
 5949,Jaipur,2023-04-27,11:30:00,Moderate,18.7
 5950,Jaipur,2023-01-18,17:45:00,Moderate,30.3
 5951,Jaipur,2024-01-21,09:45:00,High,24.5
-5952,Jaipur,2024-06-30,08:30:00,,18.7
+5952,Jaipur,2024-06-30,08:30:00,High,18.7
 5953,Jaipur,2024-08-19,17:15:00,High,22.0
 5954,Jaipur,2024-08-26,19:30:00,Severe,6.5
 5955,Jaipur,2024-11-08,08:30:00,High,22.2
@@ -6072,7 +6072,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 6071,Jaipur,2024-01-06,14:30:00,Severe,6.2
 6072,Jaipur,2024-02-02,13:30:00,Low,40.1
 6073,Jaipur,2024-07-12,20:15:00,High,15.9
-6074,Jaipur,2024-03-20,04:00:00,,39.4
+6074,Jaipur,2024-03-20,04:00:00,Moderate,39.4
 6075,Jaipur,2024-07-26,19:30:00,Severe,8.3
 6076,Jaipur,2023-12-04,22:15:00,Moderate,30.3
 6077,Jaipur,2024-01-12,20:30:00,Severe,15.2
@@ -6091,7 +6091,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 6090,Jaipur,2023-09-04,06:00:00,Moderate,33.1
 6091,Jaipur,2024-07-07,07:45:00,High,17.7
 6092,Jaipur,2024-11-29,04:15:00,Moderate,29.3
-6093,Jaipur,2023-10-29,18:30:00,,27.5
+6093,Jaipur,2023-10-29,18:30:00,High,27.5
 6094,Jaipur,2024-12-17,08:30:00,Low,40.6
 6095,Jaipur,2023-02-07,13:15:00,High,23.6
 6096,Jaipur,2024-03-25,20:45:00,High,19.1
@@ -6163,7 +6163,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 6162,Jaipur,2024-10-31,14:30:00,High,10.6
 6163,Jaipur,2023-03-08,14:00:00,Moderate,36.5
 6164,Jaipur,2023-10-28,08:15:00,Moderate,30.1
-6165,Jaipur,2023-06-28,02:15:00,,15.1
+6165,Jaipur,2023-06-28,02:15:00,High,15.1
 6166,Jaipur,2023-03-31,07:45:00,Moderate,27.3
 6167,Jaipur,2023-05-12,18:00:00,Severe,5.5
 6168,Jaipur,2023-10-10,20:15:00,Moderate,19.6
@@ -6204,7 +6204,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 6203,Jaipur,2023-03-29,15:15:00,Moderate,32.4
 6204,Jaipur,2023-01-22,19:15:00,Severe,12.0
 6205,Jaipur,2023-05-26,23:45:00,Moderate,21.0
-6206,Jaipur,2024-08-25,11:45:00,Low,114.7
+6206,Jaipur,2024-08-25,11:45:00,Low,100.0
 6207,Jaipur,2023-09-19,05:15:00,Low,36.7
 6208,Jaipur,2024-07-02,07:45:00,Low,33.8
 6209,Jaipur,2023-03-20,18:00:00,Severe,6.6
@@ -6293,7 +6293,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 6292,Jaipur,2023-01-17,22:45:00,Low,37.6
 6293,Jaipur,2023-07-11,19:15:00,High,17.3
 6294,Jaipur,2023-06-05,07:00:00,Moderate,31.3
-6295,Jaipur,2023-08-07,19:45:00,,6.6
+6295,Jaipur,2023-08-07,19:45:00,Severe,6.6
 6296,Jaipur,2023-11-18,16:30:00,Moderate,31.6
 6297,Jaipur,2023-11-18,08:30:00,Moderate,22.6
 6298,Jaipur,2024-01-11,22:45:00,Moderate,22.2
@@ -6316,12 +6316,12 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 6315,Jaipur,2023-06-14,06:15:00,Severe,8.7
 6316,Jaipur,2024-11-25,16:45:00,Moderate,19.7
 6317,Jaipur,2024-04-28,16:00:00,Low,34.4
-6318,Jaipur,2023-07-26,06:30:00,,37.0
+6318,Jaipur,2023-07-26,06:30:00,Moderate,37.0
 6319,Jaipur,2024-01-03,14:00:00,Low,32.5
 6320,Jaipur,2023-12-27,21:30:00,Moderate,29.3
 6321,Jaipur,2024-09-24,10:30:00,High,8.0
 6322,Jaipur,2024-10-31,09:45:00,Moderate,33.2
-6323,Jaipur,2024-12-23,06:45:00,Moderate,117.2
+6323,Jaipur,2024-12-23,06:45:00,Moderate,100.0
 6324,Jaipur,2024-06-06,07:15:00,Moderate,33.5
 6325,Jaipur,2023-01-05,07:45:00,Moderate,23.6
 6326,Jaipur,2024-10-15,17:45:00,Moderate,31.7
@@ -6429,7 +6429,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 6428,Jaipur,2024-03-06,13:15:00,Low,38.6
 6429,Jaipur,2024-12-18,14:30:00,High,13.7
 6430,Jaipur,2024-12-22,18:00:00,Severe,3.8
-6431,Jaipur,2023-01-20,20:45:00,,17.3
+6431,Jaipur,2023-01-20,20:45:00,High,17.3
 6432,Jaipur,2024-05-02,19:15:00,Severe,7.2
 6433,Jaipur,2023-06-15,12:00:00,High,21.7
 6434,Jaipur,2024-10-01,15:30:00,Severe,9.5
@@ -6488,7 +6488,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 6487,Jaipur,2023-06-21,18:00:00,Moderate,30.2
 6488,Jaipur,2023-07-31,19:30:00,Severe,3.0
 6489,Jaipur,2024-07-22,19:45:00,High,10.8
-6490,Jaipur,2024-08-05,17:30:00,,13.5
+6490,Jaipur,2024-08-05,17:30:00,Severe,13.5
 6491,Jaipur,2023-03-02,22:00:00,High,26.3
 6492,Jaipur,2023-02-28,19:15:00,High,19.5
 6493,Jaipur,2024-08-10,12:15:00,Moderate,23.1
@@ -6596,7 +6596,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 6595,Jaipur,2023-06-26,16:15:00,Severe,3.0
 6596,Jaipur,2024-07-21,16:15:00,Moderate,25.1
 6597,Jaipur,2023-03-18,08:45:00,Moderate,31.9
-6598,Jaipur,2023-01-01,03:15:00,,43.9
+6598,Jaipur,2023-01-01,03:15:00,Moderate,43.9
 6599,Jaipur,2024-08-14,19:00:00,Severe,10.0
 6600,Jaipur,2024-04-11,15:15:00,High,16.3
 6601,Jaipur,2023-08-10,18:45:00,Moderate,18.7
@@ -6774,12 +6774,12 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 6773,Lucknow,2024-10-26,21:00:00,Severe,3.0
 6774,Lucknow,2024-04-14,15:00:00,High,13.7
 6775,Lucknow,2023-10-18,18:45:00,Severe,10.6
-6776,Lucknow,2024-09-16,18:00:00,,16.5
+6776,Lucknow,2024-09-16,18:00:00,High,16.5
 6777,Lucknow,2024-02-29,19:45:00,Moderate,29.7
 6778,Lucknow,2024-12-31,12:30:00,Moderate,16.1
 6779,Lucknow,2023-09-24,13:45:00,Moderate,27.1
 6780,Lucknow,2023-10-08,05:30:00,Low,36.5
-6781,Lucknow,2024-11-24,03:30:00,,36.4
+6781,Lucknow,2024-11-24,03:30:00,Moderate,36.4
 6782,Lucknow,2024-01-23,15:30:00,Moderate,27.7
 6783,Lucknow,2024-12-07,09:45:00,High,17.8
 6784,Lucknow,2023-10-30,19:00:00,Severe,7.8
@@ -6791,7 +6791,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 6790,Lucknow,2024-09-23,18:15:00,High,20.6
 6791,Lucknow,2023-03-18,19:00:00,Severe,3.0
 6792,Lucknow,2024-12-29,19:00:00,Severe,7.8
-6793,Lucknow,2023-02-24,09:30:00,Moderate,112.8
+6793,Lucknow,2023-02-24,09:30:00,Moderate,100.0
 6794,Lucknow,2024-07-07,12:00:00,Moderate,33.8
 6795,Lucknow,2024-01-04,23:45:00,Moderate,34.5
 6796,Lucknow,2023-05-14,19:30:00,High,8.7
@@ -6884,7 +6884,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 6883,Lucknow,2024-01-27,01:15:00,Low,31.6
 6884,Lucknow,2023-05-04,14:30:00,Low,39.1
 6885,Lucknow,2023-10-13,07:15:00,Moderate,26.1
-6886,Lucknow,2023-04-22,19:45:00,Severe,114.8
+6886,Lucknow,2023-04-22,19:45:00,Severe,100.0
 6887,Lucknow,2023-01-24,01:15:00,Low,36.9
 6888,Lucknow,2023-07-07,21:30:00,High,18.6
 6889,Lucknow,2023-12-05,08:45:00,Moderate,32.9
@@ -7175,7 +7175,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 7174,Lucknow,2023-04-04,09:45:00,Severe,3.0
 7175,Lucknow,2023-05-13,15:30:00,Low,41.0
 7176,Lucknow,2024-12-11,18:00:00,Severe,7.0
-7177,Lucknow,2023-04-21,11:45:00,,20.6
+7177,Lucknow,2023-04-21,11:45:00,High,20.6
 7178,Lucknow,2023-05-30,03:15:00,Low,41.9
 7179,Lucknow,2023-03-16,22:45:00,High,14.3
 7180,Lucknow,2023-07-23,07:45:00,Severe,3.0
@@ -7220,7 +7220,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 7219,Lucknow,2024-04-25,07:00:00,Low,42.1
 7220,Lucknow,2024-09-06,04:00:00,Low,36.7
 7221,Lucknow,2023-04-18,18:45:00,Severe,3.3
-7222,Lucknow,2024-12-26,15:15:00,,46.9
+7222,Lucknow,2024-12-26,15:15:00,Moderate,46.9
 7223,Lucknow,2024-01-27,09:00:00,Severe,5.3
 7224,Lucknow,2024-09-07,16:45:00,Severe,10.5
 7225,Lucknow,2024-03-16,09:30:00,Moderate,21.8
@@ -7370,7 +7370,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 7369,Chandigarh,2023-01-01,12:30:00,High,11.2
 7370,Chandigarh,2024-10-15,11:15:00,Moderate,20.9
 7371,Chandigarh,2023-04-07,15:30:00,Moderate,24.9
-7372,Chandigarh,2023-06-04,08:15:00,,9.7
+7372,Chandigarh,2023-06-04,08:15:00,Severe,9.7
 7373,Chandigarh,2024-11-26,19:15:00,Severe,3.0
 7374,Chandigarh,2024-02-22,09:15:00,Severe,11.2
 7375,Chandigarh,2024-06-27,07:00:00,Severe,3.0
@@ -7398,7 +7398,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 7397,Chandigarh,2024-02-10,08:45:00,High,28.5
 7398,Chandigarh,2023-06-21,09:30:00,High,13.2
 7399,Chandigarh,2024-08-28,07:45:00,Moderate,27.6
-7400,Chandigarh,2024-11-20,14:15:00,Low,102.8
+7400,Chandigarh,2024-11-20,14:15:00,Low,100.0
 7401,Chandigarh,2023-03-05,20:45:00,High,24.8
 7402,Chandigarh,2024-12-18,03:00:00,Low,41.1
 7403,Chandigarh,2023-06-19,13:00:00,Moderate,23.4
@@ -7445,7 +7445,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 7444,Chandigarh,2023-02-02,12:00:00,High,24.6
 7445,Chandigarh,2024-05-05,18:15:00,High,20.0
 7446,Chandigarh,2024-04-08,08:00:00,High,18.1
-7447,Chandigarh,2023-11-17,14:45:00,High,107.8
+7447,Chandigarh,2023-11-17,14:45:00,High,100.0
 7448,Chandigarh,2023-02-08,12:45:00,Moderate,29.7
 7449,Chandigarh,2024-02-23,12:15:00,Severe,4.8
 7450,Chandigarh,2023-05-25,21:15:00,High,19.5
@@ -7497,7 +7497,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 7496,Chandigarh,2024-04-01,18:45:00,Moderate,23.9
 7497,Chandigarh,2024-08-12,14:15:00,High,9.1
 7498,Chandigarh,2023-10-08,00:45:00,Moderate,24.2
-7499,Chandigarh,2023-12-17,15:45:00,High,101.1
+7499,Chandigarh,2023-12-17,15:45:00,High,100.0
 7500,Chandigarh,2024-02-26,21:45:00,High,11.9
 7501,Chandigarh,2023-05-06,08:15:00,Moderate,25.0
 7502,Chandigarh,2024-09-25,19:15:00,High,10.9
@@ -7562,7 +7562,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 7561,Chandigarh,2023-02-28,11:45:00,Moderate,28.2
 7562,Chandigarh,2023-02-22,08:45:00,Moderate,24.4
 7563,Chandigarh,2023-05-26,08:45:00,High,12.1
-7564,Chandigarh,2023-04-27,12:45:00,Severe,113.8
+7564,Chandigarh,2023-04-27,12:45:00,Severe,100.0
 7565,Chandigarh,2024-01-12,18:00:00,Severe,9.1
 7566,Chandigarh,2023-05-20,05:30:00,Low,28.1
 7567,Chandigarh,2024-05-29,17:15:00,High,20.2
@@ -7608,7 +7608,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 7607,Chandigarh,2024-07-16,09:30:00,Moderate,21.3
 7608,Chandigarh,2023-10-23,16:30:00,Low,37.2
 7609,Chandigarh,2023-11-05,00:30:00,Low,36.5
-7610,Chandigarh,2024-03-22,14:00:00,Moderate,105.3
+7610,Chandigarh,2024-03-22,14:00:00,Moderate,100.0
 7611,Chandigarh,2024-08-05,09:15:00,Moderate,19.6
 7612,Chandigarh,2024-09-11,16:15:00,Severe,6.2
 7613,Chandigarh,2024-05-28,10:15:00,Low,34.1
@@ -7669,7 +7669,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 7668,Chandigarh,2023-07-19,16:15:00,Low,22.9
 7669,Chandigarh,2024-03-21,14:00:00,Low,40.5
 7670,Chandigarh,2024-04-04,11:15:00,Moderate,21.6
-7671,Chandigarh,2023-01-28,18:15:00,High,106.4
+7671,Chandigarh,2023-01-28,18:15:00,High,100.0
 7672,Chandigarh,2024-10-27,09:15:00,High,10.6
 7673,Chandigarh,2023-09-16,08:45:00,Severe,16.4
 7674,Chandigarh,2024-10-07,16:45:00,Low,41.1
@@ -7696,12 +7696,12 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 7695,Chandigarh,2023-06-03,16:45:00,Severe,13.1
 7696,Chandigarh,2023-03-01,11:15:00,High,10.0
 7697,Chandigarh,2024-12-16,06:15:00,Moderate,25.1
-7698,Chandigarh,2023-07-27,21:45:00,High,118.8
+7698,Chandigarh,2023-07-27,21:45:00,High,100.0
 7699,Chandigarh,2023-04-26,09:30:00,High,22.0
 7700,Chandigarh,2024-12-12,18:45:00,High,9.2
 7701,Chandigarh,2023-05-27,21:30:00,High,20.0
 7702,Chandigarh,2023-07-19,18:00:00,High,17.2
-7703,Chandigarh,2024-05-23,09:45:00,High,104.5
+7703,Chandigarh,2024-05-23,09:45:00,High,100.0
 7704,Chandigarh,2024-09-10,06:30:00,Low,35.2
 7705,Chandigarh,2024-10-28,18:00:00,High,7.4
 7706,Chandigarh,2023-05-12,18:45:00,High,15.7
@@ -7746,7 +7746,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 7745,Chandigarh,2023-09-17,17:45:00,Low,44.7
 7746,Chandigarh,2024-05-06,14:00:00,High,13.1
 7747,Chandigarh,2023-12-05,13:15:00,Moderate,27.3
-7748,Chandigarh,2023-10-20,17:00:00,,16.2
+7748,Chandigarh,2023-10-20,17:00:00,High,16.2
 7749,Chandigarh,2023-09-14,10:15:00,Moderate,23.4
 7750,Chandigarh,2023-05-19,04:00:00,Severe,3.0
 7751,Chandigarh,2024-12-08,19:30:00,Low,37.0
@@ -7788,7 +7788,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 7787,Chandigarh,2023-12-22,14:30:00,Moderate,31.3
 7788,Chandigarh,2024-02-03,07:15:00,Moderate,24.0
 7789,Chandigarh,2024-03-07,07:30:00,Low,41.2
-7790,Chandigarh,2023-10-05,16:30:00,,17.5
+7790,Chandigarh,2023-10-05,16:30:00,High,17.5
 7791,Chandigarh,2024-05-16,11:45:00,Moderate,27.4
 7792,Chandigarh,2024-01-12,01:00:00,Low,37.0
 7793,Chandigarh,2023-08-30,16:30:00,Moderate,27.1
@@ -7920,7 +7920,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 7919,Chandigarh,2023-05-26,08:45:00,Severe,6.0
 7920,Chandigarh,2024-01-21,09:45:00,Severe,8.5
 7921,Chandigarh,2023-12-14,08:00:00,Severe,3.0
-7922,Chandigarh,2024-04-13,19:15:00,,23.5
+7922,Chandigarh,2024-04-13,19:15:00,High,23.5
 7923,Chandigarh,2024-11-29,18:45:00,High,16.8
 7924,Chandigarh,2023-02-13,18:45:00,Moderate,31.4
 7925,Chandigarh,2024-08-23,08:30:00,Severe,9.8
@@ -7929,7 +7929,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 7928,Chandigarh,2023-10-08,15:30:00,Low,37.8
 7929,Chandigarh,2024-05-30,22:45:00,High,8.8
 7930,Chandigarh,2024-03-23,07:30:00,Moderate,20.5
-7931,Chandigarh,2023-12-18,10:30:00,,13.4
+7931,Chandigarh,2023-12-18,10:30:00,Severe,13.4
 7932,Chandigarh,2023-12-11,12:45:00,Moderate,20.8
 7933,Chandigarh,2023-09-12,12:00:00,Moderate,34.4
 7934,Chandigarh,2024-02-21,05:15:00,Low,34.3
@@ -7996,7 +7996,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 7995,Chandigarh,2023-05-04,18:00:00,High,22.0
 7996,Chandigarh,2024-11-13,18:45:00,Severe,13.6
 7997,Chandigarh,2023-11-17,19:45:00,High,12.3
-7998,Chandigarh,2024-10-27,08:45:00,Severe,108.3
+7998,Chandigarh,2024-10-27,08:45:00,Severe,100.0
 7999,Chandigarh,2024-05-26,21:00:00,High,24.9
 8000,Chandigarh,2024-08-17,14:30:00,Low,35.3
 8001,Chandigarh,2024-02-13,20:45:00,Severe,4.7
@@ -8074,7 +8074,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 8073,Surat,2023-02-18,18:30:00,High,20.5
 8074,Surat,2023-07-21,03:45:00,Low,40.5
 8075,Surat,2023-02-28,18:45:00,Severe,13.2
-8076,Surat,2023-08-02,20:00:00,Moderate,101.5
+8076,Surat,2023-08-02,20:00:00,Moderate,100.0
 8077,Surat,2023-04-12,18:45:00,Severe,7.5
 8078,Surat,2023-02-13,13:30:00,Moderate,35.6
 8079,Surat,2023-05-28,14:00:00,High,7.2
@@ -8107,7 +8107,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 8106,Surat,2023-12-22,14:45:00,Low,41.1
 8107,Surat,2023-05-30,08:15:00,Moderate,28.1
 8108,Surat,2024-10-10,07:30:00,Low,34.8
-8109,Surat,2023-11-22,06:15:00,,43.5
+8109,Surat,2023-11-22,06:15:00,Moderate,43.5
 8110,Surat,2024-10-14,20:15:00,High,11.2
 8111,Surat,2023-03-05,17:30:00,High,17.6
 8112,Surat,2023-07-26,16:15:00,High,19.1
@@ -8161,7 +8161,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 8160,Surat,2024-03-05,08:30:00,High,23.9
 8161,Surat,2024-05-30,09:00:00,Severe,13.2
 8162,Surat,2024-11-08,05:45:00,Moderate,26.3
-8163,Surat,2023-07-01,12:45:00,,20.2
+8163,Surat,2023-07-01,12:45:00,High,20.2
 8164,Surat,2024-12-07,12:30:00,Moderate,20.7
 8165,Surat,2024-11-06,12:00:00,Low,47.3
 8166,Surat,2024-08-16,07:30:00,Moderate,29.1
@@ -8169,7 +8169,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 8168,Surat,2023-12-02,19:45:00,Moderate,30.8
 8169,Surat,2023-10-15,09:15:00,High,15.9
 8170,Surat,2024-04-02,16:00:00,High,14.8
-8171,Surat,2023-08-31,18:00:00,Severe,115.9
+8171,Surat,2023-08-31,18:00:00,Severe,100.0
 8172,Surat,2023-06-10,20:15:00,Severe,7.9
 8173,Surat,2024-03-26,03:00:00,Moderate,36.4
 8174,Surat,2024-02-07,22:45:00,Moderate,27.7
@@ -8243,7 +8243,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 8242,Surat,2023-02-02,08:15:00,Severe,13.2
 8243,Surat,2024-11-06,16:15:00,Moderate,22.7
 8244,Surat,2023-05-14,15:30:00,High,10.6
-8245,Surat,2023-12-24,14:15:00,,31.7
+8245,Surat,2023-12-24,14:15:00,Moderate,31.7
 8246,Surat,2023-04-23,11:00:00,High,6.4
 8247,Surat,2024-08-28,15:30:00,Moderate,34.9
 8248,Surat,2023-04-01,17:15:00,Moderate,32.2
@@ -8398,12 +8398,12 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 8397,Surat,2024-01-28,12:00:00,High,21.0
 8398,Surat,2024-01-31,09:00:00,High,14.3
 8399,Surat,2023-05-17,19:00:00,High,9.1
-8400,Surat,2023-12-02,08:00:00,High,101.7
+8400,Surat,2023-12-02,08:00:00,High,100.0
 8401,Surat,2024-01-10,14:15:00,High,13.5
 8402,Surat,2024-04-16,14:15:00,Severe,13.3
 8403,Surat,2024-10-28,22:45:00,Moderate,34.3
 8404,Surat,2023-03-17,01:30:00,Low,33.5
-8405,Surat,2023-05-19,11:00:00,Moderate,111.2
+8405,Surat,2023-05-19,11:00:00,Moderate,100.0
 8406,Surat,2024-12-14,08:45:00,High,13.1
 8407,Surat,2023-07-03,10:45:00,High,8.2
 8408,Surat,2024-11-11,09:15:00,High,24.3
@@ -8624,7 +8624,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 8623,Surat,2023-08-02,15:00:00,Low,38.8
 8624,Surat,2024-12-06,10:30:00,Moderate,30.3
 8625,Surat,2023-01-16,18:45:00,High,11.1
-8626,Surat,2024-05-31,18:00:00,,17.6
+8626,Surat,2024-05-31,18:00:00,High,17.6
 8627,Surat,2023-10-03,19:45:00,High,20.2
 8628,Surat,2023-10-13,18:45:00,High,16.2
 8629,Surat,2024-10-22,13:30:00,Moderate,35.9
@@ -8687,7 +8687,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 8686,Surat,2023-07-26,08:30:00,Severe,5.5
 8687,Surat,2024-02-07,08:30:00,Low,47.9
 8688,Surat,2023-03-01,09:00:00,Severe,3.0
-8689,Surat,2024-03-19,19:30:00,,25.3
+8689,Surat,2024-03-19,19:30:00,High,25.3
 8690,Surat,2023-01-19,07:30:00,High,14.8
 8691,Surat,2024-08-14,18:30:00,High,6.1
 8692,Surat,2023-04-02,04:45:00,Low,36.5
@@ -8754,12 +8754,12 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 8753,Surat,2023-09-26,14:00:00,Moderate,24.7
 8754,Surat,2023-02-01,10:15:00,Low,39.4
 8755,Surat,2024-08-28,08:15:00,High,16.9
-8756,Surat,2024-08-05,06:30:00,,43.9
+8756,Surat,2024-08-05,06:30:00,Moderate,43.9
 8757,Surat,2023-11-01,19:45:00,High,13.9
 8758,Surat,2024-01-03,21:00:00,Moderate,30.3
 8759,Surat,2024-11-30,14:15:00,Moderate,26.6
 8760,Surat,2024-06-29,19:00:00,Severe,3.2
-8761,Surat,2024-09-23,18:30:00,,16.5
+8761,Surat,2024-09-23,18:30:00,High,16.5
 8762,Surat,2023-10-03,11:45:00,Moderate,34.4
 8763,Surat,2024-03-03,06:00:00,Low,42.4
 8764,Surat,2024-10-26,17:30:00,Low,51.6
@@ -8808,7 +8808,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 8807,Nagpur,2024-01-02,23:15:00,Moderate,30.5
 8808,Nagpur,2024-02-14,12:30:00,Moderate,24.7
 8809,Nagpur,2024-11-25,12:15:00,Severe,10.6
-8810,Nagpur,2024-10-14,19:15:00,,14.3
+8810,Nagpur,2024-10-14,19:15:00,Severe,14.3
 8811,Nagpur,2024-06-28,19:45:00,Severe,13.4
 8812,Nagpur,2023-10-24,09:00:00,High,20.1
 8813,Nagpur,2024-04-28,15:15:00,Moderate,25.1
@@ -8842,7 +8842,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 8841,Nagpur,2023-02-27,07:45:00,High,20.5
 8842,Nagpur,2023-07-06,18:45:00,Severe,4.7
 8843,Nagpur,2024-10-24,19:15:00,Severe,13.7
-8844,Nagpur,2024-12-01,09:45:00,High,101.3
+8844,Nagpur,2024-12-01,09:45:00,High,100.0
 8845,Nagpur,2023-11-13,20:45:00,Severe,3.0
 8846,Nagpur,2024-01-16,20:00:00,High,8.2
 8847,Nagpur,2023-01-12,11:00:00,Moderate,25.5
@@ -8876,7 +8876,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 8875,Nagpur,2023-07-29,10:30:00,Low,38.8
 8876,Nagpur,2023-09-04,16:15:00,Severe,18.1
 8877,Nagpur,2024-09-16,08:15:00,High,3.0
-8878,Nagpur,2023-10-07,07:15:00,Low,109.4
+8878,Nagpur,2023-10-07,07:15:00,Low,100.0
 8879,Nagpur,2024-09-15,04:30:00,Low,34.1
 8880,Nagpur,2023-07-11,08:15:00,Severe,3.0
 8881,Nagpur,2024-08-09,07:15:00,Moderate,39.2
@@ -8910,7 +8910,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 8909,Nagpur,2023-08-14,18:00:00,Severe,7.1
 8910,Nagpur,2023-12-06,06:00:00,High,16.0
 8911,Nagpur,2023-05-14,03:00:00,Low,47.1
-8912,Nagpur,2023-07-06,17:15:00,Severe,100.8
+8912,Nagpur,2023-07-06,17:15:00,Severe,100.0
 8913,Nagpur,2024-09-13,06:00:00,Low,39.0
 8914,Nagpur,2024-01-30,17:00:00,Moderate,34.6
 8915,Nagpur,2023-12-23,19:00:00,High,14.8
@@ -8959,7 +8959,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 8958,Nagpur,2023-10-13,12:45:00,High,8.8
 8959,Nagpur,2023-04-26,18:30:00,Severe,10.3
 8960,Nagpur,2023-04-06,07:30:00,Low,31.3
-8961,Nagpur,2024-05-09,01:45:00,,27.9
+8961,Nagpur,2024-05-09,01:45:00,High,27.9
 8962,Nagpur,2024-11-29,20:15:00,High,15.8
 8963,Nagpur,2023-12-21,07:45:00,High,17.8
 8964,Nagpur,2024-05-31,13:15:00,Moderate,40.4
@@ -9001,7 +9001,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 9000,Nagpur,2023-02-15,07:00:00,Moderate,30.2
 9001,Nagpur,2024-07-04,13:00:00,Severe,8.7
 9002,Nagpur,2023-10-11,11:30:00,Moderate,28.8
-9003,Nagpur,2023-02-08,19:00:00,,21.2
+9003,Nagpur,2023-02-08,19:00:00,High,21.2
 9004,Nagpur,2023-06-22,11:00:00,Moderate,25.7
 9005,Nagpur,2023-08-19,21:15:00,Moderate,27.8
 9006,Nagpur,2023-04-25,20:15:00,High,21.4
@@ -9032,14 +9032,14 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 9031,Nagpur,2024-06-19,15:00:00,High,10.6
 9032,Nagpur,2023-08-31,21:00:00,Severe,5.2
 9033,Nagpur,2024-11-25,19:15:00,Severe,3.0
-9034,Nagpur,2024-05-21,21:45:00,,12.9
+9034,Nagpur,2024-05-21,21:45:00,Severe,12.9
 9035,Nagpur,2024-11-07,08:00:00,High,16.9
 9036,Nagpur,2023-03-29,15:15:00,Low,33.3
 9037,Nagpur,2024-11-28,19:15:00,Moderate,20.5
 9038,Nagpur,2024-12-24,09:45:00,Low,28.4
 9039,Nagpur,2024-12-29,20:15:00,Severe,17.8
 9040,Nagpur,2023-09-07,16:45:00,Low,41.8
-9041,Nagpur,2024-05-01,16:00:00,,45.5
+9041,Nagpur,2024-05-01,16:00:00,Moderate,45.5
 9042,Nagpur,2024-08-22,02:45:00,Low,38.4
 9043,Nagpur,2023-10-30,12:30:00,Moderate,23.6
 9044,Nagpur,2024-11-09,08:30:00,High,24.6
@@ -9122,7 +9122,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 9121,Nagpur,2024-03-09,11:30:00,High,18.6
 9122,Nagpur,2023-02-16,19:15:00,High,16.4
 9123,Nagpur,2024-01-19,20:15:00,High,23.0
-9124,Nagpur,2023-03-25,08:45:00,,110.5
+9124,Nagpur,2023-03-25,08:45:00,Low,100.0
 9125,Nagpur,2024-04-08,18:30:00,Low,33.3
 9126,Nagpur,2024-09-10,21:45:00,High,14.4
 9127,Nagpur,2024-11-17,20:45:00,High,15.0
@@ -9137,7 +9137,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 9136,Nagpur,2024-06-01,06:15:00,High,8.8
 9137,Nagpur,2024-12-29,12:30:00,Low,43.4
 9138,Nagpur,2024-02-10,16:15:00,Low,26.5
-9139,Nagpur,2024-03-13,07:45:00,,11.0
+9139,Nagpur,2024-03-13,07:45:00,Severe,11.0
 9140,Nagpur,2024-09-01,12:00:00,Moderate,30.4
 9141,Nagpur,2023-10-20,18:30:00,High,13.6
 9142,Nagpur,2024-01-24,16:00:00,Low,32.3
@@ -9150,7 +9150,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 9149,Nagpur,2023-01-22,10:30:00,Moderate,36.9
 9150,Nagpur,2023-08-16,17:30:00,Moderate,27.7
 9151,Nagpur,2024-07-22,19:00:00,Moderate,33.3
-9152,Nagpur,2023-12-07,07:45:00,Low,114.2
+9152,Nagpur,2023-12-07,07:45:00,Low,100.0
 9153,Nagpur,2023-06-24,08:30:00,Moderate,22.0
 9154,Nagpur,2023-05-20,13:30:00,High,27.5
 9155,Nagpur,2023-10-12,07:00:00,Moderate,23.7
@@ -9163,7 +9163,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 9162,Nagpur,2023-08-24,22:45:00,Moderate,25.6
 9163,Nagpur,2024-07-08,17:45:00,Low,35.7
 9164,Nagpur,2024-05-28,16:30:00,Moderate,25.5
-9165,Nagpur,2024-08-06,19:00:00,High,106.4
+9165,Nagpur,2024-08-06,19:00:00,High,100.0
 9166,Nagpur,2023-12-29,17:15:00,Low,43.6
 9167,Nagpur,2023-01-07,16:15:00,Low,36.6
 9168,Nagpur,2023-10-18,13:30:00,Low,45.7
@@ -9184,7 +9184,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 9183,Nagpur,2023-10-03,17:15:00,Low,41.3
 9184,Nagpur,2024-11-19,10:15:00,High,10.5
 9185,Nagpur,2024-10-11,09:45:00,High,11.9
-9186,Nagpur,2023-02-03,06:30:00,,27.7
+9186,Nagpur,2023-02-03,06:30:00,High,27.7
 9187,Nagpur,2023-07-20,12:30:00,Low,37.7
 9188,Nagpur,2023-06-01,08:00:00,High,17.7
 9189,Nagpur,2023-12-21,14:30:00,Low,31.9
@@ -9442,9 +9442,9 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 9441,Nagpur,2023-11-22,22:30:00,High,8.7
 9442,Nagpur,2023-04-17,23:00:00,Low,38.2
 9443,Nagpur,2024-04-15,09:00:00,High,17.9
-9444,Nagpur,2024-11-14,19:45:00,,5.4
+9444,Nagpur,2024-11-14,19:45:00,Severe,5.4
 9445,Nagpur,2024-09-12,12:30:00,High,13.4
-9446,Nagpur,2024-10-24,15:15:00,,17.2
+9446,Nagpur,2024-10-24,15:15:00,High,17.2
 9447,Nagpur,2023-01-17,08:15:00,High,23.1
 9448,Nagpur,2024-09-14,18:00:00,Severe,10.6
 9449,Nagpur,2023-11-05,16:30:00,High,17.0
@@ -9614,14 +9614,14 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 9613,Indore,2023-02-16,13:15:00,Low,33.2
 9614,Indore,2024-05-19,06:15:00,Low,41.1
 9615,Indore,2024-04-26,12:00:00,Moderate,29.5
-9616,Indore,2024-03-10,13:15:00,,13.0
+9616,Indore,2024-03-10,13:15:00,Severe,13.0
 9617,Indore,2023-01-17,08:00:00,High,9.4
 9618,Indore,2023-09-17,07:00:00,Severe,10.0
 9619,Indore,2023-04-30,06:15:00,High,21.7
 9620,Indore,2024-06-22,15:00:00,Moderate,30.5
 9621,Indore,2023-04-05,21:00:00,High,17.6
 9622,Indore,2024-01-14,14:45:00,High,12.0
-9623,Indore,2024-01-21,14:45:00,Moderate,100.1
+9623,Indore,2024-01-21,14:45:00,Moderate,100.0
 9624,Indore,2023-03-09,10:00:00,High,7.9
 9625,Indore,2023-08-13,14:15:00,High,20.2
 9626,Indore,2024-05-05,10:30:00,Moderate,25.6
@@ -9755,7 +9755,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 9754,Indore,2023-12-06,00:15:00,High,10.6
 9755,Indore,2023-12-06,21:45:00,Low,40.3
 9756,Indore,2024-08-18,16:15:00,Moderate,27.0
-9757,Indore,2023-09-17,13:00:00,,11.9
+9757,Indore,2023-09-17,13:00:00,Severe,11.9
 9758,Indore,2024-06-12,02:00:00,Low,33.3
 9759,Indore,2023-05-16,19:45:00,High,8.1
 9760,Indore,2024-04-17,12:45:00,Low,30.6
@@ -9938,7 +9938,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 9937,Indore,2024-02-12,16:15:00,High,9.7
 9938,Indore,2024-11-04,16:00:00,Severe,17.6
 9939,Indore,2024-10-17,13:45:00,High,27.2
-9940,Indore,2024-12-06,19:00:00,,18.1
+9940,Indore,2024-12-06,19:00:00,High,18.1
 9941,Indore,2024-03-23,22:45:00,Low,46.4
 9942,Indore,2024-04-11,10:45:00,Moderate,31.2
 9943,Indore,2024-10-18,19:45:00,Moderate,36.1
@@ -9990,7 +9990,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 9989,Indore,2024-10-28,08:15:00,High,11.4
 9990,Indore,2024-07-14,07:45:00,High,14.7
 9991,Indore,2023-12-01,12:45:00,Severe,5.9
-9992,Indore,2023-12-06,12:30:00,Low,107.2
+9992,Indore,2023-12-06,12:30:00,Low,100.0
 9993,Indore,2024-06-26,14:30:00,Severe,8.1
 9994,Indore,2024-01-11,19:30:00,High,17.6
 9995,Indore,2024-10-03,17:00:00,Low,40.3
@@ -10104,7 +10104,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 10103,Indore,2024-06-24,07:15:00,Moderate,24.7
 10104,Indore,2024-07-13,07:00:00,Low,47.4
 10105,Indore,2023-11-20,11:30:00,High,8.7
-10106,Indore,2024-09-30,19:30:00,High,102.2
+10106,Indore,2024-09-30,19:30:00,High,100.0
 10107,Indore,2024-04-08,08:00:00,Low,35.9
 10108,Indore,2023-03-26,13:15:00,Low,39.2
 10109,Indore,2023-05-13,07:00:00,High,12.5
@@ -10119,7 +10119,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 10118,Indore,2023-12-24,13:00:00,High,15.3
 10119,Indore,2023-02-24,00:30:00,Low,47.7
 10120,Indore,2023-04-24,20:30:00,High,15.3
-10121,Indore,2023-06-08,17:15:00,,25.9
+10121,Indore,2023-06-08,17:15:00,High,25.9
 10122,Indore,2023-03-07,22:30:00,Moderate,23.5
 10123,Indore,2023-12-02,12:30:00,Severe,4.4
 10124,Indore,2024-05-08,01:30:00,Low,40.6
@@ -10142,7 +10142,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 10141,Indore,2024-07-21,17:00:00,Severe,3.0
 10142,Indore,2023-02-27,08:45:00,High,16.9
 10143,Indore,2024-05-13,16:45:00,Severe,6.2
-10144,Indore,2023-10-07,15:15:00,,31.3
+10144,Indore,2023-10-07,15:15:00,Moderate,31.3
 10145,Indore,2023-11-09,16:45:00,High,21.6
 10146,Indore,2024-12-16,17:45:00,Low,45.7
 10147,Indore,2023-05-24,01:00:00,Moderate,32.2
@@ -10186,7 +10186,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 10185,Indore,2024-10-23,06:30:00,Moderate,23.7
 10186,Indore,2024-05-06,13:15:00,Severe,3.7
 10187,Indore,2023-01-21,20:30:00,High,5.3
-10188,Indore,2024-06-04,19:15:00,,6.1
+10188,Indore,2024-06-04,19:15:00,Severe,6.1
 10189,Indore,2024-06-26,02:00:00,Low,33.0
 10190,Indore,2024-07-29,09:45:00,High,15.1
 10191,Indore,2024-12-18,19:00:00,High,15.8
@@ -10418,7 +10418,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 10417,Bhopal,2023-11-24,04:15:00,Moderate,31.2
 10418,Bhopal,2023-12-20,19:15:00,Severe,17.1
 10419,Bhopal,2024-06-29,18:15:00,High,27.3
-10420,Bhopal,2024-08-03,20:15:00,,27.3
+10420,Bhopal,2024-08-03,20:15:00,High,27.3
 10421,Bhopal,2024-10-18,12:45:00,Low,37.2
 10422,Bhopal,2023-10-23,03:30:00,Low,43.5
 10423,Bhopal,2024-06-08,13:15:00,High,8.9
@@ -10521,7 +10521,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 10520,Bhopal,2024-06-05,11:00:00,Moderate,30.1
 10521,Bhopal,2024-06-01,16:00:00,Moderate,35.1
 10522,Bhopal,2024-10-18,09:45:00,High,15.8
-10523,Bhopal,2024-10-17,21:15:00,,8.6
+10523,Bhopal,2024-10-17,21:15:00,Severe,8.6
 10524,Bhopal,2023-09-10,18:15:00,Severe,11.0
 10525,Bhopal,2024-12-24,16:00:00,High,14.9
 10526,Bhopal,2024-08-16,03:00:00,Low,31.8
@@ -10611,7 +10611,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 10610,Bhopal,2023-03-20,14:45:00,Severe,13.0
 10611,Bhopal,2024-09-28,08:15:00,High,16.4
 10612,Bhopal,2023-11-03,20:00:00,Severe,3.0
-10613,Bhopal,2023-10-04,08:15:00,High,108.5
+10613,Bhopal,2023-10-04,08:15:00,High,100.0
 10614,Bhopal,2024-06-04,05:45:00,Low,35.9
 10615,Bhopal,2023-01-17,10:15:00,Low,38.3
 10616,Bhopal,2023-12-25,11:30:00,High,24.1
@@ -10737,7 +10737,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 10736,Bhopal,2023-02-18,18:15:00,High,10.1
 10737,Bhopal,2023-11-21,16:30:00,High,17.1
 10738,Bhopal,2024-05-06,10:15:00,High,9.3
-10739,Bhopal,2023-04-19,16:00:00,,35.1
+10739,Bhopal,2023-04-19,16:00:00,Moderate,35.1
 10740,Bhopal,2024-09-26,19:15:00,Severe,7.7
 10741,Bhopal,2023-10-13,19:15:00,High,11.0
 10742,Bhopal,2023-11-24,14:15:00,Moderate,22.3
@@ -10836,7 +10836,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 10835,Bhopal,2024-04-10,08:30:00,Moderate,34.0
 10836,Bhopal,2024-05-02,10:30:00,High,15.8
 10837,Bhopal,2023-10-08,07:00:00,Moderate,28.2
-10838,Bhopal,2023-09-24,09:15:00,Severe,112.4
+10838,Bhopal,2023-09-24,09:15:00,Severe,100.0
 10839,Bhopal,2024-11-16,19:45:00,High,16.8
 10840,Bhopal,2024-09-14,19:15:00,Moderate,24.2
 10841,Bhopal,2024-02-23,11:30:00,Moderate,17.1
@@ -10866,7 +10866,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 10865,Bhopal,2024-01-26,22:45:00,Low,37.0
 10866,Bhopal,2024-11-25,11:15:00,Moderate,31.0
 10867,Bhopal,2024-07-05,08:00:00,Severe,13.9
-10868,Bhopal,2024-09-29,12:45:00,Moderate,107.9
+10868,Bhopal,2024-09-29,12:45:00,Moderate,100.0
 10869,Bhopal,2024-12-15,20:30:00,Severe,3.0
 10870,Bhopal,2023-04-30,12:00:00,Moderate,33.8
 10871,Bhopal,2023-02-04,05:00:00,Low,31.7
@@ -10900,7 +10900,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 10899,Bhopal,2024-08-08,22:00:00,High,19.8
 10900,Bhopal,2024-03-22,08:45:00,Severe,3.0
 10901,Bhopal,2023-09-21,09:15:00,Moderate,26.5
-10902,Bhopal,2023-11-10,20:30:00,High,116.1
+10902,Bhopal,2023-11-10,20:30:00,High,100.0
 10903,Bhopal,2024-04-08,07:15:00,Moderate,22.3
 10904,Bhopal,2024-10-17,18:30:00,Severe,7.2
 10905,Bhopal,2024-02-10,08:15:00,Moderate,26.7
@@ -10970,7 +10970,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 10969,Bhopal,2023-10-05,19:00:00,Low,35.4
 10970,Bhopal,2023-03-21,08:15:00,Moderate,32.0
 10971,Bhopal,2023-09-02,19:45:00,High,7.4
-10972,Bhopal,2024-04-22,19:45:00,,20.4
+10972,Bhopal,2024-04-22,19:45:00,High,20.4
 10973,Bhopal,2023-01-27,03:15:00,Low,40.0
 10974,Bhopal,2024-02-27,17:15:00,Severe,12.2
 10975,Bhopal,2024-01-18,11:15:00,High,10.5
@@ -10988,7 +10988,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 10987,Bhopal,2023-04-19,10:00:00,Low,30.6
 10988,Bhopal,2024-06-28,08:15:00,High,13.3
 10989,Bhopal,2023-11-22,09:15:00,Moderate,24.1
-10990,Bhopal,2023-05-12,20:30:00,High,111.2
+10990,Bhopal,2023-05-12,20:30:00,High,100.0
 10991,Bhopal,2023-04-03,20:30:00,High,22.4
 10992,Bhopal,2023-07-29,06:00:00,Low,31.0
 10993,Bhopal,2023-11-29,08:00:00,High,19.0
@@ -11072,7 +11072,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 11071,Coimbatore,2024-12-21,14:45:00,Moderate,16.7
 11072,Coimbatore,2024-11-08,17:00:00,Moderate,25.1
 11073,Coimbatore,2023-05-14,06:45:00,Moderate,21.3
-11074,Coimbatore,2024-04-05,15:30:00,,25.9
+11074,Coimbatore,2024-04-05,15:30:00,High,25.9
 11075,Coimbatore,2024-03-28,16:30:00,Moderate,23.5
 11076,Coimbatore,2024-10-22,07:15:00,Moderate,25.2
 11077,Coimbatore,2024-11-17,14:30:00,Moderate,30.5
@@ -11088,7 +11088,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 11087,Coimbatore,2023-02-06,18:30:00,Low,37.7
 11088,Coimbatore,2023-11-02,20:30:00,Severe,9.9
 11089,Coimbatore,2024-02-26,07:30:00,Low,41.9
-11090,Coimbatore,2024-05-26,11:45:00,,15.4
+11090,Coimbatore,2024-05-26,11:45:00,High,15.4
 11091,Coimbatore,2023-08-20,19:30:00,Moderate,28.4
 11092,Coimbatore,2023-04-24,14:15:00,Low,38.0
 11093,Coimbatore,2023-11-02,18:30:00,High,7.5
@@ -11108,7 +11108,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 11107,Coimbatore,2024-09-25,11:15:00,Moderate,30.6
 11108,Coimbatore,2024-07-17,21:30:00,Moderate,20.8
 11109,Coimbatore,2023-04-11,08:15:00,Low,44.6
-11110,Coimbatore,2023-02-19,10:45:00,,34.8
+11110,Coimbatore,2023-02-19,10:45:00,Moderate,34.8
 11111,Coimbatore,2023-07-17,16:30:00,Low,37.9
 11112,Coimbatore,2023-03-12,02:15:00,Low,38.6
 11113,Coimbatore,2023-09-17,08:15:00,Moderate,31.5
@@ -11120,7 +11120,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 11119,Coimbatore,2023-04-14,14:00:00,Moderate,29.0
 11120,Coimbatore,2023-05-23,07:30:00,Moderate,28.6
 11121,Coimbatore,2024-08-06,16:45:00,Moderate,25.5
-11122,Coimbatore,2024-10-09,07:45:00,,10.5
+11122,Coimbatore,2024-10-09,07:45:00,Severe,10.5
 11123,Coimbatore,2024-12-17,08:15:00,Moderate,20.0
 11124,Coimbatore,2024-11-17,09:45:00,Moderate,24.9
 11125,Coimbatore,2024-12-25,21:15:00,Severe,11.5
@@ -11148,7 +11148,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 11147,Coimbatore,2024-10-24,21:15:00,High,18.8
 11148,Coimbatore,2024-07-21,08:45:00,Low,39.6
 11149,Coimbatore,2023-01-28,19:45:00,High,17.2
-11150,Coimbatore,2024-07-21,00:15:00,,35.1
+11150,Coimbatore,2024-07-21,00:15:00,Moderate,35.1
 11151,Coimbatore,2024-05-17,20:00:00,Severe,12.5
 11152,Coimbatore,2023-05-26,18:00:00,High,16.5
 11153,Coimbatore,2024-10-02,09:45:00,Low,47.8
@@ -11173,7 +11173,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 11172,Coimbatore,2024-04-29,07:15:00,High,17.0
 11173,Coimbatore,2023-06-22,11:15:00,High,17.4
 11174,Coimbatore,2024-02-08,20:45:00,High,12.6
-11175,Coimbatore,2024-01-31,15:45:00,Moderate,111.7
+11175,Coimbatore,2024-01-31,15:45:00,Moderate,100.0
 11176,Coimbatore,2023-05-24,19:00:00,Severe,14.3
 11177,Coimbatore,2024-12-28,21:00:00,High,10.7
 11178,Coimbatore,2024-11-03,06:00:00,Low,32.7
@@ -11219,7 +11219,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 11218,Coimbatore,2023-03-30,18:45:00,High,7.2
 11219,Coimbatore,2023-06-07,07:45:00,High,14.0
 11220,Coimbatore,2023-06-13,08:30:00,High,17.2
-11221,Coimbatore,2024-11-12,07:30:00,Moderate,115.3
+11221,Coimbatore,2024-11-12,07:30:00,Moderate,100.0
 11222,Coimbatore,2023-03-16,11:15:00,Low,36.4
 11223,Coimbatore,2023-03-07,08:45:00,Low,40.6
 11224,Coimbatore,2023-04-23,18:15:00,High,19.2
@@ -11243,7 +11243,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 11242,Coimbatore,2023-11-10,14:45:00,Moderate,32.6
 11243,Coimbatore,2024-08-29,08:00:00,Severe,6.4
 11244,Coimbatore,2024-04-16,08:30:00,Severe,11.1
-11245,Coimbatore,2023-09-01,14:15:00,,28.0
+11245,Coimbatore,2023-09-01,14:15:00,High,28.0
 11246,Coimbatore,2024-07-13,05:45:00,Moderate,16.9
 11247,Coimbatore,2023-07-23,10:45:00,High,19.3
 11248,Coimbatore,2024-01-24,19:45:00,Moderate,32.5
@@ -11361,7 +11361,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 11360,Coimbatore,2024-10-05,09:15:00,High,16.4
 11361,Coimbatore,2024-12-01,20:30:00,Severe,5.0
 11362,Coimbatore,2023-05-24,08:00:00,Moderate,27.9
-11363,Coimbatore,2024-08-14,11:30:00,,24.0
+11363,Coimbatore,2024-08-14,11:30:00,High,24.0
 11364,Coimbatore,2024-09-06,13:00:00,Moderate,27.0
 11365,Coimbatore,2023-02-03,09:00:00,Moderate,28.1
 11366,Coimbatore,2023-05-14,09:00:00,High,20.8
@@ -11377,7 +11377,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 11376,Coimbatore,2023-01-05,22:45:00,Moderate,25.3
 11377,Coimbatore,2023-02-09,08:15:00,High,16.5
 11378,Coimbatore,2024-05-10,17:15:00,Low,41.8
-11379,Coimbatore,2024-01-12,09:45:00,,24.1
+11379,Coimbatore,2024-01-12,09:45:00,High,24.1
 11380,Coimbatore,2023-08-06,18:15:00,Severe,4.9
 11381,Coimbatore,2023-05-19,16:30:00,High,17.0
 11382,Coimbatore,2024-12-16,18:15:00,High,22.0
@@ -11534,7 +11534,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 11533,Coimbatore,2024-11-15,13:00:00,Low,36.3
 11534,Coimbatore,2024-12-24,17:45:00,Low,37.9
 11535,Coimbatore,2023-12-24,13:15:00,Severe,9.6
-11536,Coimbatore,2023-05-22,18:00:00,Moderate,119.2
+11536,Coimbatore,2023-05-22,18:00:00,Moderate,100.0
 11537,Coimbatore,2023-12-01,12:45:00,Low,37.3
 11538,Coimbatore,2024-01-22,19:30:00,High,12.8
 11539,Coimbatore,2023-04-02,17:00:00,Moderate,41.0
@@ -11591,7 +11591,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 11590,Coimbatore,2023-06-12,16:15:00,Severe,3.0
 11591,Coimbatore,2023-05-04,14:30:00,Moderate,21.9
 11592,Coimbatore,2023-04-22,16:30:00,High,17.3
-11593,Coimbatore,2023-04-10,19:15:00,,33.3
+11593,Coimbatore,2023-04-10,19:15:00,Moderate,33.3
 11594,Coimbatore,2024-09-25,12:30:00,Moderate,21.5
 11595,Coimbatore,2024-06-01,21:45:00,Low,48.3
 11596,Coimbatore,2023-05-07,21:45:00,Low,36.5
@@ -11702,7 +11702,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 11701,Coimbatore,2024-07-17,10:15:00,High,8.4
 11702,Coimbatore,2024-07-15,13:30:00,High,17.9
 11703,Coimbatore,2024-10-06,21:30:00,Severe,4.6
-11704,Coimbatore,2024-06-30,17:00:00,High,107.9
+11704,Coimbatore,2024-06-30,17:00:00,High,100.0
 11705,Coimbatore,2023-02-08,09:45:00,Severe,8.4
 11706,Coimbatore,2023-07-14,18:00:00,High,17.4
 11707,Coimbatore,2024-09-16,14:00:00,Low,27.8
@@ -11728,7 +11728,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 11727,Kochi,2024-05-24,13:00:00,Severe,10.4
 11728,Kochi,2024-02-01,10:00:00,Severe,3.7
 11729,Kochi,2023-02-27,18:00:00,High,18.6
-11730,Kochi,2024-03-10,15:00:00,,25.2
+11730,Kochi,2024-03-10,15:00:00,High,25.2
 11731,Kochi,2023-08-23,20:45:00,Severe,3.6
 11732,Kochi,2024-03-23,13:00:00,High,13.8
 11733,Kochi,2023-03-02,19:30:00,Moderate,28.7
@@ -11938,7 +11938,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 11937,Kochi,2024-10-16,11:45:00,Low,43.5
 11938,Kochi,2024-03-12,11:30:00,High,22.0
 11939,Kochi,2023-12-29,18:00:00,Severe,8.2
-11940,Kochi,2023-03-20,20:30:00,,8.0
+11940,Kochi,2023-03-20,20:30:00,Severe,8.0
 11941,Kochi,2023-11-24,18:30:00,Severe,3.0
 11942,Kochi,2023-02-19,18:15:00,High,17.9
 11943,Kochi,2023-01-10,18:30:00,Severe,7.0
@@ -12080,7 +12080,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 12079,Kochi,2024-06-15,15:00:00,High,15.8
 12080,Kochi,2023-08-28,06:30:00,High,21.6
 12081,Kochi,2024-11-09,21:15:00,Moderate,26.3
-12082,Kochi,2024-04-29,18:15:00,Severe,105.5
+12082,Kochi,2024-04-29,18:15:00,Severe,100.0
 12083,Kochi,2023-11-28,08:45:00,Severe,3.0
 12084,Kochi,2024-02-19,06:00:00,Low,39.2
 12085,Kochi,2024-01-11,20:15:00,Severe,8.5
@@ -12096,7 +12096,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 12095,Kochi,2024-07-07,12:00:00,Moderate,24.9
 12096,Kochi,2024-09-09,16:30:00,Severe,12.3
 12097,Kochi,2023-08-07,08:30:00,High,20.7
-12098,Kochi,2024-12-08,06:15:00,High,117.6
+12098,Kochi,2024-12-08,06:15:00,High,100.0
 12099,Kochi,2023-02-10,18:30:00,Moderate,19.1
 12100,Kochi,2023-03-14,11:15:00,Low,44.3
 12101,Kochi,2023-06-18,07:00:00,Low,33.1
@@ -12175,7 +12175,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 12174,Kochi,2024-02-02,13:00:00,Moderate,29.9
 12175,Kochi,2024-03-28,08:00:00,Severe,7.0
 12176,Kochi,2024-02-18,18:45:00,Severe,3.0
-12177,Kochi,2024-05-02,11:15:00,,10.8
+12177,Kochi,2024-05-02,11:15:00,Severe,10.8
 12178,Kochi,2024-09-28,03:00:00,Low,39.3
 12179,Kochi,2023-02-27,08:00:00,Low,36.0
 12180,Kochi,2024-06-04,09:00:00,Moderate,27.9
@@ -12201,7 +12201,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 12200,Kochi,2023-08-05,08:15:00,High,13.5
 12201,Kochi,2023-07-21,11:45:00,Moderate,26.6
 12202,Kochi,2024-01-30,12:30:00,Moderate,30.9
-12203,Kochi,2024-01-29,15:45:00,,39.8
+12203,Kochi,2024-01-29,15:45:00,Moderate,39.8
 12204,Kochi,2023-06-24,14:45:00,Low,38.1
 12205,Kochi,2024-04-25,13:15:00,Low,36.8
 12206,Kochi,2023-10-31,19:30:00,Moderate,17.3
@@ -12400,7 +12400,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 12399,Kochi,2024-05-09,09:00:00,High,14.5
 12400,Kochi,2024-12-29,17:45:00,High,15.0
 12401,Kochi,2024-01-04,08:45:00,Severe,6.9
-12402,Kochi,2024-11-28,18:15:00,,18.8
+12402,Kochi,2024-11-28,18:15:00,High,18.8
 12403,Kochi,2023-10-26,16:15:00,Low,40.5
 12404,Kochi,2023-02-26,18:15:00,Severe,18.5
 12405,Kochi,2023-01-08,11:45:00,Severe,7.7
@@ -12416,7 +12416,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 12415,Kochi,2023-01-10,21:45:00,Moderate,24.8
 12416,Kochi,2023-10-06,11:15:00,Moderate,30.8
 12417,Kochi,2024-02-15,13:45:00,Moderate,30.7
-12418,Kochi,2023-11-19,07:45:00,,40.4
+12418,Kochi,2023-11-19,07:45:00,Moderate,40.4
 12419,Kochi,2024-04-10,11:00:00,Moderate,26.7
 12420,Kochi,2024-10-02,20:45:00,Severe,10.5
 12421,Kochi,2023-06-22,22:00:00,High,11.0
@@ -12426,7 +12426,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 12425,Kochi,2023-03-13,18:30:00,Moderate,26.8
 12426,Kochi,2023-11-19,16:30:00,Moderate,26.5
 12427,Kochi,2024-04-20,20:00:00,Severe,14.3
-12428,Kochi,2023-07-22,16:30:00,,20.4
+12428,Kochi,2023-07-22,16:30:00,High,20.4
 12429,Kochi,2023-11-12,22:00:00,Low,30.3
 12430,Kochi,2024-06-06,09:15:00,High,16.8
 12431,Kochi,2023-08-19,12:15:00,Severe,5.9
@@ -12474,7 +12474,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 12473,Visakhapatnam,2023-01-25,08:00:00,Moderate,29.3
 12474,Visakhapatnam,2024-01-15,16:45:00,Severe,14.2
 12475,Visakhapatnam,2024-10-22,10:15:00,Moderate,32.0
-12476,Visakhapatnam,2023-10-05,14:00:00,Moderate,107.6
+12476,Visakhapatnam,2023-10-05,14:00:00,Moderate,100.0
 12477,Visakhapatnam,2024-12-19,07:15:00,Moderate,27.1
 12478,Visakhapatnam,2024-03-31,10:45:00,Severe,3.0
 12479,Visakhapatnam,2024-12-12,11:00:00,Low,35.7
@@ -12621,7 +12621,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 12620,Visakhapatnam,2024-07-06,20:45:00,High,13.6
 12621,Visakhapatnam,2024-04-17,15:45:00,High,16.3
 12622,Visakhapatnam,2024-07-22,15:00:00,Moderate,38.7
-12623,Visakhapatnam,2024-01-22,18:45:00,,9.3
+12623,Visakhapatnam,2024-01-22,18:45:00,Severe,9.3
 12624,Visakhapatnam,2024-07-30,04:45:00,Low,35.3
 12625,Visakhapatnam,2024-04-26,17:15:00,Low,39.1
 12626,Visakhapatnam,2023-01-30,08:30:00,Moderate,27.7
@@ -12673,7 +12673,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 12672,Visakhapatnam,2023-06-12,12:00:00,Moderate,21.3
 12673,Visakhapatnam,2024-11-03,15:00:00,Moderate,25.7
 12674,Visakhapatnam,2024-10-17,18:15:00,High,19.0
-12675,Visakhapatnam,2023-03-10,12:00:00,,22.8
+12675,Visakhapatnam,2023-03-10,12:00:00,High,22.8
 12676,Visakhapatnam,2023-02-01,16:45:00,Moderate,29.0
 12677,Visakhapatnam,2024-07-19,16:00:00,Low,43.6
 12678,Visakhapatnam,2023-01-16,08:45:00,High,17.3
@@ -12710,7 +12710,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 12709,Visakhapatnam,2023-04-12,18:45:00,Severe,7.9
 12710,Visakhapatnam,2024-11-01,12:15:00,Low,43.2
 12711,Visakhapatnam,2024-02-21,22:00:00,High,7.4
-12712,Visakhapatnam,2023-10-01,12:00:00,Moderate,101.2
+12712,Visakhapatnam,2023-10-01,12:00:00,Moderate,100.0
 12713,Visakhapatnam,2023-01-29,04:30:00,Low,33.9
 12714,Visakhapatnam,2023-03-13,06:45:00,High,12.1
 12715,Visakhapatnam,2024-12-17,10:30:00,Low,39.0
@@ -12857,7 +12857,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 12856,Visakhapatnam,2023-08-24,18:15:00,High,18.7
 12857,Visakhapatnam,2024-07-23,20:30:00,Severe,10.1
 12858,Visakhapatnam,2024-04-14,20:45:00,High,15.3
-12859,Visakhapatnam,2024-08-02,16:30:00,,24.2
+12859,Visakhapatnam,2024-08-02,16:30:00,High,24.2
 12860,Visakhapatnam,2024-01-07,21:15:00,High,21.3
 12861,Visakhapatnam,2023-06-29,16:00:00,Moderate,33.9
 12862,Visakhapatnam,2023-10-08,08:00:00,High,20.8
@@ -12893,7 +12893,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 12892,Visakhapatnam,2023-01-06,19:15:00,Severe,17.8
 12893,Visakhapatnam,2023-01-09,16:15:00,High,19.8
 12894,Visakhapatnam,2023-04-03,16:00:00,Low,41.0
-12895,Visakhapatnam,2024-10-10,18:30:00,Severe,105.3
+12895,Visakhapatnam,2024-10-10,18:30:00,Severe,100.0
 12896,Visakhapatnam,2023-08-02,19:30:00,Moderate,30.2
 12897,Visakhapatnam,2024-08-30,17:00:00,High,17.8
 12898,Visakhapatnam,2023-07-04,08:30:00,Moderate,22.6
@@ -12984,7 +12984,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 12983,Visakhapatnam,2024-03-17,17:30:00,High,16.1
 12984,Visakhapatnam,2024-06-18,18:15:00,Severe,14.2
 12985,Visakhapatnam,2024-03-02,11:45:00,High,22.4
-12986,Visakhapatnam,2024-07-01,12:30:00,Moderate,104.1
+12986,Visakhapatnam,2024-07-01,12:30:00,Moderate,100.0
 12987,Visakhapatnam,2024-07-20,08:00:00,Low,34.2
 12988,Visakhapatnam,2024-04-22,08:15:00,High,16.2
 12989,Visakhapatnam,2024-11-27,01:45:00,Low,39.1
@@ -13131,7 +13131,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 13130,Visakhapatnam,2024-08-04,19:00:00,Severe,11.8
 13131,Visakhapatnam,2023-07-14,13:30:00,Moderate,26.9
 13132,Visakhapatnam,2023-02-21,11:30:00,Severe,6.7
-13133,Visakhapatnam,2023-11-26,05:15:00,,37.0
+13133,Visakhapatnam,2023-11-26,05:15:00,Moderate,37.0
 13134,Visakhapatnam,2024-11-16,07:30:00,Low,36.2
 13135,Visakhapatnam,2023-12-24,18:15:00,High,19.7
 13136,Visakhapatnam,2024-09-28,08:00:00,High,17.7
@@ -13175,7 +13175,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 13174,Visakhapatnam,2024-09-15,12:30:00,Moderate,19.6
 13175,Visakhapatnam,2023-07-01,15:30:00,Low,42.0
 13176,Visakhapatnam,2024-09-01,07:15:00,Moderate,25.6
-13177,Visakhapatnam,2023-03-18,11:00:00,,41.8
+13177,Visakhapatnam,2023-03-18,11:00:00,Moderate,41.8
 13178,Visakhapatnam,2023-10-25,09:30:00,Severe,3.0
 13179,Visakhapatnam,2024-10-16,03:30:00,Low,41.9
 13180,Visakhapatnam,2023-09-02,14:15:00,Severe,16.5
@@ -13391,7 +13391,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 13390,Patna,2024-04-14,14:00:00,High,8.9
 13391,Patna,2024-06-08,16:45:00,Low,26.0
 13392,Patna,2023-07-29,13:30:00,Low,32.7
-13393,Patna,2024-02-02,13:00:00,,23.1
+13393,Patna,2024-02-02,13:00:00,High,23.1
 13394,Patna,2024-11-06,18:45:00,Moderate,20.6
 13395,Patna,2024-04-21,08:15:00,Moderate,26.5
 13396,Patna,2024-10-19,09:45:00,High,16.0
@@ -13426,13 +13426,13 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 13425,Patna,2023-04-30,18:15:00,High,13.9
 13426,Patna,2024-02-28,15:15:00,Low,27.1
 13427,Patna,2024-04-11,19:30:00,High,19.8
-13428,Patna,2023-02-16,07:30:00,,47.9
+13428,Patna,2023-02-16,07:30:00,Moderate,47.9
 13429,Patna,2024-12-23,20:15:00,High,23.8
 13430,Patna,2023-10-11,10:15:00,Moderate,18.4
 13431,Patna,2024-06-19,07:15:00,Moderate,26.8
 13432,Patna,2023-07-28,07:30:00,Moderate,17.6
 13433,Patna,2023-08-19,17:15:00,Moderate,31.1
-13434,Patna,2024-04-13,23:00:00,High,108.5
+13434,Patna,2024-04-13,23:00:00,High,100.0
 13435,Patna,2024-06-07,07:45:00,Low,31.6
 13436,Patna,2024-12-14,01:45:00,Moderate,20.8
 13437,Patna,2023-12-03,14:00:00,Moderate,28.5
@@ -13569,7 +13569,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 13568,Patna,2024-08-11,18:45:00,Severe,12.8
 13569,Patna,2023-06-19,09:15:00,Severe,17.2
 13570,Patna,2023-06-28,18:45:00,High,11.2
-13571,Patna,2024-11-19,19:45:00,,14.9
+13571,Patna,2024-11-19,19:45:00,Severe,14.9
 13572,Patna,2023-06-04,08:30:00,High,14.9
 13573,Patna,2023-06-01,12:45:00,Severe,5.7
 13574,Patna,2023-09-08,12:15:00,Low,31.0
@@ -13630,7 +13630,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 13629,Patna,2024-01-31,17:15:00,Moderate,23.3
 13630,Patna,2023-04-09,09:30:00,Moderate,31.0
 13631,Patna,2023-02-17,08:00:00,Moderate,24.2
-13632,Patna,2023-03-09,18:30:00,,10.8
+13632,Patna,2023-03-09,18:30:00,Severe,10.8
 13633,Patna,2023-07-20,16:45:00,Moderate,28.3
 13634,Patna,2024-12-12,08:00:00,High,15.4
 13635,Patna,2024-08-05,09:45:00,High,11.5
@@ -13705,7 +13705,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 13704,Patna,2023-03-24,08:15:00,Severe,9.7
 13705,Patna,2024-09-13,19:30:00,High,6.8
 13706,Patna,2023-05-02,08:30:00,Moderate,24.0
-13707,Patna,2023-03-31,20:15:00,High,104.2
+13707,Patna,2023-03-31,20:15:00,High,100.0
 13708,Patna,2024-01-07,07:15:00,High,14.0
 13709,Patna,2023-07-18,18:00:00,High,11.2
 13710,Patna,2023-05-08,20:15:00,High,18.2
@@ -13875,7 +13875,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 13874,Patna,2023-11-15,13:45:00,High,12.4
 13875,Patna,2024-07-10,13:30:00,Moderate,17.2
 13876,Patna,2023-09-28,07:15:00,Moderate,24.8
-13877,Patna,2024-10-27,17:30:00,High,110.8
+13877,Patna,2024-10-27,17:30:00,High,100.0
 13878,Patna,2024-12-29,17:15:00,Moderate,23.2
 13879,Patna,2024-10-24,07:45:00,Moderate,33.5
 13880,Patna,2024-12-03,10:15:00,Severe,9.4
@@ -13884,7 +13884,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 13883,Patna,2023-04-03,07:15:00,Moderate,24.5
 13884,Patna,2023-04-26,07:15:00,Low,47.8
 13885,Patna,2024-04-19,20:00:00,Severe,13.1
-13886,Patna,2023-05-13,04:15:00,Moderate,106.2
+13886,Patna,2023-05-13,04:15:00,Moderate,100.0
 13887,Patna,2024-12-02,09:30:00,Severe,9.9
 13888,Patna,2024-03-16,19:30:00,Severe,6.7
 13889,Patna,2023-08-07,08:15:00,Severe,3.1
@@ -14032,7 +14032,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 14031,Bhubaneswar,2024-11-16,18:45:00,Severe,8.9
 14032,Bhubaneswar,2023-12-23,07:00:00,Moderate,35.2
 14033,Bhubaneswar,2023-02-18,16:45:00,Moderate,25.2
-14034,Bhubaneswar,2023-03-09,08:30:00,,3.0
+14034,Bhubaneswar,2023-03-09,08:30:00,Severe,3.0
 14035,Bhubaneswar,2023-11-22,07:00:00,Low,38.1
 14036,Bhubaneswar,2023-02-23,15:45:00,Low,34.3
 14037,Bhubaneswar,2024-10-31,12:00:00,Low,40.4
@@ -14082,7 +14082,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 14081,Bhubaneswar,2023-11-08,06:45:00,Severe,10.2
 14082,Bhubaneswar,2023-05-15,11:15:00,Severe,8.0
 14083,Bhubaneswar,2023-04-19,19:00:00,Moderate,33.9
-14084,Bhubaneswar,2024-05-29,17:15:00,Moderate,109.3
+14084,Bhubaneswar,2024-05-29,17:15:00,Moderate,100.0
 14085,Bhubaneswar,2023-11-30,04:00:00,Low,36.9
 14086,Bhubaneswar,2024-11-11,13:45:00,High,24.5
 14087,Bhubaneswar,2024-12-26,08:45:00,Low,38.3
@@ -14277,7 +14277,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 14276,Bhubaneswar,2024-11-12,16:30:00,Low,42.0
 14277,Bhubaneswar,2023-10-23,08:45:00,High,11.0
 14278,Bhubaneswar,2023-02-02,14:00:00,Low,48.7
-14279,Bhubaneswar,2024-11-11,09:45:00,,31.8
+14279,Bhubaneswar,2024-11-11,09:45:00,Moderate,31.8
 14280,Bhubaneswar,2024-04-30,08:00:00,Moderate,34.6
 14281,Bhubaneswar,2024-10-12,07:30:00,Moderate,21.6
 14282,Bhubaneswar,2023-04-20,19:30:00,Severe,14.2
@@ -14486,7 +14486,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 14485,Bhubaneswar,2024-02-06,17:15:00,High,29.4
 14486,Bhubaneswar,2023-05-27,17:00:00,Low,45.2
 14487,Bhubaneswar,2023-07-02,11:45:00,Moderate,32.6
-14488,Bhubaneswar,2023-05-03,16:45:00,Moderate,119.9
+14488,Bhubaneswar,2023-05-03,16:45:00,Moderate,100.0
 14489,Bhubaneswar,2023-03-31,20:00:00,Moderate,24.9
 14490,Bhubaneswar,2023-07-08,23:45:00,Low,42.9
 14491,Bhubaneswar,2024-03-16,14:30:00,Moderate,18.3
@@ -14537,7 +14537,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 14536,Bhubaneswar,2024-07-16,08:15:00,Severe,12.3
 14537,Bhubaneswar,2023-05-17,13:45:00,High,13.9
 14538,Bhubaneswar,2023-04-20,08:15:00,Moderate,29.4
-14539,Bhubaneswar,2024-08-08,16:15:00,,39.6
+14539,Bhubaneswar,2024-08-08,16:15:00,Moderate,39.6
 14540,Bhubaneswar,2023-02-28,09:00:00,High,14.2
 14541,Bhubaneswar,2023-12-16,08:30:00,High,22.2
 14542,Bhubaneswar,2023-06-14,08:45:00,High,22.1
@@ -14573,7 +14573,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 14572,Bhubaneswar,2024-11-26,18:45:00,Moderate,23.7
 14573,Bhubaneswar,2024-02-18,14:45:00,Severe,7.2
 14574,Bhubaneswar,2023-01-05,01:00:00,Low,35.6
-14575,Bhubaneswar,2023-01-15,08:00:00,Severe,113.3
+14575,Bhubaneswar,2023-01-15,08:00:00,Severe,100.0
 14576,Bhubaneswar,2024-07-21,22:30:00,Low,28.5
 14577,Bhubaneswar,2023-05-31,20:30:00,Moderate,21.9
 14578,Bhubaneswar,2023-11-07,19:30:00,High,10.3
@@ -14597,7 +14597,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 14596,Bhubaneswar,2023-06-21,08:00:00,High,21.4
 14597,Bhubaneswar,2024-05-17,18:00:00,High,16.1
 14598,Bhubaneswar,2023-07-27,03:15:00,Low,36.4
-14599,Bhubaneswar,2023-08-27,11:30:00,Low,118.0
+14599,Bhubaneswar,2023-08-27,11:30:00,Low,100.0
 14600,Bhubaneswar,2023-08-20,06:45:00,Moderate,29.8
 14601,Bhubaneswar,2024-10-24,07:30:00,High,4.2
 14602,Bhubaneswar,2024-05-16,17:30:00,Moderate,22.8
@@ -14674,7 +14674,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 14673,Guwahati,2023-11-19,06:15:00,Low,47.6
 14674,Guwahati,2023-06-05,17:30:00,Moderate,20.8
 14675,Guwahati,2023-10-23,11:30:00,Moderate,27.0
-14676,Guwahati,2023-07-23,20:30:00,Severe,105.0
+14676,Guwahati,2023-07-23,20:30:00,Severe,100.0
 14677,Guwahati,2023-05-01,07:00:00,High,14.1
 14678,Guwahati,2023-02-25,18:15:00,Moderate,27.7
 14679,Guwahati,2023-01-08,12:00:00,Low,46.4
@@ -14710,7 +14710,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 14709,Guwahati,2024-09-13,21:30:00,Low,34.3
 14710,Guwahati,2023-04-02,05:30:00,Low,40.6
 14711,Guwahati,2024-03-04,18:15:00,High,16.4
-14712,Guwahati,2023-08-14,08:30:00,,34.7
+14712,Guwahati,2023-08-14,08:30:00,Moderate,34.7
 14713,Guwahati,2023-06-15,16:30:00,Moderate,22.5
 14714,Guwahati,2023-02-22,10:30:00,Low,35.9
 14715,Guwahati,2024-03-26,18:15:00,Severe,8.3
@@ -14752,7 +14752,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 14751,Guwahati,2024-04-18,09:45:00,Severe,10.1
 14752,Guwahati,2023-06-21,14:00:00,Low,43.5
 14753,Guwahati,2023-08-05,16:45:00,Low,31.7
-14754,Guwahati,2023-12-16,20:15:00,High,116.4
+14754,Guwahati,2023-12-16,20:15:00,High,100.0
 14755,Guwahati,2024-06-10,18:45:00,Moderate,35.9
 14756,Guwahati,2024-03-22,19:30:00,Severe,14.1
 14757,Guwahati,2023-11-24,08:45:00,High,12.6
@@ -14788,7 +14788,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 14787,Guwahati,2023-04-22,14:00:00,Severe,7.6
 14788,Guwahati,2023-08-04,11:45:00,High,10.0
 14789,Guwahati,2024-07-12,09:30:00,High,19.1
-14790,Guwahati,2024-09-10,20:45:00,Severe,110.8
+14790,Guwahati,2024-09-10,20:45:00,Severe,100.0
 14791,Guwahati,2024-04-16,07:15:00,Moderate,25.1
 14792,Guwahati,2024-06-05,18:45:00,Severe,9.7
 14793,Guwahati,2024-09-02,18:30:00,High,19.1
@@ -14799,7 +14799,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 14798,Guwahati,2024-10-31,02:30:00,Moderate,29.2
 14799,Guwahati,2023-04-30,10:15:00,Moderate,36.7
 14800,Guwahati,2024-02-19,18:00:00,Moderate,31.7
-14801,Guwahati,2023-05-08,18:00:00,,17.6
+14801,Guwahati,2023-05-08,18:00:00,High,17.6
 14802,Guwahati,2023-12-28,09:15:00,Severe,11.8
 14803,Guwahati,2024-12-05,19:15:00,Moderate,32.4
 14804,Guwahati,2023-06-30,14:00:00,Severe,18.5
@@ -14838,7 +14838,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 14837,Guwahati,2023-07-22,16:30:00,Moderate,26.7
 14838,Guwahati,2023-06-03,19:00:00,Low,32.4
 14839,Guwahati,2024-10-19,17:30:00,High,22.4
-14840,Guwahati,2023-09-16,12:30:00,Low,114.1
+14840,Guwahati,2023-09-16,12:30:00,Low,100.0
 14841,Guwahati,2023-09-05,17:45:00,Moderate,35.5
 14842,Guwahati,2023-09-17,08:30:00,Severe,4.7
 14843,Guwahati,2023-12-05,12:45:00,High,21.0
@@ -14871,12 +14871,12 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 14870,Guwahati,2023-03-20,15:00:00,Low,39.7
 14871,Guwahati,2024-04-07,13:00:00,Moderate,31.3
 14872,Guwahati,2024-08-18,13:15:00,High,19.3
-14873,Guwahati,2023-09-23,18:00:00,,16.2
+14873,Guwahati,2023-09-23,18:00:00,High,16.2
 14874,Guwahati,2024-10-19,11:00:00,Moderate,21.4
 14875,Guwahati,2023-05-14,08:15:00,Severe,12.1
 14876,Guwahati,2024-04-16,14:15:00,Moderate,26.0
 14877,Guwahati,2023-01-04,08:15:00,High,17.4
-14878,Guwahati,2023-08-06,03:45:00,,49.9
+14878,Guwahati,2023-08-06,03:45:00,Moderate,49.9
 14879,Guwahati,2023-01-10,16:00:00,Low,36.3
 14880,Guwahati,2024-03-10,17:45:00,High,17.1
 14881,Guwahati,2023-12-10,08:00:00,High,19.2
@@ -14920,7 +14920,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 14919,Guwahati,2023-12-15,23:00:00,High,13.0
 14920,Guwahati,2024-06-04,19:45:00,Moderate,27.9
 14921,Guwahati,2024-10-17,17:45:00,Moderate,29.2
-14922,Guwahati,2024-01-10,21:30:00,Moderate,111.5
+14922,Guwahati,2024-01-10,21:30:00,Moderate,100.0
 14923,Guwahati,2024-08-08,09:45:00,Low,34.3
 14924,Guwahati,2023-05-31,09:15:00,Moderate,31.1
 14925,Guwahati,2024-11-26,09:30:00,High,17.7
@@ -15018,7 +15018,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 15017,Guwahati,2023-02-18,10:45:00,Low,46.0
 15018,Guwahati,2023-10-10,04:30:00,Low,42.4
 15019,Guwahati,2023-11-23,18:30:00,High,17.3
-15020,Guwahati,2023-01-27,13:30:00,Moderate,111.0
+15020,Guwahati,2023-01-27,13:30:00,Moderate,100.0
 15021,Guwahati,2024-08-09,18:15:00,Moderate,36.4
 15022,Guwahati,2024-01-23,13:45:00,Moderate,23.0
 15023,Guwahati,2023-12-20,21:45:00,Low,36.6
@@ -15137,7 +15137,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 15136,Guwahati,2023-08-29,06:15:00,Low,40.8
 15137,Guwahati,2024-12-14,11:45:00,Moderate,23.0
 15138,Guwahati,2023-10-04,21:45:00,Moderate,31.8
-15139,Guwahati,2024-08-30,10:00:00,,35.4
+15139,Guwahati,2024-08-30,10:00:00,Moderate,35.4
 15140,Guwahati,2024-11-08,12:30:00,Low,36.5
 15141,Guwahati,2024-07-03,02:15:00,High,19.7
 15142,Guwahati,2023-02-27,07:15:00,Moderate,28.9
@@ -15202,7 +15202,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 15201,Guwahati,2024-02-10,16:15:00,Moderate,26.0
 15202,Guwahati,2024-03-06,07:45:00,High,18.3
 15203,Guwahati,2024-07-04,14:15:00,Moderate,26.9
-15204,Guwahati,2024-02-23,08:00:00,,12.5
+15204,Guwahati,2024-02-23,08:00:00,Severe,12.5
 15205,Guwahati,2023-09-03,08:00:00,High,11.5
 15206,Guwahati,2024-09-18,19:15:00,Moderate,14.7
 15207,Guwahati,2024-02-06,04:45:00,Moderate,26.7
@@ -15226,7 +15226,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 15225,Guwahati,2023-01-17,08:45:00,Low,39.4
 15226,Guwahati,2023-09-12,22:00:00,High,5.3
 15227,Guwahati,2023-03-04,14:45:00,Moderate,29.3
-15228,Guwahati,2024-03-22,16:30:00,,36.1
+15228,Guwahati,2024-03-22,16:30:00,Moderate,36.1
 15229,Guwahati,2023-10-08,12:30:00,Moderate,24.8
 15230,Guwahati,2023-05-03,08:00:00,High,17.9
 15231,Guwahati,2023-03-17,06:15:00,High,10.4
@@ -15241,7 +15241,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 15240,Guwahati,2024-10-19,10:00:00,High,30.5
 15241,Guwahati,2024-03-22,20:15:00,Severe,5.3
 15242,Guwahati,2023-02-07,17:30:00,Moderate,32.3
-15243,Guwahati,2023-05-07,07:00:00,High,109.3
+15243,Guwahati,2023-05-07,07:00:00,High,100.0
 15244,Guwahati,2023-08-18,08:45:00,Severe,17.2
 15245,Guwahati,2023-02-25,18:15:00,High,18.5
 15246,Guwahati,2023-02-13,15:00:00,Moderate,26.3
@@ -15277,7 +15277,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 15276,Guwahati,2024-05-23,10:15:00,High,18.7
 15277,Guwahati,2023-10-28,18:15:00,Severe,3.0
 15278,Guwahati,2023-08-15,12:00:00,Severe,12.1
-15279,Guwahati,2023-01-02,09:45:00,,16.4
+15279,Guwahati,2023-01-02,09:45:00,High,16.4
 15280,Guwahati,2024-08-16,17:00:00,Low,44.0
 15281,Guwahati,2024-05-16,22:45:00,Moderate,31.3
 15282,Guwahati,2024-01-21,06:15:00,Severe,6.7
@@ -15320,7 +15320,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 15319,Guwahati,2024-01-01,08:00:00,Moderate,27.7
 15320,Guwahati,2024-05-17,18:00:00,Moderate,22.9
 15321,Guwahati,2024-10-12,12:00:00,Moderate,23.8
-15322,Guwahati,2023-02-22,22:00:00,Moderate,112.1
+15322,Guwahati,2023-02-22,22:00:00,Moderate,100.0
 15323,Guwahati,2023-10-26,18:30:00,Severe,14.2
 15324,Guwahati,2024-09-19,12:15:00,High,12.2
 15325,Guwahati,2024-06-02,12:45:00,Moderate,21.5
@@ -15352,7 +15352,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 15351,Guwahati,2024-04-19,00:30:00,High,13.8
 15352,Guwahati,2024-06-08,08:00:00,Severe,5.6
 15353,Guwahati,2023-06-18,14:15:00,Moderate,22.4
-15354,Guwahati,2023-05-12,17:15:00,,25.3
+15354,Guwahati,2023-05-12,17:15:00,High,25.3
 15355,Guwahati,2023-09-22,19:30:00,High,20.2
 15356,Guwahati,2024-08-26,20:45:00,Severe,14.9
 15357,Guwahati,2024-08-14,06:45:00,Low,38.6
@@ -15521,7 +15521,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 15520,Nashik,2023-09-09,13:15:00,High,22.1
 15521,Nashik,2023-09-04,17:15:00,Low,36.5
 15522,Nashik,2023-02-03,18:15:00,Severe,5.1
-15523,Nashik,2024-01-09,20:15:00,,3.0
+15523,Nashik,2024-01-09,20:15:00,Severe,3.0
 15524,Nashik,2023-07-03,15:30:00,Low,39.5
 15525,Nashik,2024-11-12,09:00:00,Severe,7.3
 15526,Nashik,2024-01-29,18:00:00,High,81.5
@@ -15784,11 +15784,11 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 15783,Nashik,2024-03-25,07:45:00,Moderate,27.7
 15784,Nashik,2023-07-25,13:45:00,High,17.6
 15785,Nashik,2024-03-27,17:15:00,Moderate,23.6
-15786,Nashik,2023-12-06,15:45:00,,27.5
+15786,Nashik,2023-12-06,15:45:00,High,27.5
 15787,Nashik,2024-07-27,08:30:00,Severe,13.4
 15788,Nashik,2024-08-01,14:00:00,Severe,6.8
 15789,Nashik,2024-07-27,12:00:00,Low,38.7
-15790,Nashik,2024-02-27,05:00:00,Low,118.4
+15790,Nashik,2024-02-27,05:00:00,Low,100.0
 15791,Nashik,2024-04-29,17:00:00,Moderate,28.6
 15792,Nashik,2023-05-22,17:30:00,Severe,4.7
 15793,Nashik,2024-10-11,07:15:00,Low,31.5
@@ -15951,14 +15951,14 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 15950,Nashik,2024-07-03,07:30:00,Severe,6.6
 15951,Nashik,2024-04-03,14:15:00,Severe,15.1
 15952,Nashik,2024-05-25,17:30:00,Low,24.1
-15953,Nashik,2024-03-03,08:00:00,,16.8
+15953,Nashik,2024-03-03,08:00:00,High,16.8
 15954,Nashik,2023-12-29,19:30:00,Severe,4.0
 15955,Nashik,2023-06-18,09:30:00,Moderate,28.6
 15956,Nashik,2024-06-14,18:15:00,High,7.1
 15957,Nashik,2024-02-18,18:00:00,Moderate,20.6
 15958,Nashik,2024-07-07,16:30:00,Low,51.1
 15959,Nashik,2024-07-04,17:45:00,Low,36.6
-15960,Nashik,2023-01-20,20:30:00,,16.3
+15960,Nashik,2023-01-20,20:30:00,High,16.3
 15961,Nashik,2024-06-28,16:30:00,Low,34.9
 15962,Nashik,2023-05-30,12:15:00,Low,39.9
 15963,Nashik,2023-05-30,07:00:00,Low,33.8
@@ -16058,7 +16058,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 16057,Nashik,2023-09-03,14:15:00,Moderate,33.8
 16058,Nashik,2024-04-12,07:00:00,High,20.8
 16059,Nashik,2024-11-26,21:00:00,Severe,4.8
-16060,Nashik,2023-06-23,09:15:00,,9.4
+16060,Nashik,2023-06-23,09:15:00,Severe,9.4
 16061,Nashik,2023-02-19,19:00:00,Moderate,22.1
 16062,Nashik,2024-11-25,07:30:00,Moderate,27.9
 16063,Nashik,2024-07-17,20:15:00,Moderate,20.6
@@ -16098,7 +16098,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 16097,Nashik,2024-12-23,14:30:00,Low,31.6
 16098,Nashik,2023-11-11,21:30:00,Moderate,26.3
 16099,Nashik,2024-07-10,08:30:00,High,21.1
-16100,Nashik,2023-11-09,18:15:00,,8.8
+16100,Nashik,2023-11-09,18:15:00,Severe,8.8
 16101,Nashik,2024-06-03,07:30:00,High,17.9
 16102,Nashik,2024-05-11,07:00:00,Moderate,32.6
 16103,Nashik,2024-03-28,00:30:00,Moderate,22.4
@@ -16203,7 +16203,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 16202,Ludhiana,2024-07-31,20:30:00,High,13.9
 16203,Ludhiana,2023-07-14,11:30:00,Moderate,36.7
 16204,Ludhiana,2023-04-16,20:30:00,High,24.3
-16205,Ludhiana,2023-11-28,14:45:00,Moderate,107.2
+16205,Ludhiana,2023-11-28,14:45:00,Moderate,100.0
 16206,Ludhiana,2023-03-31,23:15:00,High,16.9
 16207,Ludhiana,2023-06-06,08:30:00,High,16.6
 16208,Ludhiana,2024-11-08,06:00:00,Low,37.0
@@ -16332,7 +16332,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 16331,Ludhiana,2023-11-19,20:45:00,Moderate,36.7
 16332,Ludhiana,2023-04-07,12:15:00,Low,30.5
 16333,Ludhiana,2024-10-07,06:00:00,High,24.8
-16334,Ludhiana,2023-03-18,09:45:00,,14.0
+16334,Ludhiana,2023-03-18,09:45:00,Severe,14.0
 16335,Ludhiana,2023-04-17,09:15:00,High,10.0
 16336,Ludhiana,2024-01-16,16:00:00,Moderate,30.9
 16337,Ludhiana,2023-05-31,14:00:00,Severe,7.3
@@ -16408,7 +16408,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 16407,Ludhiana,2023-04-26,20:30:00,Moderate,36.3
 16408,Ludhiana,2024-10-22,08:30:00,High,15.1
 16409,Ludhiana,2023-09-07,20:15:00,Severe,7.1
-16410,Ludhiana,2024-03-04,19:00:00,Severe,107.3
+16410,Ludhiana,2024-03-04,19:00:00,Severe,100.0
 16411,Ludhiana,2024-01-14,22:30:00,Severe,17.7
 16412,Ludhiana,2024-11-13,05:15:00,Low,35.3
 16413,Ludhiana,2023-03-21,03:30:00,Low,39.0
@@ -16535,7 +16535,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 16534,Ludhiana,2024-04-11,17:15:00,Low,40.6
 16535,Ludhiana,2023-07-24,07:15:00,Low,30.5
 16536,Ludhiana,2023-09-01,20:15:00,High,21.1
-16537,Ludhiana,2023-11-23,03:45:00,,35.4
+16537,Ludhiana,2023-11-23,03:45:00,Moderate,35.4
 16538,Ludhiana,2023-04-08,10:15:00,Moderate,22.6
 16539,Ludhiana,2024-12-06,17:30:00,Moderate,17.7
 16540,Ludhiana,2023-04-30,14:45:00,High,18.5
@@ -16563,7 +16563,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 16562,Ludhiana,2024-02-12,22:00:00,High,13.4
 16563,Ludhiana,2024-02-24,07:45:00,High,12.1
 16564,Ludhiana,2023-08-06,13:15:00,High,16.9
-16565,Ludhiana,2023-01-27,19:45:00,,32.0
+16565,Ludhiana,2023-01-27,19:45:00,Moderate,32.0
 16566,Ludhiana,2024-01-26,06:15:00,Low,45.8
 16567,Ludhiana,2024-01-22,10:45:00,Low,41.0
 16568,Ludhiana,2023-11-23,11:45:00,High,10.5
@@ -16717,7 +16717,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 16716,Ludhiana,2024-02-03,18:45:00,Severe,17.0
 16717,Ludhiana,2024-11-01,08:30:00,Moderate,24.3
 16718,Ludhiana,2024-08-05,01:30:00,Low,41.6
-16719,Ludhiana,2023-12-27,09:15:00,Severe,111.3
+16719,Ludhiana,2023-12-27,09:15:00,Severe,100.0
 16720,Ludhiana,2023-05-27,22:30:00,Moderate,32.8
 16721,Ludhiana,2023-10-10,10:00:00,Low,38.4
 16722,Ludhiana,2024-06-28,05:15:00,Moderate,21.0
@@ -17075,12 +17075,12 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 17074,Vadodara,2023-08-01,14:30:00,Moderate,31.1
 17075,Vadodara,2023-04-10,19:00:00,High,23.6
 17076,Vadodara,2024-12-12,10:00:00,Moderate,21.2
-17077,Vadodara,2023-06-17,15:00:00,,24.4
+17077,Vadodara,2023-06-17,15:00:00,High,24.4
 17078,Vadodara,2023-03-12,19:45:00,High,16.9
 17079,Vadodara,2023-06-22,07:15:00,Low,35.4
 17080,Vadodara,2023-03-04,08:00:00,Severe,5.1
 17081,Vadodara,2024-02-24,18:00:00,Severe,8.4
-17082,Vadodara,2024-12-22,05:15:00,,29.7
+17082,Vadodara,2024-12-22,05:15:00,High,29.7
 17083,Vadodara,2024-11-07,21:15:00,High,13.9
 17084,Vadodara,2023-02-10,22:15:00,Moderate,34.4
 17085,Vadodara,2023-05-17,16:15:00,Low,39.1
@@ -17171,7 +17171,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 17170,Vadodara,2023-02-14,14:15:00,Low,41.8
 17171,Vadodara,2023-12-29,17:15:00,Low,37.9
 17172,Vadodara,2024-02-12,04:45:00,Low,27.9
-17173,Vadodara,2023-06-01,01:15:00,,36.8
+17173,Vadodara,2023-06-01,01:15:00,Moderate,36.8
 17174,Vadodara,2023-08-05,04:00:00,Low,30.2
 17175,Vadodara,2023-04-22,18:45:00,Moderate,20.2
 17176,Vadodara,2024-10-27,00:15:00,Low,46.7
@@ -17190,7 +17190,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 17189,Vadodara,2024-08-07,13:45:00,Moderate,29.9
 17190,Vadodara,2024-02-13,17:00:00,Low,28.6
 17191,Vadodara,2024-05-29,07:00:00,High,17.3
-17192,Vadodara,2024-09-29,19:45:00,,10.2
+17192,Vadodara,2024-09-29,19:45:00,Severe,10.2
 17193,Vadodara,2023-02-12,15:15:00,Moderate,25.4
 17194,Vadodara,2024-12-07,19:30:00,High,12.3
 17195,Vadodara,2023-10-22,18:15:00,High,10.7
@@ -17306,7 +17306,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 17305,Vadodara,2023-01-07,00:15:00,Low,38.9
 17306,Vadodara,2024-03-14,07:45:00,Severe,9.1
 17307,Vadodara,2023-03-05,18:15:00,Moderate,21.8
-17308,Vadodara,2024-02-20,08:45:00,,11.2
+17308,Vadodara,2024-02-20,08:45:00,Severe,11.2
 17309,Vadodara,2023-07-09,07:15:00,Low,41.0
 17310,Vadodara,2023-09-13,21:45:00,Moderate,18.9
 17311,Vadodara,2024-04-28,10:15:00,Low,33.3
@@ -17505,7 +17505,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 17504,Vadodara,2023-10-16,18:15:00,Severe,12.4
 17505,Vadodara,2024-05-07,07:30:00,High,17.4
 17506,Vadodara,2023-12-25,19:45:00,High,17.5
-17507,Vadodara,2024-08-05,08:30:00,,12.0
+17507,Vadodara,2024-08-05,08:30:00,Severe,12.0
 17508,Vadodara,2024-12-24,21:45:00,Moderate,32.3
 17509,Vadodara,2024-03-17,09:45:00,Severe,5.3
 17510,Vadodara,2024-11-12,11:15:00,Moderate,21.2
@@ -17625,7 +17625,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 17624,Raipur,2023-11-10,07:45:00,Moderate,16.5
 17625,Raipur,2024-02-28,07:15:00,Low,36.3
 17626,Raipur,2024-12-09,20:45:00,Severe,13.3
-17627,Raipur,2023-05-04,19:15:00,,22.1
+17627,Raipur,2023-05-04,19:15:00,High,22.1
 17628,Raipur,2024-07-26,17:45:00,Moderate,27.6
 17629,Raipur,2023-07-11,12:15:00,High,23.8
 17630,Raipur,2024-06-21,17:15:00,High,19.7
@@ -17786,7 +17786,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 17785,Raipur,2023-11-05,18:15:00,Moderate,23.0
 17786,Raipur,2023-01-14,09:00:00,Severe,4.8
 17787,Raipur,2024-01-15,15:15:00,Severe,8.0
-17788,Raipur,2024-09-14,18:15:00,,21.3
+17788,Raipur,2024-09-14,18:15:00,High,21.3
 17789,Raipur,2023-07-11,08:00:00,High,13.5
 17790,Raipur,2023-05-27,07:30:00,Moderate,23.7
 17791,Raipur,2023-11-02,14:00:00,High,27.6
@@ -17856,7 +17856,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 17855,Raipur,2024-11-17,07:00:00,Moderate,24.2
 17856,Raipur,2024-02-16,21:15:00,High,22.3
 17857,Raipur,2023-07-15,14:15:00,Moderate,33.3
-17858,Raipur,2024-06-05,21:30:00,,30.3
+17858,Raipur,2024-06-05,21:30:00,Moderate,30.3
 17859,Raipur,2024-08-01,16:15:00,Low,40.0
 17860,Raipur,2023-12-28,09:45:00,High,19.0
 17861,Raipur,2024-03-22,07:00:00,Moderate,30.3
@@ -17879,7 +17879,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 17878,Raipur,2023-03-16,14:30:00,Moderate,34.6
 17879,Raipur,2024-01-07,19:45:00,Severe,10.4
 17880,Raipur,2024-04-16,23:00:00,Low,39.9
-17881,Raipur,2023-08-31,08:30:00,,12.1
+17881,Raipur,2023-08-31,08:30:00,Severe,12.1
 17882,Raipur,2024-01-28,08:45:00,Severe,3.0
 17883,Raipur,2023-12-25,07:15:00,Severe,5.2
 17884,Raipur,2024-04-03,13:45:00,Moderate,24.1
@@ -18114,7 +18114,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 18113,Raipur,2024-02-22,18:45:00,High,26.0
 18114,Raipur,2024-07-15,18:00:00,Severe,5.6
 18115,Raipur,2023-01-02,09:45:00,Low,34.6
-18116,Raipur,2024-08-07,14:15:00,,15.7
+18116,Raipur,2024-08-07,14:15:00,High,15.7
 18117,Raipur,2024-11-15,18:30:00,Severe,5.3
 18118,Raipur,2024-12-13,07:45:00,Low,30.4
 18119,Raipur,2024-08-30,07:00:00,High,21.0
@@ -18297,7 +18297,7 @@ TrafficID,City,Date,Time,TrafficLevel,AverageSpeed
 18296,Raipur,2023-02-25,19:15:00,Severe,7.2
 18297,Raipur,2024-11-02,08:45:00,Moderate,28.3
 18298,Raipur,2023-09-13,18:15:00,High,16.1
-18299,Raipur,2024-12-26,08:30:00,,15.2
+18299,Raipur,2024-12-26,08:30:00,High,15.2
 18300,Raipur,2023-03-08,08:15:00,Severe,6.6
 18301,Raipur,2023-07-17,18:00:00,Moderate,30.1
 18302,Raipur,2023-12-21,09:00:00,Moderate,31.0

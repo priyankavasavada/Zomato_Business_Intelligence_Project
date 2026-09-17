@@ -11,6 +11,8 @@
 -- =====================================================================
 
 -- A1. Top 10 restaurants by revenue in the last 6 months
+-- Here max order date is used since the datatset has a fixed end date, but in a live system you would use CURRENT_DATE or NOW()
+
 SELECT
     r.RestaurantID,
     r.RestaurantName,
@@ -19,11 +21,15 @@ SELECT
     COUNT(o.OrderID) AS total_orders
 FROM orders o
 JOIN restaurants r ON r.RestaurantID = o.RestaurantID
-WHERE o.OrderDate >= (CURRENT_DATE - INTERVAL '6 months')
+WHERE o.OrderDate >= ((SELECT MAX(OrderDate) FROM orders) - INTERVAL '6 months')
   AND o.OrderStatus = 'Delivered'
 GROUP BY r.RestaurantID, r.RestaurantName, r.City
 ORDER BY total_revenue DESC
 LIMIT 10;
+
+-- Output : The top 10 restaurants by revenue in the last 6 months are:
+-- 1. The Spice House (Delhi) - 1,200,000 INR
+
 
 -- A2. Average delivery time by city, slowest first
 SELECT
@@ -35,6 +41,9 @@ JOIN restaurants r ON r.RestaurantID = o.RestaurantID
 WHERE o.DeliveryTimeMinutes IS NOT NULL
 GROUP BY r.City
 ORDER BY avg_delivery_time DESC;
+
+-- Output : Delhi, Hyderabad, Ludhiana are top 3 slowest cities in terms of average delivery time.
+-- and the average delivery time is 40, 39.82, 39.67 minutes respectively.
 
 -- A3. Cuisines with more than 500 delivered orders and average rating above 4.0
 SELECT
