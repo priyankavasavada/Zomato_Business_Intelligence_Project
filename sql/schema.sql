@@ -258,7 +258,7 @@ COPY restaurants FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_P
 COPY delivery_partners FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/delivery_partners_cleaned.csv' WITH (FORMAT csv, HEADER true);
 COPY promotions FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/promotions_cleaned.csv' WITH (FORMAT csv, HEADER true);
 COPY menu FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/menu_cleaned.csv' WITH (FORMAT csv, HEADER true);
-COPY orders FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/orders_cleaned.csv' WITH (FORMAT csv, HEADER true);
+COPY orders FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/orders_cleaned.csv' WITH (FORMAT csv, HEADER true, NULL 'NONE');
 COPY order_items FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/order_items_cleaned.csv' WITH (FORMAT csv, HEADER true);
 COPY payments FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/payments_cleaned.csv' WITH (FORMAT csv, HEADER true);
 COPY customer_feedback FROM '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/cleaned/customer_feedback_cleaned.csv' WITH (FORMAT csv, HEADER true);

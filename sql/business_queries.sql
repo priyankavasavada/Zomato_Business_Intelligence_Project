@@ -28,7 +28,7 @@ ORDER BY total_revenue DESC
 LIMIT 10;
 
 -- Output : The top 10 restaurants by revenue in the last 6 months are:
--- 1. The Spice House (Delhi) - 1,200,000 INR
+-- 1. Grand Bites from Bengaluru - 4,219.35 INR with total orders - 10
 
 
 -- A2. Average delivery time by city, slowest first
@@ -42,10 +42,10 @@ WHERE o.DeliveryTimeMinutes IS NOT NULL
 GROUP BY r.City
 ORDER BY avg_delivery_time DESC;
 
--- Output : Delhi, Hyderabad, Ludhiana are top 3 slowest cities in terms of average delivery time.
--- and the average delivery time is 40, 39.82, 39.67 minutes respectively.
+-- Output : Ludhiana, Delhi, Kochi are top 3 slowest cities in terms of average delivery time.
+-- and the average delivery time is 38.69, 38.68, 38.60 minutes respectively.
 
--- A3. Cuisines with more than 500 delivered orders and average rating above 4.0
+-- A3. Cuisines with more than 500 delivered orders and average rating above 3.8
 SELECT
     r.Cuisine,
     COUNT(o.OrderID) AS delivered_orders,
@@ -54,8 +54,11 @@ FROM orders o
 JOIN restaurants r ON r.RestaurantID = o.RestaurantID
 WHERE o.OrderStatus = 'Delivered'
 GROUP BY r.Cuisine
-HAVING COUNT(o.OrderID) > 500 AND AVG(r.Rating) > 4.0
+HAVING COUNT(o.OrderID) > 500 AND AVG(r.Rating) > 3.8
 ORDER BY delivered_orders DESC;
+
+-- Output : South Indian, Fast food and Healthy food delivered highest orders 
+-- : 784, 715, 694 respectively with ratings 3.84, 3.88, 3.98
 
 -- A4. Cancellation rate by restaurant cuisine
 SELECT
@@ -67,6 +70,10 @@ FROM orders o
 JOIN restaurants r ON r.RestaurantID = o.RestaurantID
 GROUP BY r.Cuisine
 ORDER BY cancellation_rate_pct DESC;
+
+-- Output : Mexican food, Street Food, Mughlai with highest cancellation rate percentages
+--  : 24.88%, 24.64% and 24.37% respectively. 
+-- With Chinese being the lowest cancellation rate of 18.98%.
 
 
 -- =====================================================================
@@ -91,7 +98,7 @@ FROM restaurants r
 LEFT JOIN orders o            ON o.RestaurantID = r.RestaurantID
 LEFT JOIN customer_feedback f ON f.OrderID = o.OrderID
 GROUP BY r.RestaurantID, r.RestaurantName
-ORDER BY feedback_count ASC;
+ORDER BY feedback_count ASC, avg_customer_rating ASC;
 
 -- B3. RIGHT JOIN: every payment with its order context (including any orphaned payment rows)
 -- (Written as a LEFT JOIN with table order swapped, which is the portable equivalent
@@ -117,6 +124,15 @@ JOIN delivery_partners dp2
 WHERE ABS(dp1.AverageDeliveryTime - dp2.AverageDeliveryTime) > 20
 LIMIT 100;
 
+-- Output : 
+-- Partner 9 in Ludhiana outperforms(11.70min) other local partners by 3-4 times faster.
+-- Partner 4 in Delhi is underperforming(47.60min) i.e. substantially slower than other peers.
+-- Partner 2 in Lucknow is faster(30.80min) than few but slower than partner 161 (10min).
+-- Partner 1 from Ahmedabad is significantly slower(35.70min) than peers.
+-- Partner 3 from Indore is faster(30.80min) than others but slower than partner 314 (10min).
+-- Partner 7 in Kolkata is almost 2 times faster(24.30min) than peers.
+-- Partner 8 in Kochi is also 2 times faster(19.20min) than others. 
+
 -- B5. UNION: a combined "attention list" of low-rated restaurants and low-rated delivery partners
 SELECT RestaurantID AS entity_id, RestaurantName AS entity_name, 'Restaurant' AS entity_type, Rating
 FROM restaurants
@@ -126,6 +142,9 @@ SELECT DeliveryPartnerID AS entity_id, Name AS entity_name, 'DeliveryPartner' AS
 FROM delivery_partners
 WHERE Rating < 3.0
 ORDER BY Rating ASC;
+
+-- Output : The House and Tasty Treats restaurants are bringing lowest 2.3 ratings.
+-- Pranit Mangal delivery partner is bringing lowest rating of 2.8.
 
 
 -- =====================================================================
@@ -287,7 +306,12 @@ JOIN restaurants r        ON r.RestaurantID = o.RestaurantID
 JOIN delivery_partners dp ON dp.DeliveryPartnerID = o.DeliveryPartnerID;
 
 -- Example usage:
--- SELECT restaurant_city, AVG(DeliveryTimeMinutes) FROM vw_order_base GROUP BY restaurant_city;
+SELECT restaurant_city, ROUND(AVG(DeliveryTimeMinutes),2) FROM vw_order_base 
+GROUP BY restaurant_city
+ORDER BY AVG(DeliveryTimeMinutes) DESC;
+
+-- Output: Ludhiana having highest average delivery time of 38.69min.
+-- Chandigarh with lowest average delivery time of 35.89min.
 
 -- F2. View: restaurant performance scorecard
 CREATE OR REPLACE VIEW vw_restaurant_scorecard AS
@@ -304,8 +328,10 @@ FROM restaurants r
 LEFT JOIN orders o ON o.RestaurantID = r.RestaurantID
 GROUP BY r.RestaurantID, r.RestaurantName, r.City, r.Rating;
 
-
--- =====================================================================
+SELECT RestaurantName, City, Rating, total_orders, cancelled_orders, cancellation_rate_pct, avg_delivery_time
+FROM vw_restaurant_scorecard
+ORDER BY cancellation_rate_pct DESC
+ -- =====================================================================
 -- SECTION G: DATE FUNCTIONS
 -- =====================================================================
 
@@ -320,6 +346,8 @@ FROM orders
 GROUP BY TO_CHAR(OrderDate, 'Day'), EXTRACT(ISODOW FROM OrderDate)
 ORDER BY EXTRACT(ISODOW FROM OrderDate);
 
+-- Output : Order count and revenue gradually increases and peaks on Wednesday
+-- Decreases after with sudden rise on Friday and gradual decrease towards weekends.
 -- G2. Quarter-level revenue rollup
 SELECT
     EXTRACT(YEAR FROM OrderDate)    AS order_year,
@@ -330,6 +358,10 @@ WHERE OrderStatus = 'Delivered'
 GROUP BY 1, 2
 ORDER BY 1, 2;
 
+-- Output : Gradual increase in revenue through quarters of 2023 peaking 5,77,216 rupees
+-- 1st Quarter of 2024 earning highest 5,90,311 rupees but sudden steep in 2nd quarter with 5,43,029 rupees.
+-- Again it goes up a bit with 5,63,674 rupees in 3rd but falls in 4th Quarter at 5,40,717 rupees.
+
 -- G3. Customer tenure in days as of today
 SELECT
     CustomerID,
@@ -337,7 +369,8 @@ SELECT
     CURRENT_DATE - RegistrationDate AS tenure_days
 FROM customers
 ORDER BY tenure_days DESC;
-
+ 
+-- Ouput : Maximum tenure days are 1725.
 
 -- =====================================================================
 -- SECTION H: AGGREGATIONS ACROSS MULTIPLE TABLES (WEATHER / TRAFFIC IMPACT)
@@ -354,6 +387,10 @@ JOIN weather w      ON w.City = r.City AND w.Date = o.OrderDate
 GROUP BY w.WeatherCondition
 ORDER BY avg_delivery_time DESC;
 
+-- Output : Highest average delivery time was 38.77min in stormy weather with lowest order count of 1002.
+-- Most orders count was on Clear weather day with 7097 with surprisingly a high of 38.12min of delivery time.
+-- On cloudy days delivery times seem to be lowest with 37.36min but average order count of 4113.
+
 -- H2. Average delivery time by traffic level
 SELECT
     t.TrafficLevel,
@@ -364,6 +401,10 @@ JOIN restaurants r ON r.RestaurantID = o.RestaurantID
 JOIN traffic t      ON t.City = r.City AND t.Date = o.OrderDate
 GROUP BY t.TrafficLevel
 ORDER BY avg_delivery_time DESC;
+
+-- Output : When traffic is severe avg delivery time is highest with 38.06 min.
+-- And lowest being low traffic level with 37.30 min.
+-- 
 
 -- H3. Coupon performance: total discount value and order volume per campaign
 SELECT
@@ -377,6 +418,9 @@ JOIN orders o ON o.CouponCode = p.CouponCode
 GROUP BY p.CampaignName, p.CouponCode
 ORDER BY total_discount_value DESC;
 
+-- Output : Zomjj3Gg coupon is providing the highest discount value of 7,381 rupees.
+-- And lowest by Zomf9Twj coupon of 517.40 rupees.
+
 -- H4. Delivery partner leaderboard: top 10% by completed deliveries and rating
 SELECT *
 FROM (
@@ -387,6 +431,8 @@ FROM (
 ) ranked
 WHERE decile = 1
 ORDER BY CompletedDeliveries DESC;
+
+-- Output : Dominic Bhakta from Bhubaneswar with 4.8 rating and highest delivered orders of 2136.
 
 
 -- =====================================================================
@@ -421,7 +467,7 @@ BEGIN
 END;
 $$;
 
--- Usage: CALL refresh_city_kpi_summary();
+CALL refresh_city_kpi_summary();
 
 -- I2. Trigger (PostgreSQL): keep customers.TotalOrders in sync when a new order is inserted
 CREATE OR REPLACE FUNCTION trg_increment_customer_orders()
