@@ -1,5 +1,5 @@
 #src/features.py
-
+import os
 import numpy as np
 import pandas as pd
 from ingest import load_all_clean_datasets
@@ -51,8 +51,17 @@ def build_features():
 
     if 'WeatherCondition' in weather.columns:
         date_col_w = 'OrderDate' if 'OrderDate' in weather.columns else 'Date'
+        # weather.csv has multiple readings per City+Date (different sample
+        # times), so it must be collapsed to one row per City+Date before
+        # merging - otherwise every order fans out once per weather reading
+        # for that city-day.
+        weather_daily = (
+            weather.groupby(['City', date_col_w])['WeatherCondition']
+            .agg(lambda x: x.mode().iat[0] if not x.mode().empty else np.nan)
+            .reset_index()
+        )
         df_ord = df_ord.merge(
-            weather[['City', date_col_w, 'WeatherCondition']],
+            weather_daily,
             left_on=['City', 'OrderDate'],
             right_on=['City', date_col_w],
             how='left'
@@ -69,8 +78,17 @@ def build_features():
 
     # Merging for traffic score
     date_col_t = 'OrderDate' if 'OrderDate' in traffic.columns else 'Date'
+    # traffic.csv has multiple readings per City+Date (different sample
+    # times), so it must be collapsed to one row per City+Date before
+    # merging - otherwise every order fans out once per traffic reading
+    # for that city-day, compounding with the weather fan-out above.
+    traffic_daily = (
+        traffic.groupby(['City', date_col_t])['TrafficLevel']
+        .agg(lambda x: x.mode().iat[0] if not x.mode().empty else np.nan)
+        .reset_index()
+    )
     df_ord = df_ord.merge(
-        traffic[['City', date_col_t, 'TrafficLevel']],
+        traffic_daily,
         left_on=['City', 'OrderDate'],
         right_on=['City', date_col_t],
         how='left',
@@ -175,17 +193,30 @@ def build_features():
     print(
         f"9. RestaurantPopularity engineered :\nMean City Rank: {df_ord['RestaurantPopularity'].mean():.1f}\n"
     )
-    
-    # Ensure DeliveryTimeMinutes is numeric before calculating city mean
-    df_ord['DeliveryTimeMinutes'] = pd.to_numeric(
-        df_ord['DeliveryTimeMinutes'], errors='coerce'
-    )
 
-    # DeliveryEfficiency : Ratio of a delivery partner's AverageDeliveryTime to the city-wide average
-    city_avg_time = df_ord.groupby('City')['DeliveryTimeMinutes'].transform('mean')
-    df_ord['DeliveryEfficiency'] = (
-        df_ord['DeliveryTimeMinutes'] / city_avg_time
-    ).round(2)
+    
+    # Ensure data is chronologically sorted before expanding window transformations
+    df_ord = df_ord.sort_values("OrderTimestamp").reset_index(drop=True)
+
+    # Historical Driver Efficiency (Leak-Free)
+    if (
+        "DeliveryPartnerID" in df_ord.columns
+        and "DeliveryTimeMinutes" in df_ord.columns
+    ):
+        # Driver's historical average delivery time prior to the current order
+        driver_hist = df_ord.groupby("DeliveryPartnerID")[
+            "DeliveryTimeMinutes"
+            ].transform(lambda x: x.shift(1).expanding().mean())
+
+        # City historical average delivery time prior to the current order
+        city_hist = df_ord.groupby("City")["DeliveryTimeMinutes"].transform(
+            lambda x: x.shift(1).expanding().mean()
+            )
+
+        # DeliveryEfficiency : Ratio of driver historical speed to city historical speed
+        df_ord["DeliveryEfficiency"] = (
+            (driver_hist / city_hist).round(2).fillna(1.0)
+            )
 
     print(
         f"10. DeliveryEfficiency engineered :\nMean Index Ratio: {df_ord['DeliveryEfficiency'].mean():.2f}\n"
@@ -195,39 +226,102 @@ def build_features():
     )
 
     # AverageRating : Mean of CustomerRating, DeliveryRating, and FoodRating per order/restaurant
-    if 'OrderID' in customer_feedback.columns:
+    # 11. Leak-Free Historical AverageRating per Restaurant
+    if 'OrderID' in customer_feedback.columns and 'RestaurantID' in df_ord.columns:
         rating_cols = [
-            c
-            for c in ['CustomerRating', 'DeliveryRating', 'FoodRating']
+            c for c in ['CustomerRating', 'DeliveryRating', 'FoodRating']
             if c in customer_feedback.columns
         ]
+        
         if rating_cols:
             # Ensure rating columns are numeric
+            feedback_clean = customer_feedback[['OrderID'] + rating_cols].copy()
             for col in rating_cols:
-                customer_feedback[col] = pd.to_numeric(
-                    customer_feedback[col], errors='coerce'
-                )
+                feedback_clean[col] = pd.to_numeric(feedback_clean[col], errors='coerce')
 
+            # Calculate average score for that specific order feedback
+            feedback_clean['CurrentOrderRating'] = feedback_clean[rating_cols].mean(axis=1)
+
+            # A small number of orders have more than one feedback submission
+            # (same OrderID, different FeedbackID, so the primary-key dedup in
+            # clean.py doesn't catch them). Collapse to one rating per OrderID
+            # before merging so this doesn't fan out the order-level table.
+            feedback_by_order = (
+                feedback_clean.groupby('OrderID')['CurrentOrderRating']
+                .mean()
+                .reset_index()
+            )
+
+            # Merge feedback onto orders by OrderID
             df_ord = df_ord.merge(
-                customer_feedback[['OrderID'] + rating_cols],
+                feedback_by_order,
                 on='OrderID',
-                how='left',
+                how='left'
             )
+
+            # Ensure chronological order before expanding window calculation
+            df_ord = df_ord.sort_values('OrderTimestamp').reset_index(drop=True)
+
+            # Calculate historical expanding mean rating per restaurant (excluding current order)
+            rest_groupby = df_ord.groupby('RestaurantID')
             df_ord['AverageRating'] = (
-                df_ord[rating_cols].mean(axis=1).round(2)
+                rest_groupby['CurrentOrderRating']
+                .transform(lambda x: x.shift(1).expanding().mean())
+                .round(2)
             )
+
+            # Flag cold-start restaurants (so the model knows the rating is imputed)
+            df_ord["is_new_restaurant"] = df_ord["AverageRating"].isna().astype(int)
+            
+            # Impute missing ratings with the city-wide historical median
+            city_medians = df_ord.groupby("City")["AverageRating"].transform("median")
+            df_ord["AverageRating"] = df_ord["AverageRating"].fillna(city_medians).fillna(4.0)
+
+            # Clean up the temporary current order column
+            df_ord.drop(columns=['CurrentOrderRating'], inplace=True)
 
             print(
-                '11. AverageRating engineered :\nMean Rating:'
-                f' {df_ord["AverageRating"].mean():.2f}/5.00 \nMin:'
-                f' {df_ord["AverageRating"].min():.2f} | Max:'
-                f' {df_ord["AverageRating"].max():.2f}\n'
+                f"11. AverageRating engineered :\nMean Historical Rating: "
+                f"{df_ord['AverageRating'].mean():.2f}/5.00 | Min: "
+                f"{df_ord['AverageRating'].min():.2f} | Max: "
+                f"{df_ord['AverageRating'].max():.2f}\n"
             )
+
     # Dropping columns to avoid cluttering
     columns_to_drop = ['TrafficLevel', 'WeatherCondition','CustomerRating','DeliveryRating','FoodRating']
     df_ord.drop(columns=[c for c in columns_to_drop if c in df_ord.columns], inplace=True)
+
+    # Flag synthetic subscription spikes
+    df_ord['is_synthetic_tier'] = df_ord['OrderFrequency'].isin([30, 60, 90]).astype(int)
+
+    # Log transform frequency for linear models
+    df_ord['OrderFrequency_Log'] = np.log1p(df_ord['OrderFrequency'])
         
     return df_ord
+
+def export_featured_datasets(
+    df: pd.DataFrame,
+    base_dir: str = '/Users/Priyanka/Documents/Internship-Internmo/Zomato_BI_Project/data/processed',
+    filename: str = 'featured_orders',
+) -> None:
+
+    # Making sure ouput directory exists
+    os.makedirs(base_dir, exist_ok=True)
+
+    csv_path = os.path.join(base_dir, f'{filename}.csv')
+    parquet_path = os.path.join(base_dir, f'{filename}.parquet')
+
+    # Export CSV (For Power BI / Manual Inspection)
+    df.to_csv(csv_path, index=False)
+
+    # Export Parquet (For Python ML models - preserves exact dtypes)
+    df.to_parquet(parquet_path, index=False)
+
+    print(f"Exported CSV and Parquet files with name : {filename} with ({df.shape[1]}) columns and {len(df)} records.")
+    return df
+
+
 if __name__ == "__main__":
     df_features = build_features()
     print("Feature engineering complete. Shape:", df_features.shape)
+    df_save = export_featured_datasets(df_features)
