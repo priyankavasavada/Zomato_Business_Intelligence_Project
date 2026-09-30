@@ -452,13 +452,16 @@ def validate_numeric_constraints(
         datasets['order_items']
     )
 
+  # Note: 'restaurants.Rating' and 'customer_feedback.DeliveryRating' are
+  # intentionally excluded here. Both may contain 10-point-scale entries
+  # that handle_domain_outliers() rescales by dividing by 2 before applying
+  # the 1.0-5.0 bound; enforcing the bound here would null those values out
+  # before they get a chance to be rescaled.
   domain_bounds = {
       'customers': {'Age': (0, 100)},
       'delivery_partners': {'Age': (16, 70), 'Rating': (1.0, 5.0)},
-      'restaurants': {'Rating': (1.0, 5.0)},
       'customer_feedback': {
           'CustomerRating': (1, 5),
-          'DeliveryRating': (1, 5),
           'FoodRating': (1, 5),
       },
       'promotions': {'DiscountPercentage': (0, 100)},
@@ -499,6 +502,10 @@ def handle_domain_outliers(
       if scaled_count > 0:
         df.loc[high_rating, 'Rating'] = df.loc[high_rating, 'Rating'] / 2.0
         print(f"   [Restaurants Outliers] Scaled down {scaled_count} ratings > 5.0 by dividing by 2.")
+      # Anything still outside the valid scale after rescaling is unrecoverable
+      out_of_bounds = (df['Rating'] < 1.0) | (df['Rating'] > 5.0)
+      if out_of_bounds.sum() > 0:
+        df.loc[out_of_bounds, 'Rating'] = np.nan
     datasets['restaurants'] = df
 
   # 3. Delivery Partners
@@ -550,8 +557,16 @@ def handle_domain_outliers(
       high_del_rating = df['DeliveryRating'] > 5.0
       scaled_count = high_del_rating.sum()
       if scaled_count > 0:
-        df.loc[high_del_rating, 'DeliveryRating'] = df.loc[high_del_rating, 'DeliveryRating'] / 2.0
+        # DeliveryRating is stored as nullable Int64 (schema: SMALLINT), so
+        # the halved value must be rounded back to a whole number before
+        # it can be safely assigned back into the column.
+        rescaled = (df.loc[high_del_rating, 'DeliveryRating'] / 2.0).round().astype('Int64')
+        df.loc[high_del_rating, 'DeliveryRating'] = rescaled
         print(f"   [Feedback Outliers] Scaled down {scaled_count} DeliveryRatings > 5.0 by dividing by 2.")
+      # Anything still outside the valid scale after rescaling is unrecoverable
+      out_of_bounds = (df['DeliveryRating'] < 1.0) | (df['DeliveryRating'] > 5.0)
+      if out_of_bounds.sum() > 0:
+        df.loc[out_of_bounds, 'DeliveryRating'] = np.nan
     datasets['customer_feedback'] = df
 
   return datasets
