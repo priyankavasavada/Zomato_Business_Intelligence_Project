@@ -45,7 +45,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 44,Royal Grill,Bakery,Chandigarh,Station Road,09:00:00,22:00:00,2.8,202.0,Pooja De,Qsr,22.02876,82.872786
 45,Spicy Cafe,South Indian,Hyderabad,Park Street,11:00:00,00:00:00,5.0,243.0,Nakul Johal,Dine-In,31.357411,84.539736
 46,Green Corner,Biryani,Pune,Park Street,08:00:00,00:00:00,3.6,586.0,Ishaan Misra,Cloud Kitchen,13.303629,79.033194
-47,Spicy Diner,Healthy Food,Coimbatore,Market Area,08:00:00,22:00:00,3.8499999999999996,538.0,Bhavna Lal,Qsr,29.869095,71.679618
+47,Spicy Diner,Healthy Food,Coimbatore,Market Area,08:00:00,22:00:00,3.8,538.0,Bhavna Lal,Qsr,29.869095,71.679618
 48,Curry Grill,Desserts,Coimbatore,Hill Road,07:00:00,23:00:00,4.6,258.0,Amaira Verma,Dine-In,9.198479,72.105201
 49,Blue Kitchen,Bakery,Mumbai,Ring Road,09:00:00,23:00:00,4.0,439.0,Nilima Gole,Dine-In & Delivery,15.07403,81.811701
 50,Spicy House,Italian,Surat,Central,08:00:00,23:00:00,3.5,470.0,Farhan Nadig,Cloud Kitchen,33.337432,73.174589
@@ -102,7 +102,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 101,Curry Treats,Sushi,Lucknow,Ring Road,08:00:00,00:00:00,4.1,728.0,Chasmum Sem,Delivery Only,24.660748,77.55967
 102,The Point,Mughlai,Bhubaneswar,Lake View,08:00:00,23:00:00,4.2,277.0,Aryan Sachdev,Dine-In & Delivery,21.369064,85.238109
 103,Grand Treats,Bbq,Patna,Park Street,08:00:00,22:00:00,4.2,561.0,Ladli Singh,Cloud Kitchen,14.016124,73.678778
-104,Royal Cafe,Seafood,Kolkata,Station Road,11:00:00,23:00:00,3.9,403.0,Liam Dayal,Qsr,31.987965,81.964705
+104,Royal Cafe,Seafood,Kolkata,Station Road,11:00:00,23:00:00,3.0,403.0,Liam Dayal,Qsr,31.987965,81.964705
 105,Royal Grill,Unknown,Delhi,Central,09:00:00,00:00:00,3.9,682.0,Ganga Kala,Qsr,30.433987,84.935762
 106,Tasty Corner,Italian,Nashik,Lake View,08:00:00,23:00:00,3.6,158.0,Balhaar Pandit,Dine-In & Delivery,16.648852,71.497701
 107,Golden Kitchen,Seafood,Vadodara,Central,11:00:00,23:00:00,4.2,400.0,Dipta Dave,Dine-In & Delivery,20.722458,79.378792
@@ -116,7 +116,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 115,Curry Diner,Continental,Kochi,Old Town,11:00:00,00:00:00,4.3,734.0,Jeevika Walia,Delivery Only,16.948754,73.229407
 116,Curry Corner,Street Food,Vadodara,Sector 12,08:00:00,00:00:00,3.9,675.0,Hitesh Ramakrishnan,Dine-In,32.058986,84.738879
 117,Spicy Point,Mughlai,Jaipur,Mg Road,10:00:00,00:00:00,4.6,507.0,Devika Apte,Delivery Only,19.311452,84.984945
-118,Blue Kitchen,Healthy Food,Coimbatore,Civil Lines,11:00:00,01:00:00,3.8499999999999996,815.0,Dayamai Mani,Cloud Kitchen,29.548917,71.757157
+118,Blue Kitchen,Healthy Food,Coimbatore,Civil Lines,11:00:00,01:00:00,3.8,815.0,Dayamai Mani,Cloud Kitchen,29.548917,71.757157
 119,Urban Kitchen,Fast Food,Kolkata,Lake View,07:00:00,01:00:00,3.9,465.0,Netra Viswanathan,Delivery Only,28.788262,70.783231
 120,Grand Treats,South Indian,Lucknow,Ring Road,09:00:00,00:00:00,4.0,293.0,Rajata Balan,Dine-In,22.091169,87.163625
 121,Grand Kitchen,Bbq,Bengaluru,Market Area,10:00:00,01:00:00,4.1,519.0,Kritika Shah,Qsr,14.675958,82.9248
@@ -139,7 +139,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 138,Green Hub,Thai,Hyderabad,Central,08:00:00,01:00:00,3.8,250.0,Dev Sachdeva,Dine-In,22.960212,73.170332
 139,Urban Grill,South Indian,Mumbai,Station Road,07:00:00,00:00:00,3.6,296.0,Anmol Ranganathan,Qsr,20.491403,74.75687
 140,Curry Kitchen,Seafood,Visakhapatnam,Central,11:00:00,01:00:00,4.5,593.0,Om Natt,Qsr,11.638476,83.329077
-141,Blue Kitchen,Continental,Raipur,Old Town,08:00:00,01:00:00,4.0,357.0,Dayita Dhawan,Dine-In,18.783051,70.280085
+141,Blue Kitchen,Continental,Raipur,Old Town,08:00:00,01:00:00,4.45,357.0,Dayita Dhawan,Dine-In,18.783051,70.280085
 142,Blue House,Healthy Food,Bhopal,Station Road,10:00:00,01:00:00,4.1,628.0,Jonathan Kadakia,Delivery Only,12.530675,85.144639
 143,The Cafe,Bbq,Raipur,New Town,10:00:00,00:00:00,4.4,577.0,Harrison Ravel,Dine-In,22.781746,85.040603
 144,Royal Point,Bakery,Jaipur,Civil Lines,10:00:00,23:00:00,4.8,535.0,Vedhika Mall,Dine-In,32.743502,77.274709
@@ -275,7 +275,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 274,The Point,Mexican,Bengaluru,Hill Road,07:00:00,22:00:00,3.7,475.0,Vrinda Pingle,Delivery Only,14.103194,80.336532
 275,Blue Point,Desserts,Ludhiana,Hill Road,10:00:00,00:00:00,3.8,582.0,Gayathri Uppal,Dine-In,31.372165,83.478139
 276,Tasty Cafe,South Indian,Ludhiana,Lake View,07:00:00,22:00:00,4.0,373.0,William Magar,Delivery Only,26.047985,74.564948
-277,Royal Kitchen,Bbq,Ahmedabad,Station Road,07:00:00,00:00:00,3.7,484.0,Qasim Jha,Cloud Kitchen,30.415107,77.963503
+277,Royal Kitchen,Bbq,Ahmedabad,Station Road,07:00:00,00:00:00,4.3,484.0,Qasim Jha,Cloud Kitchen,30.415107,77.963503
 278,Urban House,Fast Food,Bhubaneswar,Lake View,10:00:00,00:00:00,3.1,587.0,Edhitha Lata,Cloud Kitchen,15.342335,85.0564
 279,Spicy House,Thai,Indore,Civil Lines,08:00:00,01:00:00,4.3,100.0,Aradhana Dua,Delivery Only,18.925442,77.319203
 280,The Grill,North Indian,Bhubaneswar,Station Road,10:00:00,01:00:00,4.0,504.0,Falan Iyengar,Cloud Kitchen,24.562623,78.461772
@@ -353,7 +353,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 352,Blue Hub,Desserts,Hyderabad,Civil Lines,09:00:00,23:00:00,4.3,497.0,Balhaar Dora,Cloud Kitchen,9.891464,83.599421
 353,Golden Diner,Desserts,Patna,Old Town,11:00:00,00:00:00,3.8,361.0,Anita Raghavan,Dine-In & Delivery,32.986614,85.805024
 354,Spicy Grill,Italian,Surat,Station Road,10:00:00,23:00:00,3.3,332.0,Chandran Bansal,Qsr,8.918288,82.225024
-355,The Kitchen,Continental,Nagpur,Ring Road,11:00:00,00:00:00,3.9,840.0,Gayathri Dara,Delivery Only,18.288116,84.854545
+355,The Kitchen,Continental,Nagpur,Ring Road,11:00:00,00:00:00,4.7,840.0,Gayathri Dara,Delivery Only,18.288116,84.854545
 356,Grand Grill,Sushi,Hyderabad,Lake View,09:00:00,00:00:00,4.2,593.0,Nidra Joshi,Cloud Kitchen,13.593521,87.777907
 357,Tasty House,Pizza,Coimbatore,Central,09:00:00,01:00:00,3.8,555.0,Ekaraj Bahl,Delivery Only,11.074505,81.423824
 358,Urban Point,Desserts,Indore,Lake View,11:00:00,00:00:00,2.8,305.0,Bhavini Rai,Qsr,28.629207,82.27927
@@ -385,8 +385,8 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 384,Blue Bites,North Indian,Bhubaneswar,New Town,11:00:00,23:00:00,4.2,327.0,Arin Dube,Cloud Kitchen,16.652567,78.621097
 385,Grand Cafe,Mexican,Kochi,Market Area,07:00:00,01:00:00,4.1,258.0,Joshua Keer,Dine-In,22.915816,75.467961
 386,Spicy Corner,Bbq,Bhopal,New Town,07:00:00,22:00:00,4.1,892.0,Robert Sridhar,Delivery Only,22.18407,71.042995
-387,Curry House,Sushi,Mumbai,Ring Road,10:00:00,01:00:00,3.9,183.0,Damini Banerjee,Cloud Kitchen,21.549522,71.609268
-388,Grand Bites,Sushi,Patna,Park Street,11:00:00,23:00:00,3.8499999999999996,507.0,Jack Tank,Cloud Kitchen,23.762979,76.277093
+387,Curry House,Sushi,Mumbai,Ring Road,10:00:00,01:00:00,3.35,183.0,Damini Banerjee,Cloud Kitchen,21.549522,71.609268
+388,Grand Bites,Sushi,Patna,Park Street,11:00:00,23:00:00,2.7,507.0,Jack Tank,Cloud Kitchen,23.762979,76.277093
 389,Spicy Point,Bbq,Pune,Station Road,11:00:00,23:00:00,4.1,704.0,Vedant Rajagopal,Dine-In,15.675506,75.666206
 390,The Grill,Mughlai,Kochi,Lake View,10:00:00,01:00:00,3.5,313.0,Priya Bajwa,Dine-In & Delivery,28.748038,75.380225
 391,Green Kitchen,Unknown,Delhi,Lake View,07:00:00,23:00:00,4.2,657.0,Sudiksha Gopal,Cloud Kitchen,18.647198,87.694794
@@ -424,7 +424,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 423,Grand Corner,Bbq,Surat,Lake View,10:00:00,00:00:00,4.5,689.0,Arjun Raja,Dine-In,18.894901,73.940608
 424,Royal Grill,Street Food,Ahmedabad,Mg Road,09:00:00,23:00:00,3.6,362.0,Pranav Dugar,Dine-In,11.695209,79.732466
 425,Blue House,Healthy Food,Visakhapatnam,Lake View,08:00:00,22:00:00,3.9,316.0,Timothy Bhalla,Delivery Only,19.122354,71.874192
-426,Grand Bites,Sushi,Pune,Central,07:00:00,22:00:00,3.9,367.0,Bachittar Ahluwalia,Dine-In & Delivery,29.071926,73.926242
+426,Grand Bites,Sushi,Pune,Central,07:00:00,22:00:00,4.1,367.0,Bachittar Ahluwalia,Dine-In & Delivery,29.071926,73.926242
 427,Curry Corner,Seafood,Raipur,New Town,09:00:00,22:00:00,4.4,150.0,Falak Tiwari,Dine-In & Delivery,32.993146,84.146763
 428,Spicy Diner,Continental,Coimbatore,Old Town,10:00:00,23:00:00,3.5,232.0,Damini Bose,Dine-In,21.024255,86.148677
 429,Green Bites,Mexican,Surat,Ring Road,08:00:00,00:00:00,3.3,346.0,Jeremiah Ravel,Qsr,9.120169,78.51697
@@ -534,7 +534,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 533,Tasty Kitchen,Pizza,Mumbai,Lake View,10:00:00,22:00:00,3.9,630.0,Krisha Ram,Cloud Kitchen,31.776247,82.749575
 534,Green Point,Burgers,Lucknow,Old Town,07:00:00,01:00:00,4.0,587.0,Pranit Tak,Dine-In,20.831288,85.633983
 535,Curry Cafe,South Indian,Ahmedabad,Central,09:00:00,01:00:00,3.9,506.0,Parth Karnik,Dine-In,28.10433,70.260081
-536,The Corner,Seafood,Nagpur,Civil Lines,08:00:00,23:00:00,3.9,520.0,Neel Mistry,Qsr,31.75131,77.409377
+536,The Corner,Seafood,Nagpur,Civil Lines,08:00:00,23:00:00,4.75,520.0,Neel Mistry,Qsr,31.75131,77.409377
 537,Curry Kitchen,Street Food,Visakhapatnam,New Town,11:00:00,23:00:00,3.8,547.0,Jagvi Prakash,Dine-In,9.292995,71.13541
 538,Urban House,Chinese,Kolkata,Lake View,11:00:00,01:00:00,3.3,729.0,Finn Divan,Delivery Only,32.22635,71.930053
 539,Green Hub,Continental,Nagpur,Park Street,09:00:00,01:00:00,4.0,608.0,Yashawini Dube,Qsr,31.515578,83.965586
@@ -604,7 +604,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 603,Spicy Point,Unknown,Coimbatore,New Town,11:00:00,01:00:00,3.7,253.0,Frederick Das,Dine-In,13.365482,88.894548
 604,Blue Kitchen,Italian,Lucknow,Central,07:00:00,22:00:00,4.7,343.0,Ethan Baral,Qsr,26.34962,86.470612
 605,Spicy Bites,Burgers,Bhopal,Station Road,07:00:00,01:00:00,4.7,444.0,Rajata Shenoy,Cloud Kitchen,29.171212,82.050066
-606,The Kitchen,Italian,Bhubaneswar,Mg Road,09:00:00,01:00:00,3.9,609.0,Megha Narain,Qsr,29.692834,75.725642
+606,The Kitchen,Italian,Bhubaneswar,Mg Road,09:00:00,01:00:00,3.25,609.0,Megha Narain,Qsr,29.692834,75.725642
 607,Tasty Diner,Fast Food,Jaipur,Ring Road,08:00:00,23:00:00,3.9,732.0,Zaitra Boase,Qsr,19.371175,81.898038
 608,Green House,Desserts,Kolkata,Old Town,10:00:00,00:00:00,3.8,359.0,Mugdha Bhavsar,Delivery Only,20.415258,73.715832
 609,Spicy Grill,Biryani,Patna,Park Street,10:00:00,23:00:00,3.7,698.0,Damini Suresh,Dine-In & Delivery,31.910967,74.80614
@@ -636,7 +636,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 635,Tasty Corner,Pizza,Jaipur,Central,11:00:00,23:00:00,3.1,399.0,Yadavi Ganesh,Qsr,21.381286,88.087413
 636,The Grill,Seafood,Hyderabad,Ring Road,07:00:00,00:00:00,4.2,452.0,Bachittar Sankar,Dine-In,13.92926,71.506223
 637,Urban Diner,Sushi,Coimbatore,Civil Lines,08:00:00,23:00:00,4.3,333.0,Jagvi Krishnan,Dine-In & Delivery,11.305578,78.975666
-638,Urban Diner,Street Food,Patna,Hill Road,09:00:00,23:00:00,3.8499999999999996,372.0,Anya Merchant,Cloud Kitchen,25.153772,85.393797
+638,Urban Diner,Street Food,Patna,Hill Road,09:00:00,23:00:00,3.8,372.0,Anya Merchant,Cloud Kitchen,25.153772,85.393797
 639,Blue Grill,Seafood,Bhubaneswar,Market Area,10:00:00,22:00:00,4.2,996.0,Ronith Boase,Qsr,28.745484,82.445123
 640,Urban Diner,Thai,Vadodara,Central,10:00:00,00:00:00,3.9,402.0,Ayaan Iyengar,Dine-In,19.336826,81.167798
 641,Royal Point,Pizza,Lucknow,Park Street,09:00:00,01:00:00,3.4,798.0,Urishilla Handa,Delivery Only,24.870416,71.798078
@@ -655,7 +655,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 654,Spicy House,Sushi,Pune,Market Area,10:00:00,22:00:00,3.9,547.0,Nicholas Sura,Delivery Only,11.069709,86.462559
 655,Tasty Kitchen,Thai,Patna,Park Street,10:00:00,22:00:00,3.9,463.0,Avi Anand,Cloud Kitchen,32.613137,75.410842
 656,Royal Cafe,Biryani,Lucknow,Park Street,07:00:00,22:00:00,4.0,401.0,Sara Palan,Qsr,21.295377,70.426513
-657,Blue House,Seafood,Kochi,Market Area,09:00:00,22:00:00,3.8,306.0,Yuvraj Sangha,Dine-In,25.828208,73.964859
+657,Blue House,Seafood,Kochi,Market Area,09:00:00,22:00:00,4.55,306.0,Yuvraj Sangha,Dine-In,25.828208,73.964859
 658,Spicy Cafe,South Indian,Vadodara,Central,10:00:00,22:00:00,3.2,489.0,Jyoti Ratti,Dine-In,9.457812,87.401377
 659,Green Kitchen,Mughlai,Hyderabad,New Town,09:00:00,23:00:00,3.95,320.0,Ira Lall,Delivery Only,32.848057,88.678813
 660,Urban Kitchen,Fast Food,Lucknow,Sector 12,09:00:00,23:00:00,4.3,584.0,Advaith Datta,Qsr,32.212277,81.145763
@@ -836,7 +836,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 835,Spicy Bites,Street Food,Delhi,Station Road,07:00:00,23:00:00,4.4,856.0,Christopher Batta,Delivery Only,22.516361,70.043127
 836,Golden Point,Seafood,Patna,Old Town,08:00:00,22:00:00,3.7,300.0,Upasna Randhawa,Dine-In & Delivery,15.218278,86.276735
 837,Urban House,North Indian,Bengaluru,Central,09:00:00,23:00:00,4.8,405.0,Nandini Biswas,Dine-In,33.463727,84.658445
-838,Blue Grill,North Indian,Kochi,Hill Road,09:00:00,01:00:00,3.8,328.0,Anamika Raj,Dine-In & Delivery,31.326117,76.012211
+838,Blue Grill,North Indian,Kochi,Hill Road,09:00:00,01:00:00,4.2,328.0,Anamika Raj,Dine-In & Delivery,31.326117,76.012211
 839,The Corner,South Indian,Hyderabad,Hill Road,10:00:00,22:00:00,4.5,201.0,Neha Hegde,Cloud Kitchen,16.140954,84.15831
 840,Green Kitchen,Seafood,Patna,Sector 12,09:00:00,22:00:00,4.0,509.0,Krishna Walia,Dine-In,21.920639,88.666559
 841,Golden Grill,North Indian,Surat,Market Area,07:00:00,01:00:00,3.8,322.0,Pranav Parmar,Delivery Only,25.394982,84.135365
@@ -865,14 +865,14 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 864,Tasty Cafe,Bbq,Jaipur,Park Street,11:00:00,22:00:00,3.4,160.0,Hritik Jayaraman,Qsr,24.159583,85.919113
 865,Golden Kitchen,Bbq,Chandigarh,Park Street,08:00:00,01:00:00,4.0,462.0,Megha Reddy,Cloud Kitchen,24.302584,79.486253
 866,Urban House,Biryani,Surat,Old Town,07:00:00,01:00:00,4.3,383.0,Advay Ramakrishnan,Cloud Kitchen,14.746954,80.345607
-867,Royal Diner,Street Food,Raipur,Station Road,11:00:00,00:00:00,4.0,406.0,Dayita Yohannan,Qsr,26.745493,88.793884
+867,Royal Diner,Street Food,Raipur,Station Road,11:00:00,00:00:00,3.95,406.0,Dayita Yohannan,Qsr,26.745493,88.793884
 868,Tasty House,Chinese,Delhi,Lake View,07:00:00,22:00:00,4.5,413.0,Advaith Sant,Cloud Kitchen,12.016967,86.902038
 869,Golden Point,Bbq,Chennai,Mg Road,07:00:00,23:00:00,3.5,375.0,Frederick Patil,Dine-In & Delivery,30.648613,85.064433
 870,Spicy Bites,Mughlai,Bhubaneswar,Central,07:00:00,22:00:00,4.2,520.0,Gabriel Dara,Dine-In & Delivery,21.898626,74.180444
 871,Tasty Grill,Healthy Food,Indore,Mg Road,07:00:00,23:00:00,3.9,241.0,Leena Dey,Cloud Kitchen,10.851985,79.176212
 872,Curry Hub,Mughlai,Lucknow,Station Road,10:00:00,01:00:00,3.9,319.0,Mitali Keer,Dine-In,30.037097,71.185057
 873,Grand Bites,Desserts,Bengaluru,Old Town,11:00:00,22:00:00,3.6,649.0,Sathvik Pai,Delivery Only,28.753795,86.782365
-874,Urban Kitchen,Mexican,Guwahati,Central,10:00:00,22:00:00,3.8499999999999996,285.0,Sanaya Shroff,Delivery Only,12.537076,88.958424
+874,Urban Kitchen,Mexican,Guwahati,Central,10:00:00,22:00:00,4.9,285.0,Sanaya Shroff,Delivery Only,12.537076,88.958424
 875,Spicy Diner,Bakery,Nashik,Mg Road,08:00:00,23:00:00,4.1,266.0,Anirudh Shroff,Cloud Kitchen,27.863342,87.462168
 876,Urban Corner,Thai,Jaipur,Ring Road,09:00:00,00:00:00,3.6,835.0,Laksh Arora,Delivery Only,30.697067,87.683747
 877,Tasty Bites,Continental,Delhi,Market Area,11:00:00,22:00:00,3.8,585.0,Rayaan Goel,Delivery Only,30.91696,81.620184
@@ -894,7 +894,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 893,The House,Chinese,Bengaluru,Station Road,07:00:00,00:00:00,3.4,608.0,Januja Chaudhari,Qsr,25.991619,73.001141
 894,Curry Cafe,Healthy Food,Jaipur,Mg Road,10:00:00,22:00:00,4.6,416.0,Brijesh Sha,Cloud Kitchen,32.910268,72.44689
 895,Urban House,Continental,Lucknow,Sector 12,09:00:00,00:00:00,4.6,600.0,Garima Patel,Qsr,25.77349,80.010223
-896,Spicy Cafe,Fast Food,Coimbatore,Hill Road,10:00:00,00:00:00,3.8499999999999996,447.0,Pavani Nori,Delivery Only,8.036023,80.156208
+896,Spicy Cafe,Fast Food,Coimbatore,Hill Road,10:00:00,00:00:00,2.65,447.0,Pavani Nori,Delivery Only,8.036023,80.156208
 897,Green Treats,Bbq,Guwahati,Market Area,09:00:00,01:00:00,3.6,689.0,Vihaan Gade,Cloud Kitchen,22.546364,81.645318
 898,Spicy Bites,Continental,Hyderabad,Station Road,07:00:00,23:00:00,4.4,240.0,Aayush Tripathi,Dine-In,17.122966,88.311859
 899,Green Diner,Continental,Delhi,Market Area,10:00:00,23:00:00,4.0,287.0,Zayyan Kala,Cloud Kitchen,15.98517,83.383623
@@ -931,7 +931,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 930,Blue Grill,Biryani,Nagpur,Mg Road,10:00:00,22:00:00,4.2,515.0,Rachit Sheth,Dine-In & Delivery,30.959081,86.045079
 931,Spicy Diner,Street Food,Nashik,Park Street,10:00:00,22:00:00,3.1,460.0,Pooja Bhatti,Qsr,12.325342,86.620712
 932,Green Diner,South Indian,Ludhiana,Central,08:00:00,00:00:00,4.5,729.0,Chakradev Ghosh,Delivery Only,33.066266,74.49448
-933,Green Hub,Bakery,Bhopal,Old Town,11:00:00,00:00:00,4.0,549.0,Bhanumati Koshy,Delivery Only,27.95492,84.374891
+933,Green Hub,Bakery,Bhopal,Old Town,11:00:00,00:00:00,3.8,549.0,Bhanumati Koshy,Delivery Only,27.95492,84.374891
 934,Golden Grill,Fast Food,Vadodara,Lake View,11:00:00,22:00:00,4.2,651.0,Jonathan Buch,Cloud Kitchen,21.118879,76.614758
 935,The Cafe,Chinese,Bhubaneswar,Civil Lines,10:00:00,00:00:00,3.9,709.0,Osha Kashyap,Qsr,29.702122,79.105809
 936,Golden Diner,Chinese,Patna,Ring Road,09:00:00,00:00:00,3.5,606.0,Ranbir Dani,Delivery Only,31.575029,71.479501
@@ -966,7 +966,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 965,Golden Grill,Italian,Hyderabad,Hill Road,11:00:00,01:00:00,4.4,751.0,Warinder Anand,Dine-In,27.878508,71.882524
 966,Blue Corner,Continental,Surat,Lake View,08:00:00,23:00:00,4.0,545.0,Ikbal Garde,Delivery Only,10.140299,75.450809
 967,Curry House,Continental,Delhi,Station Road,08:00:00,01:00:00,4.4,404.0,Karan Subramaniam,Delivery Only,21.324853,71.425554
-968,Green Corner,Bakery,Chandigarh,Park Street,07:00:00,22:00:00,3.8,376.0,Abeer Sami,Cloud Kitchen,21.976354,86.950904
+968,Green Corner,Bakery,Chandigarh,Park Street,07:00:00,22:00:00,4.65,376.0,Abeer Sami,Cloud Kitchen,21.976354,86.950904
 969,Golden Cafe,Fast Food,Chandigarh,Mg Road,09:00:00,22:00:00,3.4,232.0,Adweta Atwal,Dine-In & Delivery,19.552065,70.758829
 970,Urban Point,Sushi,Patna,Ring Road,10:00:00,01:00:00,5.0,271.0,Devika Chakrabarti,Delivery Only,14.803299,70.015594
 971,Urban Hub,Street Food,Raipur,Old Town,09:00:00,01:00:00,4.0,432.0,Samaksh Sampath,Dine-In,30.840786,83.669398
@@ -1082,7 +1082,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 1081,Curry Point,Street Food,Hyderabad,New Town,09:00:00,01:00:00,4.9,469.0,Chanchal Kumar,Dine-In,27.025101,83.210369
 1082,Golden Kitchen,North Indian,Ludhiana,Lake View,07:00:00,00:00:00,4.2,553.0,Devansh Dash,Dine-In,27.301053,87.512569
 1083,Golden Kitchen,Healthy Food,Pune,Civil Lines,08:00:00,23:00:00,4.4,497.0,Owen Kaur,Cloud Kitchen,22.545695,79.297314
-1084,Spicy House,South Indian,Nashik,Lake View,11:00:00,22:00:00,3.9,459.0,Logan Sha,Qsr,17.221578,83.529346
+1084,Spicy House,South Indian,Nashik,Lake View,11:00:00,22:00:00,3.6,459.0,Logan Sha,Qsr,17.221578,83.529346
 1085,Curry Cafe,Pizza,Lucknow,Lake View,11:00:00,01:00:00,3.3,420.0,Hemang Sura,Delivery Only,23.924206,80.465266
 1086,Grand Hub,Healthy Food,Patna,Old Town,10:00:00,22:00:00,4.8,597.0,Qushi Venkatesh,Delivery Only,23.05521,76.099778
 1087,Green Point,Street Food,Bhubaneswar,Central,11:00:00,00:00:00,3.8,852.0,Warinder Bhakta,Delivery Only,24.516451,74.914929
@@ -1096,7 +1096,7 @@ RestaurantID,RestaurantName,Cuisine,City,Area,OpeningTime,ClosingTime,Rating,Ave
 1095,Grand Diner,Continental,Guwahati,Civil Lines,08:00:00,00:00:00,4.1,327.0,Osha Bedi,Delivery Only,18.11357,88.701926
 1096,Green Treats,Thai,Nashik,Central,10:00:00,00:00:00,4.1,388.0,Dominic Aggarwal,Dine-In & Delivery,9.296267,82.108631
 1097,Curry Point,Bbq,Guwahati,Old Town,09:00:00,22:00:00,4.2,520.0,Yashasvi Datta,Dine-In & Delivery,12.460085,84.177762
-1098,Spicy Hub,South Indian,Kochi,Civil Lines,09:00:00,01:00:00,3.8,433.0,Caleb Borra,Qsr,13.022945,75.773258
+1098,Spicy Hub,South Indian,Kochi,Civil Lines,09:00:00,01:00:00,3.9,433.0,Caleb Borra,Qsr,13.022945,75.773258
 1099,Curry Cafe,Seafood,Guwahati,Ring Road,08:00:00,22:00:00,3.8,639.0,Ikbal Bhandari,Dine-In & Delivery,22.417228,88.858974
 1100,Green Corner,Continental,Indore,Station Road,09:00:00,00:00:00,3.8,861.0,Priya Korpal,Dine-In & Delivery,21.466822,85.0391
 1101,Green Diner,Thai,Bhopal,Mg Road,09:00:00,22:00:00,5.0,374.0,Yahvi Jani,Cloud Kitchen,26.898201,79.177306

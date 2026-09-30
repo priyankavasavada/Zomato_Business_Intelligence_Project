@@ -172,7 +172,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 171,Mumbai,2023-07-12,25.4,0.0,62,Rainy
 172,Mumbai,2023-04-27,26.2,1.2,66,Rainy
 173,Mumbai,2024-10-21,24.8,8.5,48,Clear
-174,Mumbai,2023-01-04,16.0,7.4,,Clear
+174,Mumbai,2023-01-04,16.0,7.4,58,Clear
 175,Mumbai,2023-08-07,25.7,0.0,57,Cloudy
 176,Mumbai,2023-01-23,18.5,4.4,33,Clear
 177,Mumbai,2023-07-15,27.9,0.0,61,Humid
@@ -257,7 +257,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 256,Mumbai,2024-03-14,31.4,0.0,73,Rainy
 257,Mumbai,2023-04-09,31.4,6.8,50,Humid
 258,Mumbai,2024-05-14,36.4,22.7,36,Clear
-259,Mumbai,2024-03-03,39.2,7.6,,Cloudy
+259,Mumbai,2024-03-03,39.2,7.6,60,Cloudy
 260,Mumbai,2023-10-24,30.6,30.3,45,Humid
 262,Mumbai,2023-10-02,17.6,1.3,62,Clear
 263,Mumbai,2024-04-10,39.3,13.5,84,Cloudy
@@ -267,7 +267,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 267,Mumbai,2024-07-10,30.8,107.2,90,Cloudy
 268,Mumbai,2024-03-06,26.1,0.0,64,Clear
 269,Mumbai,2023-01-26,17.1,5.0,51,Clear
-270,Mumbai,2024-09-28,32.4,78.8,,Clear
+270,Mumbai,2024-09-28,32.4,78.8,58,Clear
 271,Mumbai,2023-05-02,39.7,16.0,89,Humid
 272,Mumbai,2024-12-20,21.7,2.6,50,Rainy
 273,Mumbai,2023-12-08,16.8,0.0,63,Humid
@@ -511,7 +511,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 512,Mumbai,2024-12-25,15.8,5.9,55,Rainy
 513,Mumbai,2023-11-13,24.5,0.0,54,Foggy
 514,Mumbai,2024-06-22,28.3,34.8,44,Stormy
-515,Mumbai,2023-11-28,34.0,0.0,,Cloudy
+515,Mumbai,2023-11-28,34.0,0.0,60,Cloudy
 516,Mumbai,2023-04-06,33.3,0.0,39,Clear
 517,Mumbai,2024-10-17,35.3,0.0,83,Cloudy
 518,Mumbai,2023-03-21,31.4,0.0,57,Foggy
@@ -566,7 +566,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 567,Mumbai,2024-04-17,28.6,15.8,67,Stormy
 568,Mumbai,2024-06-04,33.0,27.8,74,Clear
 569,Mumbai,2023-05-05,33.0,0.1,68,Clear
-570,Mumbai,2024-05-30,34.8,9.0,,Cloudy
+570,Mumbai,2024-05-30,34.8,9.0,60,Cloudy
 571,Mumbai,2024-09-21,33.8,114.6,67,Rainy
 572,Mumbai,2024-09-26,25.0,0.0,63,Clear
 573,Mumbai,2024-10-12,21.1,0.0,70,Rainy
@@ -628,7 +628,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 629,Mumbai,2024-05-18,34.8,0.0,66,Cloudy
 630,Mumbai,2024-11-11,28.1,5.0,53,Clear
 631,Mumbai,2023-07-22,24.4,0.0,76,Humid
-632,Mumbai,2023-03-15,30.5,2.1,,Cloudy
+632,Mumbai,2023-03-15,30.5,2.1,60,Cloudy
 633,Mumbai,2023-12-01,15.7,0.3,63,Rainy
 634,Mumbai,2024-05-10,31.5,6.8,54,Clear
 635,Mumbai,2024-06-11,25.7,0.0,80,Foggy
@@ -686,7 +686,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 688,Mumbai,2024-02-23,14.5,2.7,66,Clear
 689,Mumbai,2024-05-03,24.2,9.1,79,Clear
 690,Mumbai,2024-04-11,19.5,0.0,53,Humid
-691,Mumbai,2024-01-16,16.2,4.5,,Cloudy
+691,Mumbai,2024-01-16,16.2,4.5,60,Cloudy
 692,Mumbai,2023-09-08,28.5,0.0,57,Foggy
 693,Mumbai,2023-10-30,18.1,0.0,83,Cloudy
 694,Mumbai,2024-11-27,26.0,0.0,41,Cloudy
@@ -811,7 +811,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 815,Delhi,2023-06-16,27.0,251.7,73,Rainy
 816,Delhi,2024-12-24,18.5,0.0,61,Clear
 817,Delhi,2024-08-19,34.8,229.6,73,Cloudy
-818,Delhi,2024-10-10,28.4,14.5,,Clear
+818,Delhi,2024-10-10,28.4,14.5,57,Clear
 819,Delhi,2023-06-02,25.4,0.0,57,Rainy
 820,Delhi,2023-01-13,16.8,0.0,83,Humid
 821,Delhi,2024-05-15,27.7,9.0,49,Humid
@@ -831,7 +831,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 835,Delhi,2023-07-14,29.3,0.0,43,Humid
 836,Delhi,2024-10-25,27.5,0.0,47,Foggy
 837,Delhi,2024-04-30,32.8,2.9,68,Clear
-838,Delhi,2024-02-20,12.5,12.1,,Foggy
+838,Delhi,2024-02-20,12.5,12.1,58,Foggy
 839,Delhi,2024-03-14,37.8,0.7,61,Cloudy
 840,Delhi,2023-02-03,11.2,6.4,59,Clear
 841,Delhi,2023-11-24,12.4,0.0,57,Clear
@@ -858,7 +858,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 863,Delhi,2024-07-21,31.7,16.1,42,Rainy
 864,Delhi,2023-09-02,27.0,7.8,60,Humid
 865,Delhi,2024-11-14,33.3,36.4,43,Rainy
-866,Delhi,2024-08-22,31.2,15.0,,Stormy
+866,Delhi,2024-08-22,31.2,15.0,58,Stormy
 867,Delhi,2024-01-01,19.8,0.0,37,Clear
 868,Delhi,2023-01-04,17.5,6.2,50,Clear
 869,Delhi,2024-03-04,36.0,20.9,37,Clear
@@ -1002,7 +1002,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 1007,Delhi,2024-12-30,16.5,0.0,60,Clear
 1008,Delhi,2024-06-28,30.7,98.3,33,Rainy
 1009,Delhi,2023-12-23,21.3,3.8,38,Humid
-1010,Delhi,2023-01-31,16.3,3.9,,Clear
+1010,Delhi,2023-01-31,16.3,3.9,57,Clear
 1011,Delhi,2024-05-12,27.1,12.8,56,Clear
 1012,Delhi,2024-03-13,25.4,3.0,53,Clear
 1013,Delhi,2024-05-04,32.0,3.2,88,Humid
@@ -1095,7 +1095,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 1100,Delhi,2024-01-29,22.4,2.3,100,Clear
 1101,Delhi,2023-03-12,25.4,23.6,58,Clear
 1102,Delhi,2023-08-13,36.8,215.3,43,Clear
-1103,Delhi,2023-04-06,35.5,0.0,,Clear
+1103,Delhi,2023-04-06,35.5,0.0,57,Clear
 1104,Delhi,2023-09-28,20.2,0.0,30,Clear
 1105,Delhi,2023-09-22,34.2,0.0,59,Cloudy
 1106,Delhi,2024-10-17,27.7,0.0,68,Foggy
@@ -1159,7 +1159,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 1165,Delhi,2024-02-05,16.6,1.5,69,Clear
 1166,Delhi,2023-08-25,35.9,0.0,70,Humid
 1167,Delhi,2023-03-03,31.7,5.9,44,Clear
-1168,Delhi,2024-02-07,25.4,12.3,,Clear
+1168,Delhi,2024-02-07,25.4,12.3,57,Clear
 1169,Delhi,2023-11-19,24.1,0.0,70,Foggy
 1170,Delhi,2024-12-24,18.8,1.6,38,Stormy
 1171,Delhi,2023-01-29,15.7,9.3,74,Clear
@@ -1275,7 +1275,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 1282,Delhi,2024-07-20,27.7,11.7,36,Clear
 1283,Delhi,2023-04-22,36.3,3.6,43,Humid
 1284,Delhi,2023-11-15,25.4,0.0,51,Cloudy
-1285,Delhi,2023-09-15,26.9,0.0,,Foggy
+1285,Delhi,2023-09-15,26.9,0.0,58,Foggy
 1286,Delhi,2024-12-31,17.6,0.0,58,Rainy
 1287,Delhi,2023-01-08,19.3,0.0,75,Humid
 1288,Delhi,2024-08-25,27.7,0.0,50,Rainy
@@ -1361,7 +1361,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 1370,Delhi,2023-01-25,20.9,3.5,54,Cloudy
 1371,Delhi,2024-05-21,32.5,11.5,55,Humid
 1372,Delhi,2024-04-09,31.3,7.4,73,Foggy
-1373,Delhi,2023-03-25,32.4,0.0,,Clear
+1373,Delhi,2023-03-25,32.4,0.0,57,Clear
 1374,Delhi,2024-10-14,24.9,20.9,86,Rainy
 1375,Delhi,2024-04-17,36.7,1.6,74,Clear
 1376,Delhi,2024-02-06,30.7,2.3,64,Clear
@@ -1394,7 +1394,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 1403,Delhi,2024-08-25,22.5,136.6,58,Cloudy
 1404,Delhi,2024-05-12,29.1,0.0,56,Rainy
 1405,Delhi,2023-03-18,34.1,0.0,51,Cloudy
-1406,Delhi,2024-08-27,31.1,0.0,,Clear
+1406,Delhi,2024-08-27,31.1,0.0,57,Clear
 1407,Delhi,2023-06-10,38.3,0.0,38,Humid
 1408,Delhi,2024-05-24,32.9,33.2,59,Humid
 1409,Delhi,2024-06-05,26.2,0.0,81,Clear
@@ -1491,7 +1491,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 1500,Bengaluru,2024-08-27,25.1,85.8,47,Rainy
 1501,Bengaluru,2023-06-28,36.3,0.0,82,Rainy
 1502,Bengaluru,2023-03-28,32.3,1.3,85,Clear
-1503,Bengaluru,2023-05-06,30.6,0.0,,Foggy
+1503,Bengaluru,2023-05-06,30.6,0.0,62,Foggy
 1504,Bengaluru,2024-01-22,25.0,6.5,59,Rainy
 1505,Bengaluru,2024-01-28,14.1,1.9,66,Cloudy
 1506,Bengaluru,2024-02-16,16.3,0.0,52,Stormy
@@ -1517,7 +1517,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 1526,Bengaluru,2023-07-29,35.5,74.1,50,Clear
 1527,Bengaluru,2023-04-29,34.3,1.1,87,Cloudy
 1528,Bengaluru,2023-07-19,21.0,35.3,51,Rainy
-1529,Bengaluru,2024-08-02,27.3,0.0,,Rainy
+1529,Bengaluru,2024-08-02,27.3,0.0,62,Rainy
 1530,Bengaluru,2024-12-11,15.6,5.1,54,Foggy
 1531,Bengaluru,2023-11-05,34.9,0.0,39,Clear
 1532,Bengaluru,2024-03-31,36.2,8.0,34,Cloudy
@@ -1535,7 +1535,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 1544,Bengaluru,2023-01-02,19.3,5.2,76,Clear
 1545,Bengaluru,2023-06-15,27.5,0.0,54,Cloudy
 1546,Bengaluru,2024-12-02,20.6,1.6,44,Clear
-1547,Bengaluru,2024-09-19,26.2,0.0,,Humid
+1547,Bengaluru,2024-09-19,26.2,0.0,60,Humid
 1548,Bengaluru,2024-07-22,33.7,56.3,53,Humid
 1549,Bengaluru,2024-11-10,25.3,0.0,45,Humid
 1550,Bengaluru,2023-07-28,24.0,0.0,44,Rainy
@@ -1824,7 +1824,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 1834,Bengaluru,2023-11-12,12.2,14.6,57,Cloudy
 1835,Bengaluru,2023-05-16,34.2,7.3,70,Rainy
 1836,Bengaluru,2024-07-10,24.3,48.7,63,Rainy
-1837,Bengaluru,2024-07-11,27.5,0.0,,Cloudy
+1837,Bengaluru,2024-07-11,27.5,0.0,59,Cloudy
 1838,Bengaluru,2023-08-22,40.8,2.2,45,Cloudy
 1839,Bengaluru,2023-10-05,36.8,4.1,64,Clear
 1840,Bengaluru,2024-11-05,22.6,33.2,40,Cloudy
@@ -1900,7 +1900,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 1911,Bengaluru,2023-05-16,38.7,4.0,26,Cloudy
 1912,Bengaluru,2023-12-12,21.2,0.0,75,Humid
 1913,Bengaluru,2023-12-13,18.8,4.5,59,Clear
-1914,Bengaluru,2023-02-01,22.0,0.1,,Foggy
+1914,Bengaluru,2023-02-01,22.0,0.1,62,Foggy
 1915,Bengaluru,2024-08-17,25.7,117.5,61,Clear
 1916,Bengaluru,2023-05-20,21.4,3.7,75,Clear
 1917,Bengaluru,2024-07-17,32.3,115.8,59,Humid
@@ -1954,7 +1954,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 1965,Bengaluru,2023-05-23,35.3,0.0,82,Rainy
 1966,Bengaluru,2024-08-24,31.3,24.3,63,Rainy
 1967,Bengaluru,2023-03-17,27.5,22.9,71,Foggy
-1968,Bengaluru,2023-06-16,23.8,0.0,,Humid
+1968,Bengaluru,2023-06-16,23.8,0.0,60,Humid
 1969,Bengaluru,2024-12-22,16.4,0.0,49,Clear
 1970,Bengaluru,2024-01-27,20.5,0.0,52,Clear
 1971,Bengaluru,2024-02-11,26.8,0.0,71,Cloudy
@@ -2053,7 +2053,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 2065,Bengaluru,2024-10-04,22.5,11.0,52,Foggy
 2066,Bengaluru,2023-09-12,25.9,30.3,53,Stormy
 2067,Bengaluru,2024-02-06,17.0,0.4,51,Foggy
-2068,Bengaluru,2023-06-11,26.0,0.0,,Clear
+2068,Bengaluru,2023-06-11,26.0,0.0,60,Clear
 2069,Bengaluru,2023-09-27,28.5,59.8,22,Cloudy
 2070,Bengaluru,2024-02-14,17.0,12.3,83,Clear
 2071,Bengaluru,2023-12-19,21.1,0.0,64,Cloudy
@@ -2087,7 +2087,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 2099,Bengaluru,2023-10-10,35.1,121.0,56,Cloudy
 2100,Bengaluru,2024-11-23,30.5,0.0,66,Clear
 2101,Bengaluru,2023-04-26,32.0,1.6,58,Foggy
-2102,Bengaluru,2024-07-21,26.1,160.6,,Cloudy
+2102,Bengaluru,2024-07-21,26.1,160.6,59,Cloudy
 2103,Bengaluru,2023-09-28,21.4,0.0,66,Rainy
 2104,Bengaluru,2024-10-16,22.3,21.5,71,Rainy
 2105,Bengaluru,2024-07-12,32.0,0.0,66,Cloudy
@@ -2323,7 +2323,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 2335,Hyderabad,2024-07-18,25.5,0.0,66,Humid
 2336,Hyderabad,2024-11-23,20.5,0.0,54,Clear
 2337,Hyderabad,2023-04-24,33.2,4.7,71,Rainy
-2338,Hyderabad,2024-07-25,27.7,52.0,,Clear
+2338,Hyderabad,2024-07-25,27.7,52.0,60,Clear
 2339,Hyderabad,2024-05-11,33.6,6.2,94,Rainy
 2340,Hyderabad,2023-05-26,34.4,0.3,71,Cloudy
 2341,Hyderabad,2024-03-17,21.7,38.5,15,Cloudy
@@ -2375,7 +2375,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 2387,Hyderabad,2024-12-15,17.0,8.4,74,Clear
 2388,Hyderabad,2023-01-31,13.8,13.7,42,Cloudy
 2389,Hyderabad,2023-02-08,26.5,73.5,56,Humid
-2390,Hyderabad,2023-09-27,30.9,108.7,,Rainy
+2390,Hyderabad,2023-09-27,30.9,108.7,61,Rainy
 2391,Hyderabad,2023-06-06,24.8,0.0,58,Rainy
 2392,Hyderabad,2023-04-13,32.4,21.2,84,Clear
 2393,Hyderabad,2023-03-15,28.3,8.9,64,Humid
@@ -2408,7 +2408,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 2420,Hyderabad,2024-04-19,44.6,3.2,69,Rainy
 2421,Hyderabad,2024-02-16,19.5,0.2,74,Clear
 2422,Hyderabad,2023-11-20,31.4,23.4,47,Clear
-2423,Hyderabad,2024-08-22,35.5,13.6,,Clear
+2423,Hyderabad,2024-08-22,35.5,13.6,60,Clear
 2424,Hyderabad,2023-09-05,31.6,0.0,45,Cloudy
 2425,Hyderabad,2024-02-16,22.3,9.3,82,Cloudy
 2426,Hyderabad,2023-03-31,29.3,7.0,73,Foggy
@@ -2420,7 +2420,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 2432,Hyderabad,2023-11-30,25.8,9.6,43,Clear
 2433,Hyderabad,2024-04-17,30.3,10.4,50,Cloudy
 2434,Hyderabad,2023-07-22,25.7,40.4,47,Clear
-2435,Hyderabad,2024-11-14,25.3,3.4,,Clear
+2435,Hyderabad,2024-11-14,25.3,3.4,60,Clear
 2436,Hyderabad,2024-03-18,38.4,9.5,69,Cloudy
 2437,Hyderabad,2024-12-03,20.5,0.3,66,Cloudy
 2438,Hyderabad,2024-01-28,11.7,1.2,52,Clear
@@ -2477,7 +2477,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 2489,Hyderabad,2023-01-16,13.1,2.3,67,Clear
 2490,Hyderabad,2023-04-23,34.3,3.4,61,Clear
 2491,Hyderabad,2023-10-25,24.2,0.0,39,Cloudy
-2492,Hyderabad,2023-06-29,27.0,0.0,,Clear
+2492,Hyderabad,2023-06-29,27.0,0.0,60,Clear
 2493,Hyderabad,2024-01-07,24.9,85.5,71,Rainy
 2494,Hyderabad,2023-06-07,25.3,64.6,83,Foggy
 2495,Hyderabad,2023-06-28,24.2,253.0,54,Rainy
@@ -2517,7 +2517,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 2529,Hyderabad,2024-05-27,32.0,0.0,38,Humid
 2530,Hyderabad,2023-06-14,31.1,50.7,57,Cloudy
 2531,Hyderabad,2024-12-14,12.8,13.2,86,Cloudy
-2532,Hyderabad,2023-11-08,23.4,12.0,,Humid
+2532,Hyderabad,2023-11-08,23.4,12.0,60,Humid
 2533,Hyderabad,2024-02-03,16.6,7.4,83,Humid
 2534,Hyderabad,2023-02-26,21.0,0.0,72,Humid
 2535,Hyderabad,2024-01-14,17.4,0.6,65,Humid
@@ -2567,7 +2567,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 2579,Hyderabad,2024-08-04,28.8,0.0,84,Clear
 2580,Hyderabad,2024-11-14,18.5,72.8,78,Stormy
 2581,Hyderabad,2024-07-02,23.4,5.0,58,Humid
-2582,Hyderabad,2023-04-14,39.3,4.8,,Clear
+2582,Hyderabad,2023-04-14,39.3,4.8,60,Clear
 2583,Hyderabad,2024-08-14,27.4,93.0,63,Rainy
 2584,Hyderabad,2023-02-17,16.6,0.0,43,Rainy
 2585,Hyderabad,2024-11-04,26.8,0.0,37,Clear
@@ -2580,7 +2580,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 2592,Hyderabad,2024-05-14,32.0,4.3,57,Humid
 2593,Hyderabad,2023-03-10,30.3,0.0,60,Clear
 2594,Hyderabad,2023-11-09,25.2,7.9,84,Foggy
-2595,Hyderabad,2024-09-21,29.1,9.1,,Cloudy
+2595,Hyderabad,2024-09-21,29.1,9.1,61,Cloudy
 2596,Hyderabad,2024-08-26,20.7,0.0,64,Clear
 2597,Hyderabad,2024-05-28,34.9,0.0,39,Humid
 2598,Hyderabad,2024-02-19,16.2,4.9,77,Rainy
@@ -2619,7 +2619,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 2631,Hyderabad,2023-01-16,15.0,0.0,67,Clear
 2632,Hyderabad,2023-07-29,34.9,0.0,62,Rainy
 2633,Hyderabad,2023-02-06,28.1,0.0,56,Clear
-2634,Hyderabad,2023-12-27,19.0,0.0,,Clear
+2634,Hyderabad,2023-12-27,19.0,0.0,60,Clear
 2635,Hyderabad,2024-08-10,20.8,28.4,55,Cloudy
 2636,Hyderabad,2023-02-23,17.4,0.3,76,Clear
 2637,Hyderabad,2024-07-05,34.6,15.8,44,Clear
@@ -2711,7 +2711,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 2724,Hyderabad,2024-03-26,28.5,0.0,84,Clear
 2725,Hyderabad,2023-08-05,31.4,0.0,72,Rainy
 2726,Hyderabad,2023-10-20,31.5,2.4,50,Clear
-2727,Hyderabad,2024-11-11,27.7,13.5,,Cloudy
+2727,Hyderabad,2024-11-11,27.7,13.5,61,Cloudy
 2728,Hyderabad,2023-05-05,27.0,0.0,48,Rainy
 2729,Hyderabad,2024-12-15,17.0,0.0,88,Cloudy
 2730,Hyderabad,2023-04-16,25.3,0.0,45,Clear
@@ -2754,7 +2754,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 2767,Hyderabad,2023-06-13,23.9,0.0,58,Rainy
 2768,Hyderabad,2024-01-09,18.5,3.8,53,Cloudy
 2769,Hyderabad,2023-03-28,35.0,3.5,74,Humid
-2770,Hyderabad,2024-04-01,28.0,11.1,,Clear
+2770,Hyderabad,2024-04-01,28.0,11.1,60,Clear
 2771,Hyderabad,2024-06-27,34.2,228.7,75,Clear
 2772,Hyderabad,2024-08-02,25.5,175.3,48,Rainy
 2773,Hyderabad,2023-09-30,29.4,0.0,45,Clear
@@ -2805,7 +2805,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 2818,Hyderabad,2023-01-25,20.1,0.0,54,Cloudy
 2819,Hyderabad,2024-05-22,37.4,7.0,38,Foggy
 2820,Hyderabad,2023-03-21,40.7,0.3,52,Cloudy
-2821,Hyderabad,2024-06-30,33.8,0.0,,Clear
+2821,Hyderabad,2024-06-30,33.8,0.0,60,Clear
 2822,Hyderabad,2024-09-21,26.3,300.0,72,Cloudy
 2823,Hyderabad,2024-08-21,28.7,37.5,53,Rainy
 2824,Hyderabad,2024-06-22,26.2,0.0,66,Clear
@@ -3062,7 +3062,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 3075,Chennai,2024-03-16,37.4,7.5,65,Rainy
 3076,Chennai,2024-04-27,28.6,0.0,79,Clear
 3077,Chennai,2023-04-28,30.8,15.0,66,Cloudy
-3078,Chennai,2023-01-24,20.7,0.8,,Humid
+3078,Chennai,2023-01-24,20.7,0.8,59,Humid
 3079,Chennai,2024-03-18,35.4,3.1,62,Cloudy
 3080,Chennai,2024-03-19,34.9,0.0,80,Cloudy
 3081,Chennai,2024-09-23,26.0,273.0,47,Foggy
@@ -3197,7 +3197,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 3210,Chennai,2024-04-20,27.6,1.8,65,Cloudy
 3211,Chennai,2023-06-02,24.4,124.8,53,Humid
 3212,Chennai,2023-11-15,22.7,37.1,77,Clear
-3213,Chennai,2023-11-07,23.0,50.8,,Clear
+3213,Chennai,2023-11-07,23.0,50.8,59,Clear
 3214,Chennai,2024-03-15,32.6,0.0,64,Clear
 3215,Chennai,2023-04-21,31.7,10.9,58,Stormy
 3216,Chennai,2023-08-31,28.8,0.0,78,Clear
@@ -3261,7 +3261,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 3274,Chennai,2023-06-18,33.1,188.8,87,Rainy
 3275,Chennai,2024-10-29,30.4,40.0,65,Cloudy
 3276,Chennai,2024-07-26,26.8,0.0,68,Foggy
-3277,Chennai,2024-05-11,40.8,1.3,,Clear
+3277,Chennai,2024-05-11,40.8,1.3,59,Clear
 3278,Chennai,2024-03-22,30.8,1.5,55,Humid
 3279,Chennai,2024-07-12,26.3,0.0,33,Clear
 3280,Chennai,2024-05-26,29.4,36.7,72,Humid
@@ -3335,7 +3335,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 3348,Chennai,2024-11-16,30.1,0.0,63,Clear
 3349,Chennai,2023-11-29,25.0,0.0,64,Cloudy
 3350,Chennai,2024-09-27,33.0,33.6,65,Clear
-3351,Chennai,2024-02-18,19.4,10.4,,Foggy
+3351,Chennai,2024-02-18,19.4,10.4,59,Foggy
 3352,Chennai,2024-09-27,29.4,100.4,32,Rainy
 3353,Chennai,2024-06-11,28.3,71.8,43,Foggy
 3354,Chennai,2024-11-16,18.7,2.1,36,Stormy
@@ -3441,7 +3441,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 3455,Chennai,2023-07-28,22.4,34.0,51,Rainy
 3456,Chennai,2024-12-25,21.7,0.0,48,Humid
 3457,Chennai,2024-07-18,25.7,81.5,35,Humid
-3458,Chennai,2024-12-22,18.0,1.2,,Cloudy
+3458,Chennai,2024-12-22,18.0,1.2,60,Cloudy
 3459,Chennai,2023-04-20,35.3,0.0,44,Foggy
 3460,Chennai,2023-06-27,27.9,0.0,44,Rainy
 3461,Chennai,2023-05-05,30.1,14.7,49,Clear
@@ -3756,7 +3756,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 3772,Kolkata,2023-05-13,36.8,26.1,67,Humid
 3773,Kolkata,2024-03-09,33.3,9.1,64,Clear
 3774,Kolkata,2024-01-08,27.3,85.3,57,Cloudy
-3775,Kolkata,2024-05-19,27.3,0.0,,Cloudy
+3775,Kolkata,2024-05-19,27.3,0.0,59,Cloudy
 3776,Kolkata,2023-03-20,47.4,4.0,50,Clear
 3777,Kolkata,2023-07-01,33.9,56.1,57,Rainy
 3778,Kolkata,2024-05-04,37.7,20.1,48,Cloudy
@@ -3765,7 +3765,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 3781,Kolkata,2024-12-04,13.1,0.0,54,Clear
 3782,Kolkata,2023-04-25,34.0,3.9,42,Cloudy
 3783,Kolkata,2024-10-06,29.0,0.0,55,Clear
-3784,Kolkata,2024-11-20,28.3,0.0,,Clear
+3784,Kolkata,2024-11-20,28.3,0.0,60,Clear
 3785,Kolkata,2023-01-09,17.8,5.6,59,Rainy
 3786,Kolkata,2024-10-29,26.7,83.6,77,Humid
 3787,Kolkata,2024-04-14,35.4,33.9,53,Humid
@@ -3815,7 +3815,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 3831,Kolkata,2023-12-06,18.2,0.0,95,Clear
 3832,Kolkata,2023-11-06,30.4,4.9,68,Clear
 3833,Kolkata,2024-01-26,21.8,3.3,26,Foggy
-3834,Kolkata,2023-02-08,19.6,7.8,,Clear
+3834,Kolkata,2023-02-08,19.6,7.8,60,Clear
 3835,Kolkata,2024-09-24,23.8,89.0,61,Cloudy
 3836,Kolkata,2023-02-22,16.0,1.3,63,Clear
 3837,Kolkata,2024-04-05,38.6,0.0,47,Rainy
@@ -3881,7 +3881,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 3897,Kolkata,2023-03-05,27.3,0.0,72,Rainy
 3898,Kolkata,2024-06-29,28.3,61.3,90,Humid
 3899,Kolkata,2023-07-09,26.1,0.0,45,Rainy
-3900,Kolkata,2023-08-06,23.6,22.6,,Rainy
+3900,Kolkata,2023-08-06,23.6,22.6,57,Rainy
 3901,Kolkata,2023-08-12,29.9,189.4,69,Clear
 3902,Kolkata,2023-03-16,33.8,0.0,43,Stormy
 3903,Kolkata,2024-01-01,22.3,3.6,52,Clear
@@ -3924,7 +3924,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 3941,Kolkata,2024-10-15,23.6,35.0,49,Cloudy
 3942,Kolkata,2024-01-14,17.8,3.3,62,Stormy
 3943,Kolkata,2023-06-10,25.1,68.6,14,Rainy
-3944,Kolkata,2024-04-24,36.9,6.1,,Clear
+3944,Kolkata,2024-04-24,36.9,6.1,60,Clear
 3945,Kolkata,2023-12-22,19.7,2.2,65,Clear
 3946,Kolkata,2024-07-08,32.9,0.0,65,Humid
 3947,Kolkata,2023-02-19,20.5,0.8,76,Stormy
@@ -3945,7 +3945,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 3962,Kolkata,2023-09-10,23.9,0.0,38,Rainy
 3963,Kolkata,2023-11-24,29.3,7.0,36,Humid
 3964,Kolkata,2024-12-26,26.6,0.2,55,Cloudy
-3965,Kolkata,2023-06-08,20.5,0.0,,Humid
+3965,Kolkata,2023-06-08,20.5,0.0,60,Humid
 3966,Kolkata,2023-07-06,18.9,6.6,69,Rainy
 3967,Kolkata,2024-01-16,20.8,5.6,55,Cloudy
 3968,Kolkata,2023-11-19,28.6,0.5,75,Cloudy
@@ -4082,7 +4082,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 4100,Kolkata,2023-12-15,26.8,7.1,64,Humid
 4101,Kolkata,2023-02-06,18.5,0.0,70,Rainy
 4102,Kolkata,2023-07-21,24.1,0.7,37,Rainy
-4103,Kolkata,2023-04-01,33.8,1.3,,Clear
+4103,Kolkata,2023-04-01,33.8,1.3,60,Clear
 4104,Kolkata,2024-08-13,26.4,0.0,43,Humid
 4105,Kolkata,2024-02-04,19.7,2.1,51,Humid
 4106,Kolkata,2023-05-25,29.3,2.9,31,Cloudy
@@ -4093,7 +4093,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 4111,Kolkata,2023-10-21,17.6,76.4,51,Clear
 4112,Kolkata,2024-12-14,21.6,0.0,98,Clear
 4113,Kolkata,2024-11-22,23.7,23.9,77,Humid
-4114,Kolkata,2023-10-22,26.8,7.3,,Foggy
+4114,Kolkata,2023-10-22,26.8,7.3,55,Foggy
 4115,Kolkata,2023-10-10,26.3,23.9,61,Cloudy
 4116,Kolkata,2024-08-22,31.8,16.6,51,Rainy
 4117,Kolkata,2024-11-06,29.7,57.8,59,Stormy
@@ -4175,7 +4175,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 4193,Kolkata,2024-11-13,24.2,55.4,63,Humid
 4194,Kolkata,2024-05-06,33.7,1.3,68,Humid
 4195,Kolkata,2024-03-29,30.5,0.0,87,Humid
-4196,Kolkata,2024-07-10,28.8,262.1,,Rainy
+4196,Kolkata,2024-07-10,28.8,262.1,57,Rainy
 4197,Kolkata,2023-11-26,25.1,88.6,58,Clear
 4198,Kolkata,2024-01-21,13.4,18.8,63,Humid
 4199,Kolkata,2024-04-08,31.3,0.0,48,Clear
@@ -4315,7 +4315,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 4333,Kolkata,2024-11-14,23.4,0.0,37,Stormy
 4334,Kolkata,2024-11-22,24.9,0.0,56,Rainy
 4335,Kolkata,2023-04-04,31.4,10.3,61,Cloudy
-4336,Kolkata,2023-10-24,12.3,47.6,,Clear
+4336,Kolkata,2023-10-24,12.3,47.6,60,Clear
 4337,Kolkata,2023-12-23,20.3,2.0,43,Clear
 4338,Kolkata,2024-03-29,33.7,0.6,100,Clear
 4339,Kolkata,2024-04-23,32.8,2.8,65,Foggy
@@ -4325,14 +4325,14 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 4343,Kolkata,2024-06-09,29.1,113.7,55,Clear
 4344,Kolkata,2024-12-23,19.0,0.7,75,Clear
 4345,Kolkata,2024-01-11,16.3,10.5,70,Foggy
-4346,Kolkata,2023-01-01,27.3,7.1,,Cloudy
+4346,Kolkata,2023-01-01,27.3,7.1,59,Cloudy
 4347,Kolkata,2024-03-27,37.3,30.8,79,Humid
 4348,Kolkata,2023-09-27,24.8,48.1,66,Cloudy
 4349,Kolkata,2023-09-22,22.5,116.9,42,Foggy
 4350,Kolkata,2023-09-14,31.0,0.0,64,Humid
 4351,Kolkata,2023-03-25,29.0,6.2,29,Clear
 4352,Kolkata,2024-01-12,22.4,6.9,87,Cloudy
-4353,Kolkata,2024-05-08,30.2,198.6,,Rainy
+4353,Kolkata,2024-05-08,30.2,198.6,57,Rainy
 4354,Kolkata,2024-11-22,29.4,5.5,68,Foggy
 4355,Kolkata,2024-06-11,29.0,12.1,94,Clear
 4356,Kolkata,2024-08-09,54.8,91.7,58,Clear
@@ -4370,7 +4370,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 4388,Kolkata,2023-11-24,31.3,20.7,59,Humid
 4389,Kolkata,2024-07-22,27.5,65.2,62,Clear
 4390,Kolkata,2024-11-02,15.2,0.0,67,Rainy
-4391,Kolkata,2024-04-14,37.9,6.8,,Humid
+4391,Kolkata,2024-04-14,37.9,6.8,60,Humid
 4393,Kolkata,2024-01-24,22.2,2.6,54,Foggy
 4394,Kolkata,2023-11-29,25.1,0.0,58,Cloudy
 4395,Kolkata,2023-09-26,22.0,0.0,49,Foggy
@@ -4394,7 +4394,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 4413,Kolkata,2024-10-12,19.0,2.6,74,Clear
 4414,Kolkata,2024-02-09,22.1,28.3,49,Rainy
 4415,Kolkata,2024-02-13,15.0,1.6,64,Foggy
-4416,Kolkata,2023-11-08,34.3,24.7,,Cloudy
+4416,Kolkata,2023-11-08,34.3,24.7,59,Cloudy
 4417,Pune,2024-08-30,28.3,0.0,62,Cloudy
 4418,Pune,2023-06-29,32.1,90.1,59,Humid
 4419,Pune,2024-02-02,14.1,0.8,70,Clear
@@ -4702,7 +4702,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 4724,Pune,2023-01-24,18.6,4.7,64,Clear
 4725,Pune,2024-03-02,20.9,2.1,57,Clear
 4726,Pune,2023-01-09,14.0,3.1,92,Stormy
-4727,Pune,2024-11-24,24.8,70.4,,Humid
+4727,Pune,2024-11-24,24.8,70.4,64,Humid
 4728,Pune,2023-09-01,19.3,6.6,88,Clear
 4729,Pune,2023-04-03,31.3,1.3,48,Foggy
 4730,Pune,2023-03-01,19.7,1.0,67,Humid
@@ -4715,7 +4715,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 4737,Pune,2024-10-20,28.9,16.9,75,Foggy
 4738,Pune,2024-01-28,21.9,15.3,79,Rainy
 4739,Pune,2024-05-08,21.5,3.7,70,Cloudy
-4740,Pune,2023-10-02,28.3,41.8,,Cloudy
+4740,Pune,2023-10-02,28.3,41.8,62,Cloudy
 4741,Pune,2024-02-04,30.9,1.0,55,Cloudy
 4742,Pune,2023-01-10,10.2,0.0,53,Humid
 4743,Pune,2023-07-26,26.7,17.6,76,Clear
@@ -4746,7 +4746,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 4768,Pune,2024-03-03,35.0,0.0,53,Humid
 4769,Pune,2024-07-17,25.0,26.8,35,Foggy
 4770,Pune,2023-02-08,23.6,8.4,67,Cloudy
-4771,Pune,2023-05-11,23.4,19.9,,Clear
+4771,Pune,2023-05-11,23.4,19.9,60,Clear
 4772,Pune,2023-06-18,26.7,300.0,46,Foggy
 4773,Pune,2024-05-13,33.9,2.1,70,Cloudy
 4774,Pune,2023-08-24,30.5,82.5,83,Clear
@@ -4759,7 +4759,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 4781,Pune,2024-04-20,29.1,12.1,56,Clear
 4782,Pune,2024-01-15,14.3,0.0,63,Clear
 4783,Pune,2023-02-12,22.1,1.1,87,Foggy
-4784,Pune,2024-01-30,20.8,1.4,,Rainy
+4784,Pune,2024-01-30,20.8,1.4,58,Rainy
 4785,Pune,2023-09-24,29.3,39.3,62,Foggy
 4786,Pune,2024-05-29,30.5,0.0,68,Cloudy
 4787,Pune,2024-04-26,28.6,16.1,54,Cloudy
@@ -4927,7 +4927,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 4952,Pune,2023-02-03,18.6,0.2,45,Rainy
 4953,Pune,2024-10-03,35.3,0.5,49,Cloudy
 4954,Pune,2024-09-06,28.1,33.1,46,Stormy
-4955,Pune,2023-03-05,33.0,0.0,,Foggy
+4955,Pune,2023-03-05,33.0,0.0,59,Foggy
 4956,Pune,2024-06-16,31.8,102.3,54,Clear
 4957,Pune,2024-12-27,26.3,3.7,61,Cloudy
 4958,Pune,2023-11-14,27.0,5.3,54,Rainy
@@ -5052,7 +5052,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 5078,Pune,2024-03-07,28.1,1.2,43,Humid
 5079,Pune,2023-05-24,39.0,2.8,65,Clear
 5080,Pune,2023-04-14,29.6,2.3,39,Rainy
-5081,Pune,2024-05-02,23.2,0.0,,Cloudy
+5081,Pune,2024-05-02,23.2,0.0,62,Cloudy
 5082,Pune,2024-08-12,29.3,2.5,67,Clear
 5083,Pune,2024-07-02,20.9,0.6,58,Clear
 5084,Pune,2024-10-30,25.5,7.0,64,Clear
@@ -5110,7 +5110,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 5136,Pune,2023-07-30,29.9,0.0,76,Rainy
 5137,Pune,2023-08-07,26.7,236.9,55,Foggy
 5138,Pune,2023-05-08,25.8,38.5,55,Cloudy
-5139,Pune,2023-09-09,25.9,177.1,,Clear
+5139,Pune,2023-09-09,25.9,177.1,60,Clear
 5140,Pune,2024-01-18,18.4,1.4,62,Foggy
 5141,Pune,2023-12-21,18.2,0.0,75,Cloudy
 5142,Pune,2023-05-16,30.9,30.1,71,Cloudy
@@ -5222,7 +5222,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 5248,Ahmedabad,2024-12-05,32.0,2.7,57,Cloudy
 5249,Ahmedabad,2024-10-09,24.1,0.0,79,Rainy
 5250,Ahmedabad,2024-01-09,21.2,0.0,56,Foggy
-5251,Ahmedabad,2023-12-30,16.6,5.6,,Cloudy
+5251,Ahmedabad,2023-12-30,16.6,5.6,58,Cloudy
 5252,Ahmedabad,2024-03-01,37.5,0.4,51,Clear
 5253,Ahmedabad,2023-04-17,31.9,0.0,92,Cloudy
 5254,Ahmedabad,2023-09-16,17.7,0.0,65,Cloudy
@@ -5348,7 +5348,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 5374,Ahmedabad,2023-08-08,22.1,78.2,38,Clear
 5375,Ahmedabad,2024-02-23,18.8,0.0,59,Foggy
 5376,Ahmedabad,2023-08-22,31.4,212.4,76,Humid
-5377,Ahmedabad,2023-01-14,15.7,1.0,,Stormy
+5377,Ahmedabad,2023-01-14,15.7,1.0,60,Stormy
 5378,Ahmedabad,2023-01-29,17.2,2.6,79,Clear
 5379,Ahmedabad,2023-03-09,24.8,75.7,55,Stormy
 5380,Ahmedabad,2024-03-10,28.0,42.7,55,Foggy
@@ -5356,7 +5356,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 5382,Ahmedabad,2023-04-16,29.1,4.8,76,Clear
 5383,Ahmedabad,2024-01-24,29.0,2.5,49,Humid
 5384,Ahmedabad,2023-01-01,15.3,8.1,80,Cloudy
-5385,Ahmedabad,2023-02-23,18.8,17.1,,Foggy
+5385,Ahmedabad,2023-02-23,18.8,17.1,55,Foggy
 5386,Ahmedabad,2024-09-13,29.9,38.0,73,Clear
 5387,Ahmedabad,2023-01-17,18.6,6.0,69,Humid
 5388,Ahmedabad,2024-01-11,26.7,0.0,60,Rainy
@@ -5417,7 +5417,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 5443,Ahmedabad,2023-03-07,23.3,1.6,43,Clear
 5444,Ahmedabad,2024-05-16,31.7,6.8,71,Humid
 5445,Ahmedabad,2024-12-19,21.4,9.0,49,Stormy
-5446,Ahmedabad,2024-09-07,27.4,0.0,,Humid
+5446,Ahmedabad,2024-09-07,27.4,0.0,62,Humid
 5447,Ahmedabad,2024-08-11,24.3,42.0,43,Clear
 5448,Ahmedabad,2023-03-27,41.0,0.0,47,Humid
 5449,Ahmedabad,2023-05-29,36.2,17.4,56,Clear
@@ -5466,8 +5466,8 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 5492,Ahmedabad,2023-07-16,28.3,2.3,52,Cloudy
 5493,Ahmedabad,2024-05-01,30.4,0.0,62,Humid
 5494,Ahmedabad,2024-07-31,25.7,7.0,69,Clear
-5495,Ahmedabad,2023-06-18,28.8,30.6,,Clear
-5496,Ahmedabad,2024-03-22,41.2,27.9,,Rainy
+5495,Ahmedabad,2023-06-18,28.8,30.6,62,Clear
+5496,Ahmedabad,2024-03-22,41.2,27.9,62,Rainy
 5497,Ahmedabad,2024-11-02,29.5,0.0,95,Clear
 5498,Ahmedabad,2024-05-25,33.7,11.6,38,Humid
 5499,Ahmedabad,2024-10-28,29.9,16.8,100,Foggy
@@ -5536,7 +5536,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 5562,Ahmedabad,2023-12-21,12.8,2.6,56,Clear
 5563,Ahmedabad,2023-08-06,55.4,46.2,92,Clear
 5564,Ahmedabad,2023-11-07,24.9,23.2,76,Cloudy
-5565,Ahmedabad,2023-11-21,35.4,23.9,,Rainy
+5565,Ahmedabad,2023-11-21,35.4,23.9,62,Rainy
 5566,Ahmedabad,2024-06-23,25.5,0.0,12,Foggy
 5567,Ahmedabad,2024-05-01,27.4,5.1,61,Cloudy
 5568,Ahmedabad,2023-06-26,21.2,82.4,89,Rainy
@@ -5598,7 +5598,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 5624,Ahmedabad,2023-01-24,15.3,4.8,42,Clear
 5625,Ahmedabad,2023-11-20,19.2,59.9,59,Cloudy
 5626,Ahmedabad,2024-02-01,16.5,0.0,47,Clear
-5627,Ahmedabad,2024-05-21,34.6,0.0,,Clear
+5627,Ahmedabad,2024-05-21,34.6,0.0,62,Clear
 5628,Ahmedabad,2023-10-09,29.1,88.3,66,Clear
 5629,Ahmedabad,2023-07-06,31.0,0.0,65,Humid
 5630,Ahmedabad,2024-01-29,18.9,4.3,58,Clear
@@ -6012,7 +6012,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 6039,Jaipur,2023-07-05,35.7,300.0,44,Stormy
 6040,Jaipur,2023-07-25,34.7,86.2,41,Rainy
 6041,Jaipur,2024-07-19,22.6,0.0,48,Rainy
-6042,Jaipur,2024-07-19,29.5,71.9,,Rainy
+6042,Jaipur,2024-07-19,29.5,71.9,61,Rainy
 6043,Jaipur,2024-04-26,39.6,9.6,43,Humid
 6044,Jaipur,2023-08-01,14.8,2.8,86,Rainy
 6045,Jaipur,2023-03-11,40.4,7.8,57,Humid
@@ -6379,7 +6379,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 6408,Jaipur,2023-07-13,25.1,31.1,55,Foggy
 6409,Jaipur,2024-06-30,31.2,44.6,41,Clear
 6410,Jaipur,2024-10-22,27.6,0.2,65,Clear
-6411,Jaipur,2024-01-03,9.7,0.5,,Rainy
+6411,Jaipur,2024-01-03,9.7,0.5,61,Rainy
 6412,Jaipur,2024-03-09,31.9,251.1,55,Clear
 6413,Jaipur,2024-06-24,25.0,180.6,62,Clear
 6414,Jaipur,2023-09-01,20.7,0.0,57,Cloudy
@@ -6387,7 +6387,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 6416,Jaipur,2023-01-18,23.5,0.0,27,Clear
 6417,Jaipur,2023-07-08,30.6,300.0,84,Cloudy
 6418,Jaipur,2024-02-24,18.6,20.8,87,Clear
-6419,Jaipur,2023-09-11,33.5,123.9,,Cloudy
+6419,Jaipur,2023-09-11,33.5,123.9,62,Cloudy
 6420,Jaipur,2023-11-22,27.2,1.3,67,Clear
 6421,Jaipur,2023-03-12,15.6,4.5,65,Humid
 6422,Jaipur,2024-09-15,27.3,20.2,51,Clear
@@ -6456,7 +6456,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 6485,Jaipur,2024-01-13,18.9,0.0,75,Foggy
 6486,Jaipur,2024-06-04,29.1,79.6,77,Rainy
 6487,Jaipur,2023-04-01,17.0,4.0,67,Cloudy
-6488,Jaipur,2023-07-16,25.4,88.7,,Rainy
+6488,Jaipur,2023-07-16,25.4,88.7,61,Rainy
 6489,Jaipur,2023-04-30,38.2,0.3,58,Clear
 6490,Jaipur,2023-06-05,34.0,0.0,67,Cloudy
 6491,Jaipur,2023-10-08,22.7,9.8,83,Humid
@@ -6518,7 +6518,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 6547,Jaipur,2024-06-20,28.0,0.0,77,Stormy
 6548,Jaipur,2023-01-26,7.7,3.2,67,Cloudy
 6549,Jaipur,2023-08-02,33.9,1.5,81,Clear
-6550,Jaipur,2024-03-09,38.6,1.2,,Clear
+6550,Jaipur,2024-03-09,38.6,1.2,58,Clear
 6551,Jaipur,2023-04-29,31.6,18.3,87,Foggy
 6553,Jaipur,2024-02-07,17.8,0.0,41,Clear
 6554,Jaipur,2023-11-24,37.0,61.2,30,Clear
@@ -6582,7 +6582,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 6613,Lucknow,2023-07-09,26.0,5.5,88,Clear
 6614,Lucknow,2024-11-01,22.3,0.0,53,Clear
 6615,Lucknow,2024-03-17,28.0,11.8,72,Humid
-6616,Lucknow,2024-11-29,26.6,6.6,,Clear
+6616,Lucknow,2024-11-29,26.6,6.6,58,Clear
 6617,Lucknow,2023-02-23,23.3,0.0,79,Foggy
 6618,Lucknow,2024-05-15,35.1,34.0,62,Clear
 6619,Lucknow,2024-04-07,31.8,11.0,70,Foggy
@@ -6933,7 +6933,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 6967,Lucknow,2024-01-11,23.2,0.4,68,Clear
 6968,Lucknow,2024-01-11,23.1,9.3,20,Humid
 6969,Lucknow,2024-01-12,20.0,1.2,73,Clear
-6970,Lucknow,2023-05-09,26.1,157.2,,Rainy
+6970,Lucknow,2023-05-09,26.1,157.2,62,Rainy
 6971,Lucknow,2024-08-30,35.7,0.0,47,Rainy
 6972,Lucknow,2023-10-12,24.8,3.4,41,Cloudy
 6973,Lucknow,2023-11-01,25.3,32.8,66,Clear
@@ -6943,7 +6943,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 6977,Lucknow,2024-08-12,29.2,129.1,53,Clear
 6978,Lucknow,2024-12-23,16.2,1.7,59,Foggy
 6979,Lucknow,2024-11-29,32.2,23.3,65,Stormy
-6980,Lucknow,2023-08-10,29.0,0.0,,Humid
+6980,Lucknow,2023-08-10,29.0,0.0,60,Humid
 6981,Lucknow,2023-06-23,32.9,0.0,64,Humid
 6982,Lucknow,2023-02-23,17.5,0.0,42,Stormy
 6983,Lucknow,2024-07-14,24.5,57.7,86,Rainy
@@ -7201,7 +7201,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 7238,Lucknow,2023-09-30,29.8,0.0,55,Cloudy
 7239,Lucknow,2023-05-09,26.4,124.1,66,Rainy
 7240,Lucknow,2024-07-14,25.6,197.1,58,Cloudy
-7241,Lucknow,2023-01-25,11.1,4.4,,Clear
+7241,Lucknow,2023-01-25,11.1,4.4,58,Clear
 7242,Lucknow,2023-12-14,15.2,0.2,61,Foggy
 7243,Lucknow,2023-09-03,29.4,45.6,62,Clear
 7244,Lucknow,2024-08-10,17.5,300.0,54,Clear
@@ -7372,7 +7372,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 7409,Chandigarh,2023-03-09,30.9,188.8,74,Foggy
 7410,Chandigarh,2024-02-19,14.9,0.0,71,Rainy
 7411,Chandigarh,2023-06-30,26.3,86.3,56,Clear
-7412,Chandigarh,2023-07-16,29.5,0.0,,Cloudy
+7412,Chandigarh,2023-07-16,29.5,0.0,61,Cloudy
 7413,Chandigarh,2023-11-15,27.9,0.0,51,Stormy
 7414,Chandigarh,2023-08-08,28.5,70.1,56,Cloudy
 7415,Chandigarh,2024-01-28,6.3,0.0,40,Foggy
@@ -7615,7 +7615,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 7652,Chandigarh,2023-10-14,22.0,1.2,73,Rainy
 7653,Chandigarh,2023-01-09,13.8,1.8,65,Stormy
 7654,Chandigarh,2024-04-05,36.5,12.8,78,Foggy
-7655,Chandigarh,2024-01-06,29.7,300.0,,Rainy
+7655,Chandigarh,2024-01-06,29.7,300.0,59,Rainy
 7656,Chandigarh,2024-04-07,32.7,274.1,50,Rainy
 7657,Chandigarh,2024-10-30,26.6,0.0,83,Rainy
 7658,Chandigarh,2023-04-17,35.3,7.3,56,Clear
@@ -7648,7 +7648,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 7685,Chandigarh,2024-06-20,32.1,119.9,78,Rainy
 7686,Chandigarh,2023-12-19,17.3,0.0,98,Humid
 7687,Chandigarh,2024-09-08,27.4,154.8,40,Rainy
-7688,Chandigarh,2023-04-09,34.2,12.8,,Humid
+7688,Chandigarh,2023-04-09,34.2,12.8,57,Humid
 7689,Chandigarh,2023-01-17,16.1,0.8,57,Clear
 7690,Chandigarh,2023-02-19,19.0,1.0,46,Cloudy
 7691,Chandigarh,2023-09-07,26.3,204.7,64,Clear
@@ -7926,7 +7926,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 7963,Chandigarh,2023-06-20,25.9,93.3,52,Rainy
 7964,Chandigarh,2023-01-29,18.8,0.0,47,Cloudy
 7965,Chandigarh,2024-11-08,32.3,51.0,41,Clear
-7966,Chandigarh,2024-04-05,33.7,14.9,,Clear
+7966,Chandigarh,2024-04-05,33.7,14.9,59,Clear
 7967,Chandigarh,2024-04-03,28.5,1.4,60,Cloudy
 7968,Chandigarh,2024-02-15,22.1,0.0,42,Cloudy
 7969,Chandigarh,2024-09-02,8.4,3.6,64,Cloudy
@@ -7975,10 +7975,10 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 8013,Chandigarh,2023-02-23,22.7,0.0,68,Clear
 8014,Chandigarh,2023-01-11,16.9,8.3,56,Foggy
 8015,Chandigarh,2023-03-17,36.7,17.0,60,Rainy
-8016,Chandigarh,2024-06-20,26.5,61.2,,Clear
+8016,Chandigarh,2024-06-20,26.5,61.2,59,Clear
 8017,Chandigarh,2024-11-28,17.5,5.9,86,Foggy
 8018,Chandigarh,2023-10-18,25.0,2.0,64,Cloudy
-8019,Chandigarh,2023-09-08,31.1,95.6,,Humid
+8019,Chandigarh,2023-09-08,31.1,95.6,57,Humid
 8020,Chandigarh,2023-09-12,25.3,0.0,52,Clear
 8021,Chandigarh,2024-02-04,17.8,1.3,92,Humid
 8022,Chandigarh,2023-03-15,34.0,3.0,45,Rainy
@@ -8159,7 +8159,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 8198,Surat,2023-11-27,21.5,16.1,45,Humid
 8199,Surat,2023-03-18,31.8,14.9,53,Clear
 8200,Surat,2024-03-02,29.3,0.0,68,Humid
-8201,Surat,2023-03-15,30.5,3.3,,Cloudy
+8201,Surat,2023-03-15,30.5,3.3,61,Cloudy
 8202,Surat,2023-12-06,28.4,169.5,70,Clear
 8203,Surat,2023-09-21,24.8,13.4,33,Rainy
 8204,Surat,2023-01-31,19.5,4.5,73,Humid
@@ -8329,7 +8329,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 8368,Surat,2023-11-13,17.6,11.6,88,Foggy
 8369,Surat,2023-05-25,30.4,0.9,75,Clear
 8370,Surat,2024-01-04,33.2,3.9,83,Clear
-8371,Surat,2024-10-16,26.6,0.0,,Humid
+8371,Surat,2024-10-16,26.6,0.0,59,Humid
 8372,Surat,2024-05-07,27.7,3.1,34,Rainy
 8373,Surat,2023-05-28,34.5,47.7,43,Foggy
 8374,Surat,2023-01-15,13.9,4.4,60,Cloudy
@@ -8451,7 +8451,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 8490,Surat,2023-02-17,13.9,11.9,69,Clear
 8491,Surat,2024-05-28,29.9,34.3,94,Foggy
 8492,Surat,2024-10-13,24.1,9.1,21,Clear
-8493,Surat,2023-01-08,10.9,0.0,,Clear
+8493,Surat,2023-01-08,10.9,0.0,58,Clear
 8494,Surat,2024-05-10,31.9,4.1,81,Rainy
 8495,Surat,2023-03-24,35.0,7.9,63,Clear
 8496,Surat,2023-12-28,28.9,3.6,33,Humid
@@ -8480,7 +8480,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 8519,Surat,2024-05-10,31.5,3.0,42,Humid
 8520,Surat,2023-08-10,29.2,63.5,80,Rainy
 8521,Surat,2024-05-25,35.1,30.8,55,Humid
-8522,Surat,2024-11-25,29.2,6.4,,Rainy
+8522,Surat,2024-11-25,29.2,6.4,59,Rainy
 8523,Surat,2023-06-16,31.6,300.0,54,Clear
 8524,Surat,2024-02-05,18.1,6.6,59,Stormy
 8525,Surat,2023-11-06,29.1,73.0,51,Clear
@@ -8622,7 +8622,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 8661,Surat,2024-06-13,29.4,26.6,63,Stormy
 8662,Surat,2024-09-16,24.4,1.2,54,Clear
 8663,Surat,2024-02-12,14.3,0.0,57,Clear
-8664,Surat,2024-09-07,25.2,66.2,,Cloudy
+8664,Surat,2024-09-07,25.2,66.2,61,Cloudy
 8665,Surat,2023-09-11,21.0,2.0,37,Rainy
 8667,Surat,2023-02-02,17.9,14.9,74,Cloudy
 8668,Surat,2024-02-14,17.9,13.7,54,Humid
@@ -8643,7 +8643,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 8683,Surat,2024-02-04,17.0,1.5,52,Rainy
 8684,Surat,2024-08-18,25.4,46.9,71,Cloudy
 8685,Surat,2023-12-28,14.6,11.2,50,Cloudy
-8686,Surat,2024-05-28,32.3,2.8,,Clear
+8686,Surat,2024-05-28,32.3,2.8,58,Clear
 8687,Surat,2023-09-27,31.9,156.6,59,Rainy
 8688,Surat,2024-12-26,15.7,6.7,81,Rainy
 8689,Surat,2023-04-02,34.1,7.1,60,Humid
@@ -8673,7 +8673,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 8714,Surat,2024-03-02,26.3,0.0,59,Humid
 8715,Surat,2023-08-27,26.5,26.6,78,Rainy
 8716,Surat,2024-08-18,34.3,164.2,88,Humid
-8717,Surat,2023-10-19,25.3,107.3,,Humid
+8717,Surat,2023-10-19,25.3,107.3,59,Humid
 8718,Surat,2023-12-23,18.7,0.2,83,Cloudy
 8719,Surat,2024-03-06,36.8,4.4,57,Cloudy
 8720,Surat,2024-08-15,24.0,242.9,64,Rainy
@@ -8690,7 +8690,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 8731,Surat,2023-08-28,23.8,43.5,76,Clear
 8732,Surat,2023-04-18,32.3,7.5,58,Cloudy
 8733,Surat,2024-11-05,26.8,23.4,69,Cloudy
-8734,Surat,2023-06-06,29.2,0.0,,Humid
+8734,Surat,2023-06-06,29.2,0.0,59,Humid
 8735,Surat,2024-01-03,16.4,0.5,44,Foggy
 8736,Surat,2024-03-23,36.0,1.9,76,Clear
 8737,Surat,2023-04-22,35.3,6.0,77,Humid
@@ -8701,7 +8701,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 8742,Surat,2023-06-08,24.4,24.6,73,Humid
 8743,Surat,2024-04-13,37.3,0.9,55,Clear
 8744,Surat,2023-01-13,22.8,3.9,49,Foggy
-8745,Surat,2023-11-26,26.5,15.5,,Humid
+8745,Surat,2023-11-26,26.5,15.5,59,Humid
 8746,Surat,2024-11-03,29.0,3.9,38,Cloudy
 8747,Surat,2023-03-03,33.4,0.0,69,Foggy
 8748,Surat,2024-09-01,26.7,32.2,53,Foggy
@@ -8729,7 +8729,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 8770,Surat,2023-01-05,10.6,0.8,80,Clear
 8771,Nagpur,2024-09-27,22.4,7.2,62,Humid
 8772,Nagpur,2024-03-31,28.8,3.7,42,Clear
-8773,Nagpur,2024-05-16,33.1,12.7,,Clear
+8773,Nagpur,2024-05-16,33.1,12.7,59,Clear
 8774,Nagpur,2024-05-30,34.1,2.8,73,Clear
 8775,Nagpur,2023-05-21,29.4,7.4,10,Foggy
 8776,Nagpur,2023-06-20,33.4,40.5,73,Humid
@@ -8917,7 +8917,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 8958,Nagpur,2024-01-04,36.0,0.7,72,Humid
 8959,Nagpur,2023-06-22,32.0,136.1,50,Clear
 8960,Nagpur,2023-08-24,25.9,86.0,74,Foggy
-8961,Nagpur,2023-10-14,30.6,0.0,,Cloudy
+8961,Nagpur,2023-10-14,30.6,0.0,58,Cloudy
 8962,Nagpur,2024-04-10,32.6,0.0,66,Foggy
 8963,Nagpur,2024-07-09,26.3,0.0,57,Clear
 8964,Nagpur,2023-08-09,27.1,154.6,90,Cloudy
@@ -9015,7 +9015,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 9057,Nagpur,2024-09-13,31.5,174.1,63,Rainy
 9058,Nagpur,2023-04-12,12.4,0.0,48,Humid
 9059,Nagpur,2023-04-30,23.7,0.0,73,Humid
-9060,Nagpur,2024-11-25,24.7,27.6,,Foggy
+9060,Nagpur,2024-11-25,24.7,27.6,59,Foggy
 9061,Nagpur,2023-11-16,31.4,8.2,37,Cloudy
 9062,Nagpur,2023-11-14,26.2,0.0,50,Foggy
 9063,Nagpur,2023-08-09,30.8,0.0,34,Rainy
@@ -9202,7 +9202,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 9244,Nagpur,2024-09-09,27.0,98.7,46,Foggy
 9245,Nagpur,2024-06-10,24.5,0.0,31,Cloudy
 9246,Nagpur,2024-04-12,32.0,16.2,67,Foggy
-9247,Nagpur,2024-05-25,31.7,3.5,,Clear
+9247,Nagpur,2024-05-25,31.7,3.5,59,Clear
 9248,Nagpur,2023-09-20,26.6,95.7,55,Cloudy
 9249,Nagpur,2023-07-14,26.6,0.0,65,Clear
 9250,Nagpur,2024-11-06,26.3,15.9,73,Rainy
@@ -9227,7 +9227,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 9269,Nagpur,2023-01-11,25.4,37.1,78,Clear
 9270,Nagpur,2023-09-14,25.1,25.0,87,Humid
 9271,Nagpur,2024-03-16,35.3,0.5,31,Foggy
-9272,Nagpur,2023-03-13,29.6,14.0,,Clear
+9272,Nagpur,2023-03-13,29.6,14.0,59,Clear
 9273,Nagpur,2023-12-27,19.6,1.3,54,Clear
 9274,Nagpur,2024-11-28,26.7,14.9,65,Clear
 9275,Nagpur,2024-05-26,39.6,0.2,66,Cloudy
@@ -9293,7 +9293,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 9335,Nagpur,2023-03-02,31.1,1.2,70,Clear
 9336,Nagpur,2023-04-19,32.4,4.7,55,Humid
 9337,Nagpur,2024-12-21,18.2,3.3,28,Clear
-9338,Nagpur,2024-03-04,33.5,0.3,,Clear
+9338,Nagpur,2024-03-04,33.5,0.3,59,Clear
 9339,Nagpur,2024-09-29,31.1,0.0,61,Cloudy
 9340,Nagpur,2023-03-21,31.1,17.7,52,Cloudy
 9341,Nagpur,2023-05-07,25.8,51.8,68,Clear
@@ -9394,7 +9394,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 9437,Nagpur,2023-11-07,36.7,0.0,45,Humid
 9438,Nagpur,2023-04-07,21.1,25.0,50,Clear
 9439,Nagpur,2023-11-16,17.6,62.7,94,Rainy
-9440,Nagpur,2024-04-04,31.7,5.7,,Humid
+9440,Nagpur,2024-04-04,31.7,5.7,60,Humid
 9441,Nagpur,2023-03-12,33.1,3.0,39,Stormy
 9442,Nagpur,2023-08-04,35.1,91.7,76,Rainy
 9443,Nagpur,2023-06-14,24.1,241.7,45,Rainy
@@ -9509,11 +9509,11 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 9552,Indore,2024-04-15,38.1,13.1,46,Humid
 9553,Indore,2023-12-06,28.3,2.2,71,Clear
 9554,Indore,2024-05-13,37.4,16.1,79,Clear
-9555,Indore,2024-10-16,25.4,0.0,,Humid
+9555,Indore,2024-10-16,25.4,0.0,58,Humid
 9556,Indore,2023-12-07,18.8,2.5,52,Rainy
 9557,Indore,2023-06-30,25.2,39.0,36,Stormy
 9558,Indore,2023-06-17,29.5,17.8,51,Clear
-9559,Indore,2023-07-24,20.4,22.4,,Cloudy
+9559,Indore,2023-07-24,20.4,22.4,58,Cloudy
 9560,Indore,2023-08-25,35.3,160.7,71,Foggy
 9561,Indore,2024-02-04,35.0,8.6,56,Foggy
 9562,Indore,2023-12-20,23.0,0.5,38,Stormy
@@ -9594,7 +9594,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 9638,Indore,2023-05-18,34.7,13.5,54,Cloudy
 9639,Indore,2023-07-01,24.3,170.1,54,Rainy
 9640,Indore,2023-12-07,20.3,0.0,78,Humid
-9641,Indore,2024-01-13,17.6,2.0,,Clear
+9641,Indore,2024-01-13,17.6,2.0,58,Clear
 9642,Indore,2024-03-16,28.6,3.0,57,Rainy
 9643,Indore,2023-11-11,30.6,52.3,62,Foggy
 9644,Indore,2024-06-02,34.9,45.6,60,Clear
@@ -9612,13 +9612,13 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 9656,Indore,2023-08-27,29.5,0.0,66,Humid
 9657,Indore,2023-09-09,32.6,41.5,78,Rainy
 9658,Indore,2024-05-31,36.2,18.0,65,Rainy
-9659,Indore,2024-03-02,14.4,1.4,,Clear
+9659,Indore,2024-03-02,14.4,1.4,58,Clear
 9660,Indore,2023-04-01,32.8,10.0,65,Humid
 9661,Indore,2024-04-15,32.3,8.2,57,Clear
 9662,Indore,2024-12-16,14.8,0.1,92,Cloudy
 9663,Indore,2023-04-12,26.0,5.2,64,Cloudy
 9664,Indore,2023-08-15,27.1,0.0,46,Foggy
-9665,Indore,2023-01-01,24.8,2.6,,Foggy
+9665,Indore,2023-01-01,24.8,2.6,59,Foggy
 9666,Indore,2023-12-26,12.2,0.0,63,Clear
 9667,Indore,2023-07-11,20.0,0.0,48,Cloudy
 9668,Indore,2024-01-16,17.1,1.0,100,Rainy
@@ -9647,7 +9647,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 9691,Indore,2024-12-19,15.6,5.4,82,Humid
 9692,Indore,2024-02-01,21.7,5.9,82,Rainy
 9693,Indore,2023-05-27,31.7,6.7,46,Clear
-9694,Indore,2023-11-14,28.9,30.4,,Rainy
+9694,Indore,2023-11-14,28.9,30.4,61,Rainy
 9695,Indore,2023-03-07,33.0,4.4,36,Humid
 9696,Indore,2023-05-14,30.0,0.0,59,Foggy
 9697,Indore,2024-12-10,20.3,50.2,60,Clear
@@ -9655,7 +9655,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 9699,Indore,2024-05-28,35.2,4.2,56,Clear
 9700,Indore,2024-09-28,26.5,144.0,40,Clear
 9701,Indore,2023-12-07,21.7,8.3,70,Clear
-9702,Indore,2023-01-29,14.6,8.4,,Cloudy
+9702,Indore,2023-01-29,14.6,8.4,58,Cloudy
 9703,Indore,2023-08-16,20.2,72.1,54,Cloudy
 9704,Indore,2024-10-23,26.2,1.1,48,Clear
 9705,Indore,2023-06-22,27.9,300.0,66,Stormy
@@ -9898,7 +9898,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 9942,Indore,2023-07-09,18.5,98.6,66,Humid
 9943,Indore,2024-06-23,19.6,284.1,74,Cloudy
 9944,Indore,2023-01-04,15.1,0.0,47,Humid
-9945,Indore,2023-05-05,37.7,1.7,,Cloudy
+9945,Indore,2023-05-05,37.7,1.7,58,Cloudy
 9946,Indore,2023-04-29,28.5,0.7,73,Rainy
 9947,Indore,2023-04-30,32.8,6.9,41,Cloudy
 9948,Indore,2024-05-12,40.4,0.0,57,Cloudy
@@ -10314,7 +10314,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 10361,Bhopal,2024-05-18,32.1,2.2,71,Clear
 10362,Bhopal,2023-10-02,24.0,6.7,35,Clear
 10363,Bhopal,2024-06-02,24.6,0.0,48,Rainy
-10364,Bhopal,2024-07-10,30.7,0.0,,Humid
+10364,Bhopal,2024-07-10,30.7,0.0,58,Humid
 10365,Bhopal,2023-06-25,31.6,0.0,51,Rainy
 10366,Bhopal,2024-06-03,24.3,0.0,85,Foggy
 10367,Bhopal,2023-03-31,40.3,0.0,70,Clear
@@ -10360,7 +10360,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 10408,Bhopal,2024-06-29,28.5,300.0,43,Clear
 10409,Bhopal,2024-06-17,24.1,60.5,87,Rainy
 10410,Bhopal,2024-06-02,31.7,42.3,62,Clear
-10411,Bhopal,2023-04-18,33.2,5.1,,Clear
+10411,Bhopal,2023-04-18,33.2,5.1,60,Clear
 10413,Bhopal,2024-06-02,21.6,0.0,71,Foggy
 10414,Bhopal,2023-08-25,43.2,62.6,54,Rainy
 10415,Bhopal,2024-04-30,35.2,3.3,52,Humid
@@ -10456,7 +10456,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 10506,Bhopal,2023-09-03,25.7,259.5,81,Clear
 10507,Bhopal,2023-05-25,39.9,5.6,63,Clear
 10508,Bhopal,2024-06-14,28.4,110.3,77,Rainy
-10509,Bhopal,2023-05-25,34.4,0.0,,Cloudy
+10509,Bhopal,2023-05-25,34.4,0.0,60,Cloudy
 10510,Bhopal,2024-01-25,15.0,4.6,63,Clear
 10511,Bhopal,2024-04-01,36.8,10.0,52,Foggy
 10512,Bhopal,2023-09-11,24.7,0.0,45,Clear
@@ -10495,10 +10495,10 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 10546,Bhopal,2023-10-02,12.9,0.0,49,Humid
 10547,Bhopal,2024-11-21,29.8,1.4,87,Foggy
 10548,Bhopal,2024-11-24,28.4,36.0,62,Foggy
-10549,Bhopal,2023-02-06,23.6,0.0,,Foggy
+10549,Bhopal,2023-02-06,23.6,0.0,61,Foggy
 10550,Bhopal,2023-11-17,18.1,27.6,67,Cloudy
 10551,Bhopal,2023-04-23,33.9,3.0,59,Clear
-10552,Bhopal,2024-04-14,38.2,6.7,,Clear
+10552,Bhopal,2024-04-14,38.2,6.7,60,Clear
 10553,Bhopal,2023-01-28,18.4,4.8,49,Clear
 10554,Bhopal,2024-07-12,24.9,1.0,65,Cloudy
 10555,Bhopal,2024-11-24,18.1,0.0,69,Cloudy
@@ -10601,7 +10601,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 10652,Bhopal,2024-02-21,14.5,1.1,76,Foggy
 10653,Bhopal,2023-08-16,31.5,36.6,53,Foggy
 10654,Bhopal,2023-07-29,28.0,157.2,65,Rainy
-10655,Bhopal,2024-08-29,31.0,92.7,,Clear
+10655,Bhopal,2024-08-29,31.0,92.7,60,Clear
 10656,Bhopal,2023-02-13,23.7,5.7,61,Rainy
 10657,Bhopal,2024-01-21,14.5,6.5,56,Humid
 10658,Bhopal,2023-06-03,33.3,1.5,65,Stormy
@@ -10746,7 +10746,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 10797,Bhopal,2024-07-30,31.4,0.0,60,Rainy
 10798,Bhopal,2024-10-15,31.6,0.0,73,Clear
 10799,Bhopal,2024-05-25,37.4,22.3,39,Humid
-10800,Bhopal,2024-04-13,36.3,0.0,,Humid
+10800,Bhopal,2024-04-13,36.3,0.0,58,Humid
 10801,Bhopal,2023-04-08,30.4,81.2,52,Rainy
 10802,Bhopal,2024-05-29,38.2,17.8,32,Clear
 10803,Bhopal,2024-02-14,14.7,4.8,82,Clear
@@ -10761,7 +10761,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 10812,Bhopal,2023-05-14,32.0,15.1,73,Clear
 10813,Bhopal,2023-01-10,27.3,9.9,59,Clear
 10814,Bhopal,2023-07-26,29.1,4.2,84,Cloudy
-10815,Bhopal,2023-04-13,32.0,0.0,,Cloudy
+10815,Bhopal,2023-04-13,32.0,0.0,60,Cloudy
 10816,Bhopal,2023-06-16,24.0,0.0,46,Clear
 10817,Bhopal,2024-06-19,28.1,300.0,57,Rainy
 10818,Bhopal,2024-11-25,31.9,32.1,74,Rainy
@@ -10773,7 +10773,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 10824,Bhopal,2024-08-09,31.6,52.6,88,Humid
 10825,Bhopal,2023-10-19,24.0,10.1,59,Cloudy
 10826,Bhopal,2024-04-03,32.0,1.6,87,Clear
-10827,Bhopal,2024-09-01,29.6,28.0,,Clear
+10827,Bhopal,2024-09-01,29.6,28.0,60,Clear
 10828,Bhopal,2024-08-07,28.1,0.0,97,Foggy
 10829,Bhopal,2024-06-07,24.5,17.8,73,Clear
 10830,Bhopal,2023-11-28,30.7,70.7,61,Foggy
@@ -10834,7 +10834,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 10885,Bhopal,2024-11-14,32.2,0.0,66,Foggy
 10886,Bhopal,2024-03-11,34.6,0.0,56,Rainy
 10887,Bhopal,2024-10-09,30.5,135.0,67,Clear
-10888,Bhopal,2023-02-12,18.4,4.7,,Humid
+10888,Bhopal,2023-02-12,18.4,4.7,58,Humid
 10889,Bhopal,2024-09-15,24.1,0.0,47,Clear
 10890,Bhopal,2024-05-10,31.4,0.0,84,Clear
 10891,Bhopal,2023-09-07,26.6,0.0,44,Humid
@@ -11009,7 +11009,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 11060,Coimbatore,2024-06-02,34.1,0.0,74,Rainy
 11061,Coimbatore,2024-06-04,29.5,119.0,32,Clear
 11062,Coimbatore,2023-02-19,18.6,2.7,41,Clear
-11063,Coimbatore,2024-06-12,37.0,98.0,,Clear
+11063,Coimbatore,2024-06-12,37.0,98.0,59,Clear
 11064,Coimbatore,2024-07-20,24.7,69.5,33,Humid
 11065,Coimbatore,2023-03-09,29.0,6.9,62,Clear
 11066,Coimbatore,2024-08-23,31.5,0.0,48,Rainy
@@ -11055,7 +11055,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 11106,Coimbatore,2024-05-24,26.0,2.9,33,Clear
 11107,Coimbatore,2024-08-25,31.1,76.7,73,Clear
 11108,Coimbatore,2024-05-16,36.0,0.0,42,Clear
-11109,Coimbatore,2024-05-10,30.8,0.0,,Stormy
+11109,Coimbatore,2024-05-10,30.8,0.0,58,Stormy
 11110,Coimbatore,2024-10-30,20.7,36.0,56,Cloudy
 11111,Coimbatore,2024-12-12,18.3,0.2,59,Cloudy
 11112,Coimbatore,2023-07-15,25.0,0.0,31,Cloudy
@@ -11082,7 +11082,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 11133,Coimbatore,2024-09-04,35.4,1.2,40,Clear
 11134,Coimbatore,2024-05-23,35.6,0.0,53,Humid
 11135,Coimbatore,2024-12-11,24.1,5.4,66,Clear
-11136,Coimbatore,2024-05-25,31.1,12.3,,Cloudy
+11136,Coimbatore,2024-05-25,31.1,12.3,60,Cloudy
 11137,Coimbatore,2024-11-16,24.7,0.0,60,Stormy
 11138,Coimbatore,2024-04-26,34.3,4.5,73,Cloudy
 11139,Coimbatore,2024-01-06,28.9,0.0,33,Foggy
@@ -11109,14 +11109,14 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 11160,Coimbatore,2024-01-15,17.1,0.0,50,Clear
 11161,Coimbatore,2024-05-05,34.6,0.0,64,Cloudy
 11162,Coimbatore,2023-08-10,30.5,20.9,51,Clear
-11163,Coimbatore,2023-01-05,28.4,0.0,,Clear
+11163,Coimbatore,2023-01-05,28.4,0.0,59,Clear
 11164,Coimbatore,2023-12-20,21.4,0.0,67,Clear
 11165,Coimbatore,2024-06-16,24.9,0.0,57,Cloudy
 11166,Coimbatore,2023-02-24,18.4,13.8,91,Foggy
 11167,Coimbatore,2024-01-23,11.6,0.5,70,Cloudy
 11168,Coimbatore,2024-02-02,15.3,4.5,61,Clear
 11169,Coimbatore,2024-04-06,36.6,160.2,100,Rainy
-11170,Coimbatore,2023-02-14,12.4,10.1,,Rainy
+11170,Coimbatore,2023-02-14,12.4,10.1,58,Rainy
 11171,Coimbatore,2023-01-09,18.3,6.2,60,Cloudy
 11172,Coimbatore,2024-12-21,14.1,1.3,56,Clear
 11173,Coimbatore,2023-09-16,29.8,102.2,44,Humid
@@ -11282,11 +11282,11 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 11333,Coimbatore,2023-01-14,20.5,0.0,68,Humid
 11334,Coimbatore,2024-03-27,31.5,34.7,87,Humid
 11335,Coimbatore,2024-09-19,21.7,87.0,56,Clear
-11336,Coimbatore,2024-04-11,33.8,1.1,,Humid
+11336,Coimbatore,2024-04-11,33.8,1.1,58,Humid
 11337,Coimbatore,2024-06-25,30.7,25.6,67,Cloudy
 11338,Coimbatore,2023-08-27,24.8,300.0,49,Humid
 11339,Coimbatore,2023-07-18,29.1,71.1,39,Rainy
-11340,Coimbatore,2024-02-18,17.1,0.0,,Cloudy
+11340,Coimbatore,2024-02-18,17.1,0.0,60,Cloudy
 11341,Coimbatore,2024-12-18,23.9,0.0,74,Clear
 11342,Coimbatore,2023-04-11,29.6,7.6,52,Foggy
 11343,Coimbatore,2024-10-04,24.9,2.4,59,Cloudy
@@ -11651,7 +11651,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 11704,Kochi,2024-01-31,18.2,6.8,48,Clear
 11705,Kochi,2024-01-09,18.2,0.1,65,Foggy
 11706,Kochi,2024-11-14,25.9,5.9,55,Clear
-11707,Kochi,2024-04-16,36.1,0.0,,Clear
+11707,Kochi,2024-04-16,36.1,0.0,58,Clear
 11708,Kochi,2023-11-18,29.7,22.8,48,Clear
 11709,Kochi,2024-11-07,20.5,0.2,43,Foggy
 11710,Kochi,2024-02-08,21.8,0.0,51,Humid
@@ -11829,7 +11829,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 11883,Kochi,2024-08-14,29.0,31.3,46,Clear
 11884,Kochi,2024-02-27,22.2,1.0,82,Humid
 11885,Kochi,2023-04-29,34.2,0.0,72,Cloudy
-11886,Kochi,2024-10-28,18.6,5.6,,Foggy
+11886,Kochi,2024-10-28,18.6,5.6,59,Foggy
 11887,Kochi,2023-01-16,21.5,0.0,64,Humid
 11888,Kochi,2024-12-17,14.0,0.0,48,Clear
 11889,Kochi,2023-10-28,23.9,28.1,62,Humid
@@ -11881,7 +11881,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 11936,Kochi,2023-09-01,29.1,44.3,34,Stormy
 11937,Kochi,2023-05-11,32.6,9.2,71,Clear
 11938,Kochi,2024-02-19,17.6,0.8,53,Clear
-11939,Kochi,2023-04-16,30.8,14.2,,Humid
+11939,Kochi,2023-04-16,30.8,14.2,59,Humid
 11940,Kochi,2024-11-17,21.3,46.1,55,Humid
 11941,Kochi,2024-11-29,19.4,0.0,78,Rainy
 11942,Kochi,2024-05-09,27.6,0.0,66,Clear
@@ -11924,7 +11924,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 11979,Kochi,2024-03-31,35.6,3.7,65,Humid
 11980,Kochi,2024-06-28,37.5,154.3,55,Foggy
 11981,Kochi,2024-01-11,32.7,11.1,33,Stormy
-11982,Kochi,2023-08-31,23.9,89.1,,Clear
+11982,Kochi,2023-08-31,23.9,89.1,58,Clear
 11983,Kochi,2024-07-08,23.8,300.0,73,Stormy
 11984,Kochi,2024-10-30,40.1,0.0,57,Clear
 11985,Kochi,2024-01-07,21.0,0.0,70,Clear
@@ -12112,7 +12112,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 12169,Kochi,2023-08-28,26.9,233.5,57,Cloudy
 12170,Kochi,2023-04-10,35.2,11.2,64,Clear
 12171,Kochi,2024-06-22,20.0,0.0,49,Clear
-12172,Kochi,2024-06-14,37.7,57.8,,Cloudy
+12172,Kochi,2024-06-14,37.7,57.8,58,Cloudy
 12173,Kochi,2024-01-15,14.6,1.8,66,Clear
 12174,Kochi,2024-10-06,21.7,3.7,85,Clear
 12175,Kochi,2023-11-28,32.6,106.5,67,Stormy
@@ -12160,7 +12160,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 12218,Kochi,2024-04-13,33.6,5.4,56,Humid
 12219,Kochi,2024-02-26,18.3,1.1,65,Cloudy
 12220,Kochi,2024-07-11,24.1,162.7,71,Foggy
-12221,Kochi,2024-12-24,21.6,0.8,,Humid
+12221,Kochi,2024-12-24,21.6,0.8,59,Humid
 12222,Kochi,2023-03-09,27.6,0.0,67,Rainy
 12223,Kochi,2023-12-11,31.0,0.0,75,Clear
 12224,Kochi,2024-06-04,36.3,7.2,70,Rainy
@@ -12179,7 +12179,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 12237,Kochi,2024-04-07,34.6,13.9,55,Humid
 12238,Kochi,2023-06-29,25.9,7.9,58,Cloudy
 12239,Kochi,2024-08-05,27.1,17.5,77,Clear
-12240,Kochi,2023-06-15,32.0,0.0,,Cloudy
+12240,Kochi,2023-06-15,32.0,0.0,58,Cloudy
 12242,Kochi,2023-12-09,31.3,300.0,50,Clear
 12243,Kochi,2023-08-05,29.5,10.9,70,Humid
 12244,Kochi,2023-11-16,25.8,0.0,44,Clear
@@ -12242,7 +12242,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 12301,Kochi,2023-01-22,20.9,1.6,67,Clear
 12302,Kochi,2024-04-14,35.8,0.0,56,Stormy
 12303,Kochi,2023-12-09,24.1,1.0,56,Clear
-12304,Kochi,2024-06-12,28.2,0.0,,Foggy
+12304,Kochi,2024-06-12,28.2,0.0,59,Foggy
 12305,Kochi,2024-10-29,29.5,62.4,36,Humid
 12306,Kochi,2023-01-01,21.5,2.0,38,Cloudy
 12307,Kochi,2023-04-23,42.5,5.0,50,Foggy
@@ -12392,7 +12392,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 12452,Visakhapatnam,2023-08-24,21.9,0.0,58,Cloudy
 12453,Visakhapatnam,2024-01-13,17.7,1.1,52,Humid
 12454,Visakhapatnam,2023-06-29,25.6,0.0,57,Foggy
-12455,Visakhapatnam,2024-03-18,32.6,2.6,,Clear
+12455,Visakhapatnam,2024-03-18,32.6,2.6,57,Clear
 12456,Visakhapatnam,2024-08-04,31.3,0.5,45,Clear
 12457,Visakhapatnam,2024-05-26,34.6,4.2,43,Clear
 12458,Visakhapatnam,2024-10-17,50.2,10.8,77,Clear
@@ -12491,7 +12491,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 12552,Visakhapatnam,2024-04-23,33.6,10.6,27,Clear
 12553,Visakhapatnam,2024-11-29,25.1,6.3,54,Humid
 12554,Visakhapatnam,2023-09-26,27.4,188.8,85,Clear
-12555,Visakhapatnam,2023-11-23,29.6,0.1,,Cloudy
+12555,Visakhapatnam,2023-11-23,29.6,0.1,62,Cloudy
 12556,Visakhapatnam,2023-12-10,27.2,5.6,63,Clear
 12557,Visakhapatnam,2023-03-19,28.3,18.4,69,Humid
 12558,Visakhapatnam,2023-04-29,29.4,21.7,71,Humid
@@ -12691,7 +12691,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 12753,Visakhapatnam,2023-12-26,16.7,0.0,48,Clear
 12754,Visakhapatnam,2023-06-06,25.1,0.0,82,Rainy
 12755,Visakhapatnam,2024-06-12,30.8,183.3,87,Humid
-12756,Visakhapatnam,2024-10-28,20.9,78.2,,Clear
+12756,Visakhapatnam,2024-10-28,20.9,78.2,57,Clear
 12757,Visakhapatnam,2023-11-02,26.8,15.2,68,Foggy
 12758,Visakhapatnam,2023-09-15,33.3,3.8,56,Rainy
 12759,Visakhapatnam,2024-11-18,25.5,0.0,42,Stormy
@@ -12703,7 +12703,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 12765,Visakhapatnam,2024-11-09,29.8,20.3,80,Cloudy
 12766,Visakhapatnam,2023-06-02,29.4,300.0,42,Rainy
 12767,Visakhapatnam,2023-07-25,29.0,0.0,100,Cloudy
-12768,Visakhapatnam,2023-06-03,36.3,4.2,,Clear
+12768,Visakhapatnam,2023-06-03,36.3,4.2,57,Clear
 12769,Visakhapatnam,2024-07-23,30.0,0.0,76,Clear
 12770,Visakhapatnam,2023-01-14,20.3,19.9,79,Clear
 12771,Visakhapatnam,2023-02-17,17.4,2.0,46,Rainy
@@ -12732,7 +12732,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 12795,Visakhapatnam,2024-07-18,31.0,116.9,68,Humid
 12796,Visakhapatnam,2024-01-06,9.4,9.8,61,Clear
 12797,Visakhapatnam,2023-03-29,30.0,0.0,75,Clear
-12798,Visakhapatnam,2024-09-01,29.2,0.0,,Foggy
+12798,Visakhapatnam,2024-09-01,29.2,0.0,56,Foggy
 12799,Visakhapatnam,2023-12-06,22.5,0.0,52,Foggy
 12800,Visakhapatnam,2023-04-21,34.4,0.2,51,Clear
 12801,Visakhapatnam,2024-07-04,30.9,6.9,68,Clear
@@ -13214,7 +13214,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 13280,Patna,2023-06-05,29.9,65.1,57,Clear
 13281,Patna,2023-04-01,28.3,6.7,68,Clear
 13282,Patna,2023-11-28,23.3,66.0,49,Cloudy
-13283,Patna,2023-05-10,32.1,1.2,,Clear
+13283,Patna,2023-05-10,32.1,1.2,59,Clear
 13284,Patna,2023-12-10,25.4,1.9,62,Clear
 13285,Patna,2023-03-15,27.8,0.8,59,Humid
 13286,Patna,2024-04-30,36.6,0.6,54,Cloudy
@@ -13351,7 +13351,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 13418,Patna,2024-10-24,28.2,11.3,50,Cloudy
 13419,Patna,2024-12-17,23.3,5.4,66,Rainy
 13420,Patna,2024-05-09,30.1,25.9,49,Humid
-13421,Patna,2023-07-26,32.7,20.2,,Cloudy
+13421,Patna,2023-07-26,32.7,20.2,59,Cloudy
 13422,Patna,2024-10-27,19.7,26.6,31,Rainy
 13423,Patna,2023-11-14,26.0,16.8,58,Clear
 13424,Patna,2023-04-14,24.5,1.0,66,Clear
@@ -13696,7 +13696,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 13763,Patna,2023-08-12,36.2,70.4,43,Humid
 13764,Patna,2023-06-25,34.9,139.3,68,Rainy
 13765,Patna,2024-01-13,14.8,0.0,44,Rainy
-13766,Patna,2024-12-17,22.3,0.0,,Clear
+13766,Patna,2024-12-17,22.3,0.0,59,Clear
 13767,Patna,2023-02-03,37.5,0.0,57,Rainy
 13768,Patna,2024-08-12,27.0,86.1,67,Cloudy
 13769,Patna,2024-08-17,29.7,173.9,78,Cloudy
@@ -14082,7 +14082,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 14150,Bhubaneswar,2023-08-26,31.3,86.7,62,Stormy
 14151,Bhubaneswar,2024-04-25,29.6,11.2,58,Cloudy
 14152,Bhubaneswar,2023-10-14,30.0,0.0,86,Foggy
-14153,Bhubaneswar,2023-01-24,16.1,1.3,,Clear
+14153,Bhubaneswar,2023-01-24,16.1,1.3,62,Clear
 14154,Bhubaneswar,2024-04-29,29.2,0.0,89,Cloudy
 14155,Bhubaneswar,2024-11-11,31.9,0.0,56,Foggy
 14156,Bhubaneswar,2023-12-25,15.5,0.0,55,Clear
@@ -14126,7 +14126,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 14195,Bhubaneswar,2024-12-03,19.1,15.0,67,Stormy
 14196,Bhubaneswar,2024-04-29,30.0,4.3,48,Foggy
 14197,Bhubaneswar,2024-10-08,34.5,66.2,53,Clear
-14198,Bhubaneswar,2023-04-24,42.3,0.5,,Foggy
+14198,Bhubaneswar,2023-04-24,42.3,0.5,61,Foggy
 14199,Bhubaneswar,2023-08-03,29.9,254.4,67,Clear
 14200,Bhubaneswar,2023-06-10,23.3,151.8,62,Stormy
 14201,Bhubaneswar,2024-08-15,23.2,29.6,82,Clear
@@ -14147,7 +14147,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 14216,Bhubaneswar,2023-07-02,29.5,16.7,68,Clear
 14217,Bhubaneswar,2024-02-08,18.3,3.3,76,Foggy
 14218,Bhubaneswar,2023-04-05,32.3,20.3,73,Stormy
-14219,Bhubaneswar,2023-12-06,14.2,4.2,,Stormy
+14219,Bhubaneswar,2023-12-06,14.2,4.2,62,Stormy
 14220,Bhubaneswar,2023-08-13,25.4,32.3,73,Foggy
 14221,Bhubaneswar,2024-08-05,26.7,17.6,67,Clear
 14222,Bhubaneswar,2023-07-17,18.2,10.4,73,Foggy
@@ -14195,8 +14195,8 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 14264,Bhubaneswar,2023-02-03,31.1,3.9,84,Foggy
 14265,Bhubaneswar,2024-08-27,21.9,167.5,42,Rainy
 14266,Bhubaneswar,2023-12-03,18.6,6.4,64,Cloudy
-14267,Bhubaneswar,2024-04-22,36.1,8.2,,Clear
-14268,Bhubaneswar,2023-05-13,30.9,0.0,,Cloudy
+14267,Bhubaneswar,2024-04-22,36.1,8.2,62,Clear
+14268,Bhubaneswar,2023-05-13,30.9,0.0,61,Cloudy
 14269,Bhubaneswar,2023-04-06,30.7,300.0,45,Cloudy
 14270,Bhubaneswar,2024-04-25,38.4,0.4,60,Cloudy
 14271,Bhubaneswar,2024-07-03,28.6,0.0,53,Clear
@@ -14275,7 +14275,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 14344,Bhubaneswar,2024-04-15,28.4,13.1,64,Rainy
 14345,Bhubaneswar,2023-06-29,28.1,0.0,64,Rainy
 14346,Bhubaneswar,2023-02-11,23.4,0.0,75,Cloudy
-14347,Bhubaneswar,2023-09-03,34.1,13.3,,Cloudy
+14347,Bhubaneswar,2023-09-03,34.1,13.3,61,Cloudy
 14348,Bhubaneswar,2024-05-28,39.3,1.8,40,Cloudy
 14349,Bhubaneswar,2024-09-29,31.6,214.3,63,Humid
 14350,Bhubaneswar,2023-07-20,23.9,0.0,45,Rainy
@@ -14389,7 +14389,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 14458,Bhubaneswar,2023-07-21,29.6,98.6,62,Cloudy
 14459,Bhubaneswar,2023-11-13,26.7,38.0,76,Humid
 14460,Bhubaneswar,2024-05-12,36.0,4.2,61,Humid
-14461,Bhubaneswar,2023-02-17,11.1,3.6,,Rainy
+14461,Bhubaneswar,2023-02-17,11.1,3.6,58,Rainy
 14462,Bhubaneswar,2023-07-10,31.0,39.0,71,Cloudy
 14463,Bhubaneswar,2024-09-20,22.3,300.0,54,Rainy
 14464,Bhubaneswar,2024-03-30,41.0,12.3,51,Cloudy
@@ -14403,7 +14403,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 14472,Bhubaneswar,2024-09-28,29.2,88.3,70,Rainy
 14473,Bhubaneswar,2024-06-16,29.7,256.7,69,Rainy
 14474,Bhubaneswar,2023-07-25,27.2,0.0,26,Clear
-14475,Bhubaneswar,2024-09-13,30.3,18.4,,Clear
+14475,Bhubaneswar,2024-09-13,30.3,18.4,62,Clear
 14476,Bhubaneswar,2024-07-11,27.5,0.0,44,Foggy
 14477,Bhubaneswar,2024-02-03,25.7,0.5,81,Humid
 14478,Bhubaneswar,2024-07-12,22.9,2.7,67,Clear
@@ -14423,7 +14423,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 14492,Bhubaneswar,2023-08-25,27.9,0.0,67,Foggy
 14493,Bhubaneswar,2023-10-07,30.9,11.3,70,Cloudy
 14494,Bhubaneswar,2024-11-21,30.6,15.1,48,Clear
-14495,Bhubaneswar,2023-07-26,26.1,30.1,,Humid
+14495,Bhubaneswar,2023-07-26,26.1,30.1,60,Humid
 14496,Bhubaneswar,2024-08-11,29.1,5.2,62,Clear
 14497,Bhubaneswar,2023-12-28,17.9,0.0,65,Clear
 14498,Bhubaneswar,2023-11-21,34.9,40.2,51,Rainy
@@ -14478,11 +14478,11 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 14547,Bhubaneswar,2023-02-12,16.9,6.8,51,Rainy
 14548,Bhubaneswar,2023-06-01,22.8,22.6,82,Rainy
 14549,Bhubaneswar,2024-12-26,15.6,2.4,81,Foggy
-14550,Bhubaneswar,2023-06-08,23.5,1.1,,Rainy
+14550,Bhubaneswar,2023-06-08,23.5,1.1,58,Rainy
 14551,Bhubaneswar,2023-09-13,30.6,136.2,63,Humid
 14552,Bhubaneswar,2024-02-07,16.7,7.7,68,Clear
 14553,Bhubaneswar,2024-09-21,27.4,0.0,42,Foggy
-14554,Bhubaneswar,2024-08-27,25.4,81.3,,Clear
+14554,Bhubaneswar,2024-08-27,25.4,81.3,62,Clear
 14555,Bhubaneswar,2023-12-11,24.9,0.0,73,Rainy
 14556,Bhubaneswar,2023-02-04,35.9,11.2,69,Humid
 14557,Bhubaneswar,2024-08-15,27.5,57.2,56,Clear
@@ -14526,7 +14526,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 14595,Guwahati,2023-09-17,27.1,214.4,45,Rainy
 14596,Guwahati,2024-05-16,38.5,3.8,58,Clear
 14597,Guwahati,2023-09-01,13.9,0.0,54,Cloudy
-14598,Guwahati,2023-10-01,36.4,0.0,,Clear
+14598,Guwahati,2023-10-01,36.4,0.0,60,Clear
 14599,Guwahati,2023-05-13,34.7,18.6,75,Clear
 14600,Guwahati,2024-09-27,28.8,0.0,54,Clear
 14601,Guwahati,2024-05-26,32.9,0.0,52,Stormy
@@ -14779,7 +14779,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 14848,Guwahati,2023-09-06,28.8,279.7,71,Clear
 14849,Guwahati,2023-07-19,19.7,111.9,100,Foggy
 14850,Guwahati,2023-01-27,24.8,0.0,66,Rainy
-14851,Guwahati,2023-09-14,33.8,34.9,,Rainy
+14851,Guwahati,2023-09-14,33.8,34.9,59,Rainy
 14852,Guwahati,2024-03-07,33.3,3.7,50,Foggy
 14853,Guwahati,2023-04-29,32.5,16.0,100,Clear
 14854,Guwahati,2023-09-27,27.0,32.8,81,Foggy
@@ -14885,7 +14885,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 14954,Guwahati,2023-02-28,15.2,0.0,50,Humid
 14955,Guwahati,2024-11-27,24.4,131.3,100,Rainy
 14956,Guwahati,2024-06-08,20.3,77.0,29,Rainy
-14957,Guwahati,2024-10-19,20.4,0.0,,Clear
+14957,Guwahati,2024-10-19,20.4,0.0,60,Clear
 14958,Guwahati,2024-10-05,28.2,19.8,36,Cloudy
 14959,Guwahati,2024-04-21,35.3,0.0,61,Clear
 14960,Guwahati,2023-03-10,31.0,22.4,71,Cloudy
@@ -14996,7 +14996,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 15066,Guwahati,2023-11-03,27.8,8.9,53,Cloudy
 15067,Guwahati,2023-01-29,20.8,2.4,64,Cloudy
 15068,Guwahati,2024-11-15,22.3,0.0,36,Cloudy
-15069,Guwahati,2023-01-21,10.5,5.0,,Foggy
+15069,Guwahati,2023-01-21,10.5,5.0,60,Foggy
 15070,Guwahati,2024-12-28,19.1,0.4,60,Clear
 15071,Guwahati,2024-01-24,20.3,0.0,31,Clear
 15072,Guwahati,2024-12-31,14.3,19.2,64,Rainy
@@ -15183,7 +15183,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 15254,Guwahati,2024-10-10,24.3,5.8,80,Clear
 15255,Guwahati,2023-07-14,33.0,113.6,39,Clear
 15256,Guwahati,2023-07-30,23.4,14.9,47,Rainy
-15257,Guwahati,2023-09-16,20.7,194.3,,Stormy
+15257,Guwahati,2023-09-16,20.7,194.3,54,Stormy
 15258,Guwahati,2023-02-22,13.6,0.0,54,Clear
 15259,Guwahati,2023-09-23,27.3,0.0,48,Clear
 15260,Guwahati,2023-02-02,14.1,0.0,49,Clear
@@ -15250,7 +15250,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 15321,Nashik,2023-09-26,27.1,0.0,48,Rainy
 15322,Nashik,2023-01-20,17.6,0.0,51,Clear
 15323,Nashik,2023-09-13,25.6,60.0,49,Clear
-15324,Nashik,2023-04-17,31.1,10.0,,Clear
+15324,Nashik,2023-04-17,31.1,10.0,57,Clear
 15325,Nashik,2024-09-29,29.9,0.0,83,Cloudy
 15326,Nashik,2024-04-29,27.4,16.3,57,Clear
 15327,Nashik,2023-09-17,24.6,300.0,60,Rainy
@@ -15354,7 +15354,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 15425,Nashik,2023-01-21,19.8,0.0,44,Clear
 15426,Nashik,2023-12-20,19.6,6.2,61,Stormy
 15427,Nashik,2023-11-10,22.7,0.0,57,Clear
-15428,Nashik,2024-04-10,22.4,0.0,,Humid
+15428,Nashik,2024-04-10,22.4,0.0,61,Humid
 15429,Nashik,2023-02-07,12.5,0.0,47,Cloudy
 15430,Nashik,2023-07-01,10.1,0.5,79,Foggy
 15431,Nashik,2023-02-14,22.1,0.0,73,Clear
@@ -15397,7 +15397,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 15468,Nashik,2023-05-20,33.9,0.0,55,Stormy
 15469,Nashik,2023-08-05,26.9,300.0,30,Foggy
 15470,Nashik,2023-06-06,30.4,0.0,54,Clear
-15471,Nashik,2023-10-13,22.8,20.2,,Clear
+15471,Nashik,2023-10-13,22.8,20.2,57,Clear
 15472,Nashik,2024-04-28,30.6,3.3,70,Clear
 15473,Nashik,2024-04-01,37.1,0.1,59,Humid
 15474,Nashik,2023-01-15,10.7,4.3,55,Clear
@@ -15571,7 +15571,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 15645,Nashik,2023-04-18,32.6,0.0,62,Clear
 15646,Nashik,2024-01-15,18.9,0.0,70,Humid
 15647,Nashik,2023-09-19,26.2,113.0,70,Rainy
-15648,Nashik,2023-10-03,15.9,47.9,,Foggy
+15648,Nashik,2023-10-03,15.9,47.9,57,Foggy
 15649,Nashik,2023-05-24,29.4,15.8,80,Humid
 15650,Nashik,2023-12-30,23.2,4.4,82,Cloudy
 15651,Nashik,2024-08-11,31.1,160.3,74,Clear
@@ -15598,7 +15598,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 15673,Nashik,2024-12-31,21.9,0.0,67,Clear
 15674,Nashik,2024-02-01,16.1,0.8,76,Rainy
 15675,Nashik,2023-04-12,22.3,1.7,71,Humid
-15676,Nashik,2024-11-29,28.5,14.7,,Clear
+15676,Nashik,2024-11-29,28.5,14.7,57,Clear
 15677,Nashik,2023-04-11,19.9,0.0,58,Humid
 15678,Nashik,2023-03-08,37.4,0.0,65,Foggy
 15679,Nashik,2023-09-10,31.6,236.4,61,Stormy
@@ -15746,8 +15746,8 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 15821,Nashik,2024-08-01,26.8,46.8,55,Rainy
 15822,Nashik,2023-08-03,29.8,0.1,63,Clear
 15823,Nashik,2024-03-11,24.7,19.7,59,Clear
-15824,Nashik,2023-11-22,21.1,0.0,,Rainy
-15825,Nashik,2024-05-03,27.1,17.5,,Rainy
+15824,Nashik,2023-11-22,21.1,0.0,62,Rainy
+15825,Nashik,2024-05-03,27.1,17.5,62,Rainy
 15826,Nashik,2024-11-23,34.4,11.0,51,Cloudy
 15827,Nashik,2023-09-21,30.5,165.0,46,Cloudy
 15828,Nashik,2024-06-03,35.4,80.7,63,Humid
@@ -15790,7 +15790,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 15865,Nashik,2023-01-08,25.7,166.9,46,Humid
 15866,Nashik,2023-05-10,33.7,0.0,40,Cloudy
 15867,Nashik,2024-02-14,18.5,2.3,52,Clear
-15868,Nashik,2024-07-19,22.0,0.0,,Humid
+15868,Nashik,2024-07-19,22.0,0.0,61,Humid
 15869,Nashik,2023-07-11,27.1,49.8,79,Humid
 15870,Nashik,2024-05-20,35.7,25.2,67,Clear
 15871,Nashik,2023-12-08,23.1,6.7,78,Cloudy
@@ -16005,7 +16005,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 16081,Ludhiana,2023-02-21,8.4,0.2,72,Clear
 16082,Ludhiana,2024-04-05,36.2,0.0,80,Clear
 16083,Ludhiana,2024-08-28,23.3,0.0,47,Foggy
-16084,Ludhiana,2024-03-03,36.4,0.7,,Cloudy
+16084,Ludhiana,2024-03-03,36.4,0.7,59,Cloudy
 16085,Ludhiana,2024-03-13,26.5,0.8,60,Clear
 16086,Ludhiana,2023-05-14,43.2,0.0,79,Cloudy
 16087,Ludhiana,2023-12-09,13.6,2.4,70,Foggy
@@ -16083,7 +16083,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 16159,Ludhiana,2024-07-20,23.7,216.4,43,Rainy
 16160,Ludhiana,2023-06-14,20.8,89.6,76,Rainy
 16161,Ludhiana,2024-12-13,16.3,3.1,65,Humid
-16162,Ludhiana,2023-08-05,26.1,0.0,,Clear
+16162,Ludhiana,2023-08-05,26.1,0.0,59,Clear
 16163,Ludhiana,2024-03-19,37.4,10.1,58,Clear
 16164,Ludhiana,2024-08-04,37.5,1.6,73,Rainy
 16165,Ludhiana,2023-02-26,17.5,3.0,50,Stormy
@@ -16117,7 +16117,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 16193,Ludhiana,2023-04-03,36.3,10.7,47,Rainy
 16194,Ludhiana,2024-03-26,30.0,0.0,80,Cloudy
 16195,Ludhiana,2023-12-15,21.5,0.0,43,Foggy
-16196,Ludhiana,2023-07-06,22.2,0.0,,Humid
+16196,Ludhiana,2023-07-06,22.2,0.0,59,Humid
 16197,Ludhiana,2024-05-12,27.0,1.7,72,Humid
 16198,Ludhiana,2023-03-22,36.0,23.7,46,Humid
 16199,Ludhiana,2024-04-07,29.8,40.5,59,Clear
@@ -16194,7 +16194,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 16270,Ludhiana,2024-02-05,18.4,7.2,42,Cloudy
 16271,Ludhiana,2023-06-25,21.8,49.5,72,Rainy
 16272,Ludhiana,2023-06-20,31.4,0.0,44,Rainy
-16273,Ludhiana,2024-12-16,17.7,0.0,,Humid
+16273,Ludhiana,2024-12-16,17.7,0.0,59,Humid
 16274,Ludhiana,2024-07-21,25.0,106.8,67,Cloudy
 16275,Ludhiana,2024-12-29,20.9,1.2,72,Rainy
 16276,Ludhiana,2023-09-22,24.6,253.7,67,Clear
@@ -16306,7 +16306,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 16383,Ludhiana,2024-06-30,30.6,0.0,54,Foggy
 16384,Ludhiana,2023-03-13,35.9,0.0,76,Stormy
 16385,Ludhiana,2024-10-26,23.5,22.2,52,Cloudy
-16386,Ludhiana,2024-08-06,22.6,29.2,,Humid
+16386,Ludhiana,2024-08-06,22.6,29.2,59,Humid
 16387,Ludhiana,2023-12-29,16.1,6.3,49,Rainy
 16388,Ludhiana,2024-04-01,19.8,7.6,75,Clear
 16389,Ludhiana,2024-08-20,24.1,80.6,64,Humid
@@ -16381,7 +16381,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 16458,Ludhiana,2024-12-29,20.8,1.4,42,Clear
 16459,Ludhiana,2023-02-06,12.5,1.5,53,Humid
 16460,Ludhiana,2023-12-07,15.0,0.0,71,Humid
-16461,Ludhiana,2024-01-26,11.9,1.0,,Cloudy
+16461,Ludhiana,2024-01-26,11.9,1.0,59,Cloudy
 16462,Ludhiana,2024-09-17,29.5,87.8,83,Clear
 16463,Ludhiana,2023-04-16,37.3,3.1,60,Clear
 16464,Ludhiana,2023-01-21,15.5,2.3,65,Rainy
@@ -16403,7 +16403,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 16480,Ludhiana,2024-08-14,27.6,300.0,39,Cloudy
 16481,Ludhiana,2024-02-03,28.1,0.0,79,Clear
 16482,Ludhiana,2024-07-23,33.1,0.0,55,Clear
-16483,Ludhiana,2024-07-15,29.6,69.4,,Humid
+16483,Ludhiana,2024-07-15,29.6,69.4,59,Humid
 16484,Ludhiana,2023-11-29,30.5,13.6,69,Clear
 16485,Ludhiana,2023-02-25,17.4,11.1,56,Cloudy
 16486,Ludhiana,2023-07-13,30.4,136.2,40,Rainy
@@ -16431,7 +16431,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 16508,Ludhiana,2023-09-05,21.7,81.8,36,Clear
 16509,Ludhiana,2023-07-05,26.5,59.6,55,Humid
 16510,Ludhiana,2023-12-25,19.9,0.3,36,Clear
-16511,Ludhiana,2023-07-14,28.9,263.1,,Clear
+16511,Ludhiana,2023-07-14,28.9,263.1,59,Clear
 16512,Ludhiana,2024-11-21,20.8,17.4,42,Humid
 16513,Ludhiana,2024-05-10,35.3,25.0,30,Clear
 16514,Ludhiana,2024-05-23,33.2,11.0,84,Clear
@@ -16786,7 +16786,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 16866,Vadodara,2023-04-23,34.8,10.6,65,Clear
 16867,Vadodara,2023-12-30,19.6,0.0,37,Clear
 16868,Vadodara,2023-02-07,18.7,0.0,45,Foggy
-16869,Vadodara,2024-11-28,22.8,0.0,,Clear
+16869,Vadodara,2024-11-28,22.8,0.0,59,Clear
 16870,Vadodara,2024-03-27,33.9,17.2,69,Clear
 16871,Vadodara,2023-12-05,24.3,1.6,24,Clear
 16872,Vadodara,2024-06-20,24.0,300.0,38,Clear
@@ -16993,7 +16993,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 17073,Vadodara,2024-04-09,34.3,1.1,52,Cloudy
 17074,Vadodara,2023-11-06,31.1,50.7,82,Clear
 17075,Vadodara,2024-09-14,22.6,14.7,82,Foggy
-17076,Vadodara,2023-06-01,37.7,20.3,,Cloudy
+17076,Vadodara,2023-06-01,37.7,20.3,59,Cloudy
 17077,Vadodara,2024-02-01,15.0,0.0,16,Clear
 17078,Vadodara,2024-06-18,26.3,219.2,53,Cloudy
 17079,Vadodara,2023-01-02,13.3,0.2,78,Humid
@@ -17007,7 +17007,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 17087,Vadodara,2024-08-24,19.6,0.0,70,Rainy
 17088,Vadodara,2023-12-24,18.7,3.1,50,Foggy
 17089,Vadodara,2024-06-21,33.6,57.4,57,Clear
-17090,Vadodara,2024-05-01,26.3,2.6,,Clear
+17090,Vadodara,2024-05-01,26.3,2.6,59,Clear
 17091,Vadodara,2024-02-24,13.8,0.0,77,Cloudy
 17092,Vadodara,2024-02-17,23.1,0.0,32,Humid
 17093,Vadodara,2023-08-19,35.6,0.0,56,Clear
@@ -17140,7 +17140,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 17222,Vadodara,2023-02-24,9.6,0.0,45,Humid
 17223,Vadodara,2023-03-17,32.5,0.0,59,Clear
 17224,Vadodara,2024-07-30,32.5,82.4,77,Clear
-17225,Vadodara,2024-03-31,31.3,13.3,,Clear
+17225,Vadodara,2024-03-31,31.3,13.3,59,Clear
 17226,Vadodara,2023-12-30,13.4,0.0,61,Cloudy
 17227,Vadodara,2023-07-05,25.8,64.2,76,Rainy
 17228,Vadodara,2024-06-24,26.2,0.0,56,Stormy
@@ -17179,7 +17179,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 17262,Vadodara,2024-01-04,34.5,19.1,55,Rainy
 17263,Vadodara,2024-11-19,22.2,78.5,42,Humid
 17264,Vadodara,2024-04-28,35.0,0.0,61,Rainy
-17265,Vadodara,2024-07-15,24.8,39.1,,Cloudy
+17265,Vadodara,2024-07-15,24.8,39.1,59,Cloudy
 17266,Vadodara,2023-08-28,32.5,177.8,59,Humid
 17268,Vadodara,2024-12-10,17.9,3.2,65,Clear
 17269,Vadodara,2024-09-03,28.2,132.7,27,Clear
@@ -17226,7 +17226,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 17310,Vadodara,2023-05-06,26.6,123.9,40,Clear
 17311,Vadodara,2024-09-07,30.0,181.4,68,Foggy
 17312,Vadodara,2023-03-14,31.0,15.4,61,Cloudy
-17313,Vadodara,2023-05-21,40.2,5.5,,Clear
+17313,Vadodara,2023-05-21,40.2,5.5,59,Clear
 17314,Vadodara,2023-05-14,28.9,3.9,50,Clear
 17315,Vadodara,2024-04-29,29.0,0.0,89,Clear
 17316,Vadodara,2023-02-21,22.4,8.5,60,Clear
@@ -17246,7 +17246,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 17330,Vadodara,2023-07-28,31.5,102.4,46,Clear
 17331,Vadodara,2023-05-18,36.2,0.0,44,Humid
 17332,Vadodara,2023-05-13,35.2,0.0,57,Stormy
-17333,Vadodara,2024-03-31,39.4,0.3,,Clear
+17333,Vadodara,2024-03-31,39.4,0.3,59,Clear
 17334,Vadodara,2024-08-01,23.5,2.0,63,Clear
 17335,Vadodara,2023-02-09,30.3,174.8,40,Clear
 17336,Vadodara,2024-08-23,20.9,0.0,43,Rainy
@@ -17420,7 +17420,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 17507,Vadodara,2024-09-04,32.4,4.1,55,Humid
 17508,Vadodara,2023-07-20,32.2,3.6,79,Cloudy
 17509,Vadodara,2023-09-06,32.5,0.0,46,Rainy
-17510,Vadodara,2023-06-23,25.4,61.1,,Rainy
+17510,Vadodara,2023-06-23,25.4,61.1,59,Rainy
 17511,Vadodara,2024-04-20,31.4,17.2,71,Cloudy
 17512,Vadodara,2023-09-16,25.9,217.4,67,Clear
 17513,Vadodara,2024-05-05,36.2,2.0,57,Foggy
@@ -17520,7 +17520,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 17607,Raipur,2023-11-06,34.9,219.2,66,Clear
 17608,Raipur,2024-07-26,21.6,160.1,70,Stormy
 17609,Raipur,2023-07-21,27.4,72.2,36,Humid
-17610,Raipur,2024-02-18,27.9,2.4,,Clear
+17610,Raipur,2024-02-18,27.9,2.4,58,Clear
 17611,Raipur,2023-10-10,23.3,25.0,52,Foggy
 17612,Raipur,2023-01-14,19.1,0.0,20,Clear
 17613,Raipur,2023-10-17,27.4,0.0,62,Clear
@@ -17646,7 +17646,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 17733,Raipur,2024-08-28,25.9,21.2,41,Clear
 17734,Raipur,2023-08-02,28.3,0.0,65,Rainy
 17735,Raipur,2023-12-25,20.8,10.0,35,Foggy
-17736,Raipur,2023-08-20,24.6,276.1,,Cloudy
+17736,Raipur,2023-08-20,24.6,276.1,59,Cloudy
 17737,Raipur,2023-10-29,27.8,8.7,50,Cloudy
 17738,Raipur,2023-01-10,30.8,21.1,78,Clear
 17739,Raipur,2023-12-06,20.5,1.8,67,Clear
@@ -17823,7 +17823,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 17911,Raipur,2024-06-13,25.5,215.5,77,Rainy
 17912,Raipur,2023-03-01,38.3,4.5,41,Cloudy
 17913,Raipur,2024-08-15,29.9,43.0,70,Cloudy
-17914,Raipur,2024-07-26,26.0,0.0,,Rainy
+17914,Raipur,2024-07-26,26.0,0.0,62,Rainy
 17915,Raipur,2023-06-01,31.6,65.6,56,Rainy
 17916,Raipur,2023-06-30,19.3,0.0,61,Clear
 17917,Raipur,2023-05-03,34.9,8.5,62,Clear
@@ -17955,7 +17955,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 18044,Raipur,2024-03-29,34.6,0.0,50,Foggy
 18045,Raipur,2024-07-26,27.1,0.0,78,Clear
 18046,Raipur,2024-04-07,34.9,0.0,53,Clear
-18047,Raipur,2024-07-08,28.2,92.7,,Clear
+18047,Raipur,2024-07-08,28.2,92.7,58,Clear
 18048,Raipur,2024-09-21,21.0,0.0,73,Cloudy
 18049,Raipur,2023-07-14,28.5,274.1,63,Clear
 18050,Raipur,2023-11-12,21.6,9.0,55,Foggy
@@ -18024,7 +18024,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 18113,Raipur,2023-10-24,24.9,0.1,67,Cloudy
 18114,Raipur,2024-02-02,17.7,1.3,59,Cloudy
 18115,Raipur,2024-10-03,30.2,18.5,77,Humid
-18116,Raipur,2023-07-05,21.3,10.6,,Humid
+18116,Raipur,2023-07-05,21.3,10.6,60,Humid
 18117,Raipur,2023-11-05,30.7,5.8,58,Rainy
 18118,Raipur,2023-03-18,38.3,0.0,69,Foggy
 18119,Raipur,2023-10-30,21.1,0.0,62,Cloudy
@@ -18134,7 +18134,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 18223,Raipur,2024-07-16,32.6,16.6,69,Clear
 18224,Raipur,2023-02-17,24.2,10.6,69,Clear
 18225,Raipur,2024-06-26,37.7,86.5,54,Rainy
-18226,Raipur,2024-01-24,14.1,1.5,,Cloudy
+18226,Raipur,2024-01-24,14.1,1.5,59,Cloudy
 18227,Raipur,2023-03-26,36.5,0.0,82,Clear
 18228,Raipur,2023-01-07,7.2,0.0,49,Cloudy
 18229,Raipur,2023-03-31,32.2,1.3,39,Clear
@@ -18158,7 +18158,7 @@ WeatherID,City,Date,Temperature,Rainfall,Humidity,WeatherCondition
 18248,Raipur,2024-06-29,33.5,0.0,59,Rainy
 18249,Raipur,2023-05-16,29.9,0.0,64,Humid
 18250,Raipur,2023-06-05,26.7,4.4,40,Clear
-18251,Raipur,2023-04-30,35.9,1.8,,Clear
+18251,Raipur,2023-04-30,35.9,1.8,58,Clear
 18252,Raipur,2024-03-20,32.0,7.1,81,Rainy
 18253,Raipur,2024-12-14,20.1,0.8,43,Clear
 18254,Raipur,2023-12-24,19.1,3.4,79,Humid

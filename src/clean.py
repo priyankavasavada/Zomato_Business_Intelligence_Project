@@ -2,6 +2,7 @@ import re
 import numpy as np
 import pandas as pd
 import pathlib
+from ingest import CLEAN_DATA_DIR
 # ==========================================
 # CONFIGURATION & LOOKUPS
 # ==========================================
@@ -1065,7 +1066,7 @@ def clean_all_data(
   return cleaned
 
 def export_cleaned_datasets(
-    datasets: dict[str, pd.DataFrame], output_dir: str = 'data/cleaned'
+    datasets: dict[str, pd.DataFrame], output_dir: str | pathlib.Path = CLEAN_DATA_DIR
 ) -> None:
   """Saves all processed DataFrames into the target cleaned directory as CSVs."""
   out_path = pathlib.Path(output_dir)
@@ -1219,7 +1220,7 @@ if __name__ == "__main__":
     # TEST 3: Export Cleaned Datasets to data/cleaned/
     # --------------------------------------------------
     print("\n--- 3. Exporting Clean Baseline to data/cleaned/ ---")
-    export_cleaned_datasets(cleaned_all, output_dir='data/cleaned')
+    export_cleaned_datasets(cleaned_all)
 
     print("\n==================================================")
     print("    BASELINE CLEANING COMPLETE! READY FOR EDA     ")

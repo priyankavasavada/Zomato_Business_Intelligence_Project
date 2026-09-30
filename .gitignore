@@ -6,4 +6,17 @@ __pycache__/
 *.pyc
 .venv/
 env/
+.claude/
 .ipynb_checkpoints/
+*.csv
+*.parquet
+# or specifically:
+data/processed/featured_orders.*
+.DS_Store
+
+data/cleaned/
+*.csv
+*.parquet
+
+data/raw/
+*.csv
