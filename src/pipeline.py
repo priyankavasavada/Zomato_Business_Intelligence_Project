@@ -4,6 +4,7 @@ from features import build_features, export_featured_datasets
 from model_delivery import train_delivery_model
 from model_churn import train_churn_model
 from ingest import BASE_DIR, load_all_raw_datasets
+from export_powerbi import export_powerbi_tables
 
 def main():
     print("Starting Zomato BI Pipeline...")
@@ -16,6 +17,7 @@ def main():
     export_featured_datasets(df_features, base_dir=str(BASE_DIR / "data" / "processed"))
     train_delivery_model()
     train_churn_model()
+    export_powerbi_tables()
     print("Pipeline execution complete!")
 
 if __name__ == "__main__":

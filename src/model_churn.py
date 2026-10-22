@@ -256,14 +256,22 @@ def score_customers(pipe, dataset: pd.DataFrame, test_ids) -> pd.DataFrame:
     return scores.merge(build_rfm_segments(dataset), on='CustomerID', how='left', validate='one_to_one')
 
 
-def save_outputs(pipe, scores: pd.DataFrame, dataset: pd.DataFrame) -> None:
-    """Save the best pipeline (.pkl), the customer scores (CSV) and the modelling table (Parquet)."""
+def save_outputs(pipe, scores: pd.DataFrame, dataset: pd.DataFrame,
+                 comparison: pd.DataFrame = None, drivers: pd.DataFrame = None) -> None:
+    """
+    Save the best pipeline (.pkl), the customer scores (CSV) and the modelling table (Parquet).
+    The model comparison and top drivers are optional (used by the Power BI ML page).
+    """
     MODELS_DIR.mkdir(parents=True, exist_ok=True)
     PROCESSED_DATA_DIR.mkdir(parents=True, exist_ok=True)
     try:
         joblib.dump(pipe, MODELS_DIR / 'churn_best_model.pkl')
         scores.to_csv(PROCESSED_DATA_DIR / 'churn_scores.csv', index=False)
         dataset.to_parquet(PROCESSED_DATA_DIR / 'churn_dataset.parquet', index=False)
+        if comparison is not None:
+            comparison.reset_index().to_csv(PROCESSED_DATA_DIR / 'churn_model_comparison.csv', index=False)
+        if drivers is not None:
+            drivers.to_csv(PROCESSED_DATA_DIR / 'churn_top_drivers.csv', index=False)
     except OSError as e:
         print(f"Could not save churn outputs: {e}")
         raise
@@ -287,7 +295,8 @@ def train_churn_model():
 
     test_ids = dataset.loc[X_test.index, 'CustomerID']
     scores = score_customers(best_pipe, dataset, test_ids)
-    save_outputs(best_pipe, scores, dataset)
+    drivers = get_top_drivers(best_pipe, X_test, y_test)
+    save_outputs(best_pipe, scores, dataset, comparison, drivers)
     return comparison, best_name
 
 

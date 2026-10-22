@@ -3,6 +3,8 @@
 -- Business Query Bank (run against the cleaned, constrained schema
 -- created in schema.sql)
 -- Target engine: PostgreSQL 14+  (MySQL-compatible notes inline)
+-- Revenue / delivered orders = OrderStatus IN ('Delivered', 'Delivered Late'),
+-- the same definition as the Power BI dashboard.
 -- =====================================================================
 
 
@@ -22,13 +24,13 @@ SELECT
 FROM orders o
 JOIN restaurants r ON r.RestaurantID = o.RestaurantID
 WHERE o.OrderDate >= ((SELECT MAX(OrderDate) FROM orders) - INTERVAL '6 months')
-  AND o.OrderStatus = 'Delivered'
+  AND o.OrderStatus IN ('Delivered', 'Delivered Late')
 GROUP BY r.RestaurantID, r.RestaurantName, r.City
 ORDER BY total_revenue DESC
 LIMIT 10;
 
 -- Output : The top 10 restaurants by revenue in the last 6 months are:
--- 1. Grand Bites from Bengaluru - 4,219.35 INR with total orders - 10
+-- 1. The Treats from Nashik - 4,817.75 INR with total orders - 9
 
 
 -- A2. Average delivery time by city, slowest first
@@ -52,13 +54,13 @@ SELECT
     ROUND(AVG(r.Rating), 2) AS avg_cuisine_rating
 FROM orders o
 JOIN restaurants r ON r.RestaurantID = o.RestaurantID
-WHERE o.OrderStatus = 'Delivered'
+WHERE o.OrderStatus IN ('Delivered', 'Delivered Late')
 GROUP BY r.Cuisine
 HAVING COUNT(o.OrderID) > 500 AND AVG(r.Rating) > 3.8
 ORDER BY delivered_orders DESC;
 
 -- Output : South Indian, Fast food and Healthy food delivered highest orders 
--- : 784, 715, 694 respectively with ratings 3.84, 3.88, 3.98
+-- : 922, 852, 816 respectively with ratings 3.84, 3.86, 3.99
 
 -- A4. Cancellation rate by restaurant cuisine
 SELECT
@@ -202,16 +204,16 @@ WHERE (
     LIMIT 1
 ) = 'Cancelled';
 
--- D3. CTE: monthly revenue trend per city
+-- D3. CTE: monthly revenue trend per city (City = customer's city, as in vw_monthly_city_revenue)
 WITH monthly_revenue AS (
     SELECT
-        r.City,
+        c.City,
         DATE_TRUNC('month', o.OrderDate) AS order_month,
         SUM(o.FinalAmount) AS revenue
     FROM orders o
-    JOIN restaurants r ON r.RestaurantID = o.RestaurantID
-    WHERE o.OrderStatus = 'Delivered'
-    GROUP BY r.City, DATE_TRUNC('month', o.OrderDate)
+    JOIN customers c ON c.CustomerID = o.CustomerID
+    WHERE o.OrderStatus IN ('Delivered', 'Delivered Late')
+    GROUP BY c.City, DATE_TRUNC('month', o.OrderDate)
 )
 SELECT City, order_month, revenue,
        LAG(revenue) OVER (PARTITION BY City ORDER BY order_month) AS prev_month_revenue
@@ -249,7 +251,7 @@ FROM (
     SELECT r.RestaurantID, r.RestaurantName, r.City, SUM(o.FinalAmount) AS total_revenue
     FROM restaurants r
     JOIN orders o ON o.RestaurantID = r.RestaurantID
-    WHERE o.OrderStatus = 'Delivered'
+    WHERE o.OrderStatus IN ('Delivered', 'Delivered Late')
     GROUP BY r.RestaurantID, r.RestaurantName, r.City
 ) ranked;
 
@@ -261,7 +263,7 @@ WITH city_ranks AS (
         RANK() OVER (PARTITION BY r.City ORDER BY SUM(o.FinalAmount) DESC) AS city_rank
     FROM restaurants r
     JOIN orders o ON o.RestaurantID = r.RestaurantID
-    WHERE o.OrderStatus = 'Delivered'
+    WHERE o.OrderStatus IN ('Delivered', 'Delivered Late')
     GROUP BY r.RestaurantID, r.RestaurantName, r.City
 )
 SELECT * FROM city_ranks WHERE city_rank <= 3
@@ -276,7 +278,7 @@ SELECT
     LEAD(FinalAmount) OVER (PARTITION BY CustomerID ORDER BY OrderDate) AS next_order_amount,
     FinalAmount - LAG(FinalAmount) OVER (PARTITION BY CustomerID ORDER BY OrderDate) AS change_vs_previous
 FROM orders
-WHERE OrderStatus = 'Delivered';
+WHERE OrderStatus IN ('Delivered', 'Delivered Late');
 
 -- E4. Recency ranking: days since each customer's most recent order
 SELECT
@@ -330,7 +332,77 @@ GROUP BY r.RestaurantID, r.RestaurantName, r.City, r.Rating;
 
 SELECT RestaurantName, City, Rating, total_orders, cancelled_orders, cancellation_rate_pct, avg_delivery_time
 FROM vw_restaurant_scorecard
-ORDER BY cancellation_rate_pct DESC
+ORDER BY cancellation_rate_pct DESC;
+
+-- F3. View: composite restaurant performance score (User Story 2)
+-- Score out of 100 = 40% rating + 30% (1 - cancellation rate) + 30% (1 - late delivery rate)
+-- Rating is rescaled from 1-5 to 0-1; late rate is taken over delivered orders only.
+-- Same formula as src/export_powerbi.py, which feeds the Power BI Restaurant Analytics page.
+CREATE OR REPLACE VIEW vw_restaurant_composite_score AS
+WITH restaurant_stats AS (
+    SELECT
+        r.RestaurantID,
+        r.RestaurantName,
+        r.City,
+        r.Cuisine,
+        r.Rating,
+        COUNT(o.OrderID) AS total_orders,
+        COUNT(*) FILTER (WHERE o.OrderStatus = 'Cancelled') AS cancelled_orders,
+        COUNT(*) FILTER (WHERE o.OrderStatus IN ('Delivered', 'Delivered Late')) AS delivered_orders,
+        COUNT(*) FILTER (WHERE o.OrderStatus = 'Delivered Late') AS late_orders
+    FROM restaurants r
+    JOIN orders o ON o.RestaurantID = r.RestaurantID
+    GROUP BY r.RestaurantID, r.RestaurantName, r.City, r.Cuisine, r.Rating
+),
+scored AS (
+    SELECT
+        *,
+        -- 100 x [0.4 x (Rating-1)/4 + 0.3 x (1 - c/n) + 0.3 x (1 - l/d)]
+        --   = 10 x (Rating-1) + 60 - 30 x (c x d + l x n) / (n x d)
+        -- Written with one division so scores ending in exactly half a cent round correctly
+        ROUND(
+            CASE WHEN delivered_orders = 0
+                 THEN 10 * (Rating - 1) + 60 - 30.0 * cancelled_orders / total_orders
+                 ELSE 10 * (Rating - 1) + 60
+                      - 30.0 * (cancelled_orders * delivered_orders + late_orders * total_orders)
+                             / (total_orders * delivered_orders)
+            END, 2) AS composite_score
+    FROM restaurant_stats
+)
+SELECT
+    RestaurantID, RestaurantName, City, Cuisine, Rating, total_orders,
+    ROUND(cancelled_orders::numeric / total_orders, 4) AS cancellation_rate,
+    ROUND(late_orders::numeric / NULLIF(delivered_orders, 0), 4) AS late_rate,
+    composite_score,
+    RANK() OVER (PARTITION BY City ORDER BY composite_score DESC) AS city_rank,
+    RANK() OVER (PARTITION BY City ORDER BY composite_score ASC)  AS city_rank_from_bottom
+FROM scored;
+
+-- Example usage: bottom 10 restaurants per city for quality review
+SELECT City, city_rank_from_bottom, RestaurantName, composite_score, Rating, cancellation_rate, late_rate
+FROM vw_restaurant_composite_score
+WHERE city_rank_from_bottom <= 10
+ORDER BY City, city_rank_from_bottom;
+
+-- F4. View: monthly revenue by city (User Story 4)
+-- Revenue = FinalAmount of 'Delivered' + 'Delivered Late' orders; City = customer's city
+CREATE OR REPLACE VIEW vw_monthly_city_revenue AS
+SELECT
+    c.City,
+    DATE_TRUNC('month', o.OrderDate)::date AS order_month,
+    COUNT(o.OrderID) AS delivered_orders,
+    SUM(o.FinalAmount) AS revenue
+FROM orders o
+JOIN customers c ON c.CustomerID = o.CustomerID
+WHERE o.OrderStatus IN ('Delivered', 'Delivered Late')
+GROUP BY c.City, DATE_TRUNC('month', o.OrderDate);
+
+-- Example usage: monthly revenue trend for one city
+SELECT order_month, delivered_orders, revenue
+FROM vw_monthly_city_revenue
+WHERE City = 'Mumbai'
+ORDER BY order_month;
+
  -- =====================================================================
 -- SECTION G: DATE FUNCTIONS
 -- =====================================================================
@@ -354,13 +426,13 @@ SELECT
     EXTRACT(QUARTER FROM OrderDate) AS order_quarter,
     SUM(FinalAmount) AS revenue
 FROM orders
-WHERE OrderStatus = 'Delivered'
+WHERE OrderStatus IN ('Delivered', 'Delivered Late')
 GROUP BY 1, 2
 ORDER BY 1, 2;
 
--- Output : Gradual increase in revenue through quarters of 2023 peaking 5,77,216 rupees
--- 1st Quarter of 2024 earning highest 5,90,311 rupees but sudden steep in 2nd quarter with 5,43,029 rupees.
--- Again it goes up a bit with 5,63,674 rupees in 3rd but falls in 4th Quarter at 5,40,717 rupees.
+-- Output : In 2023 revenue dips in the 2nd quarter (6,32,127 rupees) and then rises to 6,85,948 rupees in the 4th quarter.
+-- 1st Quarter of 2024 earning highest 6,90,467 rupees but sudden steep in 2nd quarter with 6,51,395 rupees.
+-- Again it goes up a bit with 6,62,676 rupees in 3rd but falls in 4th Quarter at 6,48,270 rupees.
 
 -- G3. Customer tenure in days as of today
 SELECT

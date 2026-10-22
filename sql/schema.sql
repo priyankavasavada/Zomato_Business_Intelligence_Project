@@ -151,8 +151,9 @@ CREATE TABLE orders (
     PaymentMethod       VARCHAR(30),
     CONSTRAINT fk_orders_customer   FOREIGN KEY (CustomerID)        REFERENCES customers(CustomerID),
     CONSTRAINT fk_orders_restaurant FOREIGN KEY (RestaurantID)      REFERENCES restaurants(RestaurantID),
-    CONSTRAINT fk_orders_dp         FOREIGN KEY (DeliveryPartnerID) REFERENCES delivery_partners(DeliveryPartnerID),
-    CONSTRAINT fk_orders_coupon     FOREIGN KEY (CouponCode)        REFERENCES promotions(CouponCode)
+    CONSTRAINT fk_orders_dp         FOREIGN KEY (DeliveryPartnerID) REFERENCES delivery_partners(DeliveryPartnerID)
+    -- No foreign key on CouponCode: orders without a coupon store 'NONE', which is not a promotion.
+    -- Coupon joins to promotions are done in queries (LEFT JOIN ... ON o.CouponCode = p.CouponCode).
 );
 
 -- =====================================================================

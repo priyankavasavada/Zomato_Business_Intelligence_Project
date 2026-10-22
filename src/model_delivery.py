@@ -169,12 +169,16 @@ def get_feature_importance(pipe) -> pd.DataFrame:
     return importance.sort_values('Importance', ascending=False).reset_index(drop=True)
 
 
-def save_outputs(pipe, predictions: pd.DataFrame, importance: pd.DataFrame) -> None:
+def save_outputs(pipe, predictions: pd.DataFrame, importance: pd.DataFrame,
+                 comparison: pd.DataFrame = None) -> None:
+    """Save the best pipeline, test predictions and feature importance (+ optional model comparison)."""
     MODELS_DIR.mkdir(parents=True, exist_ok=True)
     try:
         joblib.dump(pipe, MODELS_DIR / 'delivery_time_best_model.pkl')
         predictions.to_csv(PROCESSED_DATA_DIR / 'delivery_predictions.csv', index=False)
         importance.to_csv(PROCESSED_DATA_DIR / 'delivery_feature_importance.csv', index=False)
+        if comparison is not None:
+            comparison.reset_index().to_csv(PROCESSED_DATA_DIR / 'delivery_model_comparison.csv', index=False)
     except OSError as e:
         print(f"Could not save delivery outputs: {e}")
         raise
@@ -210,7 +214,7 @@ def train_delivery_model():
 
     predictions = pd.DataFrame({'OrderID': df.loc[X_test.index, 'OrderID'],
                                 'Actual': y_test, 'Predicted': best_pipe.predict(X_test)})
-    save_outputs(best_pipe, predictions, importance)
+    save_outputs(best_pipe, predictions, importance, comparison)
     return comparison, best_name
 
 
