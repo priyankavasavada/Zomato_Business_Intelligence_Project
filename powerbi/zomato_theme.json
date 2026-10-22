@@ -1,0 +1,22 @@
+{
+  "name": "Zomato BI",
+  "dataColors": [
+    "#CB202D",
+    "#2D2D2D",
+    "#F4A261",
+    "#2A9D8F",
+    "#8D99AE",
+    "#E9C46A",
+    "#6D597A",
+    "#E76F51"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#2D2D2D",
+  "tableAccent": "#CB202D",
+  "good": "#2A9D8F",
+  "neutral": "#E9C46A",
+  "bad": "#CB202D",
+  "maximum": "#CB202D",
+  "center": "#F4A261",
+  "minimum": "#FDEDEE"
+}
