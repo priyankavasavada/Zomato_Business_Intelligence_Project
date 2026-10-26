@@ -1,94 +1,67 @@
-# 🛵 Zomato End-to-End Business Intelligence & Machine Learning Platform
+# Zomato Business Intelligence & Delivery Analytics
 
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-PostgreSQL%2FSQLite-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![PowerBI](https://img.shields.io/badge/Power_BI-Desktop-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Scikit-Learn](https://img.shields.io/badge/scikit_learn-ML_Pipeline-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+Internship project (Internmo) built on 12 linked food-delivery datasets: orders, customers, restaurants, delivery partners, payments, promotions, feedback, menu, order items, cities, weather and traffic. The goal was to take messy operational exports and turn them into something the operations, partnerships and marketing teams could actually use: a clean database, SQL reporting, two predictive models and a Power BI dashboard.
 
-An end-to-end data analytics and business intelligence pipeline built on a 12-dataset relational food delivery ecosystem. This project transforms normalized data into actionable executive insights, featuring an interactive EDA notebook suite with **30+ publication-grade visualizations** adhering to Zomato's brand identity. An enterprise-grade Data Engineering, Business Intelligence, and Predictive Analytics platform built on operational Zomato delivery data across 12 relational datasets.
----
+Tools: Python (pandas, scikit-learn), PostgreSQL, Power BI Desktop, Matplotlib/Seaborn.
 
-## 📌 Project Overview
-
-This repository houses the full analytical pipeline for analyzing customer behavior, revenue performance, delivery logistics, and operational bottlenecks across a food delivery network.
-
-* **Database Architecture:** 12 relational datasets normalized to 3NF.
-* **Storage & Ingestion:** Optimized `.parquet` data files for high-throughput I/O.
-* **Visual Standards:** Custom Matplotlib and Seaborn theme engine aligned with Zomato brand guidelines (Zomato Red `#E23744`, Dark Red `#CB202D`, Charcoal `#2D2D2D`, and clean neutral backdrops `#F8F9FA`).
-* **Analytical Scope:** 8 core business domain questions explored through 30+ non-redundant statistical charts.
---- 
-
-## 🗂️ Data Architecture (12 Datasets)
-
-The pipeline processes and joins 12 cleaned datasets (`*_cleaned.parquet`):
-
-| Dataset | Primary Key / Identifier | Core Description |
-| :--- | :--- | :--- |
-| `orders` | `OrderID` | Core transactional log containing order values, timestamps, status, and delivery durations. |
-| `customers` | `CustomerID` | Demographics, registration dates, city locations, and preferred cuisines. |
-| `restaurants` | `RestaurantID` | Cuisine types, average costs for two, city locations, and rating profiles. |
-| `delivery_partners` | `DeliveryPartnerID` | Vehicle types, experience (`CompletedDeliveries`), and partner ratings. |
-| `menu` | `MenuItemID` | Item categories, preparation times, prices, and dietary flags (`IsVegetarian`). |
-| `cities` | `CityID` | Population metrics, income tiers, and geographic classification. |
-| `customer_feedback` | `FeedbackID` | Multidimensional feedback (Food, Delivery, Overall ratings, Complaints). |
-| `order_items` | `OrderItemID` | Transaction line-item granularity linking orders to specific menu items. |
-| `payments` | `PaymentID` | Payment gateway types, transaction status, and timestamps. |
-| `promotions` | `PromotionID` | Active discount campaign parameters and usage metrics. |
-| `traffic` | `TrafficLogID` | Congestion levels, average partner speeds, and routing delay metrics. |
-| `weather` | `WeatherLogID` | Meteorological logs (temperature, precipitation, weather conditions). |
----
-
-## 📊 Exploratory Data Analysis (EDA) Core Business Questions
-
-The EDA notebook (`notebooks/02_eda.ipynb`) and automated export script (`src/generate_all_eda.py`) systematically address 8 primary business domains:
-
-1. **Top Revenue Generators:** Longitudinal revenue tracking across top restaurants and cuisines over quarters/months.
-2. **Peak Ordering Dynamics:** Hourly order demand curves across 24-hour cycles, contrasting weekday vs. weekend patterns.
-3. **Delivery & Logistics Variance:** Delivery duration distributions (`DeliveryTimeMinutes`) analyzed across cities, traffic congestion levels, and weather events (with 99th percentile IQR outlier capping).
-4. **Basket Economics:** Average order value (AOV) and basket sizes segmented by customer membership tiers.
-5. **Customer Retention & Churn:** Analysis of one-time vs. repeat customer proportions and lifecycle distribution.
-6. **Partner Performance Logistics:** Efficiency metrics comparing delivery vehicle types, partner ratings, and speed profiles.
-7. **Order Friction & Cancellations:** Root cause classification of cancelled/refunded orders and operational bottlenecks.
-8. **Customer Lifetime Value (CLV):** Geographic and cuisine-level CLV distribution across tier 1–3 cities.---
-
-## 📌 Repository Architecture
+## What's in here
 
 ```text
-Zomato_Business_Intelligence_Project/
+Zomato_BI_Project/
 ├── data/
-│   ├── raw/                        # 12 original CSV operational exports
-│   └── cleaned/                    # Cleaned CSVs & Analytical Base Table (ABT)
+│   ├── raw/            # 12 original CSV exports
+│   ├── cleaned/        # cleaned tables (CSV + parquet)
+│   └── processed/      # features, model outputs, restaurant scores
+├── notebooks/          # 00–06: understanding the data → cleaning → EDA → features → models
+├── src/                # the same steps as scripts, run end to end by pipeline.py
 ├── sql/
-│   ├── schema.sql                  # DDL scripts with Primary & Foreign Keys (3NF)
-│   └── business_queries.sql        # SQL analytical views & KPIs
-├── notebooks/
-│   ├── 01_Data_Exploration.ipynb  # Initial profiling & FK audit
-│   ├── 01_data_cleaning.ipynb      # Interactive cleaning pipeline development
-│   ├── 02_eda.ipynb                # Exploratory Data Analysis & visual insights
-│   ├── 03_feature_engineering.ipynb# Feature construction & ABT generation
-│   ├── 04_delivery_time_model.ipynb# Delivery time regression experiments
-│   └── 05_churn_model.ipynb       # Customer churn classification experiments
-├── src/
-│   ├── ingest.py                   # Data loading utilities
-│   ├── clean.py                    # Automated data cleaning script
-│   ├── features.py                 # Feature engineering script
-│   ├── model_delivery.py           # Delivery time model training script
-│   └── model_churn.py              # Churn classifier model training script
-├── models/
-│   ├── delivery_time_best_model.pkl# Serialized delivery time regression artifact
-│   └── churn_best_model.pkl        # Serialized customer churn model artifact
-├── reports/
-│   ├── eda_report.pdf              # Generated EDA summary report
-│   └── business_insights_report.pdf# Executive BI report
-├── powerbi/
-│   └── zomato_dashboard.pbix       # Interactive Power BI Dashboard
-├── images/                         # Exported visual charts for README & reports
-├── documentation/
-│   ├── prd.docx                    # Product Requirements Document
-│   └── data_quality_issues.md      # Raw data audit log & issue tracking
-├── README.md
-└── requirements.txt
-
+│   ├── schema.sql              # 3NF schema with primary/foreign keys
+│   └── business_queries.sql    # 32 business queries, incl. views, a procedure and a trigger
+├── models/             # saved delivery-time and churn models (.pkl)
+├── powerbi/            # zomato_dashboard.pbix (6 pages) + theme
+├── reports/            # Zomato_Business_Insights_Report.docx
+├── documentation/      # data_quality_issues.md (cleaning audit)
+└── images/             # ER diagram
 ```
---- 
 
+## Running it
+
+```bash
+pip install -r requirements.txt
+python src/pipeline.py
+```
+
+This loads the raw files, cleans them, builds features, trains both models and writes the table the dashboard needs (`data/processed/restaurant_scores.csv`). To use the database side, run `sql/schema.sql` in PostgreSQL 14+, load the cleaned CSVs, then run the queries in `business_queries.sql`.
+
+## Data cleaning
+
+The raw data had duplicate orders, orders pointing to customers that didn't exist, negative ages, broken phone numbers and city names spelled several different ways. All 9 known issues from the PRD were fixed, and only 613 of 178,077 rows (0.34%) were dropped, each for a documented reason. The full audit, table by table, is in `documentation/data_quality_issues.md`.
+
+## Main findings
+
+- About a third of orders fail: 22.3% are cancelled and 11.5% end as "Food Not Delivered". That's ₹27.1 lakh lost, compared with ₹53.1 lakh delivered over 2023–24.
+- The bottom-10 restaurants in each city cancel 28.5% of orders, against 16% for the top 10. The composite score (40% rating, 30% cancellations, 30% late deliveries) ranks all 1,200 restaurants within their own city.
+- Delivery time hardly changes with weather, traffic or peak hours (each makes less than a minute of difference). Ludhiana and Nagpur have the most late deliveries, at around 18%.
+- 38% of customers only ever ordered once, and 87% hadn't ordered in the last 60 days.
+- Orders peak at 12–1 pm and 7–8 pm. Weekdays and weekends look about the same.
+
+The full write-up with recommendations is in `reports/Zomato_Business_Insights_Report.docx`.
+
+## Models
+
+| Model | Best result | Baseline | PRD target |
+| --- | --- | --- | --- |
+| Delivery time (regression, 7 models tried) | RMSE 14.9 min, R² ≈ 0 | RMSE 14.9 min | R² ≥ 0.75, RMSE ≤ 6 |
+| Churn in 60 days (classification, 5 models tried) | F1 0.83, ROC-AUC 0.54 | F1 0.93 (predict everyone churns) | F1 ≥ 0.70 |
+
+Neither model beats its simple baseline, so they don't hit the targets. The data doesn't include the things that probably drive these outcomes: promised delivery time, kitchen wait time, partner location at assignment and cancellation reasons. The feature importances are still useful. Partner delivery efficiency, food cost, order hour and prep time matter most for delivery time, while weather and traffic barely register.
+
+## Dashboard
+
+`powerbi/zomato_dashboard.pbix` has six pages built from the cleaned and processed CSVs, following PRD Section 25. If the project folder moves, update the `DataFolder` parameter in Power Query and refresh.
+
+## Known limitations
+
+- "Late" comes from the order status, because the data has no promised delivery time.
+- Weather and traffic are daily city-level averages, not the conditions at the moment each order was placed.
+- A few restaurant ratings were filled in with the city median before scoring.
