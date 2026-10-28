@@ -15,7 +15,7 @@ All 12 raw datasets were profiled for missing values, duplicates, invalid values
 | Datasets with orphaned foreign keys | 4 (`orders`, `order_items`, `payments`, `customer_feedback`) |
 | Datasets with required-field nulls (schema `NOT NULL`) | 1 (`weather.City`) |
 | Datasets with invalid/out-of-domain values | 8 |
-| Total rows removed across pipeline (dup + orphan + null-city) | 613 of 178,077 raw rows (0.34%) |
+| Total rows removed across pipeline (dup + orphan + null-city) | 562 of 159,077 raw rows (0.35%) |
 | Known issues from PRD §19.1 resolved | 9 / 9 (100%) |
 | Outstanding data-fidelity issue found | 1 (rating rescale, see §5) |
 
